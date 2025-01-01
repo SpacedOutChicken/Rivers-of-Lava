@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]"
+        ]
+    },
+    {
+        "name": "Melee Drone",
+        "movementType": "Land",
+        "uniques": [
+            "Drone",
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Ranged Drone",
+        "movementType": "Land",
+        "uniques": [
+            "Drone",
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Melee Hover",
+        "movementType": "Land",
+        "uniques": [
+            "Hover",
+            "Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+            "May travel on Water tiles without embarking <hidden from users>",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Eliminates combat penalty for attacking over a river <hidden from users>",
+			"Comment [Eliminates combat penalty for attacking across lava]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Ranged Hover",
+        "movementType": "Land",
+        "uniques": [
+            "Hover",
+            "Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+            "May travel on Water tiles without embarking <hidden from users>",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Eliminates combat penalty for attacking over a river <hidden from users>",
+			"Comment [Eliminates combat penalty for attacking across lava]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land",
+        "uniques": [
+            "Heavy",
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": [
+            "Heavy",
+            "Ranged attacks may be performed over obstacles",
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+            "Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Aircraft",
+        "movementType": "Air",
+        "uniques": [
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep",
+            "[100]% chance to intercept air attacks",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Satellite",
+        "movementType": "Air",
+        "uniques": [
+            "Space",
+            "[+6] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep",
+            "[100]% chance to intercept air attacks",
+            "Comment [Can intercept Space units]"
+        ]
+    },
+    {
+        "name": "Space Station",
+        "movementType": "Air",
+        "uniques": [
+            "Space",
+            "[+8] Sight",
+            "Can see over obstacles",
+            "Cannot intercept [Air] units"
+        ]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": [
+			"Self-destructs when attacking",
+            "Cannot intercept [Air] units"
+		]
+    }
+]

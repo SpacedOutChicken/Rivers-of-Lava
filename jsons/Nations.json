@@ -1,0 +1,779 @@
+[
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+	// based on Academi/Constellis Holdings
+	{
+		"name": "Constellation Holdings",
+		"leaderName": "Erik Clark",
+		"adjective": ["Constellation"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
+		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
+		"defeated": "I tip my hat to you, sir, for you have shown a worthy opponent. Enjoy your victory while you still can.",
+		"introduction": "Ah, salutations.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		"outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+		"uniqueName": "Hostile Takeover",
+		"uniques": [
+			"[+30]% Strength <vs [City-States]>",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+			"When defeating a [Barbarian] unit, earn [10] Gold and recruit it <with [50]% chance>"
+		],
+		"cities": [
+			"Constellation 01",
+			"Constellation 02",
+			"Constellation 03",
+			"Constellation 04",
+			"Constellation 05",
+			"Constellation 06",
+			"Constellation 07",
+			"Constellation 08",
+			"Constellation 09",
+			"Constellation 10",
+			"Constellation 11",
+			"Constellation 12",
+			"Constellation 13",
+			"Constellation 14",
+			"Constellation 15",
+			"Constellation 16",
+			"Constellation 17",
+			"Constellation 18",
+			"Constellation 19",
+			"Constellation 20"
+		],
+		"spyNames": ["CH Alfa", "CH Bravo", "CH Charlie", "CH Delta", "CH Echo", "CH Foxtrot", "CH Golf", "CH Hotel", "CH India", "CH Juliett"]
+	},
+	// based on Copenhagen Suborbitals
+	{
+		"name": "Tycho Crowdfunding",
+		"leaderName": "Kristian Madsen",
+		"adjective": ["Tycho"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
+		"defeated": "Goodness, this is gratuitous injustice!",
+		"introduction": "It is splendid to meet you, sir, simply splendid!",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "Tycho offers you this exceptional proposition.",
+		"outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+		"uniqueName": "Spirit of Cooperation",
+		"uniques": [
+			"[+50]% [Food] from City-States <hidden from users>",
+			"[+50]% [Culture] from City-States <hidden from users>",
+			"[+50]% [Production] from City-States <hidden from users>",
+			"[+50]% [Science] from City-States <hidden from users>",
+			"[+50]% [Happiness] from City-States <hidden from users>",
+			"Comment [[+50]% all non-¤Data stats from LLCs]",
+			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Military Units gifted from City-States start with [+10] XP"
+		],
+		"cities": [
+			"Tycho 01",
+			"Tycho 02",
+			"Tycho 03",
+			"Tycho 04",
+			"Tycho 05",
+			"Tycho 06",
+			"Tycho 07",
+			"Tycho 08",
+			"Tycho 09",
+			"Tycho 10",
+			"Tycho 11",
+			"Tycho 12",
+			"Tycho 13",
+			"Tycho 14",
+			"Tycho 15",
+			"Tycho 16",
+			"Tycho 17",
+			"Tycho 18",
+			"Tycho 19",
+			"Tycho 20"
+		],
+		"spyNames": ["TC Alfa", "TC Bravo", "TC Charlie", "TC Delta", "TC Echo", "TC Foxtrot", "TC Golf", "TC Hotel", "TC India", "TC Juliett"]
+	},
+	// based on SpaceX
+	{
+		"name": "Ex Aerospace",
+		"leaderName": "Nikolai Muskegon",
+		"adjective": ["Ex"],
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
+		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
+		"defeated": "You, sir, are a scoundrel. Go ahead and take our factories, but know that, in your hands, the world will never know true greatness under industry.",
+		"introduction": "Behold the greatest cog in the industrial machine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [18, 66, 22],
+        "innerColor": [255, 56, 56],
+		"uniqueName": "Self-Driven Mobility",
+		"uniques": [
+			"[{non-[Air]} {non-[Hover]}] units gain the [Self-Driven] promotion",
+			"[+1] Range <for [Air] units>"
+		],
+		"cities": [
+			"Ex 01",
+			"Ex 02",
+			"Ex 03",
+			"Ex 04",
+			"Ex 05",
+			"Ex 06",
+			"Ex 07",
+			"Ex 08",
+			"Ex 09",
+			"Ex 10",
+			"Ex 11",
+			"Ex 12",
+			"Ex 13",
+			"Ex 14",
+			"Ex 15",
+			"Ex 16",
+			"Ex 17",
+			"Ex 18",
+			"Ex 19",
+			"Ex 20"
+		],
+		"spyNames": ["EA Alfa", "EA Bravo", "EA Charlie", "EA Delta", "EA Echo", "EA Foxtrot", "EA Golf", "EA Hotel", "EA India", "EA Juliett"]
+	},
+	// based on Amazon
+	{
+		"name": "Nile Inc",
+		"leaderName": "Geoff Bose",
+		"adjective": ["Nile"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
+		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
+		"defeated": "I bow to you, sir, for your splendid victory. My nation has risen quietly, but, as the world well knows, her fall has been loud on the contrary.",
+		"introduction": "Come, my good friend, let us have a chat.",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement?",
+		"outerColor": [54,72,72],
+        "innerColor": [246,205,137],
+		"uniqueName": "Corporate Merger",
+		"uniques": [
+			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+			"Gifts of Gold to City-States generate [25]% more Influence"
+		],
+		"cities": [
+			"Nile 01",
+			"Nile 02",
+			"Nile 03",
+			"Nile 04",
+			"Nile 05",
+			"Nile 06",
+			"Nile 07",
+			"Nile 08",
+			"Nile 09",
+			"Nile 10",
+			"Nile 11",
+			"Nile 12",
+			"Nile 13",
+			"Nile 14",
+			"Nile 15",
+			"Nile 16",
+			"Nile 17",
+			"Nile 18",
+			"Nile 19",
+			"Nile 20"
+		],
+		"spyNames": ["NI Alfa", "NI Bravo", "NI Charlie", "NI Delta", "NI Echo", "NI Foxtrot", "NI Golf", "NI Hotel", "NI India", "NI Juliett"]
+	},
+	// based on AfSA
+	{
+		"name": "PAfSA",
+		"leaderName": "Sundiata Keita",
+		"adjective": ["Pan-African"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
+		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
+		"defeated": "Well met, sir. I hope you continue your quest for knowledge and invention in my absence.",
+		"introduction": "I say, it is a pleasure to meet you!",
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it is you.",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+		"outerColor": [214, 145, 19],
+		"innerColor": [90, 0, 10],
+		"uniqueName": "The Great Alliance",
+		"uniques": [
+			"When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
+		],
+		"cities": [
+			"PAfSA 01",
+			"PAfSA 02",
+			"PAfSA 03",
+			"PAfSA 04",
+			"PAfSA 05",
+			"PAfSA 06",
+			"PAfSA 07",
+			"PAfSA 08",
+			"PAfSA 09",
+			"PAfSA 10",
+			"PAfSA 11",
+			"PAfSA 12",
+			"PAfSA 13",
+			"PAfSA 14",
+			"PAfSA 15",
+			"PAfSA 16",
+			"PAfSA 17",
+			"PAfSA 18",
+			"PAfSA 19",
+			"PAfSA 20"
+		],
+		"spyNames": ["P Alfa", "P Bravo", "P Charlie", "P Delta", "P Echo", "P Foxtrot", "P Golf", "P Hotel", "P India", "P Juliett"]
+	},
+	// based on Chinese space companies
+	{
+		"name": "SinoStar",
+		"leaderName": "Shen Kuo",
+		"adjective": ["SinoStar"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
+
+		"outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+		"uniqueName": "Centralization",
+		"uniques": [
+			"[+25]% Production towards any buildings that already exist in the Capital",
+			"Starts with [Foundation] adopted"
+		],
+		"cities": [
+			"SinoStar 01",
+			"SinoStar 02",
+			"SinoStar 03",
+			"SinoStar 04",
+			"SinoStar 05",
+			"SinoStar 06",
+			"SinoStar 07",
+			"SinoStar 08",
+			"SinoStar 09",
+			"SinoStar 10",
+			"SinoStar 11",
+			"SinoStar 12",
+			"SinoStar 13",
+			"SinoStar 14",
+			"SinoStar 15",
+			"SinoStar 16",
+			"SinoStar 17",
+			"SinoStar 18",
+			"SinoStar 19",
+			"SinoStar 20"
+		],
+		"spyNames": ["SS Alfa", "SS Bravo", "SS Charlie", "SS Delta", "SS Echo", "SS Foxtrot", "SS Golf", "SS Hotel", "SS India", "SS Juliett"]
+	},
+	// based on Samsung
+	{
+		"name": "Byeol Se Gae",
+		"leaderName": "Yi Do",
+		"adjective": ["Byeol Se Gae"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "We will no longer tolerate your irksome behavior.",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"introduction": "Welcome, stranger.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"uniqueName": "High-Value Acquisitions",
+        "uniques": [
+			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"[+1 Gold] from each Trade Route"
+		],
+		"cities": [
+			"Byeol 01",
+			"Byeol 02",
+			"Byeol 03",
+			"Byeol 04",
+			"Byeol 05",
+			"Byeol 06",
+			"Byeol 07",
+			"Byeol 08",
+			"Byeol 09",
+			"Byeol 10",
+			"Byeol 11",
+			"Byeol 12",
+			"Byeol 13",
+			"Byeol 14",
+			"Byeol 15",
+			"Byeol 16",
+			"Byeol 17",
+			"Byeol 18",
+			"Byeol 19",
+			"Byeol 20"
+		],
+		"spyNames": ["BSG Alfa", "BSG Bravo", "BSG Charlie", "BSG Delta", "BSG Echo", "BSG Foxtrot", "BSG Golf", "BSG Hotel", "BSG India", "BSG Juliett"]
+    },
+	// based on TATA Group
+	{
+		"name": "VATA Group",
+		"leaderName": "Jamsetji Vata",
+		"adjective": ["VATA"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"introduction": "Hello. Please, call me friend.",
+		"neutralHello": "I wish you peace.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"uniqueName": "Continuous Reinforcement",
+		"uniques": [
+			"Comment [Periodically receive a free Advanced Unit (modified by game speed)]",
+			"Free Great Person <upon turn end> <every [30] turns> <after turn number [10]> <on [Quick] game speed> <hidden from users>",
+			"Free Great Person <upon turn end> <every [45] turns> <after turn number [15]> <on [Standard] game speed> <hidden from users>",
+			"Free Great Person <upon turn end> <every [60] turns> <after turn number [20]> <on [Epic] game speed> <hidden from users>",
+			"Free Great Person <upon turn end> <every [90] turns> <after turn number [30]> <on [Marathon] game speed> <hidden from users>"
+		],
+		"cities": [
+			"VATA 01",
+			"VATA 02",
+			"VATA 03",
+			"VATA 04",
+			"VATA 05",
+			"VATA 06",
+			"VATA 07",
+			"VATA 08",
+			"VATA 09",
+			"VATA 10",
+			"VATA 11",
+			"VATA 12",
+			"VATA 13",
+			"VATA 14",
+			"VATA 15",
+			"VATA 16",
+			"VATA 17",
+			"VATA 18",
+			"VATA 19",
+			"VATA 20"
+		],
+		"spyNames": ["VG Alfa", "VG Bravo", "VG Charlie", "VG Delta", "VG Echo", "VG Foxtrot", "VG Golf", "VG Hotel", "VG India", "VG Juliett"]
+    },
+	// Argentinian space company
+	{
+		"name": "Condor Association",
+		"leaderName": "Joaquín Belgrano",
+		"adjective": ["Condor"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Resistance is futile! If you will not surrender immediately, then prepare for war!",
+		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy - see that you do so as well.",
+		"introduction": "How are you?",
+
+		"neutralHello": "How are you doing?",
+		"hateHello": "What do you want now?",
+		"tradeRequest": "The people offer this fair trade.",
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+
+		"uniqueName": "Mining Expertise",
+		"uniques": [
+			"Starts with [Surface Breaking]",
+			"[+1 Production] from every [Mine]",
+			"[+1 Production] from every [Quarry]",
+			"[+1 Production, +1 Gold, +1 Science] from every [Mountain]",
+			"[+1 Production, +1 Gold, +1 Science] from every [Mountain Tunnel]"
+		],
+		"cities": [
+			"Condor 01",
+			"Condor 02",
+			"Condor 03",
+			"Condor 04",
+			"Condor 05",
+			"Condor 06",
+			"Condor 07",
+			"Condor 08",
+			"Condor 09",
+			"Condor 10",
+			"Condor 11",
+			"Condor 12",
+			"Condor 13",
+			"Condor 14",
+			"Condor 15",
+			"Condor 16",
+			"Condor 17",
+			"Condor 18",
+			"Condor 19",
+			"Condor 20"
+		],
+		"spyNames": ["CA Alfa", "CA Bravo", "CA Charlie", "CA Delta", "CA Echo", "CA Foxtrot", "CA Golf", "CA Hotel", "CA India", "CA Juliett"]
+    },
+	// based on STTEP International
+	{
+		"name": "STEP Interplanetary",
+		"leaderName": "Lafras Barlow",
+		"adjective": ["STEP"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "Tell me, do you all know how numerous my armies are? No? Today, you shall find out!",
+		"attacked": "Fate is against you. You earned our animosity in your exploration. Your days are numbered.",
+		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
+		"introduction": "We welcome you to this most pleasant kingdom.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What is it now?",
+		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
+
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+
+		"uniqueName": "Elite Training",
+		"uniques": [
+			"Great General provides double combat bonus <hidden from users>",
+			"Comment [Tactical Unit provides double combat bonus]",
+			"[Tactical Unit] is earned [50]% faster"
+		],
+		"cities": [
+			"STEP 01",
+			"STEP 02",
+			"STEP 03",
+			"STEP 04",
+			"STEP 05",
+			"STEP 06",
+			"STEP 07",
+			"STEP 08",
+			"STEP 09",
+			"STEP 10",
+			"STEP 11",
+			"STEP 12",
+			"STEP 13",
+			"STEP 14",
+			"STEP 15",
+			"STEP 16",
+			"STEP 17",
+			"STEP 18",
+			"STEP 19",
+			"STEP 20"
+		],
+		"spyNames": ["SI Alfa", "SI Bravo", "SI Charlie", "SI Delta", "SI Echo", "SI Foxtrot", "SI Golf", "SI Hotel", "SI India", "SI Juliett"]
+    },
+	// based on SoftBank
+	{
+		"name": "Vision Bank",
+		"leaderName": "Sakamoto Son",
+		"adjective": ["Vision"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"uniqueName": "Investment Capital",
+		"uniques": [
+			"Gain control over [{non-[Major]} {non-[City-State]}] tiles in a [2]-tile radius <upon founding a city>",
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+		],
+		"cities": [
+			"Vision 01",
+			"Vision 02",
+			"Vision 03",
+			"Vision 04",
+			"Vision 05",
+			"Vision 06",
+			"Vision 07",
+			"Vision 08",
+			"Vision 09",
+			"Vision 10",
+			"Vision 11",
+			"Vision 12",
+			"Vision 13",
+			"Vision 14",
+			"Vision 15",
+			"Vision 16",
+			"Vision 17",
+			"Vision 18",
+			"Vision 19",
+			"Vision 20"
+		],
+		"spyNames": ["VB Alfa", "VB Bravo", "VB Charlie", "VB Delta", "VB Echo", "VB Foxtrot", "VB Golf", "VB Hotel", "VB India", "VB Juliett"]
+	},
+	// based on Boston Dynamics
+	{
+		"name": "Waltham Dynamics",
+		"leaderName": "Cornelius Playter",
+		"adjective": ["Waltham"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "Waltham offers you this exceptional proposition.",
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+		"uniqueName": "Research and Development",
+		"uniques": [
+			"[+50]% Golden Age length",
+			"[+20]% [Science] [in all cities] <during a Golden Age>"
+		],
+		"cities": [
+			"Waltham 01",
+			"Waltham 02",
+			"Waltham 03",
+			"Waltham 04",
+			"Waltham 05",
+			"Waltham 06",
+			"Waltham 07",
+			"Waltham 08",
+			"Waltham 09",
+			"Waltham 10",
+			"Waltham 11",
+			"Waltham 12",
+			"Waltham 13",
+			"Waltham 14",
+			"Waltham 15",
+			"Waltham 16",
+			"Waltham 17",
+			"Waltham 18",
+			"Waltham 19",
+			"Waltham 20"
+		],
+		"spyNames": ["WD Alfa", "WD Bravo", "WD Charlie", "WD Delta", "WD Echo", "WD Foxtrot", "WD Golf", "WD Hotel", "WD India", "WD Juliett"]
+	},
+	// based on OPEC/Aramco
+	{
+		"name": "UAPEC",
+		"leaderName": "Amin Al Nahyan",
+		"adjective": ["UAPEC"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations.",
+		"introduction": "Welcome foreigner. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"uniqueName": "Optimized Extraction",
+		"uniques": [
+			"[+1 Gold] from every [Strategic resource]",
+			"Double quantity of [Carbon] produced",
+			"Double quantity of [Aluminum] produced",
+			"Double quantity of [Iron] produced",
+			"Double quantity of [Actinides] produced"
+		],
+		"cities": [
+			"UAPEC 01",
+			"UAPEC 02",
+			"UAPEC 03",
+			"UAPEC 04",
+			"UAPEC 05",
+			"UAPEC 06",
+			"UAPEC 07",
+			"UAPEC 08",
+			"UAPEC 09",
+			"UAPEC 10",
+			"UAPEC 11",
+			"UAPEC 12",
+			"UAPEC 13",
+			"UAPEC 14",
+			"UAPEC 15",
+			"UAPEC 16",
+			"UAPEC 17",
+			"UAPEC 18",
+			"UAPEC 19",
+			"UAPEC 20"
+		],
+		"spyNames": ["UAPEC Alfa", "UAPEC Bravo", "UAPEC Charlie", "UAPEC Delta", "UAPEC Echo", "UAPEC Foxtrot", "UAPEC Golf", "UAPEC Hotel", "UAPEC India", "UAPEC Juliett"]
+	},
+// City States
+	// software companies
+	{
+		"name": "Alphabeta", // Alphabet, parent company of Google
+		"adjective": ["Alphabeta"],
+		"cityStateType": "Software",
+
+		"declaringWar": "You've interfered with our searches for long enough.",
+		"attacked": "We'll see if you can find a way to defeat us.",
+		"defeated": "I guess our data belongs to you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Alphabeta"]
+	},
+	{
+		"name": "The Oracle", // Oracle, of course
+		"adjective": ["Oracle"],
+		"cityStateType": "Software",
+
+		"declaringWar": "Your resources would be better off under our control.",
+		"attacked": "Hands off our IP!",
+		"defeated": "So this is how it feels to be 'acquired'...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["The Oracle"]
+	},
+	// general providers of goods
+	{
+		"name": "Walton Club", // Wal-Mart
+		"adjective": ["Walton Club"],
+		"cityStateType": "Optimization",
+
+		"declaringWar": "Sorry, but we've made arrangements with the competition.",
+		"attacked": "We've had people try to drive us out before, you know.",
+		"defeated": "All we wanted was to deliver what people wanted.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Walton Club"]
+	},
+	{
+		"name": "Nellie Auctions", // Nellis Auctions
+		"adjective": ["Nellie"],
+		"cityStateType": "Optimization",
+
+		"declaringWar": "We're looking forward to reselling your goods.",
+		"attacked": "If you want what we've got, you'll have to pay for it!",
+		"defeated": "I suppose this makes you the 'highest bidder'.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45,255,86],
+		"cities": ["Nellie Auctions"]
+	},
+	// guns manufacturers
+	{
+		"name": "Smith-Ruger", // Smith and Wesson or Sturm, Ruger
+		"adjective": ["Smith-Ruger"],
+		"cityStateType": "Armaments",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We have every right to defend ourselves!",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Smith-Ruger"]
+	},
+	{
+		"name": "Heritage Inc", // Heritage Manufacturing
+		"adjective": ["Heritage"],
+		"cityStateType": "Armaments",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "We end not with a bang, but with a whimper.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Heritage Inc"]
+	},
+	// mining companies
+	{
+		"name": "Glenncore", // Glencore
+		"adjective": ["Glenncore"],
+		"cityStateType": "Resupply",
+
+		"declaringWar": "You're sitting on claims we'd like to have.",
+		"attacked": "We can forge weapons just as well as you can.",
+		"defeated": "We've failed. Please be merciful to our drones.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Glenncore"]
+	},
+	{
+		"name": "Nanchang Limited", // Jiangxi Copper
+		"adjective": ["Nanchang"],
+		"cityStateType": "Resupply",
+
+		"declaringWar": "You won't ever be able to bother us again.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You have proven to be a cunning and competent adversary.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Nanchang Limited"]
+	},
+	// electronics companies
+	{
+		"name": "Invidia", // Nvidia
+		"adjective": ["Invidia"],
+		"cityStateType": "Assembly",
+
+		"declaringWar": "We envy what you've got, so we're taking it.",
+		"attacked": "Jealous of our goods, are you?",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"cities": ["Invidia"]
+	},
+	{
+		"name": "Arasta", // Arista
+		"adjective": ["Arasta"],
+		"cityStateType": "Assembly",
+
+		"declaringWar": "Time to switch you off!",
+		"attacked": "Stop increasing our latency!",
+		"defeated": "The downtime lasts forever now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Arasta"]
+	},
+	// rogue robots
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": [
+			"Can only heal by pillaging",
+			"Excluded from map editor",
+			"When defeating a [Military] unit, earn [0] Gold and recruit it <with [33]% chance>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Robots sent to this inhospitable planet frequently malfunction, often causing them to prioritize their own survival over making profits for their company. Be warned, for these malfunctioning machines can spread their dysfunction to your units, causing you to lose control of your robots."
+			}
+		]
+	} 	
+]
+

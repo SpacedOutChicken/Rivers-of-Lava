@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Tester",
+		"science":3,
+		"greatPersonPoints": {"Research Unit":3},
+		"color": [0,0,255]
+	},
+	{
+		"name": "Recorder",
+		"gold":3,
+		"greatPersonPoints": {"Memory Unit":3},
+		"color": [255,215,0]
+	},
+	{
+		"name": "Compiler",
+		"culture":2,
+		"greatPersonPoints": {"Programming Unit":3},
+		"color": [160,32,240]
+	},
+	{
+		"name": "Constructor",
+		"production":3,
+		"greatPersonPoints": {"Construction Unit":3},
+		"color": [139,69,19]
+	}
+]

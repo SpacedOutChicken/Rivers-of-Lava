@@ -1,0 +1,8 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+		// River pseudo-tile used in Civilopedia display only
+		"Silicate+River": ["Silicate","River-BottomLeft","River-Bottom","River-BottomRight"]
+    }
+}

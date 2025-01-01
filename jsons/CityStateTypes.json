@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Software",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Resupply",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Optimization",
+        "friendBonusUniques": [
+            "[+2 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Happiness]",
+            "Provides a unique luxury <hidden from users>",
+            "Comment [Provides a unique optimizer]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Armaments",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Assembly",
+        "friendBonusUniques": ["[+2 Production] [in capital]"],
+        "allyBonusUniques": ["[+2 Production] [in capital]", "[+1 Production] [in all cities]"],
+        "color": [220, 100, 15]
+    }
+]

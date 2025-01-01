@@ -1,0 +1,384 @@
+[
+      {
+            "columnNumber": 0,
+            "era": "Exploring era",
+            "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+            "techs": [
+                  {
+                        "name": "Reinforcements from Home",
+                        "row": 1,
+                        "quote": "",
+                        "uniques": ["Unavailable", "Gain a free [Landing Beacon] [in all cities]"]
+                  },
+                  {
+                        "name": "Basic Survival",
+                        "row": 5,
+                        "quote": "",
+                        "uniques": ["Starting tech", "Enables Open Borders agreements", "Enables conversion of city production to [Gold]"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 1,
+            "era": "Exploring era",
+            "techCost": 35, 
+            "buildingCost": 60,
+            "wonderCost": 185,
+            "techs": [
+                  {
+                        "name": "Surface Breaking",
+                        "row": 2,
+                        "quote": "",
+                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                        "prerequisites": ["Basic Survival"]
+                  },
+                  {
+                        "name": "Raw Materials",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["Basic Survival"]
+                  },
+                  {
+                        "name": "Projectiles",
+                        "row": 6,
+                        "quote": "",
+                        "uniques": ["[-50]% weight to this choice for AI decisions"],
+                        "prerequisites": ["Basic Survival"]
+                  },
+                  {
+                        "name": "Prototyping",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Basic Survival"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 2,
+            "era": "Exploring era",
+            "techCost": 55, 
+            "buildingCost": 75,
+            "wonderCost": 185,
+            "techs": [
+                  {
+                        "name": "Smelting",
+                        "row": 1,
+                        "quote": "",
+                        "prerequisites": ["Surface Breaking"]
+                  },
+                  {
+                        "name": "Ore Mining",
+                        "row": 3,
+                        "quote": "",
+                        "prerequisites": ["Surface Breaking", "Raw Materials"]
+                  },
+                  {
+                        "name": "Basic Munitions",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Raw Materials", "Projectiles"]
+                  },
+                  {
+                        "name": "Additive Manufacturing",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Projectiles", "Prototyping"]
+                  },
+                  {
+                        "name": "Dynamic Programming",
+                        "row": 9,
+                        "quote": "",
+                        "prerequisites": ["Prototyping"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 3,
+            "era": "Expanding era",
+            "techCost": 105, 
+            "buildingCost": 100,
+            "wonderCost": 250,
+            "techs": [
+                  {
+                        "name": "Heat Shields",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Smelting", "Ore Mining"],
+                        "uniques": ["Comment [Enables non-Hover units to enter Lava tiles]"]
+                  },
+                  {
+                        "name": "Blockchain Accounting",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["Ore Mining", "Basic Munitions"]
+                  },
+                  {
+                        "name": "Recycling",
+                        "row": 6,
+                        "quote": "",
+                        "prerequisites": ["Basic Munitions", "Additive Manufacturing"]
+                  },
+                  {
+                        "name": "Infrastructure",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Additive Manufacturing", "Dynamic Programming"],
+                        "uniques": ["Roads connect tiles across rivers"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 4,
+            "era": "Expanding era",
+            "techCost": 175, 
+            "buildingCost": 120,
+            "wonderCost": 300,
+            "techs": [
+                  {
+                        "name": "Alloys",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Heat Shields", "Blockchain Accounting"]
+                  },
+                  {
+                        "name": "Logistics",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Blockchain Accounting", "Recycling", "Infrastructure"],
+                        "uniques": ["Enables Defensive Pacts"]
+                  },
+                  {
+                        "name": "Chemical Engineering",
+                        "row": 6,
+                        "quote": "",
+                        "prerequisites": ["Blockchain Accounting", "Recycling"]
+                  },
+                  {
+                        "name": "Decision Theory",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Recycling", "Infrastructure"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 5,
+            "era": "Exploiting era",
+            "techCost": 275,
+            "buildingCost": 160,
+            "wonderCost": 400,
+            "techs": [
+                  {
+                        "name": "Precision Machining",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Alloys", "Logistics"],
+                        "uniques": ["Improves movement speed on roads"]
+                  },
+                  {
+                        "name": "Low-Atmosphere Flight",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["Logistics"]
+                  },
+                  {
+                        "name": "Synthetic Compounds",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Alloys", "Logistics", "Chemical Engineering", "Decision Theory"]
+                  },
+                  {
+                        "name": "Iterative Design",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Chemical Engineering", "Decision Theory"],
+                        "uniques": ["Enables conversion of city production to [Science]", "Enables Research agreements"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 6,
+            "era": "Exploiting era",
+            "techCost": 485, 
+            "buildingCost": 200,
+            "wonderCost": 500,
+            "techs": [
+                  {
+                        "name": "Long-Distance Targeting",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Precision Machining", "Low-Atmosphere Flight"]
+                  },
+                  {
+                        "name": "Distributed Assembly",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Low-Atmosphere Flight", "Synthetic Compounds", "Iterative Design"]
+                  },
+                  {
+                        "name": "Deep Extraction",
+                        "row": 6,
+                        "quote": "",
+                        "prerequisites": ["Precision Machining", "Synthetic Compounds"]
+                  },
+                  {
+                        "name": "Neural Networks",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Synthetic Compounds", "Iterative Design"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 7,
+            "era": "Exterminating era",
+            "techCost": 780, 
+            "buildingCost": 250,
+            "wonderCost": 625,
+            "techs": [
+                  {
+                        "name": "Spaceflight",
+                        "row": 1,
+                        "quote": "",
+                        "prerequisites": ["Long-Distance Targeting", "Distributed Assembly"],
+                        "uniques": ["Reveals the entire map"]
+                  },
+                  {
+                        "name": "Crystallography",
+                        "row": 3,
+                        "quote": "",
+                        "prerequisites": ["Distributed Assembly", "Deep Extraction"]
+                  },
+                  {
+                        "name": "Fuzzy Logic",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Distributed Assembly", "Neural Networks"]
+                  },
+                  {
+                        "name": "Atomic Synthesis",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Deep Extraction", "Neural Networks"]
+                  },
+                  {
+                        "name": "Metamaterials",
+                        "row": 9,
+                        "quote": "",
+                        "prerequisites": ["Neural Networks"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 8,
+            "era": "Exterminating era",
+            "techCost": 1150, 
+            "buildingCost": 300,
+            "wonderCost": 750,
+            "techs": [
+                  {
+                        "name": "High Orbit",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Spaceflight", "Crystallography"]
+                  },
+                  {
+                        "name": "Cybernetics",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["Crystallography", "Fuzzy Logic"]
+                  },
+                  {
+                        "name": "Planetary Engineering",
+                        "row": 6,
+                        "quote": "",
+                        "prerequisites": ["Crystallography", "Atomic Synthesis"]
+                  },
+                  {
+                        "name": "High-Temp Superconductors",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Atomic Synthesis", "Metamaterials"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 9,
+            "era": "Experiencing era",
+            "techCost": 1600,
+            "buildingCost": 360,
+            "wonderCost": 920,
+            "techs": [
+                  {
+                        "name": "Jovian Extraction",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["High Orbit", "Planetary Engineering"]
+                  },
+                  {
+                        "name": "Breakthrough Propulsion",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["High Orbit", "Cybernetics"]
+                  },
+                  {
+                        "name": "Mantle Mining",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Cybernetics", "Planetary Engineering"]
+                  },
+                  {
+                        "name": "Quantum Computing",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Cybernetics", "High-Temp Superconductors"],
+                        "uniques": ["Enables conversion of city production to [Culture]"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 10,
+            "era": "Experiencing era",
+            "techCost": 2350,
+            "buildingCost": 500,
+            "wonderCost": 1060,
+            "techs": [
+                  {
+                        "name": "Interplanetary Transit",
+                        "row": 3,
+                        "quote": "",
+                        "prerequisites": ["Jovian Extraction", "Breakthrough Propulsion"]
+                  },
+                  {
+                        "name": "Core Mining",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Breakthrough Propulsion", "Mantle Mining"]
+                  },
+                  {
+                        "name": "Molecular Machines",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Breakthrough Propulsion", "Quantum Computing"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 11,
+            "era": "Excelling era",
+            "techCost": 3100,
+            "buildingCost": 500,
+            "wonderCost": 1250,
+            "techs": [
+                  {
+                        "name": "Post-Scarcity",
+                        "row": 5,
+                        "quote": "",
+                        "prerequisites": ["Interplanetary Transit", "Core Mining", "Molecular Machines"],
+                        "uniques": ["Can be continually researched"]
+                  }
+            ]
+      }
+]

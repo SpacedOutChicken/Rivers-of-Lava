@@ -1,0 +1,66 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Mobile Constructor] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-20] Happiness>",
+
+        // Events
+        "Triggers a [Light Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is between [20] and [100]>",
+        "Triggers a [Medium Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is between [101] and [500]>",
+        "Triggers a [Heavy Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is more than [500]>",
+
+        "Triggers a [Seek Out Parts] event <upon turn end> <every [20] turns> <when number of [Parts] is less than [-20]>",
+
+        // Parts
+        "Instantly gain [10] [Parts] <(modified by game speed)>",
+        "Instantly gain [10] [Parts] <if starting in the [Expanding era]> <(modified by game speed)>",
+        "Instantly gain [20] [Parts] <if starting in the [Exploiting era]> <(modified by game speed)>",
+        "Instantly gain [30] [Parts] <if starting in the [Exterminating era]> <(modified by game speed)>",
+        "Instantly gain [40] [Parts] <if starting in the [Experiencing era]> <(modified by game speed)>",
+        "Instantly gain [50] [Parts] <if starting in the [Excelling era]> <(modified by game speed)>",
+        "Instantly gain [10] [Parts] <for [AI player] Civilizations> <(modified by game speed)>",
+        "[-75]% growth [in all cities] <when between [-20] and [-1] [Parts]>",
+		"Nullifies Growth [in all cities] <when below [-20] [Parts]>",
+		"[-10]% Strength <for [All] units> <when below [-20] [Parts]>",
+
+        "Instantly gain [10] [Parts] <for [AI player] Civilizations> <on [King] difficulty> <(modified by game speed)>",
+        "Instantly gain [20] [Parts] <for [AI player] Civilizations> <on [Emperor] difficulty> <(modified by game speed)>",
+        "Instantly gain [30] [Parts] <for [AI player] Civilizations> <on [Immortal] difficulty> <(modified by game speed)>",
+        "Instantly gain [40] [Parts] <for [AI player] Civilizations> <on [Deity] difficulty> <(modified by game speed)>",
+
+        "Instantly gain [40] [Parts] <for [Human player] Civilizations> <on [Tourist] difficulty> <(modified by game speed)>",
+        "Instantly gain [30] [Parts] <for [Human player] Civilizations> <on [Settler] difficulty> <(modified by game speed)>",
+        "Instantly gain [20] [Parts] <for [Human player] Civilizations> <on [Chieftain] difficulty> <(modified by game speed)>",
+        "Instantly gain [10] [Parts] <for [Human player] Civilizations> <on [Warlord] difficulty> <(modified by game speed)>",
+        "Instantly gain [40] [Parts] <for [Human player] Civilizations> <on [Sandbox] difficulty> <(modified by game speed)>",
+
+        "[{non-[Space Station]} {non-[Nuclear Weapon]} {non-[Barbarian]}] units gain the [Recycle I] promotion",
+
+        // difficulty tweak
+        "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Tourist] difficulty>",
+        "Discover [Reinforcements from Home] <for [AI player] Civilizations> <on [Deity] difficulty>",
+        "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Sandbox] difficulty>",
+
+        "[Barbarian] units gain the [Rogue Bonus] promotion <on [Deity] difficulty>",
+        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Sandbox] difficulty>",
+        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>"
+
+        // TODO: Implement the uniques below
+        // "[+20]% [Culture] [in all cities] <during a golden age>",
+        // "[+20]% [Production] [in all cities] <during a golden age>",
+
+        // "[+10]% growth [in all cities] <during We Love The King Day>",
+
+        // "Nullifies All Yield <while is in resistance>",
+
+        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
+        // "[-25]% [Culture] [in pupetted cities]"
+
+        // "[+20]% [Production] [in cities connected via railroad]"
+        // something something unit supply
+    ]
+}

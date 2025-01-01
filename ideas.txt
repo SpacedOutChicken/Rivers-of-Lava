@@ -1,0 +1,59 @@
+Need to find a cutting-off point for sci-fi stuff
+
+picture to use somewhere: https://game-icons.net/1x1/spencerdub/digital-trace.html
+another good picture to use: https://thenounproject.com/icon/robot-7395362/
+
+ideas for tech:
+
+Lasers (what follow-up for Lasers?)
+Quantum Supremacy (follow-up of Quantum Computing)
+Decision Theory (better as a policy?)
+Dynamic Programming
+Cybernetics
+Systems Theory (better as a policy?)
+Fusion Power
+Cellular Automata
+Memcomputing
+Breakthrough Propulsion
+Stable Wormholes
+Precision Machining
+Exotic Matter
+Metamaterials
+Magnonics
+Magnetic Monopoles
+Blockchain Accounting (use this: https://thenounproject.com/icon/blockchain-6894815/)
+Zero-Point Energy
+Antimatter
+Mantle Mining
+Core Mining
+Tectology
+Singularity
+Artificial Gravity
+Ionometallurgy
+Predictive Analytics
+Fracking
+
+building ideas:
+
+Pilot Plant (where to put?)
+Space Elevator
+Matter Transmitter
+Movement Grid (consider other name - limits enemy movement and boosts friendly movement)
+Tectonic Harness (profit from earthquakes)
+Repair project (needs name - doubles healing effects, heals units near cities)
+Tube Alloys Program (making nuclear weapons)
+
+Scrap Combustion Plant (for when you have more Parts than Power - see if necessary for game balance)
+
+promotion ideas:
+
+
+unit ideas:
+
+Breacher (can only attack cities, boosts unit strength vs nearest city)
+Striker Heli (can transform from fast mode to attack mode)
+
+Fun art to use: 
+https://thenounproject.com/icon/black-hole-5551295/ Artificial black hole (call Kugelblitz Generator)
+https://thenounproject.com/icon/pinch-1404530/ for Wormholes
+https://thenounproject.com/icon/rocket-6959147/ for Hypersonic Striker missile unit

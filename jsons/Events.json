@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Light Earthquake",
+        "text": "A light earthquake has occured in your territory, causing minor damage.",
+        "choices": [
+            {
+                "text": "Mitigate it",
+                "uniques": ["Instantly gain [-5] [Gold] <(modified by game speed)>", "Only available <if [Seismic Dampening System] is constructed>"]
+            },
+            {
+                "text": "Endure it",
+                "uniques": [
+                    "Instantly gain [-50] [Gold] <(modified by game speed)>",
+                    "Instantly gain [-5] [Parts] <(modified by game speed)>",
+                    "Only available <if [Seismic Dampening System] is not constructed>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Medium Earthquake",
+        "text": "A medium earthquake has occured in your territory, causing some damage.",
+        "choices": [
+            {
+                "text": "Mitigate it",
+                "uniques": ["Instantly gain [-10] [Gold] <(modified by game speed)>", "Only available <if [Seismic Dampening System] is constructed>"]
+            },
+            {
+                "text": "Endure it",
+                "uniques": [
+                    "Instantly gain [-100] [Gold] <(modified by game speed)>",
+                    "Instantly gain [-50] [Science] <(modified by game speed)>",
+                    "Instantly gain [-10] [Parts] <(modified by game speed)>",
+                    "Only available <if [Seismic Dampening System] is not constructed>"]
+            }
+        ]
+    },
+    {
+        "name": "Heavy Earthquake",
+        "text": "A heavy earthquake has occured in your territory, causing major damage.",
+        "choices": [
+            {
+                "text": "Mitigate it",
+                "uniques": ["Instantly gain [-15] [Gold] <(modified by game speed)>", "Only available <if [Seismic Dampening System] is constructed>"]
+            },
+            {
+                "text": "Endure it",
+                "uniques": [
+                    "Instantly gain [-200] [Gold] <(modified by game speed)>",
+                    "Instantly gain [-100] [Science] <(modified by game speed)>",
+                    "Instantly gain [-50] [Culture] <(modified by game speed)>",
+                    "[-1] population in a random city",
+                    "Instantly gain [-15] [Parts] <(modified by game speed)>",
+                    "Only available <if [Seismic Dampening System] is not constructed>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Seek Out Parts",
+        "text": "We have no building materials for our company. We must obtain more material to make progress.",
+        "choices": [
+            {
+                "text": "Obtain more material",
+                "uniques": ["Instantly provides [1] [Parts]", "Free [Labor Drone] appears"]
+            },
+            {
+                "text": "Dismantle buildings for parts",
+                "uniques": [
+                    "Instantly provides [1] [Parts] <for every [[Chemical Refinery] Buildings]>",
+                    "Sell [Chemical Refinery] buildings [in all cities]",
+                    "Only available <if [Chemical Refinery] is constructed>"
+                ]
+            },
+            {
+                "text": "Dismantle more buildings",
+                "uniques": [
+                    "Instantly provides [1] [Parts] <for every [[Parts Recycler] Buildings]>",
+                    "Sell [Parts Recycler] buildings [in all cities]",
+                    "Only available <if [Chemical Refinery] is not constructed>"
+                ]
+            }
+        ]
+    }
+]

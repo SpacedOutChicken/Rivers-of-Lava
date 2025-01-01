@@ -1,0 +1,367 @@
+[	
+	{
+		"name": "Heat sink",
+		"terrainsCanBeBuiltOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Crust"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [1] [Power]",
+			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Gold] <after discovering [Heat Shields]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Unbuildable <in [resource] tiles>",
+			"Instantly consumes [1] [Parts]",
+			"Only available <when above [0] [Parts]>"
+		],
+		"shortcutKey": "H"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"techRequired": "Ore Mining",
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Production] <after discovering [Planetary Engineering]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Surface Breaking",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Production] <after discovering [Planetary Engineering]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>"
+		],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Crust platform",
+		"turnsToBuild": 8,
+		"techRequired": "Deep Extraction",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Turn this tile into a [Crust] tile",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Provides [1] [Parts]",
+			"Instantly consumes [1] [Parts]",
+			"Only available <when above [0] [Parts]>"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Magma extractor",
+		"turnsToBuild": 8,
+		"techRequired": "Raw Materials",
+		"production": 4,
+		"terrainsCanBeBuiltOn": ["Vent"],
+		"uniques": [
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [2] [Power]",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Instantly consumes [1] [Parts]",
+			"Only available <when above [0] [Parts]>"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Core extractor",
+		"turnsToBuild": 8,
+		"production": 2,
+		"gold": 2,
+		"food": 1,
+		"techRequired": "Deep Extraction",
+		"terrainsCanBeBuiltOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Borehole"],
+		"uniques": [
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [3] [Power]",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Instantly consumes [2] [Parts]",
+			"Only available <when above [1] [Parts]>",
+			"Turn this tile into a [Borehole] tile",
+			"[+1 Gold, +1 Production] <in [Borehole] tiles>",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Unbuildable <in [resource] tiles>",
+			"Unbuildable <in tiles adjacent to [Borehole] tiles>",
+			"Unbuildable <in tiles adjacent to [City center] tiles>"
+		],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Trench",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Surface Breaking",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Does not need removal of [Rubble]",
+			"Does not need removal of [Pyroclasts]",
+			"Gives a defensive bonus of [25]%",
+			"Provides [1] [Weight]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Alloys",
+		"turnsToBuild": 6,
+		"uniques": [
+			"Can be built outside your borders",
+			"Removes removable features when built",
+			"Gives a defensive bonus of [75]%",
+			"Provides [1] [Weight]",
+			"Instantly consumes [1] [Parts]",
+			"Only available <when above [0] [Parts]>"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Infrastructure",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [1] [Gold] per turn",
+			"Unavailable <in [Not buildable] tiles>",
+			"Provides [1] [Weight]",
+			"Instantly consumes [1] [Parts]",
+			"Only available <when above [0] [Parts]>"
+		],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Planetary Engineering",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [2] [Gold] per turn",
+			"Unavailable <in [Not buildable] tiles>",
+			"Provides [1] [Weight]",
+			"Instantly consumes [2] [Parts]",
+			"Only available <when above [1] [Parts]>"
+		],
+		"shortcutKey": "R"
+	},
+	// Terraforming
+	{
+		"name": "Tunnel",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"techRequired": "Deep Extraction",
+		"turnsToBuild": 0,
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Mountain Tunnel] tile",
+			"[+2 Production] <in [Mountain] tiles>",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Create Crust",
+		"terrainsCanBeBuiltOn": ["Lava"],
+		"techRequired": "Deep Extraction",
+		"turnsToBuild": 2,
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Crust] tile",
+			"[+1 Production, +1 Food] <in [Lava] tiles>",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "C"
+	},
+	// remove
+	{
+		"name": "Remove Rubble",
+		"turnsToBuild": 4,
+		"techRequired": "Ore Mining",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly provides [1] [Parts]"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Pyroclasts",
+		"turnsToBuild": 4,
+		"techRequired": "Surface Breaking",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly provides [1] [Parts]"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Borehole",
+		"turnsToBuild": 1,
+		"techRequired": "Deep Extraction",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "."
+	},
+	
+	// Great Person improvements
+	
+	{
+		"name": "Machine shop",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 6,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Provides [1] [Parts]",
+			"Will not be replaced by automated units",
+			"Improves [all] resource in this tile"
+		]
+	},
+	{
+		"name": "Cloud drive",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 6,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Will not be replaced by automated units",
+			"Improves [all] resource in this tile"
+		]
+	},
+	{
+		"name": "Field lab",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Will not be replaced by automated units",
+			"Improves [all] resource in this tile"
+		]
+	},
+	{
+		"name": "Server",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+10 Science, +10 Gold]",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Will not be replaced by automated units",
+			"Improves [all] resource in this tile"
+		]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+			"Provides [1] [Weight]",
+			"Provides [1] [Power]",
+			"Will not be replaced by automated units",
+			"Improves [all] resource in this tile"
+		]
+	},
+	// Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "shortcutKey": "E",
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+	
+	{
+		"name": "Supply drop",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Excluded from map editor",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Improves [all] resource in this tile"
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Excluded from map editor",
+			"Gives a defensive bonus of [25]% <on [Deity] difficulty> <hidden from users>",
+			"Gives a defensive bonus of [25]% <on [Sandbox] difficulty> <hidden from users>"
+		]
+	}
+]

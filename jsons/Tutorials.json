@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Rivers of Lava",
+        "civilopediaText":  [
+            {"text": "By Lodo the Bear, aka SpacedOutChicken"},
+            {},
+            {"text": "Your Mission","header":4},
+            {"text": "Welcome to Io, circa 2500! Humanity has spread through the Solar System and settled many moons and planets, but no one is settling this volcanic hellhole - no one, that is, except for you and your fellow self-replicating robots, here to mine this planet for its rich resources and wipe out anyone else trying to stake their claim."},
+            {"text": "Found factories, research technologies, optimize your code, build droid armies, and bring in the profits for your company!"},
+            {},
+            {"text": "Victory Types","header":4},
+            {}
+        ]
+    }
+]

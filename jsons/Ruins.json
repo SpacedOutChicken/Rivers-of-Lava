@@ -1,0 +1,70 @@
+[
+    {
+        "name": "programming update",
+        "notification": "We have received new code from the supply drop! (+[cultureAmount] code)",
+        "uniques": ["Gain [20] [Culture] <(modified by game speed)>"],
+        "color": "#cf8ff7"
+    },
+    {
+		"name": "technology update",
+		"notification": "We have found blueprints for [techName] in the supply drop!",
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Exploring era]"
+		],
+        "color": "#1e90ff"
+	},
+    {
+        "name": "labor reinforcements",
+        "notification": "A [Labor Drone] has been sent to join us!",
+        "uniques": ["Free [Labor Drone] found in the ruins"],
+        "color": "#228b22"
+    },
+    {
+        "name": "factory founder reinforcements",
+        "notification": "A [Mobile Constructor] has been sent to join us!",
+        "uniques": ["Free [Mobile Constructor] found in the ruins"],
+        "color": "#9acd32"
+    },
+    {
+        "name": "combat logs for exploring unit",
+        "notification": "Our unit found combat logs in the supply drop!",
+        "uniques": ["[This Unit] gains [10] XP"],
+        "color": "#b22222"
+    },
+    {
+        "name": "factory reinforcements (adds population to a factory)",
+        "notification": "We have received a new unit in the supply drop! Population added to [cityName].",
+        "uniques": ["[+1] population in a random city"],
+		"color": "#81c784"
+    },
+    {
+        "name": "additional data",
+        "notification": "We have received an installment of [goldAmount] Data from the supply drop!",
+        "uniques": ["Gain [50]-[100] [Gold]"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "advanced weaponry for exploring unit",
+        "notification": "Our unit finds advanced weaponry in the supply drop!",
+        "uniques": ["[This Unit] upgrades for free including special upgrades"],
+        "color": "#a52a2a"
+    },
+    {
+        "name": "reveal nearby Rogue robot factories",
+        "notification": "We have received intel about Rogue robot activity. Nearby Rogue robot factories are revealed!",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"],
+        "color": "#ff0000"
+    },
+    {
+        "name": "receive geographical intel",
+        "notification": "We have received data about nearby geography from the supply drop!",
+        "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"],
+        "color": "#dcdcdc"
+    },
+    {
+        "name": "building materials",
+        "notification": "We have found useful building materials in the supply drop!",
+        "uniques": ["Instantly provides [20] [Parts]"],
+        "color": "#2f4f4f"
+    }
+]

@@ -1,0 +1,329 @@
+[
+	{
+		"name": "Heal Instantly",
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
+
+	// parts
+	{
+		"name": "Recycle I",
+		"uniques": [
+			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately",
+			"Instantly gain [-1] [Parts] <upon being promoted>"
+		],
+		"column": 0,
+		"row": 1
+	},
+	{
+		"name": "Recycle II",
+		"prerequisites": ["Recycle I"],
+		"uniques": [
+			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately"
+		],
+		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],
+		"column": 0,
+		"row": 2
+	},
+
+	// missile promotions
+	{
+		"name": "Target Lock",
+		"uniques": ["[+30]% Strength <when attacking>"],
+		"unitTypes": ["Missile"]
+    },
+	{
+		"name": "Counter-Countermeasures",
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Missile"]
+    },
+	{
+		"name": "Global Range",
+		"uniques": ["[+5] Range", "[+1] Movement"],
+		"unitTypes": ["Missile"]
+    },
+	{
+		"name": "Strike Reserve",
+		"uniques": ["[-100]% maintenance costs"],
+		"unitTypes": ["Missile"]
+    },
+
+	// air promotions
+	{
+		"name": "Scorched Earth",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Aircraft", "Satellite"]
+	},
+	{
+		"name": "Suppressive Fire",
+		"uniques": ["[+33]% Strength <vs [non-[Air]] units>"],
+		"unitTypes": ["Aircraft", "Satellite"]
+	},
+	{
+		"name": "EMP",
+		"uniques": [
+			"[Target Unit] gains the [Disrupted] status for [5] turn(s) <upon damaging a [non-[Air]] unit>"
+		],
+		"unitTypes": ["Aircraft", "Satellite"]
+		/*"column": 5,
+		"row": 1*/
+	},
+	{
+		"name": "Airspace Control",
+		"uniques": [
+			"[+25]% Damage when intercepting",
+			"[+2] Air Interception Range"
+		],
+		"unitTypes": ["Aircraft", "Satellite"]
+	},
+	{
+		"name": "Stealth",
+		"uniques": [
+			"Damage taken from interception reduced by [50]%",
+			"[+25]% Strength when performing Air Sweep"
+		],
+		"unitTypes": ["Aircraft", "Satellite"]
+	},
+
+
+	// drone promotions
+	{
+		"name": "Open Range",
+		"uniques": ["[+20]% Strength <in [Open terrain] tiles>", "[+1] Sight"],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 6,
+		"row": 1
+	},
+	{
+		"name": "Off-Roading",
+		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>", "No defensive terrain penalty"],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 7,
+		"row": 1
+	},
+	{
+		"name": "Field Repairs",
+		"prerequisites": ["Open Range", "Off-Roading"],
+		"uniques": ["[+10] HP when healing", "All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 6,
+		"row": 2
+	},
+	{
+		"name": "Lava Skipper",
+		"prerequisites": ["Open Range", "Off-Roading"],
+		"uniques": [
+			"Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Eliminates combat penalty for attacking over a river <hidden from users>",
+			"Comment [Eliminates combat penalty for attacking across lava]",
+			"Ignores terrain cost"
+		],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 7,
+		"row": 2
+	},
+	{
+		"name": "Rapid Fire",
+		"prerequisites": ["Field Repairs", "Lava Skipper"],
+		"uniques": [
+			"[1] additional attacks per turn", "Can move after attacking"
+		],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 6,
+		"row": 3
+	},
+	{
+		"name": "Regeneration",
+		"prerequisites": ["Field Repairs", "Lava Skipper"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"May heal outside of friendly territory"
+		],
+		"unitTypes": ["Melee Drone", "Ranged Drone"],
+		"column": 7,
+		"row": 3
+	},
+
+	// melee drone promotions
+	{
+		"name": "Anti-Materiel",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"[+33]% Strength <vs [Heavy] units>"
+		],
+		"unitTypes": ["Melee Drone"]
+	},
+
+	// heavy promotions
+	{
+		"name": "Active Protection System",
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		],
+		"unitTypes": ["Armored", "Siege"]
+	},
+	{
+		"name": "Conquer Terrain",
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": ["Armored", "Siege"]
+	},
+	{
+		"name": "Launch Platform I",
+		"uniques": [
+			"Can carry [2] [Air] units"
+		],
+		"unitTypes": ["Armored", "Siege"]
+	},
+	{
+		"name": "Launch Platform II",
+		"prerequisites": ["Launch Platform I"],
+		"uniques": [
+			"Can carry [2] extra [Air] units"
+		],
+		"unitTypes": ["Armored", "Siege"]
+	},
+
+	// armor promotions
+	{
+		"name": "Scavenge Parts",
+		"uniques": [
+			"Heals [25] damage if it kills a unit",
+			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of the damage done to [City] units as [Parts]"
+		],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Disruption",
+		"uniques": [
+			"[-15]% Strength for enemy [Drone] units in adjacent [All] tiles"
+		],
+		"unitTypes": ["Armored"]
+	},
+
+	// siege promotions
+	{
+		"name": "Targeting LIDAR",
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Range"
+		],
+		"unitTypes": ["Siege"]
+	},
+
+	// hover promotions
+	{
+		"name": "Evasive Maneuvers",
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"unitTypes": ["Melee Hover", "Ranged Hover"]
+	},
+	{
+		"name": "High Flight",
+		"uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"No defensive terrain penalty",
+			"Can see over obstacles"
+		],
+		"unitTypes": ["Melee Hover", "Ranged Hover"]
+	},
+
+	// ranged promotions
+	{
+		"name": "Interceptor",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+20]% Strength <vs [Air] units>",
+			"[+20]% Strength <vs [Hover] units>"
+		],
+		"unitTypes": ["Ranged Drone", "Siege", "Ranged Hover"]
+	},
+
+	{
+		"name": "ASAT",
+		"uniques": [
+			"Comment [Can intercept Space units]"
+		]
+	},
+
+	// special promotions
+	{
+		"name": "Continuous Update",
+		"uniques": [
+			"[+50]% XP gained from combat",
+			"[This Unit] gains [1] XP <upon ending a turn in a [Terrain] tile>"
+		]
+	},
+	{
+		"name": "Heat Training",
+		"uniques": [
+			"[+10]% Strength <when fighting in [Lava] tiles>",
+			"[+10]% Strength <when fighting in [Fresh water] tiles>"
+		]
+	},
+	{
+		"name": "Rad Shielding",
+		"uniques": [
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status>",
+			"Uncapturable",
+			"[+15]% Strength <when defending>"
+		]
+	},
+
+	// national promotions
+	{
+		"name": "Self-Driven",
+		"uniques": [
+			"Ignores terrain cost",
+			"Can pass through impassable tiles"
+		]
+	},
+
+	// for rogue droids
+	{
+		"name": "Rogue Bonus",
+		"uniques": [
+			"Heals [25] damage if it kills a unit",
+			"No movement cost to pillage",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Rogue Handicap",
+		"uniques": [
+			"Unable to pillage tiles",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	// temporary status
+	{
+		"name": "Disrupted",
+		"uniques": [
+			"[-10]% Strength <when attacking>",
+			"[-5] HP when healing",
+			"[-1] Sight"
+		],
+		"innerColor": [0,0,0],
+		"outerColor": [255,255,255]
+	},
+	{
+		"name": "Reloading",
+		"uniques": ["Cannot attack"],
+		"innerColor": [0,0,0],
+		"outerColor": [255,255,255]
+	}
+]

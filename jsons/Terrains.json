@@ -1,0 +1,463 @@
+[
+	// Base terrains
+	{
+		"name": "Lava",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [255,150,0],
+		"uniques": [
+			"Fresh water",
+			"Considered [Desirable] when determining start locations",
+			"Comment [Non-Hover units ending their turn on this terrain take [1] damage]"
+		]
+	},
+	{
+		"name": "Silicate",
+		"type": "Land",
+		"production": 1,
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [97,171,58],
+		"uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Silicate] tiles, with priority [7]",
+			"A Region can not contain more [Basalt] tiles than [Silicate] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations <in [Rubble] Regions>",
+			"Considered [Production] when determining start locations <in [Hill] Regions>",
+			"Considered [Production] when determining start locations <in [Silicate] Regions>",
+			"Considered [Production] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Basalt",
+		"type": "Land",
+		"production": 2,
+		"movementCost": 1,
+		"RGB": [168,185,102],
+		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Basalt] tiles, with priority [6]",
+			"A Region can not contain more [Silicate] tiles than [Basalt] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations <in [Forsterite] Regions>",
+			"Considered [Production] when determining start locations <in [Sulfur] Regions>",
+			"Considered [Production] when determining start locations <in [Hill] Regions>",
+			"Considered [Production] when determining start locations <in [Basalt] Regions>",
+			"Considered [Production] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Forsterite",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [189,204,191],
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Forsterite] tiles and [Hydrated rock] tiles, with priority [1]",
+			"Considered [Food] when determining start locations <in [Forsterite] Regions>",
+			"Considered [Desirable] when determining start locations <in [Forsterite] Regions>",
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Sulfur",
+		"type": "Land",
+		"production": 1,
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [ 230, 230, 113],
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Sulfur] tiles, with priority [4]",
+			"Considered [Desirable] when determining start locations",
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Not buildable",
+			"Only [Tunnel] improvements may be built on this tile",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [50] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
+		"name": "Hydrated rock",
+		"type": "Land",
+		"production": 2,
+		"movementCost": 1,
+		"RGB": [76, 76, 76],
+		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Always Fertility [-1] for Map Generation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+
+	// Terraforming
+	{
+		"name": "Mountain Tunnel",
+		"type": "Land",
+		"defenceBonus": 0.25,
+		"production": 2,
+		"unbuildable": true,
+		"movementCost": 2,
+		"RGB": [100, 100, 100],
+		"uniques": [
+			"Rough terrain",
+			"Only [All Road] improvements may be built on this tile",
+			"[+10] Strength for cities built on this terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Doesn't generate naturally"
+		]
+	},
+	{
+		"name": "Crust",
+		"type": "Land",
+		"movementCost": 1,
+		"production": 1,
+		"food": 1,
+		"RGB": [50,50,50],
+		"uniques": [
+			"Doesn't generate naturally",
+			"Fresh water"
+		]
+	},
+	{
+		"name": "Borehole",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock"],
+		"uniques": [
+			"Fresh water",
+			"Doesn't generate naturally",
+			"Units ending their turn on this terrain take [1] damage"
+		]
+	},
+
+	// Terrain features
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock"],
+		"uniques": ["Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Rubble",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Hill"],
+		"uniques": [
+			"Rough terrain",
+			"Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [30]% [Rubble] tiles, with priority [3]",
+			"A Region is formed with at least [35]% [Rubble] tiles and [Pyroclasts] tiles, with priority [2]",
+			"A Region can not contain more [Pyroclasts] tiles than [Rubble] tiles",
+			"Considered [Undesirable] when determining start locations",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Pyroclasts",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"[-1] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Pyroclasts] tiles, with priority [2]",
+			"A Region is formed with at least [35]% [Pyroclasts] tiles and [Rubble] tiles, with priority [2]",
+			"A Region can not contain more [Rubble] tiles than [Pyroclasts] tiles",
+			"Considered [Undesirable] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+
+	{
+		"name": "Fallout",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
+		// For map editor only - the generator won't place it without code or enabling uniques
+		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock","Rubble","Pyroclasts","Hill","Vent","Crust","Borehole"],
+		"defenceBonus": -0.15
+	},
+	{
+		"name": "Vent",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock"],
+		"uniques": [
+			"Fresh water",
+			"Rare feature",
+			"Always Fertility [4] for Map Generation",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
+	{
+        "name": "River", // lava stream
+        "type": "TerrainFeature",
+        "production": 1,
+        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor", "Comment [Hot spot]"]
+    },
+
+	// Natural Wonders
+	{
+		"name": "Pele",
+		"type": "NaturalWonder",
+		"production": 6,
+		"gold": 3,
+		"science": 1,
+		"occursOn": ["Basalt", "Silicate"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] to [1] [Sulfur] tiles",
+			"Must be adjacent to [4] to [6] [Elevated] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Loki",
+		"type": "NaturalWonder",
+		"gold": 6,
+		"science": 3,
+		"production": 1,
+		"occursOn": ["Forsterite", "Silicate", "Hydrated rock"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] [Basalt] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] to [4] [Elevated] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Dazhbog",
+		"type": "NaturalWonder",
+		"science": 3,
+		"production": 3,
+		"gold": 3,
+		"occursOn": ["Sulfur"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [1] to [5] [Lava] tiles",
+			"Must be adjacent to [1] [Mountain] tiles",
+			"Neighboring tiles will convert to [Lava] <in tiles without [Mountain]>"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Masubi",
+		"type": "NaturalWonder",
+		"science": 6,
+		"production": 1,
+		"gold": 1,
+		"occursOn": ["Basalt","Sulfur","Forsterite"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] [Silicate] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Prometheus",
+		"type": "NaturalWonder",
+		"science": 3,
+		"gold": 3,
+		"production": 1,
+		"occursOn": ["Silicate","Basalt","Forsterite","Mountain"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] to [4] [Mountain] tiles",
+			"Must be adjacent to [3] to [6] [Elevated] tiles",
+			"Must be adjacent to [0] to [3] [Sulfur] tiles",
+			"Must be adjacent to [0] to [3] [Forsterite] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Amirani",
+		"type": "NaturalWonder",
+		"science": 1,
+		"gold": 1,
+		"production": 5,
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock"],
+		"uniques": [
+			"Fresh water",
+			"Neighboring tiles will convert to [Lava]",
+			"Grants [Heat Training] ([10% strength bonus in lava and hot spot tiles]) to adjacent [{Military} {Land}] units for the rest of the game"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 5
+	},
+	{
+		"name": "Ra",
+		"type": "NaturalWonder",
+		"gold": 7,
+		"production": 1,
+		"science": 1,
+		"occursOn": ["Basalt","Mountain"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [1] to [6] [Hill] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Zamama",
+		"type": "NaturalWonder",
+		"production": 1,
+		"science": 1,
+		"gold": 5,
+		"occursOn": ["Basalt","Sulfur"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] [Silicate] tiles",
+			"Must be adjacent to [0] [Forsterite] tiles",
+			"Must be adjacent to [3] to [6] [Basalt] tiles",
+			"Grants [+500 Gold, +100 Science] to the first civilization to discover it"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 5
+	},
+	{
+		"name": "Boosaule",
+		"type": "NaturalWonder",
+		"production": 6,
+		"gold": 1,
+		"science": 1,
+		"occursOn": ["Sulfur","Basalt"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [3] to [6] [Sulfur] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Volund",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"culture": 4,
+		"occursOn": ["Silicate","Basalt"],
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [0] [Hydrated rock] tiles",
+			"Must be adjacent to [0] [Sulfur] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [0] to [2] [Hill] tiles",
+			"Must not be on [1] largest landmasses"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	}
+]
