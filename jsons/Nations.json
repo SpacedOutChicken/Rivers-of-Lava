@@ -9,15 +9,16 @@
 		"leaderName": "Erik Clark",
 		"adjective": ["Constellation"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
-		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
-		"defeated": "I tip my hat to you, sir, for you have shown a worthy opponent. Enjoy your victory while you still can.",
-		"introduction": "Ah, salutations.",
+		"startIntroPart1": "This company began as Darkwater Target Systems, operating out of the swamps of North Carolina, but it has grown remarkably since then. After many years of profitably offering its services as a military contractor and merging with other contractor companies, the organization now known as Constellation Holdings began to establish itself as a full-fledged army, sometimes offering its services for sale and sometimes acting strictly for the company's own internal interests.",
+		"startIntroPart2": "As interplanetary travel became cheaper and faster, Constellation Holdings set its sights on the stars, eager to acquire the resources of the new frontier. On the harsh landscape of Io, with no humans around to stake their claim, Constellation Holdings is ready to seize whatever it can, and it brings a massive amount of force to bear.",
+
+		"declaringWar": "You're currently occupying areas where we intend to expand. If you do not surrender your current claims, we are prepared to take them by force.",
+		"attacked": "We stand ready and willing to repel any invasion that you attempt.",
+		"defeated": "We acknowledge your acquisition of our former territories. If you wish to negotiate their sale, please contact our home offices on Earth.",
+		"introduction": "You've reached the offices of Constellation Holdings. Do you wish to negotiate territory claims?",
 		"neutralHello": "What now?",
-		"hateHello": "So, out with it!",
-		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		"hateHello": "What is it you want?",
+		"tradeRequest": "This exchange should prove beneficial for the both of us.",
 		"outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
 		"uniqueName": "Hostile Takeover",
@@ -56,14 +57,16 @@
 		"leaderName": "Kristian Madsen",
 		"adjective": ["Tycho"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
-		"defeated": "Goodness, this is gratuitous injustice!",
-		"introduction": "It is splendid to meet you, sir, simply splendid!",
+		"startIntroPart1": "As major powers from across Earth sought to scoop up the Solar System's unclaimed wealth, many people saw the struggles taking place and yearned for for an interplanetary order governed more by cooperation than by competition. Small startups and syndicates sprang up that encouraged coordination between companies and equitable distribution of wealth. One organization from Denmark soon emerged as a powerful ally in this quest: Tycho Crowdfunding.",
+		"startIntroPart2": "Drawing on donations from across the Solar System by people seeking peace among the stars, Tycho Crowdfunding enjoys its greatest successes by helping small companies band together and resist the power of the huge conglomerates that seek to monopolize the wealth of Io and beyond.",
+
+		"declaringWar": "You've bullied your fellow companies for too long. It's time for us to push back.",
+		"attacked": "We're ready to fight for what belongs to us and what belongs to everyone.",
+		"defeated": "You've defeated us, but don't think that this moon will ever belong to you alone.",
+		"introduction": "It's good to meet you! We hope that you'll work with us in developing Io.",
 		"neutralHello": "Hello.",
 		"hateHello": "It's you.",
-		"tradeRequest": "Tycho offers you this exceptional proposition.",
+		"tradeRequest": "Let's work together, for the benefit of all.",
 		"outerColor": [51,25,0],
         "innerColor": [255,255,102],
 		"uniqueName": "Spirit of Cooperation",
@@ -107,15 +110,16 @@
 		"leaderName": "Nikolai Muskegon",
 		"adjective": ["Ex"],
 	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
-		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
-		"defeated": "You, sir, are a scoundrel. Go ahead and take our factories, but know that, in your hands, the world will never know true greatness under industry.",
-		"introduction": "Behold the greatest cog in the industrial machine.",
+		"startIntroPart1": "With branches in space exploration, human-machine interface technology, clean energy production, autonomous robotics, tunnel construction, and even social media, Ex has long sought to do it all. It was an early major player in the colonization of planets beyond Earth, establishing human settlements on Mars and sending drones out across the Solar System.",
+		"startIntroPart2": "While Io is unfit for human habitation, its mineral resources make it a promising source of wealth, so Ex Aerospace has come to dig for gold, hoping to fund its ventures even further into space.",
+
+		"declaringWar": "You're impeding humanity's progress, and we won't stand for it!",
+		"attacked": "I don't think you understand who you're dealing with, here.",
+		"defeated": "We'll come back from this, just you wait and see.",
+		"introduction": "Hello, and welcome from Ex! Let's accomplish great things together!",
 		"neutralHello": "Hello!",
 		"hateHello": "What do you need?!",
-		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"tradeRequest": "How would you like it if I propose this kind of deal?",
 		"outerColor": [18, 66, 22],
         "innerColor": [255, 56, 56],
 		"uniqueName": "Self-Driven Mobility",
@@ -153,20 +157,21 @@
 		"leaderName": "Geoff Bose",
 		"adjective": ["Nile"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
-		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
-		"defeated": "I bow to you, sir, for your splendid victory. My nation has risen quietly, but, as the world well knows, her fall has been loud on the contrary.",
-		"introduction": "Come, my good friend, let us have a chat.",
+		"startIntroPart1": "What begin as an experimental venture in selling books has grown into a market for everything from small consumer goods to cloud computing. With subsidiaries in industries as diverse as entertainment, automobile manufacturing, and surveillance, Nile seeks to deliver to the world everything it needs, and as humanity has expanded beyond our home world, Nile has expanded to ensure that humans everywhere get the products they desire.",
+		"startIntroPart2": "Nile has now set out to remotely colonize Io, hoping to harvest its wealth and deliver its resources to anyone able to meet Nile's prices.",
+
+		"declaringWar": "We see a new opportunity in your margins, and we're taking it by force.",
+		"attacked": "If you think you can interfere with our deliveries without consequences for you, you're quite mistaken.",
+		"defeated": "We hope that we can continue to provide you service as your latest acquisition.",
+		"introduction": "Thank you for contacting Nile Incorporated. Do you wish to purchase a membership?",
 		"neutralHello": "Hello, again.",
 		"hateHello": "Oh, it's you!",
-		"tradeRequest": "Would you be interested in a trade agreement?",
+		"tradeRequest": "Would you be interested in one of our delivery options?",
 		"outerColor": [54,72,72],
         "innerColor": [246,205,137],
 		"uniqueName": "Corporate Merger",
 		"uniques": [
-			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
 			"Gifts of Gold to City-States generate [25]% more Influence"
 		],
 		"cities": [
@@ -199,21 +204,22 @@
 		"leaderName": "Sundiata Keita",
 		"adjective": ["Pan-African"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "I'm afraid I must take by force what is mine and what is yours as well... Hopefully you will show yourself to be a worthy opponent.",
-		"attacked": "Ah, ah! Well, I cannot argue with your decision, but I believe you have made a grave mistake.",
-		"defeated": "Well met, sir. I hope you continue your quest for knowledge and invention in my absence.",
-		"introduction": "I say, it is a pleasure to meet you!",
+		"startIntroPart1": "As powerful corporations set their sights on the outer Solar System, some people were determined to claim the distant moons and planets in the name of representative government instead of privatized profit. A coalition of African nations came together with the goal of establishing an international presence on Io, elevating the existing Pan-African Space Agency from a scientific endeavor to an instrument of interplanetary dominance. They labored diligently to establish extraterrestrial colonies, and on Io, where only robots can live, they set up mining stations to reap profits in the name of the people.",
+		"startIntroPart2": "PAfSA's internal workings set it apart from the business ventures that dominate so much of Io's new landscape, giving it a better defense against industrial espionage and enabling it to make plans that last beyond next quarter's profits.",
+
+		"declaringWar": "We've tried all other avenues, but yet you persist in this madness. Hopefully your end is swift.",
+		"attacked": "The only thing necessary to allow evil to triumph is for us to do nothing. We will not allow you to go unchecked.",
+		"defeated": "Very well, then. Go ahead and claim this little moon for yourself, but know that the wider Solar System will never belong to the likes of you.",
+		"introduction": "A thousand welcomes to our country's establishment. We are PAfSA, and we are here to further humanity's quest for knowledge and advancement.",
 		"neutralHello": "Oh, welcome!",
 		"hateHello": "Oh, it is you.",
-		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+		"tradeRequest": "We request that you consider this offer between our two organizations. We believe it will do us both good.",
 		"outerColor": [214, 145, 19],
 		"innerColor": [90, 0, 10],
-		"uniqueName": "The Great Alliance",
+		"uniqueName": "Common Governance",
 		"uniques": [
-			"When declaring friendship, both parties gain a [10]% boost to great person generation",
-			"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
+			"[-25]% enemy spy effectiveness [in all cities]",
+			"[+1 Production, +1 Science] from all [Production] buildings"
 		],
 		"cities": [
 			"PAfSA 01",
@@ -633,6 +639,53 @@
 		],
 		"spyNames": ["UAPEC Alfa", "UAPEC Bravo", "UAPEC Charlie", "UAPEC Delta", "UAPEC Echo", "UAPEC Foxtrot", "UAPEC Golf", "UAPEC Hotel", "UAPEC India", "UAPEC Juliett"]
 	},
+	// based on Nokia
+	{
+		"name": "Tampere Ab",
+		"leaderName": "Fredrik Mechelin",
+		"adjective": ["Tampere"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "O",
+
+        "declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
+		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"introduction": "",
+
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's ye!",
+		"tradeRequest": "Let's reach an agreement!",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "",
+		"uniques": [],
+		"cities": [
+			"Tampere 01",
+			"Tampere 02",
+			"Tampere 03",
+			"Tampere 04",
+			"Tampere 05",
+			"Tampere 06",
+			"Tampere 07",
+			"Tampere 08",
+			"Tampere 09",
+			"Tampere 10",
+			"Tampere 11",
+			"Tampere 12",
+			"Tampere 13",
+			"Tampere 14",
+			"Tampere 15",
+			"Tampere 16",
+			"Tampere 17",
+			"Tampere 18",
+			"Tampere 19",
+			"Tampere 20"
+		],
+        "spyNames": []
+    },
 // City States
 	// software companies
 	{

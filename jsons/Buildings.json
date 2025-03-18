@@ -15,7 +15,8 @@
             "Provides [2] [Power] <in cities connected to the capital>",
             "Provides [1] [Weight]",
             "Provides [1] [Parts]"
-        ]
+        ],
+        "civilopediaText": [{ "text": "Our first factory comes equipped with powerful facilities sent directly from Earth, providing our other factories with power, building material, and critical data." }]
     },
 
     {
@@ -162,7 +163,7 @@
         "name": "Tactical Simulator",
         "hurryCostModifier": 25,
         "uniques": [
-            "New [Military] units start with [10] Experience [in this city]", 
+            "New [Military] units start with [10] XP [in this city]", 
             "Destroyed when the city is captured <hidden from users>", 
             "Comment [Destroyed when the factory is captured]",
             "Consumes [1] [Power]",
@@ -196,7 +197,7 @@
             "Provides [1] [Weight]",
             "Costs [1] [Parts]"
         ],
-        "requiredTech": "Recycling"
+        "requiredTech": "Blockchain Accounting"
     },
     {
         "name": "Cooling Dock",
@@ -235,6 +236,28 @@
         ],
 		"requiredTech": "Logistics"
 	},
+
+    {
+        "name": "Resupply Chain",
+        "isNationalWonder": true,
+        "production": 1,
+        "food": 2,
+        "culture": 1,
+        "cost": 125,
+        "uniques": [
+            "[All] Units adjacent to this city heal [+15] HP per turn when healing <hidden from users>",
+            "Comment [All units adjacent to our factories heal [+15] HP when healing]",
+            "[+5] HP when healing <in [Friendly Land] tiles>",
+            "Cost increases by [30] per owned city",
+            "Consumes [1] [Power]",
+            "Costs [3] [Parts]",
+            "Consumes [1] [Parts]",
+            "Provides [1] [Weight]",
+            "Only available <if [Chemical Refinery] is constructed in all [non-[Puppeted]] cities>"
+        ],
+        "requiredTech": "Logistics"
+    },
+
     {
         "name": "Parts Recycler",
         "hurryCostModifier": 25,
@@ -378,7 +401,7 @@
         "maintenance": 2,
         "uniques": [
             "Consumes [1] [Power]",
-            "New [Military] units start with [20] Experience [in this city]",
+            "New [Military] units start with [20] XP [in this city]",
             "Provides [1] [Weight]",
             "Costs [2] [Parts]"
         ],
@@ -503,7 +526,7 @@
         "maintenance": 3
     },
     {
-        "name":"Launchpad",
+        "name": "Launchpad",
         "hurryCostModifier": 25,
         "production": 2,
         "percentStatBonus": { "production": 5 },
@@ -527,9 +550,23 @@
             "Provides [1] [Weight]",
             "Consumes [1] [Power]"
         ],
-        "requiredTech": "Quantum Computing",
+        "requiredTech": "Fuzzy Logic",
         "maintenance": 3
     },
+    
+    {
+        "name": "Co-Op Network",
+        "isWonder": true,
+        "uniques": [
+            "Triggers voting for the Diplomatic Victory",
+            "Only available <when [Diplomatic] Victory is enabled>",
+            "Hidden until [4] social policy branches have been completed",
+            "Triggers a global alert upon build start",
+            "Triggers a global alert upon completion"
+        ],
+        "requiredTech": "Cybernetics"
+    },
+
     {
         "name": "Gas Harvester",
         "hurryCostModifier": 25,
@@ -562,7 +599,8 @@
             "Costs [2] [Parts]",
             "Gain a free [Launchpad] [in this city]"
         ],
-        "requiredTech": "High Orbit"
+        "requiredTech": "High Orbit",
+        "civilopediaText": [{ "text": "This project enables the construction and maintenance of deadly orbital installations, capable of firing devasting shots to virtually any location on Io." }]
     },
 
     {
@@ -576,11 +614,46 @@
             "Provides [2] [Weight]",
             "Costs [10] [Parts]",
             "[+10]% Production when constructing [Space] units [in all cities]",
-            "Gain a free [Launchpad] [in all cities]"
+            "Gain a free [Launchpad] [in all cities]",
+            "Only available <after discovering [Metamaterials]>"
         ],
         "greatPersonPoints": {"Construction Unit": 1},
         "requiredTech": "High Orbit",
         "quote": "This towering structure allows for cheap and rapid deployment of satellites, giving a notable advantage to the company that constructs it.",
 		"civilopediaText": [{ "text": "This towering structure allows for cheap and rapid deployment of satellites, giving a notable advantage to the company that constructs it." }]
+    },
+
+    {
+        "name": "Quantum-Safe Protocol",
+        "uniques": [
+            "Only available <when espionage is enabled>",
+            "[-25]% enemy spy effectiveness [in this city]",
+            "Costs [3] [Parts]",
+            "Provides [1] [Weight]",
+            "Consumes [1] [Power]"
+        ],
+        "maintenance": 1,
+        "requiredBuilding": "Encrypted Channel",
+        "requiredTech": "Quantum Computing"
+    },
+
+
+    {
+        "name": "Field-Repair Nanosystem",
+        "isWonder": true,
+        "science": 1,
+        "culture": 1,
+        "production": 5,
+        "uniques": [
+            "All healing effects doubled",
+            "May heal outside of friendly territory",
+            "[-33]% Gold cost of upgrading",
+            "Provides [1] [Weight]",
+            "Costs [10] [Parts]"
+        ],
+        "greatPersonPoints": {"Construction Unit": 1, "Research Unit": 1},
+        "requiredTech": "Molecular Machines",
+        "quote": "By equipping our units with versatile systems based on universal assemblers, we can enable them to rapidly repair and upgrade themselves using only the supplies available to them in the field.",
+        "civilopediaText": [{ "text": "By equipping our units with versatile systems based on universal assemblers, we can enable them to rapidly repair and upgrade themselves using only the supplies available to them in the field." }]
     }
 ]

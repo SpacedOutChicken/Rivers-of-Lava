@@ -44,6 +44,7 @@ Buildings:
 * Distributed Processor: [processor](https://thenounproject.com/icon/processor-3010723/) by Grafix Point
 * Encrypted Channel: [cryptography](https://thenounproject.com/icon/cryptography-4957917/) by M. Oki Orlando
 * Extraction Centrifuge: based on [centrifuge](https://thenounproject.com/icon/centrifuge-6063329/) by okta
+* Field-Repair Nanosystem: [nanotechnology](https://thenounproject.com/icon/nanotechnology-6922682/) by diyah farida
 * Gas Harvester: [Gas Tank](https://thenounproject.com/icon/gas-tank-6333595/) by Arya Icons
 * Graphene Synthesizer: [Graphene](https://thenounproject.com/icon/graphene-4914973/) by parkjisun
 * Hardware Simulation Lab: [simulation](https://thenounproject.com/icon/simulation-6094543/) by Dan's
@@ -53,7 +54,9 @@ Buildings:
 * Polymer Synthesizer: [Science](https://thenounproject.com/term/science/1676493/) by Mello
 * Production Analysis Lab: [analysis](https://thenounproject.com/icon/analysis-6600599/) by EX Liberus
 * Project Thor: [Mjolnir](https://thenounproject.com/icon/mjolnir-2069904/) by Avana Vana
+* Quantum-Safe Protocol: [quantum computing](https://thenounproject.com/icon/quantum-computing-6922637/) by diyah farida
 * Regenerator: [furnace](https://thenounproject.com/icon/furnace-113791/) by aLf
+* Resupply Chain: based on [Box](https://thenounproject.com/icon/box-7398092/) by INA and [Health](https://thenounproject.com/icon/health-7323095/) by Sebastiaan van Veen
 * Seismic Dampening System: [Earthquake](https://thenounproject.com/icon/earthquake-4978226/) by Jake Park
 * Space Elevator: based on [Space Needle](https://thenounproject.com/icon/space-needle-78926/) by Jakob Wells and [twinkle](https://thenounproject.com/icon/twinkle-5353669/) by murmur
 * Tokamak: [torus](https://thenounproject.com/icon/torus-5738177/) by Flowicon
@@ -66,6 +69,7 @@ City-states:
 
 Improvements:
 * Barbarian encampment (rogue robot factory): [Chatbot](https://thenounproject.com/icon/chatbot-7105504/) by Danil Polshin
+* Cauldron facility: [dome](https://thenounproject.com/icon/dome-4026652/) by Zaenal Abidin
 * Cloud drive: [cloud server](https://thenounproject.com/icon/cloud-server-4713582/) by Puspito
 * Core extractor: based on [drill](https://thenounproject.com/icon/drill-6714374/) by Soni Sokell
 * Create crust: [Hot Surface](https://thenounproject.com/icon/hot-surface-2847706/) by Brad
@@ -86,7 +90,6 @@ Nations:
 * Nile Inc: [arrow smile](https://thenounproject.com/icon/arrow-smile-827273/) by Emir Palavan
 * PAfSA: [africa](https://thenounproject.com/icon/africa-27173/) by Juan Pablo Bravo
 * SinoStar: [chinese symbol](https://thenounproject.com/icon/chinese-symbol-4114717/) by nakals
-* STEP Interplanetary: [Lamassu](https://thenounproject.com/icon/lamassu-118987/) by Jason Dilworth
 * Tycho Crowdfunding: [Sputnik](https://thenounproject.com/icon/sputnik-3402362/) by Melvin Salas
 * UAPEC: based on [sunrise](https://thenounproject.com/icon/sunrise-7141445/) by Ivanda arief budiarto
 * VATA Group: [Arrow](https://thenounproject.com/icon/arrow-2052627/) by QOLBIN SALIIM
@@ -164,6 +167,7 @@ Techs:
 * Quantum Computing: [quantum computing](https://thenounproject.com/icon/quantum-computing-6742694/) by gravisio
 * Raw Materials: [rock](https://thenounproject.com/icon/rock-2224648/) by tulpahn
 * Reinforcements from Home: [humanitarian aid](https://thenounproject.com/icon/humanitarian-aid-30970/) by Michael Thompson
+* Singularity: [Black Hole](https://thenounproject.com/icon/black-hole-7104155/) by Pandu Bramantyo
 
 Units:
 * Anti-Labor Drone: [Wrench](https://thenounproject.com/icon/wrench-2908/) by P.J. Onori
@@ -219,5 +223,7 @@ Units:
 * Tactical Unit: [Targeted icon](https://game-icons.net/1x1/sbed/targeted.html) by sbed
 
 # Other art
+
+Borders taken from [Thin Bubbly Borders](https://github.com/Ouaz/Thin-Bubbly-Borders) by Ouaz
 
 Preview image: [Lava flow](https://www.timmchapman.com/photo/lava-flow/) by Timm Chapman

@@ -87,13 +87,9 @@
 	{
 		"name": "Core extractor",
 		"turnsToBuild": 8,
-		"production": 2,
-		"gold": 2,
-		"food": 1,
 		"techRequired": "Deep Extraction",
 		"terrainsCanBeBuiltOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Borehole"],
 		"uniques": [
-			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [3] [Power]",
 			"Provides [1] [Weight]",
@@ -101,14 +97,40 @@
 			"Instantly consumes [2] [Parts]",
 			"Only available <when above [1] [Parts]>",
 			"Turn this tile into a [Borehole] tile",
-			"[+1 Gold, +1 Production] <in [Borehole] tiles>",
+			"[+2 Gold, +2 Production, +1 Food] <in tiles not adjacent to [Borehole] tiles>",
+			"[+1 Gold, +1 Production, +1 Food] <in [Borehole] tiles> <in tiles not adjacent to [Borehole] tiles>",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"Unbuildable <in [resource] tiles>",
-			"Unbuildable <in tiles adjacent to [Borehole] tiles>",
-			"Unbuildable <in tiles adjacent to [City center] tiles>"
+			"Unavailable <in [resource] tiles>",
+			"Unavailable <in tiles adjacent to [Borehole] tiles>",
+			"Unavailable <in tiles adjacent to [City center] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "C"
 	},
+	// civ unique improvements
+	{
+		"name": "Cauldron facility",
+		"uniqueTo": "Vision Bank",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Lava","Crust"],
+		"techRequired": "Deep Extraction",
+		"uniques": [
+			"Provides [2] [Power]",
+			"Provides [1] [Parts]",
+			"Provides [1] [Weight]",
+			"Instantly consumes [2] [Parts]",
+			"Only available <when above [1] [Parts]>",
+			"Turn this tile into a [Crust] tile",
+			"[+2 Gold, +2 Production, +2 Food] <in tiles not adjacent to [Cauldron facility] tiles>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Unavailable <in [resource] tiles>",
+			"Unavailable <in tiles adjacent to [Cauldron facility] tiles>",
+			"Unavailable <in tiles adjacent to [City center] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "A"
+	},
+	// defense improvements
 	{
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -138,6 +160,7 @@
 		],
 		"shortcutKey": "F"
 	},
+	// roads and rails
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -177,7 +200,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Mountain Tunnel] tile",
-			"[+2 Production] <in [Mountain] tiles>",
+			"[+1 Production] <in [Mountain] tiles>",
 			"Excluded from map editor"
 		],
 		"shortcutKey": "T"
@@ -185,12 +208,12 @@
 	{
 		"name": "Create Crust",
 		"terrainsCanBeBuiltOn": ["Lava"],
-		"techRequired": "Deep Extraction",
+		"techRequired": "Chemical Engineering",
 		"turnsToBuild": 2,
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Crust] tile",
-			"[+1 Production, +1 Food] <in [Lava] tiles>",
+			"[+1 Production] <in [Lava] tiles>",
 			"Excluded from map editor"
 		],
 		"shortcutKey": "C"

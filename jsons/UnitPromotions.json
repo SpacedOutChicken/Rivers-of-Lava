@@ -16,9 +16,9 @@
 	{
 		"name": "Recycle I",
 		"uniques": [
-			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of killed [Wounded] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately",
-			"Instantly gain [-1] [Parts] <upon being promoted>"
+			"Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>"
 		],
 		"column": 0,
 		"row": 1
@@ -27,7 +27,7 @@
 		"name": "Recycle II",
 		"prerequisites": ["Recycle I"],
 		"uniques": [
-			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of killed [Wounded] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately"
 		],
 		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],

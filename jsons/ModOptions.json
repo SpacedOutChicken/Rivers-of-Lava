@@ -6,13 +6,13 @@
         "Allow City States to spawn with additional units",
         "Suppress warning [*contains a conditional on a unit movement unique*]"
     ],
+    "constants":{
+        "maxXPfromBarbarians":60,
+        "minimalCityDistance":4,
+        "minimalCityDistanceOnDifferentContinents":4,
+        "cityWorkRange":4,
+        "maxSpyRank":5
+    },
     "tileset": "FantasyHex",
-    "unitset": "FantasyHex",
-    "constants": {
-        "maxXPfromBarbarians": 60,
-        "cityWorkRange": 4,
-        "minimalCityDistance": 4,
-        "minimalCityDistanceOnDifferentContinents": 4,
-        "maxSpyRank": 5
-    }
+    "unitset": "FantasyHex"
 }

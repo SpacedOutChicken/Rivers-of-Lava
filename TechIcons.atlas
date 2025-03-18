@@ -228,56 +228,56 @@ TechIcons/Planetary Engineering
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Post-Scarcity
+TechIcons/Precision Machining
   rotate: false
   xy: 868, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Precision Machining
+TechIcons/Projectiles
   rotate: false
   xy: 976, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Projectiles
+TechIcons/Prototyping
   rotate: false
   xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Prototyping
+TechIcons/Quantum Computing
   rotate: false
   xy: 868, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Quantum Computing
+TechIcons/Raw Materials
   rotate: false
   xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Raw Materials
+TechIcons/Recycling
   rotate: false
   xy: 1084, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Recycling
+TechIcons/Reinforcements from Home
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Reinforcements from Home
+TechIcons/Singularity
   rotate: false
   xy: 976, 112
   size: 100, 100

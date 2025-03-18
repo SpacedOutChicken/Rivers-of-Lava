@@ -352,7 +352,8 @@
 		"uniques": [
 			"City-level resource",
 			"Doesn't generate naturally",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Cannot be traded"
 		],
 		"civilopediaText": [
 			{
