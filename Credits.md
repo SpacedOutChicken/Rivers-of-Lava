@@ -87,9 +87,11 @@ Nations:
 * Condor Association: [Condor](https://thenounproject.com/icon/condor-173573/) by Juan Felipe Mejía
 * Constellation Holdings: [Star](https://thenounproject.com/icon/star-1091858/) by nitut786
 * Ex Aerospace: [X](https://thenounproject.com/icon/x-2078472/) by rayhan maulana rikzan
+* Kosprom: [Gas](https://thenounproject.com/icon/gas-7573689/) by ARISO
 * Nile Inc: [arrow smile](https://thenounproject.com/icon/arrow-smile-827273/) by Emir Palavan
 * PAfSA: [africa](https://thenounproject.com/icon/africa-27173/) by Juan Pablo Bravo
 * SinoStar: [chinese symbol](https://thenounproject.com/icon/chinese-symbol-4114717/) by nakals
+* Tampere Ab: [upper right arrow](https://thenounproject.com/icon/upper-right-arrow-4070849/) by Nick Kinling
 * Tycho Crowdfunding: [Sputnik](https://thenounproject.com/icon/sputnik-3402362/) by Melvin Salas
 * UAPEC: based on [sunrise](https://thenounproject.com/icon/sunrise-7141445/) by Ivanda arief budiarto
 * VATA Group: [Arrow](https://thenounproject.com/icon/arrow-2052627/) by QOLBIN SALIIM

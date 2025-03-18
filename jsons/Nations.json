@@ -646,7 +646,7 @@
 		"adjective": ["Tampere"],
 
         "startIntroPart1": "",
-        "startIntroPart2": "O",
+        "startIntroPart2": "",
 
         "declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
 		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
@@ -660,8 +660,11 @@
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
 
-		"uniqueName": "",
-		"uniques": [],
+		"uniqueName": "Clear Channels",
+		"uniques": [
+			"[+1 Culture] [in all cities]",
+			"Each city founded increases Science cost of Technologies [50]% less than normal"
+		],
 		"cities": [
 			"Tampere 01",
 			"Tampere 02",
@@ -684,7 +687,58 @@
 			"Tampere 19",
 			"Tampere 20"
 		],
-        "spyNames": []
+        "spyNames": ["TA Alfa", "TA Bravo", "TA Charlie", "TA Delta", "TA Echo", "TA Foxtrot", "TA Golf", "TA Hotel", "TA India", "TA Juliett"]
+    },
+	// based on Gazprom
+	{
+		"name": "Kosprom",
+		"leaderName": "Alexey Chernomyrdin",
+		"adjective": ["Kosprom"],
+
+        "startIntroPart1": "As colonizing outer space became more feasible, Russia's partially state-owned businesses were eager to seize new sources of revenue. Major gas and finance companies came together to from Kosprom PJSC, a powerful venture for capitalizing on the resources in the stars. Kosprom soon made its presence known across the Solar System as a force to be reckoned with.",
+        "startIntroPart2": "Kosprom's fierce tactics have not made them many friends, but Kosprom does not fear their competitors. They keep a close eye out for any weaknesses and exploit them mercilessly.",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "Hail to you. This area is the property of Kosprom. You would be wise to respect our boundaries.",
+
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's you again!",
+		"tradeRequest": "Let's reach an agreement!",
+
+        "outerColor": [239, 180, 0],
+		"innerColor": [0, 0, 0],
+
+		"uniqueName": "Vertical Integration",
+		"uniques": [
+			"[-25]% maintenance costs <for [Land] units>",
+			"[+1] Unit Supply per [3] population [in all cities]",
+			"Gain an extra spy <upon entering the [Exploiting era]>"
+		],
+		"cities": [
+			"Kosprom 01",
+			"Kosprom 02",
+			"Kosprom 03",
+			"Kosprom 04",
+			"Kosprom 05",
+			"Kosprom 06",
+			"Kosprom 07",
+			"Kosprom 08",
+			"Kosprom 09",
+			"Kosprom 10",
+			"Kosprom 11",
+			"Kosprom 12",
+			"Kosprom 13",
+			"Kosprom 14",
+			"Kosprom 15",
+			"Kosprom 16",
+			"Kosprom 17",
+			"Kosprom 18",
+			"Kosprom 19",
+			"Kosprom 20"
+		],
+        "spyNames": ["K Alfa", "K Bravo", "K Charlie", "K DelK", "K Echo", "K Foxtrot", "K Golf", "K Hotel", "K India", "K Juliett"]
     },
 // City States
 	// software companies
