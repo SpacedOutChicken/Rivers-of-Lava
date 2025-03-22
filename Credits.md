@@ -49,6 +49,7 @@ Buildings:
 * Graphene Synthesizer: [Graphene](https://thenounproject.com/icon/graphene-4914973/) by parkjisun
 * Hardware Simulation Lab: [simulation](https://thenounproject.com/icon/simulation-6094543/) by Dan's
 * Inventory Recorder: [inventory](https://thenounproject.com/icon/inventory-6937494/) by Omah Icon
+* IoNet: [planet io](https://thenounproject.com/icon/planet-io-5539058/) by Numeralia Vita Zein
 * Launchpad: [launchpad](https://thenounproject.com/icon/launchpad-4723197/) by Dániel Z. Aczél
 * Parts Recycler: [Reuse](https://thenounproject.com/icon/reuse-6040357/) by afian roc
 * Polymer Synthesizer: [Science](https://thenounproject.com/term/science/1676493/) by Mello
@@ -68,12 +69,14 @@ City-states:
 * Resupply: [open box](https://thenounproject.com/icon/open-box-7412066/) by okta
 
 Improvements:
+* Air harvester: [oxygen](https://thenounproject.com/icon/oxygen-7700786/) by bloodline mitha
 * Barbarian encampment (rogue robot factory): [Chatbot](https://thenounproject.com/icon/chatbot-7105504/) by Danil Polshin
 * Cauldron facility: [dome](https://thenounproject.com/icon/dome-4026652/) by Zaenal Abidin
 * Cloud drive: [cloud server](https://thenounproject.com/icon/cloud-server-4713582/) by Puspito
 * Core extractor: based on [drill](https://thenounproject.com/icon/drill-6714374/) by Soni Sokell
 * Create crust: [Hot Surface](https://thenounproject.com/icon/hot-surface-2847706/) by Brad
 * Crust platform: [oil well](https://thenounproject.com/icon/oil-well-2052341/) by Vectors Market
+* Flow tap: [Water Pump](https://thenounproject.com/icon/water-pump-6725957/) by Marz Gallery
 * Heat sink: [cooling fan](https://thenounproject.com/icon/cooling-fan-699662/) by creative outlet
 * Magma extractor: [Pump](https://thenounproject.com/icon/pump-3322096/) by Chintuza
 * Remove Borehole/Rubble/Pyroclasts: [Shovel](https://thenounproject.com/term/shovel/231777/) by Milinda Courey
@@ -129,6 +132,7 @@ Resources:
 * Magnesium: [Magnesium](https://thenounproject.com/icon/magnesium-1719836/) by Avana Vana
 * Obsidian: [Crystal](https://thenounproject.com/icon/crystal-48884/) by MarkieAnn Packer
 * Parts: [Puzzle](https://thenounproject.com/icon/puzzle-3303523/) by Dmitry Vasiliev
+* Quartz: [Crystal](https://thenounproject.com/icon/crystal-886709/) by Bakunetsu Kaito
 * Rare Earths: [Magnet](https://thenounproject.com/icon/magnet-7412148/) by frenki
 * Rods: [pipes](https://thenounproject.com/icon/pipes-5537314/) by verry poernomo
 * Titanium: [screw](https://thenounproject.com/icon/screw-100879/) by Eli Revzin
@@ -173,10 +177,13 @@ Techs:
 
 Units:
 * Anti-Labor Drone: [Wrench](https://thenounproject.com/icon/wrench-2908/) by P.J. Onori
+* Flare Sat: [space station](https://thenounproject.com/icon/space-station-5198511/) by M. Oki Orlando
+* High-Altitude Defender: [missile defense](https://thenounproject.com/icon/missile-defense-4727948/) by Eliricon
 * Light Flyer: [Drone](https://thenounproject.com/icon/drone-377514/) by afrolabs
 * LR Drone Mk II: [Flamer](https://thenounproject.com/icon/flamer-119326/) by Robert Bjurshagen
 * Memory Unit: [Cassette](https://thenounproject.com/icon/cassette-6711533/) by Wahyu Adam
 * Mobile Constructor: [assembly](https://thenounproject.com/icon/assembly-3934103/) by Manglayang studio
+* Mobile Turret: [Artillery](https://thenounproject.com/icon/artillery-7224197/) by iconcheese
 * Negotiations Unit: [Handshake](https://thenounproject.com/icon/handshake-2645886/) by emkamal kamaluddin
 * Programming Unit: [File](https://thenounproject.com/icon/file-1167437/) by Astonish
 * Railgun: [Tank](https://thenounproject.com/icon/tank-1162891/) by Lluisa Iborra
@@ -189,6 +196,9 @@ Other:
 * Specialist/Worked icon: based on [Android](https://thenounproject.com/icon/android-6409178/) by Paonkz
 
 ## From Flaticon:
+
+Resources:
+* Oxygen: [Oxygen Structure](https://www.flaticon.com/free-icon/oxygen-structure_71378) by Freepik
 
 Units:
 * Orbital Bombardment Platform: [Space Station](https://www.flaticon.com/free-icon/space-station_663010) by Smashicons
@@ -217,7 +227,9 @@ Techs:
 
 Units:
 * Basic Drone: [Vintage robot icon](https://game-icons.net/1x1/lorc/vintage-robot.html) by Lorc
+* Boring Machine: [Drill icon](https://game-icons.net/1x1/lorc/drill.html) by Lorc
 * Light Crawler: [Tank tread icon](https://game-icons.net/1x1/skoll/tank-tread.html) by Skoll
+* Light Rotorcraft: [Delivery drone icon](https://game-icons.net/1x1/delapouite/delivery-drone.html) by Delapouite
 * Pistol Drone: [Bolter gun icon](https://game-icons.net/1x1/lorc/bolter-gun.html) by Lorc
 * Research Unit: [Microscope icon](https://game-icons.net/1x1/lord-berandas/microscope.html) by Lord Berandas
 * Sky Hammer: [Defense satellite icon](https://game-icons.net/1x1/delapouite/defense-satellite.html) by Delapouite

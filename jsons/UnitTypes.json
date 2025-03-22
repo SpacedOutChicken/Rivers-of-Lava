@@ -15,7 +15,6 @@
             "Drone",
             "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
         ]
@@ -27,7 +26,6 @@
             "Drone",
             "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
         ]
@@ -37,12 +35,12 @@
         "movementType": "Land",
         "uniques": [
             "Hover",
+            "Never appears as a Barbarian unit",
             "Can pass through impassable tiles",
 			"All tiles cost 1 movement",
             "May travel on Water tiles without embarking <hidden from users>",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
-			"Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Eliminates combat penalty for attacking over a river <hidden from users>",
 			"Comment [Eliminates combat penalty for attacking across lava]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -53,12 +51,12 @@
         "movementType": "Land",
         "uniques": [
             "Hover",
+            "Never appears as a Barbarian unit",
             "Can pass through impassable tiles",
 			"All tiles cost 1 movement",
             "May travel on Water tiles without embarking <hidden from users>",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
-			"Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Eliminates combat penalty for attacking over a river <hidden from users>",
 			"Comment [Eliminates combat penalty for attacking across lava]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -69,9 +67,10 @@
         "movementType": "Land",
         "uniques": [
             "Heavy",
+            "No defensive terrain bonus",
+            "Never appears as a Barbarian unit",
             "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
         ]
@@ -82,9 +81,10 @@
         "uniques": [
             "Heavy",
             "Ranged attacks may be performed over obstacles",
+            "No defensive terrain bonus",
+            "Never appears as a Barbarian unit",
             "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
-            "Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
         ]
@@ -109,7 +109,8 @@
             "Can see over obstacles",
             "Can perform Air Sweep",
             "[100]% chance to intercept air attacks",
-            "Comment [Can intercept Space units]"
+            "Comment [Can intercept Space units]",
+            "Can only be built <in cities with a [Launchpad]>"
         ]
     },
     {
@@ -119,7 +120,8 @@
             "Space",
             "[+8] Sight",
             "Can see over obstacles",
-            "Cannot intercept [Air] units"
+            "Cannot intercept [Air] units",
+            "Can only be built <in cities with a [Launchpad]>"
         ]
     },
     {

@@ -316,6 +316,29 @@
 			}
 		]
 	},
+	{
+		"name": "Quartz",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lava", "Crust"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"gold": 1},
+		"uniques": [
+			"Generated on every [40] tiles <in [Lava] tiles>",
+			"Generated near City States with weight [30]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Quartz",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Piezoelectric crystals that make excellent oscillators, often found when lava cools on the surface."
+			}
+		]
+	},
 	//city-state
 	{
 		"name": "Diamonds",
@@ -532,6 +555,9 @@
 		"civilopediaText": [
 			{
 				"text": "Dense, aerodynamic projectiles, lifted in orbit and dropped at high velocity, creating impacts with the force of nuclear detonation without producing fallout."
+			},
+			{
+				"text": "Space Station units rely on these rods for ammunition.", "link":"Unit/Orbital Bombardment Platform"
 			}
 		]
 	},
@@ -539,7 +565,7 @@
 	// earthquake related
 	{
 		"name": "Weight",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Doesn't generate naturally",
 			"Excluded from map editor",
@@ -549,6 +575,23 @@
 		"civilopediaText": [
 			{
 				"text": "A measure of the impact that our systems have on Io's crust. The more that we build, the more frequent and dangerous that quakes become."
+			}
+		]
+	},
+
+	// oxygen for humans
+	{
+		"name": "Oxygen",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Cannot be traded",
+			"City-level resource"
+		],
+		"civilopediaText": [
+			{
+				"text": "A vital gas for humans, hard to find on Io."
 			}
 		]
 	}

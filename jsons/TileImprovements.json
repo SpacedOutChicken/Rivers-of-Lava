@@ -12,8 +12,7 @@
 			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Unbuildable <in [resource] tiles>",
-			"Instantly consumes [1] [Parts]",
-			"Only available <when above [0] [Parts]>"
+			"Costs [1] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "H"
 	},
@@ -45,9 +44,29 @@
 			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>"
+			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>",
+			"Provides [1] [Oxygen] <for [Human] Civilizations> <in [Oxides] tiles>"
 		],
 		"shortcutKey": "Q"
+	},
+	{
+		"name": "Flow tap",
+		"techRequired": "Raw Materials",
+		"turnsToBuild": 7,
+		"production": 3,
+		"food": 1,
+		"terrainsCanBeBuiltOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock"],
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Gold] <after discovering [Heat Shields]>",
+			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"Provides [1] [Power]",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Must be next to [River]"
+		],
+		"shortcutKey": "L"
 	},
 	{
 		"name": "Crust platform",
@@ -60,9 +79,7 @@
 			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
-			"Provides [1] [Parts]",
-			"Instantly consumes [1] [Parts]",
-			"Only available <when above [0] [Parts]>"
+			"Provides [1] [Parts]"
 		],
 		"shortcutKey": "P"
 	},
@@ -78,9 +95,7 @@
 			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [2] [Power]",
 			"Provides [1] [Weight]",
-			"Provides [1] [Parts]",
-			"Instantly consumes [1] [Parts]",
-			"Only available <when above [0] [Parts]>"
+			"Provides [1] [Parts]"
 		],
 		"shortcutKey": "M"
 	},
@@ -94,8 +109,6 @@
 			"Provides [3] [Power]",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Instantly consumes [2] [Parts]",
-			"Only available <when above [1] [Parts]>",
 			"Turn this tile into a [Borehole] tile",
 			"[+2 Gold, +2 Production, +1 Food] <in tiles not adjacent to [Borehole] tiles>",
 			"[+1 Gold, +1 Production, +1 Food] <in [Borehole] tiles> <in tiles not adjacent to [Borehole] tiles>",
@@ -118,8 +131,6 @@
 			"Provides [2] [Power]",
 			"Provides [1] [Parts]",
 			"Provides [1] [Weight]",
-			"Instantly consumes [2] [Parts]",
-			"Only available <when above [1] [Parts]>",
 			"Turn this tile into a [Crust] tile",
 			"[+2 Gold, +2 Production, +2 Food] <in tiles not adjacent to [Cauldron facility] tiles>",
 			"[+1 Food] <after discovering [Molecular Machines]>",
@@ -127,6 +138,26 @@
 			"Unavailable <in tiles adjacent to [Cauldron facility] tiles>",
 			"Unavailable <in tiles adjacent to [City center] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "A"
+	},
+	{
+		"name": "Air harvester",
+		"uniqueTo": "Human",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [1] [Power]",
+			"Provides [1] [Oxygen] <for [Human] Civilizations>",
+			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Gold] <after discovering [Heat Shields]>",
+			"[+1 Food] <after discovering [Molecular Machines]>",
+			"[+1 Food, +1 Production, +1 Gold] <for [Human] Civilizations>",
+			"Provides [1] [Weight]",
+			"Unbuildable <in [resource] tiles>",
+			"Unavailable <in tiles adjacent to [Air harvester] tiles>",
+			"Costs [1] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "A"
 	},
@@ -141,7 +172,8 @@
 			"Does not need removal of [Rubble]",
 			"Does not need removal of [Pyroclasts]",
 			"Gives a defensive bonus of [25]%",
-			"Provides [1] [Weight]"
+			"Provides [1] [Weight]",
+			"Unpillagable"
 		],
 		"shortcutKey": "F"
 	},
@@ -152,11 +184,9 @@
 		"turnsToBuild": 6,
 		"uniques": [
 			"Can be built outside your borders",
-			"Removes removable features when built",
 			"Gives a defensive bonus of [75]%",
 			"Provides [1] [Weight]",
-			"Instantly consumes [1] [Parts]",
-			"Only available <when above [0] [Parts]>"
+			"Costs [1] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "F"
 	},
@@ -171,8 +201,7 @@
 			"Costs [1] [Gold] per turn",
 			"Unavailable <in [Not buildable] tiles>",
 			"Provides [1] [Weight]",
-			"Instantly consumes [1] [Parts]",
-			"Only available <when above [0] [Parts]>"
+			"Costs [1] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "R"
 	},
@@ -186,8 +215,7 @@
 			"Costs [2] [Gold] per turn",
 			"Unavailable <in [Not buildable] tiles>",
 			"Provides [1] [Weight]",
-			"Instantly consumes [2] [Parts]",
-			"Only available <when above [1] [Parts]>"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "R"
 	},
@@ -223,14 +251,14 @@
 		"name": "Remove Rubble",
 		"turnsToBuild": 4,
 		"techRequired": "Ore Mining",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly provides [1] [Parts]"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly gain [1] [Parts]"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Pyroclasts",
 		"turnsToBuild": 4,
 		"techRequired": "Surface Breaking",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly provides [1] [Parts]"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly gain [1] [Parts]"],
 		"shortcutKey": "X"
 	},
 	{
@@ -383,8 +411,11 @@
 			"Unpillagable",
 			"Unbuildable",
 			"Excluded from map editor",
-			"Gives a defensive bonus of [25]% <on [Deity] difficulty> <hidden from users>",
-			"Gives a defensive bonus of [25]% <on [Sandbox] difficulty> <hidden from users>"
+			"Gives a defensive bonus of [25]% <on [Deity] difficulty> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Malfunctioning robots often set up their own rogue factories in dark corners, churning out hostile drones."},
+			{"text": "Rogue robots", "link":"Nation/Barbarians"}
 		]
 	}
 ]

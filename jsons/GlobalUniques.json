@@ -47,7 +47,54 @@
 
         "[Barbarian] units gain the [Rogue Bonus] promotion <on [Deity] difficulty>",
         "[Barbarian] units gain the [Rogue Handicap] promotion <on [Sandbox] difficulty>",
-        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>"
+        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>",
+
+        // oxygen mechanic
+        "Provides [5] [Oxygen] <for [Human] Civilizations>", // Baseline
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [1] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [2] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [3] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [4] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [5] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [6] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [7] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [8] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [9] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [10] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [11] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [12] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [13] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [14] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [15] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [16] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [17] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [18] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [19] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [20] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [21] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [22] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [23] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [24] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [25] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [26] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [27] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [28] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [29] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [30] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [31] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [32] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [33] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [34] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [35] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [36] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [37] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [38] [Population]>",
+        "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [39] [Population]>",
+		"Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [40] [Population]>",
+
+        "[-50]% growth [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is equal to [1]>",
+        "Nullifies Growth [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is equal to [0]>",
+        "Nullifies [Food] [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is less than [0]>"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
@@ -62,5 +109,8 @@
 
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
+    ],
+    "unitUniques": [
+        "Eliminates combat penalty for attacking across a coast"
     ]
 }

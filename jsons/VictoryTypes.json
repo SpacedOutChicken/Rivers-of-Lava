@@ -15,8 +15,8 @@
     },
     {
         "name": "Diplomatic",
-        "victoryScreenHeader": "Build the Co-Op Network and be voted\nworld leader to win!",
-        "milestones": ["Anyone should build [Co-Op Network]", "Win diplomatic vote"],
+        "victoryScreenHeader": "Establish IoNet and be voted\nworld leader to win!",
+        "milestones": ["Anyone should build [IoNet]", "Win diplomatic vote"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     }

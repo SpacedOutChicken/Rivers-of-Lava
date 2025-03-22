@@ -4,6 +4,7 @@
 		"name": "Lava",
 		"type": "Water",
 		"movementCost": 1,
+		"defenceBonus": -0.15,
 		"RGB": [255,150,0],
 		"uniques": [
 			"Fresh water",

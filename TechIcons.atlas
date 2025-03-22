@@ -228,86 +228,93 @@ TechIcons/Planetary Engineering
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Precision Machining
+TechIcons/Post-Scarcity
   rotate: false
   xy: 868, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Projectiles
+TechIcons/Precision Machining
   rotate: false
   xy: 976, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Prototyping
+TechIcons/Projectiles
   rotate: false
   xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Quantum Computing
+TechIcons/Prototyping
   rotate: false
   xy: 868, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Raw Materials
+TechIcons/Quantum Computing
   rotate: false
   xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Recycling
+TechIcons/Raw Materials
   rotate: false
   xy: 1084, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Reinforcements from Home
+TechIcons/Recycling
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Singularity
+TechIcons/Reinforcements from Home
   rotate: false
   xy: 976, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Smelting
+TechIcons/Singularity
   rotate: false
   xy: 1084, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Spaceflight
+TechIcons/Smelting
   rotate: false
   xy: 1192, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Surface Breaking
+TechIcons/Spaceflight
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Synthetic Compounds
+TechIcons/Surface Breaking
   rotate: false
   xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Synthetic Compounds
+  rotate: false
+  xy: 1192, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

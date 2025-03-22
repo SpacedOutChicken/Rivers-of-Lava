@@ -49,7 +49,15 @@
 			"Constellation 19",
 			"Constellation 20"
 		],
-		"spyNames": ["CH Alfa", "CH Bravo", "CH Charlie", "CH Delta", "CH Echo", "CH Foxtrot", "CH Golf", "CH Hotel", "CH India", "CH Juliett"]
+		"spyNames": ["CH Alfa", "CH Bravo", "CH Charlie", "CH Delta", "CH Echo", "CH Foxtrot", "CH Golf", "CH Hotel", "CH India", "CH Juliett"],
+		"civilopediaText": [
+			{
+				"text": "This company began as Darkwater Target Systems, operating out of the swamps of North Carolina, but it has grown remarkably since then. After many years of profitably offering its services as a military contractor and merging with other contractor companies, the organization now known as Constellation Holdings began to establish itself as a full-fledged army, sometimes offering its services for sale and sometimes acting strictly for the company's own internal interests."
+			},
+			{
+				"text": "As interplanetary travel became cheaper and faster, Constellation Holdings set its sights on the stars, eager to acquire the resources of the new frontier. On the harsh landscape of Io, with no humans around to stake their claim, Constellation Holdings is ready to seize whatever it can, and it brings a massive amount of force to bear."
+			}
+		]
 	},
 	// based on Copenhagen Suborbitals
 	{
@@ -102,7 +110,15 @@
 			"Tycho 19",
 			"Tycho 20"
 		],
-		"spyNames": ["TC Alfa", "TC Bravo", "TC Charlie", "TC Delta", "TC Echo", "TC Foxtrot", "TC Golf", "TC Hotel", "TC India", "TC Juliett"]
+		"spyNames": ["TC Alfa", "TC Bravo", "TC Charlie", "TC Delta", "TC Echo", "TC Foxtrot", "TC Golf", "TC Hotel", "TC India", "TC Juliett"],
+		"civilopediaText": [
+			{
+				"text": "As major powers from across Earth sought to scoop up the Solar System's unclaimed wealth, many people saw the struggles taking place and yearned for for an interplanetary order governed more by cooperation than by competition. Small startups and syndicates sprang up that encouraged coordination between companies and equitable distribution of wealth. One organization from Denmark soon emerged as a powerful ally in this quest: Tycho Crowdfunding."
+			},
+			{
+				"text": "Drawing on donations from across the Solar System by people seeking peace among the stars, Tycho Crowdfunding enjoys its greatest successes by helping small companies band together and resist the power of the huge conglomerates that seek to monopolize the wealth of Io and beyond."
+			}
+		]
 	},
 	// based on SpaceX
 	{
@@ -149,7 +165,16 @@
 			"Ex 19",
 			"Ex 20"
 		],
-		"spyNames": ["EA Alfa", "EA Bravo", "EA Charlie", "EA Delta", "EA Echo", "EA Foxtrot", "EA Golf", "EA Hotel", "EA India", "EA Juliett"]
+		"spyNames": ["EA Alfa", "EA Bravo", "EA Charlie", "EA Delta", "EA Echo", "EA Foxtrot", "EA Golf", "EA Hotel", "EA India", "EA Juliett"],
+		"civilopediaText": [
+			{
+				"text": "With branches in space exploration, human-machine interface technology, clean energy production, autonomous robotics, tunnel construction, and even social media, Ex has long sought to do it all. It was an early major player in the colonization of planets beyond Earth, establishing human settlements on Mars and sending drones out across the Solar System."
+			},
+			{
+				"text": "While Io is unfit for human habitation, its mineral resources make it a promising source of wealth, so Ex Aerospace has come to dig for gold, hoping to fund its ventures even further into space."
+		
+			}
+		]
 	},
 	// based on Amazon
 	{
@@ -196,7 +221,15 @@
 			"Nile 19",
 			"Nile 20"
 		],
-		"spyNames": ["NI Alfa", "NI Bravo", "NI Charlie", "NI Delta", "NI Echo", "NI Foxtrot", "NI Golf", "NI Hotel", "NI India", "NI Juliett"]
+		"spyNames": ["NI Alfa", "NI Bravo", "NI Charlie", "NI Delta", "NI Echo", "NI Foxtrot", "NI Golf", "NI Hotel", "NI India", "NI Juliett"],
+		"civilopediaText": [
+			{
+				"text": "What begin as an experimental venture in selling books has grown into a market for everything from small consumer goods to cloud computing. With subsidiaries in industries as diverse as entertainment, automobile manufacturing, and surveillance, Nile seeks to deliver to the world everything it needs, and as humanity has expanded beyond our home world, Nile has expanded to ensure that humans everywhere get the products they desire."
+			},
+			{
+				"text": "Nile has now set out to remotely colonize Io, hoping to harvest its wealth and deliver its resources to anyone able to meet Nile's prices."
+			}
+		]
 	},
 	// based on AfSA
 	{
@@ -243,7 +276,15 @@
 			"PAfSA 19",
 			"PAfSA 20"
 		],
-		"spyNames": ["P Alfa", "P Bravo", "P Charlie", "P Delta", "P Echo", "P Foxtrot", "P Golf", "P Hotel", "P India", "P Juliett"]
+		"spyNames": ["Mashine Mosi", "Mashine Zole", "Mashine Tatu", "Mashine Ya", "Mashine Tanu", "Mashine Sambanu", "Mashine Nsambuadi", "Mashine Nana", "Mashine Vua", "Mashine Kumi"],
+		"civilopediaText": [
+			{
+				"text": "As powerful corporations set their sights on the outer Solar System, some people were determined to claim the distant moons and planets in the name of representative government instead of privatized profit. A coalition of African nations came together with the goal of establishing an international presence on Io, elevating the existing Pan-African Space Agency from a scientific endeavor to an instrument of interplanetary dominance. They labored diligently to establish extraterrestrial colonies, and on Io, where only robots can live, they set up mining stations to reap profits in the name of the people."
+			},
+			{
+				"text": "PAfSA's internal workings set it apart from the business ventures that dominate so much of Io's new landscape, giving it a better defense against industrial espionage and enabling it to make plans that last beyond next quarter's profits."
+			}
+		]
 	},
 	// based on Chinese space companies
 	{
@@ -251,18 +292,18 @@
 		"leaderName": "Shen Kuo",
 		"adjective": ["SinoStar"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "China's cutthroat business practices and abundant supply of cheap labor made it a world power, but they soon found that the Earth was too small to contain their ambitions. They reached skyward, leading the way to settling the Moon and Mars, and then extending into the outer Solar System. Their accumulated wealth gave them the capital they needed to fund research into robotic labor, helping them to stay competitive as machines outperformed human workers and giving them an edge as they established their presence in the outer Solar System.",
+		"startIntroPart2": "Now SinoStar, China's leading state-owned space exploration company, has landed on Io, ready to extend the country's silk routes into this inhospitable place.",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "It is time to unify our companies, under our leadership, naturally.",
+		"attacked": "This is remarkably foolish of you.",
+		"defeated": "We congratulate you on your victory.",
+		"introduction": "Greetings. We are representatives of SinoStar, humanity's leader in space colonization. Please state your business.",
 
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
 
-		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
+		"tradeRequest": "My friend, do you think you can accept this request?",
 
 		"outerColor": [9, 112, 84],
         "innerColor": [255,255,255],
@@ -293,7 +334,15 @@
 			"SinoStar 19",
 			"SinoStar 20"
 		],
-		"spyNames": ["SS Alfa", "SS Bravo", "SS Charlie", "SS Delta", "SS Echo", "SS Foxtrot", "SS Golf", "SS Hotel", "SS India", "SS Juliett"]
+		"spyNames": ["SS Alfa", "SS Bravo", "SS Charlie", "SS Delta", "SS Echo", "SS Foxtrot", "SS Golf", "SS Hotel", "SS India", "SS Juliett"],
+		"civilopediaText": [
+			{
+				"text": "China's cutthroat business practices and abundant supply of cheap labor made it a world power, but they soon found that the Earth was too small to contain their ambitions. They reached skyward, leading the way to settling the Moon and Mars, and then extending into the outer Solar System. Their accumulated wealth gave them the capital they needed to fund research into robotic labor, helping them to stay competitive as machines outperformed human workers and giving them an edge as they established their presence in the outer Solar System."
+			},
+			{
+				"text": "Now SinoStar, China's leading state-owned space exploration company, has landed on Io, ready to extend the country's silk routes into this inhospitable place."
+			}
+		]
 	},
 	// based on Samsung
 	{
@@ -740,6 +789,60 @@
 		],
         "spyNames": ["K Alfa", "K Bravo", "K Charlie", "K DelK", "K Echo", "K Foxtrot", "K Golf", "K Hotel", "K India", "K Juliett"]
     },
+	// human civilization based on Bay Area Rationalists
+	{
+		"name": "The Bayesian Commune",
+		"leaderName": "Eliezer Bostrom",
+		"adjective": ["Bayesian"],
+
+        "startIntroPart1": "Some people were not content to let robots do the colonizing of the outer Solar System. One fanatical band of transhumanists resolved to compete with the machines on their own turf, enhancing themselves and sending themselves to Io to further the goal of defending humanity from the threat of powerful AI.",
+        "startIntroPart2": "The people of the Bayesian Commune have to deal with the disadvantages of being fleshy humans living on a lifeless landscape, but their determination is legendary and their resourcefulness is unmatched.",
+
+        "declaringWar": "Humanity will triumph!",
+		"attacked": "We will never bow to the mechanical overlords!",
+		"defeated": "We were no match for you after all...",
+		"introduction": "Mind yourselves, machines. We are the Bayesian Commune, and we are here to defend the human interest.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Why are you bothering us?",
+		"tradeRequest": "If you're interested in cooperation, we can work something out.",
+
+        "outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"style": "Human",
+
+		"uniqueName": "Human Primacy",
+		"uniques": [
+			"Human",
+			"[-25]% unhappiness from the number of cities",
+			"[-25]% Unhappiness from [Population] [in all cities]",
+			"Comment [Cannot grow factory population when below [1] [Oxygen]]",
+			"[non-[Air]] units gain the [Organic] promotion"
+		],
+		"cities": [
+			"Bayesian 01",
+			"Bayesian 02",
+			"Bayesian 03",
+			"Bayesian 04",
+			"Bayesian 05",
+			"Bayesian 06",
+			"Bayesian 07",
+			"Bayesian 08",
+			"Bayesian 09",
+			"Bayesian 10",
+			"Bayesian 11",
+			"Bayesian 12",
+			"Bayesian 13",
+			"Bayesian 14",
+			"Bayesian 15",
+			"Bayesian 16",
+			"Bayesian 17",
+			"Bayesian 18",
+			"Bayesian 19",
+			"Bayesian 20"
+		],
+        "spyNames": ["BC Alfa", "BC Bravo", "BC Charlie", "BC DelK", "BC Echo", "BC Foxtrot", "BC Golf", "BC Hotel", "BC India", "BC Juliett"]
+    },
 // City States
 	// software companies
 	{
@@ -879,6 +982,9 @@
 		"civilopediaText": [
 			{
 				"text": "Robots sent to this inhospitable planet frequently malfunction, often causing them to prioritize their own survival over making profits for their company. Be warned, for these malfunctioning machines can spread their dysfunction to your units, causing you to lose control of your robots."
+			},
+			{
+				"text": "Rogue robot factory", "link":"Improvement/Barbarian encampment"
 			}
 		]
 	} 	

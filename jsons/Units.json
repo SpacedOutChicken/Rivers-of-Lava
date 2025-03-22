@@ -10,7 +10,7 @@
 			"Excess Food converted to Production when under construction <hidden from users>",
 			"Comment [Excess Supplies converted to Production when under construction]",
 			"Requires at least [2] population",
-			"Costs [3] [Parts]"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		],
 		"hurryCostModifier": 20
 	},
@@ -25,7 +25,7 @@
 			"Can build [Land] improvements on tiles",
 			"Can build [Lava] improvements on tiles",
 			"Automation is a primary action",
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
 		"cost": 70
 	},
@@ -58,7 +58,26 @@
 			"Automation is a primary action",
 			"Can pass through impassable tiles",
 			"Ignores terrain cost",
-			"Costs [3] [Parts]"
+			"Costs [3] [Parts] <(modified by game speed)>"
+		],
+		"cost": 140
+	},
+	{
+		"name": "Boring Machine",
+		"uniqueTo": "Ex Aerospace",
+		"replaces": "Terraformer",
+		"unitType": "Civilian",
+		"movement": 5,
+		"hurryCostModifier": 20,
+		"requiredTech": "Deep Extraction",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can build [Lava] improvements on tiles",
+			"[-50]% construction time for [All] improvements",
+			"Automation is a primary action",
+			"Can pass through impassable tiles",
+			"Ignores terrain cost",
+			"Costs [3] [Parts] <(modified by game speed)>"
 		],
 		"cost": 140
 	},
@@ -73,10 +92,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Costs [2] [Parts]",
-			"Costs [1] [Parts] <on [Standard] game speed>",
-			"Costs [2] [Parts] <on [Epic] game speed>",
-			"Costs [3] [Parts] <on [Marathon] game speed>"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
 		"civilopediaText": [
 			{
@@ -96,6 +112,7 @@
 		"unitType": "Ranged Drone",
 		"movement": 2,
 		"range": 2,
+		"interceptRange": 2,
 		"strength": 4,
 		"rangedStrength": 5,
 		"cost": 40,
@@ -105,7 +122,7 @@
 		"upgradesTo": "LR Drone Mk I",
 		"attackSound": "shot",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -120,7 +137,27 @@
 		"upgradesTo": "SR Drone Mk II",
 		"attackSound": "metalhit",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Mobile Turret",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 12,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"requiredTech": "Basic Munitions",
+		//"obsoleteTech": "Synthetic Compounds",
+		"upgradesTo": "Railgun",
+		"attackSound": "artillery",
+		"uniques": [
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack"
 		]
 	},
 	{
@@ -134,9 +171,8 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
-			"Never appears as a Barbarian unit",
 			"Consumes [1] [Iron]",
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -145,6 +181,7 @@
 		"unitType": "Ranged Drone",
 		"movement": 2,
 		"range": 2,
+		"interceptRange": 2,
 		"strength": 6,
 		"rangedStrength": 8,
 		"cost": 50,
@@ -154,7 +191,7 @@
 		"obsoleteTech": "Long-Distance Targeting",
 		"attackSound": "shot",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -167,11 +204,11 @@
 		"requiredTech": "Synthetic Compounds",
 		"attackSound": "shot",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
-		"name": "Aerial Drone",
+		"name": "Light Rotorcraft",
 		"unitType": "Melee Hover",
 		"movement": 4,
 		"strength": 10,
@@ -183,9 +220,8 @@
 			"Can move after attacking",
 			"Unable to capture cities",
 			"Consumes [1] [Aluminum]",
-			"Never appears as a Barbarian unit",
 			"May Paradrop up to [5] tiles from inside friendly territory",
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -202,8 +238,7 @@
 		"attackSound": "shot",
 		"uniques": [
 			"Consumes [1] [Aluminum]",
-			"[50]% chance to intercept air attacks",
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -218,8 +253,26 @@
 		"requiredTech": "Long-Distance Targeting",
 		"attackSound": "missile",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		]
+	},
+	{
+		"name": "High-Altitude Defender",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 30,
+		"rangedStrength": 40,
+		"range": 3,
+		"hurryCostModifier": 20,
+		"cost": 60,
+		"requiredTech": "Spaceflight",
+		"attackSound": "missile",
+		"uniques": [
+			"Costs [3] [Parts] <(modified by game speed)>",
+			"Must set up to ranged attack",
+			"[+200]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": ["ASAT", "Launch Platform I", "Interceptor"]
 	},
 	{
 		"name": "LR Drone Mk II",
@@ -228,21 +281,23 @@
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
+		"interceptRange": 2,
 		"hurryCostModifier": 20,
 		"cost": 60,
 		"attackSound": "machinegun",
 		"requiredTech": "Long-Distance Targeting",
 		"uniques": [
-			"Costs [2] [Parts]"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
 		"name": "Railgun",
 		"unitType": "Siege",
-		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 20,
+		"movement": 3,
+		"strength": 35,
+		"rangedStrength": 40,
 		"range": 3,
+		"interceptRange": 3,
 		"hurryCostModifier": 20,
 		"cost": 60,
 		"requiredTech": "High-Temp Superconductors",
@@ -250,10 +305,49 @@
 		"uniques": [
 			"Must set up to ranged attack",
 			"[+200]% Strength <vs cities> <when attacking>",
-			"Never appears as a Barbarian unit",
-			"No defensive terrain bonus",
 			"Consumes [1] [Iron]",
-			"Costs [2] [Parts]"
+			"Costs [3] [Parts] <(modified by game speed)>"
+		]
+	},
+
+	{
+		"name": "Laser Sat",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 10,
+		"interceptRange": 10,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"requiredTech": "High Orbit",
+		"obsoleteTech": "Interplanetary Transit",
+		"upgradesTo": "Flare Sat",
+		"attackSound": "jetgun",
+		"uniques": [
+			"[+150]% Strength <vs [Space] units>",
+			"[+150]% Strength <vs [Missile] units>",
+			"Consumes [1] [Aluminum]",
+			"Costs [5] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Flare Sat",
+		"unitType": "Satellite",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"hurryCostModifier": 20,
+		"cost": 300,
+		"requiredTech": "Interplanetary Transit",
+		"attackSound": "jetgun",
+		"uniques": [
+			"[+150]% Strength <vs [Space] units>",
+			"[+150]% Strength <vs [Missile] units>",
+			"Consumes [1] [Helium-3]",
+			"Costs [5] [Parts] <(modified by game speed)>"
 		]
 	},
 
@@ -273,22 +367,21 @@
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly provides [1] [Rods] <every [10] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
-			"Instantly consumes [1] [Rods] <upon gaining the [Reloading] status>",
+			"Instantly gain [1] [Rods] <every [10] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
+			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
 			"Only available <if [Project Thor] is constructed>",
-			"Can only be built <in cities with a [Launchpad]>",
 			"Damage taken from interception reduced by [50]%",
 			"Cannot be carried by [All] units",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Destroys tile improvements when attacking",
-			"Costs [5] [Parts]",
+			"Costs [10] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]"
 		]
 	},
 	{
-		"name": "Sky Hammer",
+		"name": "Hammer of Dawn",
 		"uniqueTo": "Ex Aerospace",
 		"replaces": "Orbital Bombardment Platform",
 		"unitType": "Space Station",
@@ -304,17 +397,16 @@
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly provides [1] [Rods] <every [8] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
-			"Instantly consumes [1] [Rods] <upon gaining the [Reloading] status>",
+			"Instantly gain [1] [Rods] <every [8] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
+			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
 			"Only available <if [Project Thor] is constructed>",
-			"Can only be built <in cities with a [Launchpad]>",
 			"Damage taken from interception reduced by [50]%",
 			"Cannot be carried by [All] units",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Destroys tile improvements when attacking",
-			"Costs [5] [Parts]",
+			"Costs [10] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]"
 		]
 	},

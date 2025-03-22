@@ -16,7 +16,7 @@
 	{
 		"name": "Recycle I",
 		"uniques": [
-			"Earn [25]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately",
 			"Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>"
 		],
@@ -27,7 +27,7 @@
 		"name": "Recycle II",
 		"prerequisites": ["Recycle I"],
 		"uniques": [
-			"Earn [25]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately"
 		],
 		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],
@@ -199,13 +199,13 @@
 		"name": "Scavenge Parts",
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"Earn [10]% of killed [Wounded] unit's [Strength] as [Parts]",
+			"Earn [25]% of killed [Wounded] unit's [Strength] as [Parts]",
 			"Earn [25]% of the damage done to [City] units as [Parts]"
 		],
 		"unitTypes": ["Armored"]
 	},
 	{
-		"name": "Disruption",
+		"name": "Drone Disruption",
 		"uniques": [
 			"[-15]% Strength for enemy [Drone] units in adjacent [All] tiles"
 		],
@@ -289,6 +289,14 @@
 		"uniques": [
 			"Ignores terrain cost",
 			"Can pass through impassable tiles"
+		]
+	},
+	{
+		"name": "Organic",
+		"uniques": [
+			"Uncapturable",
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status>",
+			"[+15]% maintenance costs"
 		]
 	},
 

@@ -6,8 +6,9 @@
     "weightForCityStateType": {
         "Friendly": 2,
         "Hostile": 0.2,
-        "Logistics": 1.2,
-        "Optimization": 1.5
+        "Resupply": 1.2,
+        "Optimization": 1.5,
+        "Assembly": 1.2
     }
   },
   {
@@ -18,31 +19,35 @@
     "minimumCivs": 1,
       "weightForCityStateType": {
           "Software": 3,
-          "Logistics": 3,
+          "Resupply": 3,
           "Optimization": 3,
-          "Munitions": 9
+          "Munitions": 9,
+          "Assembly": 3
       }
   },
   {
     "name": "Connect Resource",
     "description": "In order to make our companies stronger, connect [tileResource] to your trade network.",
       "weightForCityStateType": {
-          "Logistics": 2,
-          "Optimization": 3
+          "Resupply": 2,
+          "Optimization": 3,
+          "Assembly": 2
       }
   },
   {
     "name": "Construct Wonder",
     "description": "We recommend you to start building [wonder] to show everyone your company's strength.",
       "weightForCityStateType": {
-          "Software": 3
+          "Software": 3,
+          "Assembly": 2
       }
   },
   {
     "name": "Acquire Great Person",
     "description": "Advanced Units can be pivotal in determining a company's success! You will be rewarded for acquiring a new [greatPerson].",
       "weightForCityStateType": {
-          "Software": 3
+          "Software": 3,
+          "Assembly": 1.5
       }
   },
   {
@@ -60,7 +65,7 @@
     "description": "You have yet to discover where [civName] set up their factories. You will be rewarded for finding their territories.",
     "influence": 35,
       "weightForCityStateType": {
-          "Logistics": 3,
+          "Resupply": 3,
           "Optimization": 2
       }
   },
@@ -79,9 +84,10 @@
     "duration": 30,
       "weightForCityStateType": {
           "Software": 3,
-          "Logistics": 3,
+          "Resupply": 3,
           "Optimization": 3.5,
-          "Munitions": 2
+          "Munitions": 2,
+          "Assembly": 3
       }
   },
   {
@@ -91,9 +97,10 @@
     "duration": 30,
       "weightForCityStateType": {
           "Software": 3.5,
-          "Logistics": 3,
+          "Resupply": 3,
           "Optimization": 3,
-          "Munitions": 2
+          "Munitions": 2,
+          "Assembly": 3
       }
   },
   {
@@ -104,9 +111,10 @@
     "minimumCivs": 3,
       "weightForCityStateType": {
           "Software": 2,
-          "Logistics": 0.5,
+          "Resupply": 0.5,
           "Optimization": 0.5,
-          "Munitions": 0.5
+          "Munitions": 0.5,
+          "Assembly": 0.5
       }
   },
   {
@@ -124,7 +132,8 @@
     "duration": 30,
     "minimumCivs": 2,
       "weightForCityStateType": {
-          "Optimization": 1.5
+          "Optimization": 1.5,
+          "Assembly": 1.2
       }
   },
   {
@@ -143,9 +152,10 @@
     "duration": 30,
       "weightForCityStateType": {
           "Software": 1.5,
-          "Logistics": 2,
+          "Resupply": 2,
           "Optimization": 1.5,
-          "Munitions": 1.5
+          "Munitions": 1.5,
+          "Assembly": 2
       }
   }
   /*

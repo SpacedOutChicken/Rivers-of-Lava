@@ -1,5 +1,5 @@
 [
-	{
+    {
 		"name": "Tourist",
 		"baseHappiness": 20,
 		"extraHappinessPerLuxury": 1,
@@ -29,7 +29,7 @@
 		"turnBarbariansCanEnterPlayerTiles": 10000,
 		"clearBarbarianCampReward": 50
 	},
-	{
+    {
 		"name": "Settler",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
@@ -133,7 +133,7 @@
 		"barbarianBonus": 0.33,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
-        "aiDifficultyLevel": "Chieftain",
+        "aiDifficultyLevel": "Prince",
 		"aiCityGrowthModifier": 1,
 		"aiUnitCostModifier": 1,
 		"aiBuildingCostModifier": 1,
@@ -269,7 +269,8 @@
 		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
 	},
-	{
+    {
+
 		"name": "Sandbox",
 		"baseHappiness": 100,
 		"extraHappinessPerLuxury": 1,
