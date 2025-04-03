@@ -29,6 +29,7 @@ Buildings:
 * 3D Printer: [3D Printer](https://thenounproject.com/icon/3d-printer-4466089/) by Peter Lakenbrink
 * Advanced Tactical Simulator: [Virtual Reality](https://thenounproject.com/icon/virtual-reality-18309/) by Ali Riza Saçan
 * Assimilation Protocol: [chip mind](https://thenounproject.com/icon/chip-mind-2975171/) by Grafix Point
+* Atmosphere Scrubber: [air conditioning](https://thenounproject.com/icon/air-conditioning-3798713/) by cataicon
 * Autosampler: [Robotics](https://thenounproject.com/icon/robotics-4548550/) by Wuppdidu
 * Barriers: [Barbed Wire](https://thenounproject.com/icon/barbed-wire-20394/) by Luis Prado
 * Battlefield Management System: [BattleField Management System](https://thenounproject.com/icon/battlefield-management-system-1325277/) by usubaliev
@@ -37,21 +38,27 @@ Buildings:
 * Central Processing Unit: [database](https://thenounproject.com/icon/database-6489393/) by redemption_art
 * Chemical Refinery: [gas plant](https://thenounproject.com/icon/gas-plant-1970746/) by ProSymbols
 * Chips Factory: [weld](https://thenounproject.com/icon/weld-5591151/) by Ardiansyah
-* Cooling Dock: [air conditioning](https://thenounproject.com/icon/air-conditioning-3798713/) by cataicon
+* Combustion Cylinder 1-6: [Piston](https://thenounproject.com/icon/piston-7662374/) by Maz Wan
 * Cyclotron: [press machine](https://thenounproject.com/icon/press-machine-4417467/) by Andre Buand
 * Databank: [Hard Drive](https://thenounproject.com/icon/hard-drive-1014814/) by b farias
+* Decarbonizer: [carbon capture](https://thenounproject.com/icon/carbon-capture-7458892/) by Gendis Studio
+* Decision Support System: [decision](https://thenounproject.com/icon/decision-6419191/) by feri ulan taufiq
 * Deep Tunnels: [Tunnel](https://thenounproject.com/icon/tunnel-7267743/) by Andi Nur Abdillah
 * Distributed Processor: [processor](https://thenounproject.com/icon/processor-3010723/) by Grafix Point
 * Encrypted Channel: [cryptography](https://thenounproject.com/icon/cryptography-4957917/) by M. Oki Orlando
 * Extraction Centrifuge: based on [centrifuge](https://thenounproject.com/icon/centrifuge-6063329/) by okta
 * Field-Repair Nanosystem: [nanotechnology](https://thenounproject.com/icon/nanotechnology-6922682/) by diyah farida
 * Gas Harvester: [Gas Tank](https://thenounproject.com/icon/gas-tank-6333595/) by Arya Icons
+* General Replicator: [nanotechnology](https://thenounproject.com/icon/nanotechnology-6597385/) fahrud
 * Graphene Synthesizer: [Graphene](https://thenounproject.com/icon/graphene-4914973/) by parkjisun
 * Hardware Simulation Lab: [simulation](https://thenounproject.com/icon/simulation-6094543/) by Dan's
 * Inventory Recorder: [inventory](https://thenounproject.com/icon/inventory-6937494/) by Omah Icon
 * IoNet: [planet io](https://thenounproject.com/icon/planet-io-5539058/) by Numeralia Vita Zein
 * Launchpad: [launchpad](https://thenounproject.com/icon/launchpad-4723197/) by Dániel Z. Aczél
+* Life Support System: [life support](https://thenounproject.com/icon/life-support-2610744/) by Phạm Thanh Lộc
+* Parallel Processor: [Parallel](https://thenounproject.com/icon/parallel-7464747/) by Elzicon
 * Parts Recycler: [Reuse](https://thenounproject.com/icon/reuse-6040357/) by afian roc
+* Plume Converter: [Volcano](https://thenounproject.com/icon/volcano-6757021/) by HDM
 * Polymer Synthesizer: [Science](https://thenounproject.com/term/science/1676493/) by Mello
 * Production Analysis Lab: [analysis](https://thenounproject.com/icon/analysis-6600599/) by EX Liberus
 * Project Thor: [Mjolnir](https://thenounproject.com/icon/mjolnir-2069904/) by Avana Vana
@@ -60,7 +67,11 @@ Buildings:
 * Resupply Chain: based on [Box](https://thenounproject.com/icon/box-7398092/) by INA and [Health](https://thenounproject.com/icon/health-7323095/) by Sebastiaan van Veen
 * Seismic Dampening System: [Earthquake](https://thenounproject.com/icon/earthquake-4978226/) by Jake Park
 * Space Elevator: based on [Space Needle](https://thenounproject.com/icon/space-needle-78926/) by Jakob Wells and [twinkle](https://thenounproject.com/icon/twinkle-5353669/) by murmur
+* Synchotron: [accelerator](https://thenounproject.com/icon/accelerator-6472787/) by Tim R
+* Tectonic Harness: [Earthquake](https://thenounproject.com/icon/earthquake-5491249/) by M. Oki Orlando
+* Tensor Processor: [Tensor](https://thenounproject.com/icon/tensor-7742233/) by Rab
 * Tokamak: [torus](https://thenounproject.com/icon/torus-5738177/) by Flowicon
+* Tube Alloys Project: [tubes](https://thenounproject.com/icon/tubes-5089785/) by Alex Burte
 * Waste Reprocessor: [cycle](https://thenounproject.com/icon/cycle-797394/) by ProSymbols
 
 City-states:
@@ -76,9 +87,11 @@ Improvements:
 * Core extractor: based on [drill](https://thenounproject.com/icon/drill-6714374/) by Soni Sokell
 * Create crust: [Hot Surface](https://thenounproject.com/icon/hot-surface-2847706/) by Brad
 * Crust platform: [oil well](https://thenounproject.com/icon/oil-well-2052341/) by Vectors Market
+* Fissure cap: [Fitness](https://thenounproject.com/icon/fitness-6601641/) by Kmg Design
 * Flow tap: [Water Pump](https://thenounproject.com/icon/water-pump-6725957/) by Marz Gallery
 * Heat sink: [cooling fan](https://thenounproject.com/icon/cooling-fan-699662/) by creative outlet
 * Magma extractor: [Pump](https://thenounproject.com/icon/pump-3322096/) by Chintuza
+* Mine: [Mine](https://thenounproject.com/icon/mine-2397509/) by Adrien Coquet
 * Remove Borehole/Rubble/Pyroclasts: [Shovel](https://thenounproject.com/term/shovel/231777/) by Milinda Courey
 * Server: [Server](https://thenounproject.com/icon/server-6514015/) by Liberus
 * Supply drop: [first aid kit](https://thenounproject.com/icon/first-aid-kit-4626994/) by ainul muttaqin
@@ -92,6 +105,7 @@ Nations:
 * Ex Aerospace: [X](https://thenounproject.com/icon/x-2078472/) by rayhan maulana rikzan
 * Kosprom: [Gas](https://thenounproject.com/icon/gas-7573689/) by ARISO
 * Nile Inc: [arrow smile](https://thenounproject.com/icon/arrow-smile-827273/) by Emir Palavan
+* North Wind AI: [Wind](https://thenounproject.com/icon/wind-7390661/) by SUBAIDA
 * PAfSA: [africa](https://thenounproject.com/icon/africa-27173/) by Juan Pablo Bravo
 * SinoStar: [chinese symbol](https://thenounproject.com/icon/chinese-symbol-4114717/) by nakals
 * Tampere Ab: [upper right arrow](https://thenounproject.com/icon/upper-right-arrow-4070849/) by Nick Kinling
@@ -100,6 +114,7 @@ Nations:
 * VATA Group: [Arrow](https://thenounproject.com/icon/arrow-2052627/) by QOLBIN SALIIM
 * Vision Bank: [Flag](https://thenounproject.com/icon/flag-5335438/) by Michael Dingle
 * Waltham Dynamics: [robo dog](https://thenounproject.com/icon/robo-dog-3557037/) by Gregor Cresnar
+* Wildcatters: [Paw Print](https://thenounproject.com/icon/paw-print-1689/) by Marco Micheli
 
 Policies:
 * Open Source Code: [open source](https://thenounproject.com/icon/open-source-5342613/) by Meko
@@ -120,6 +135,7 @@ Promotions:
 * Lava Skipper: [Volcano](https://thenounproject.com/icon/volcano-5215832/) by UNKNOWN
 * Rad Shielding: [nuclear protection](https://thenounproject.com/icon/nuclear-protection-4486779/) by Delwar Hossain
 * Reloading: [hourglass](https://thenounproject.com/icon/hourglass-142268/) by I Create Stuff
+* Sampling: [exploration](https://thenounproject.com/icon/exploration-5615544/) by Blangcon
 * Scavenge Parts: [trash](https://thenounproject.com/icon/trash-7170853/) by Uswa KDT
 * Scorched Earth: [skill magic fireball](https://thenounproject.com/icon/skill-magic-fireball-2360162/) by Maxicons
 * Stealth: [stealth](https://thenounproject.com/icon/stealth-1332258/) by Владимир Козачок
@@ -128,8 +144,10 @@ Promotions:
 Resources:
 * Alkali: [alkaline](https://thenounproject.com/icon/alkaline-4105711/) by JuliAya
 * Calcium: [Tooth](https://thenounproject.com/icon/tooth-2507705/) by Round Icons
+* Cloud Storage: [Cloud](https://thenounproject.com/icon/cloud-3513222/) by BackFake
 * Helium-3: [helium](https://thenounproject.com/icon/helium-4838184/) by ARIS ARISA
 * Magnesium: [Magnesium](https://thenounproject.com/icon/magnesium-1719836/) by Avana Vana
+* Manganese: [cube](https://thenounproject.com/icon/cube-6986099/) by Agung Pamuji
 * Obsidian: [Crystal](https://thenounproject.com/icon/crystal-48884/) by MarkieAnn Packer
 * Parts: [Puzzle](https://thenounproject.com/icon/puzzle-3303523/) by Dmitry Vasiliev
 * Quartz: [Crystal](https://thenounproject.com/icon/crystal-886709/) by Bakunetsu Kaito
@@ -177,17 +195,25 @@ Techs:
 
 Units:
 * Anti-Labor Drone: [Wrench](https://thenounproject.com/icon/wrench-2908/) by P.J. Onori
+* Autocannon Drone: [CANON](https://thenounproject.com/icon/canon-4782886/) by ratacon studio
+* Colonizer: [Moon Rover](https://thenounproject.com/icon/moon-rover-3133595/) by The Icon Z
 * Flare Sat: [space station](https://thenounproject.com/icon/space-station-5198511/) by M. Oki Orlando
 * High-Altitude Defender: [missile defense](https://thenounproject.com/icon/missile-defense-4727948/) by Eliricon
+* Infiltration Rover: [Mars Rover](https://thenounproject.com/icon/mars-rover-3907771/) by Minh Do
 * Light Flyer: [Drone](https://thenounproject.com/icon/drone-377514/) by afrolabs
 * LR Drone Mk II: [Flamer](https://thenounproject.com/icon/flamer-119326/) by Robert Bjurshagen
 * Memory Unit: [Cassette](https://thenounproject.com/icon/cassette-6711533/) by Wahyu Adam
 * Mobile Constructor: [assembly](https://thenounproject.com/icon/assembly-3934103/) by Manglayang studio
 * Mobile Turret: [Artillery](https://thenounproject.com/icon/artillery-7224197/) by iconcheese
 * Negotiations Unit: [Handshake](https://thenounproject.com/icon/handshake-2645886/) by emkamal kamaluddin
+* Plasma Cutter Drone: [Flame](https://thenounproject.com/icon/flame-7442025/) by Michael Appleford
+* Predator Drone: [Chainsaw](https://thenounproject.com/icon/chainsaw-7244490/) by 
 * Programming Unit: [File](https://thenounproject.com/icon/file-1167437/) by Astonish
 * Railgun: [Tank](https://thenounproject.com/icon/tank-1162891/) by Lluisa Iborra
+* Scouting Rover: [rover](https://thenounproject.com/icon/rover-4026902/) by Zaenal Abidin
 * SR Drone Mk II: [Boltpistol](https://thenounproject.com/icon/boltpistol-119315/) by Robert Bjurshagen
+* Stinger Rotorcraft: [Drone](https://thenounproject.com/icon/drone-7621596/) by Ervan Febriyantor
+* Superpredator Drone: [Bazooka](https://thenounproject.com/icon/bazooka-6741882/) by Icons Cart
 * Terraformer: [Excavator](https://thenounproject.com/icon/excavator-79114/) by Jens Tärning
 
 Other:

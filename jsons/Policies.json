@@ -11,8 +11,7 @@
         },*/
         "uniques": [
             "[+3 Culture] [in capital]",
-            "Receive a tech boost when scientific buildings/wonders are built in capital <hidden from users>",
-			"Comment [Receive a tech boost when scientific buildings/projects are built in founding factory]"
+            "Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
         "policies": [
             {
@@ -46,8 +45,7 @@
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]",
-					"[-50]% Gold cost of acquiring tiles [in all cities] <hidden from users>",
-					"Comment [[-50]% Data cost of acquiring tiles in all factories]"
+					"[-50]% Gold cost of acquiring tiles [in all cities]"
                 ],
                 "requires": ["Development"],
                 "row": 2,
@@ -114,8 +112,7 @@
                 "name": "Swarm Management",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age <hidden from users>",
-					"Comment [Company enters high efficiency period]"
+                    "Empire enters golden age"
                 ],
                 "requires": ["Land Development"],
                 "row": 2,
@@ -134,10 +131,8 @@
             {
                 "name": "Distribution Complete",
                 "uniques": [
-					"Free Great Person <hidden from users>",
-					"Comment [Free Advanced Unit]",
-					"[+25]% Great Person generation [in all cities connected to capital] <hidden from users>",
-					"Comment [[+25]% Advanced Unit generation in all factories connected to founding factory]"
+					"Free Great Person",
+					"[+25]% Great Person generation [in all cities connected to capital]"
 				]
             }
         ]
@@ -153,23 +148,14 @@
 			"Scientific": 10
         	},*/
 		"uniques": [
-			"Gain [10] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Exploring era]> <hidden from users>",
-			"Gain [35] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Expanding era]> <hidden from users>",
-			"Gain [90] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Exploiting era]> <hidden from users>",
-            "Gain [260] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Exterminating era]> <hidden from users>",
-            "Gain [530] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Experiencing era]> <hidden from users>",
-            "Gain [1050] [Science] <(modified by game speed)> <upon discovering a Natural Wonder> <during the [Excelling era]> <hidden from users>",
-			"Comment [Gain a science boost upon discovering a Natural Wonder]",
-			"[+1 Happiness] for every known Natural Wonder",
-			"[+100]% Yield from every [Natural Wonder]"
+			"[+33]% Strength <vs [Barbarian] units>",
+            "Earn [50]% of killed [Barbarian] unit's [Strength] as [Culture]"
 		],
 		"policies": [
 			{
-				"name": "Pacification",
+				"name": "Field Research",
 				"uniques": [
-					"[+33]% Strength <vs [Barbarian] units>",
-            		"Earn [50]% of killed [Barbarian] unit's [Strength] as [Science]",
-            		"Notified of new Barbarian encampments"
+					"[{non-[Air]} {Military}] units gain the [Sampling] promotion"
 				],
 				"row": 1,
 				"column": 1
@@ -244,8 +230,7 @@
 			{
 				"name": "Retrofitting",
 				"uniques": [
-					"[-33]% Gold cost of upgrading <for [Military] units> <hidden from users>",
-					"Comment [[-33]% Data cost of upgrading for [Military] units]",
+					"[-33]% Gold cost of upgrading <for [Military] units>",
 					"[+1 Happiness] from every [Turrets]",
 					"[+1 Happiness] from every [Barriers]"
 				],
@@ -272,19 +257,15 @@
         "name": "Coordination",
         "era": "Exploring era",
         "uniques": [
-			"City-State territory always counts as friendly territory <hidden from users>",
-			"Comment [LLC territory always counts as friendly territory]",
-			"City-State Influence recovers at twice the normal rate <hidden from users>",
-			"Comment [LLC Influence recovers at twice the normal rate]"
+			"City-State territory always counts as friendly territory",
+			"City-State Influence recovers at twice the normal rate"
 		],
         "policies": [
             {
                 "name": "Civility",
                 "uniques": [
-					"[-25]% City-State Influence degradation <hidden from users>",
-					"Comment [[-25]% LLC Influence degradation]",
-                    "Resting point for Influence with City-States is increased by [20] <hidden from users>",
-					"Comment [Resting point for Influence with LLCs is increased by [20]]"
+					"[-25]% City-State Influence degradation",
+                    "Resting point for Influence with City-States is increased by [20]"
                 ],
                 "row": 1,
                 "column": 2
@@ -292,8 +273,7 @@
             {
                 "name": "Reciprocity",
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People <hidden from users>",
-					"Comment [Allied LLCs will occasionally gift Advanced Units]"
+                    "Allied City-States will occasionally gift Great People"
                 ],
                 "row": 1,
                 "column": 4
@@ -301,8 +281,7 @@
             {
                 "name": "Open Source Code",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves <hidden from users>",
-					"Comment [Allied LLCs provide [Science] equal to [25]% of what they produce for themselves]"
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
                 ],
                 "requires": ["Civility"],
                 "row": 2,
@@ -311,10 +290,8 @@
             {
                 "name": "Post-Scarcity",
                 "uniques": [
-                    "[+100]% resources gifted by City-States <hidden from users>",
-					"Comment [[+100]% resources gifted by LLCs]",
-                    "[+50]% Happiness from luxury resources gifted by City-States <hidden from users>",
-					"Comment [[+50]% Efficiency from optimizing resources gifted by LLCs]"
+                    "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
                 "requires": ["Open Source Code"],
                 "row": 3,
@@ -324,8 +301,7 @@
                 "name": "Common Defense",
                 "requires": ["Open Source Code", "Reciprocity"],
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation <hidden from users>",
-					"Comment [Munitions LLCs grant units [2] times as fast when you are at war with a common company]"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "row": 3,
                 "column": 4
@@ -333,16 +309,16 @@
             {
                 "name": "Coordination Complete",
 				"uniques": [
-					"Influence of all other civilizations with all city-states degrades [33]% faster <hidden from users>",
-					"Comment [Influence of all other companies with all LLCs degrades [33]% faster]",
-                    "Triggers the following global alert: [Our influence with LLCs has started dropping faster!]"
+					"Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with LLCs has started dropping faster!]",
+                    "[+50]% spy effectiveness [in City-State cities]"
 				]
             }
         ]
     },
     {
         "name": "Cooperation",
-        "era": "Exploring era",
+        "era": "Exploiting era",
         /*"priorities": {
             "Neutral": 50,
             "Cultural": 50,
@@ -351,14 +327,16 @@
             "Scientific": 50
         },*/
         "uniques": [
-            "When declaring friendship, both parties gain a [10]% boost to great person generation"
+            "When declaring friendship, both parties gain a [10]% boost to great person generation",
+            "Only available <before adopting [Domination]>"
         ],
         "policies": [
             {
                 "name": "Alliance",
                 "uniques": [
-                    "Gain [10] [Culture] <(modified by game speed)> <upon declaring friendship>",
-                    "Gain [25] [Culture] <(modified by game speed)> <upon declaring a defensive pact>"
+                    "Gain [10]-[20] [Culture] <(modified by game speed)> <upon declaring friendship>",
+                    "Gain [25]-[50] [Culture] <(modified by game speed)> <upon declaring a defensive pact>",
+                    "Gain an extra spy"
                 ],
                 "row": 1,
                 "column": 1
@@ -401,8 +379,83 @@
             {
                 "name": "Cooperation Complete",
                 "uniques": [
-                    "[+100]% Yield from every [Great Improvement]",
-                    "[+50]% Golden Age length"
+                    "[+25]% spy effectiveness [in all cities]",
+                    "[-10]% Culture cost of adopting new Policies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Domination",
+        "era": "Exploiting era",
+        /*"priorities": {
+            "Neutral": 50,
+            "Cultural": 50,
+            "Diplomatic": 50,
+            "Domination": 40,
+            "Scientific": 50
+        },*/
+        "uniques": [
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Only available <before adopting [Cooperation]>"
+        ],
+        "policies": [
+            {
+                "name": "Salt the Earth",
+                "uniques": [
+                    "[+100]% Yield from pillaging tiles",
+                    "[+50]% Health from pillaging tiles",
+                    "No movement cost to pillage",
+                    "Cities are razed [3] times as fast"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Subjugation",
+                "uniques": [
+                    "[+3 Happiness] from every [Assimilation Protocol]",
+                    "[+100]% Production when constructing [Assimilation Protocol] buildings [in all cities]",
+                    "[-25]% enemy spy effectiveness [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Corporate Raiders",
+                "uniques": [
+                    "[{non-[Air]} {Military}] units gain the [Profiteering] promotion",
+                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Wartime Production",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]"
+                ],
+                "requires": ["Subjugation"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Tactical Leadership",
+                "uniques": [
+                    "[Tactical Unit] is earned [25]% faster",
+                    "[+2] Movement <for [Tactical Unit] units>",
+                    "[+15]% Strength <vs cities>"
+                ],
+                "requires": ["Corporate Raiders"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Domination Complete",
+                "uniques": [
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]",
+                    "Empire enters golden age <upon conquering a city>"
                 ]
             }
         ]

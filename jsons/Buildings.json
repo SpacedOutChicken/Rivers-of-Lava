@@ -10,13 +10,39 @@
         "cityStrength": 2,
         "cost": 1,
         "uniques": [
-            "Indicates the capital city <hidden from users>", "Comment [Indicates the founding factory]",
-            "Provides [2] [Power] <in [All] cities>",
+            "Indicates the capital city",
             "Provides [2] [Power] <in cities connected to the capital>",
             "Provides [1] [Weight]",
             "Provides [1] [Parts]"
         ],
         "civilopediaText": [{ "text": "Our first factory comes equipped with powerful facilities sent directly from Earth, providing our other factories with power, building material, and critical data." }]
+    },
+    {
+        "name": "Power Plant",
+        "production": 1,
+        "uniques": [
+            "Provides [2] [Power] <in this city>",
+            "Provides [1] [Weight]",
+            "Automatically built in all cities where it is buildable",
+            "Unsellable",
+            "Never destroyed when the city is captured"
+        ],
+        "cost": 1
+    },
+    {
+        "name": "Life Support System",
+        "uniqueTo": "Human",
+        "replaces": "Power Plant",
+        "cost": 1,
+        "food": 1,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Weight]",
+            "Provides [2] [Power] <in this city>",
+            "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>"
+        ]
     },
 
     {
@@ -29,8 +55,7 @@
         "uniques": [
             "Provides [1] [Parts]",
             "Provides [1] [Power] <in this city>",
-            "Destroyed when the city is captured <hidden from users>",
-            "Comment [Destroyed when the factory is captured]"
+            "Destroyed when the city is captured"
         ],
         "requiredTech": "Reinforcements from Home"
     },
@@ -41,9 +66,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
         "uniques": [
-            "Remove extra unhappiness from annexed cities <hidden from users>", "Comment [Remove extra inefficiency from annexed factories]",
-            "Can only be built <in [Annexed] cities> <hidden from users>", "Comment [Can only be built in annexed factories]",
-			"Destroyed when the city is captured <hidden from users>", "Comment [Destroyed when the factory is captured]",
+            "Remove extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>",
+			"Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Costs [2] [Parts] <(modified by game speed)>"
@@ -55,12 +80,13 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 25,
+        "specialistSlots": {"Compiler": 1},
 		"maintenance": 1,
 		"uniques": [
-            "Destroyed when the city is captured <hidden from users>", "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ]
 	},
     {
@@ -71,7 +97,7 @@
             "[+1 Food] from [{improved} {Bonus resource}] tiles [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Costs [2] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Raw Materials"
     },
@@ -79,11 +105,12 @@
 		"name": "Automated Lab",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+        "specialistSlots": {"Tester": 1},
 		"uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Prototyping"
 	},
@@ -93,13 +120,14 @@
         "replaces": "Automated Lab",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+        "specialistSlots": {"Tester": 1},
         "happiness": 1,
 		"uniques": [
             "[+1 Science] per [2] population [in this city]",
             "[+15]% [Production] [in this city] <during We Love The King Day>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Prototyping"
 	},
@@ -110,7 +138,7 @@
         "maintenance": 1,
         "requiredTech": "Basic Munitions",
         "uniques": [
-            "Destroyed when the city is captured <hidden from users>", "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "[+10]% Strength for cities <in this city> <when attacking>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
@@ -137,10 +165,9 @@
         "cityStrength": 1,
         "cityHealth": 100,
         "uniques": [
-            "Destroyed when the city is captured <hidden from users>",
-            "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Smelting"
     },
@@ -152,24 +179,33 @@
         "cityStrength": 1,
         "cityHealth": 100,
         "uniques": [
-            "Destroyed when the city is captured <hidden from users>",
-            "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "[+25]% Strength for cities <in this city> <when defending>",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Smelting"
+    },
+    {
+        "name": "Parallel Processor",
+        "happiness": 2,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "requiredTech": "Dynamic Programming",
+        "uniques": [
+            "Costs [3] [Parts] <(modified by game speed)>",
+            "Consumes [1] [Power]"
+        ]
     },
     {
         "name": "Tactical Simulator",
         "hurryCostModifier": 25,
         "uniques": [
             "New [Military] units start with [10] XP [in this city]", 
-            "Destroyed when the city is captured <hidden from users>", 
-            "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Decision Theory",
         "maintenance": 1
@@ -184,45 +220,24 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
-        "requiredTech": "Recycling"
+        "requiredTech": "Recycling",
+        "requiredBuilding": "Chemical Refinery"
     },
     {
         "name": "Inventory Recorder",
         "hurryCostModifier": 25,
         "gold": 2,
+        "specialistSlots": {"Recorder": 1},
+        "percentStatBonus": {"gold": 25},
         "uniques": [
             "[+1 Gold] from [{improved} {resource}] tiles [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
-        ],
-        "requiredTech": "Blockchain Accounting"
-    },
-    {
-        "name": "Cooling Dock",
-        "hurryCostModifier": 25,
-        "production": 1,
-        "uniques": [
-            "[+1 Production] from [Fresh water] tiles [in this city]",
-            "Provides [2] [Power] <in this city>",
-            "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
-        ],
-        "requiredTech": "Heat Shields"
-    },
-    {
-        "name": "Power Plant",
-        "hurryCostModifier": 25,
-        "production": 1,
-        "uniques": [
-            "Provides [5] [Power] <in this city>",
-            "Provides [1] [Weight]",
             "Costs [2] [Parts] <(modified by game speed)>"
         ],
-        "requiredTech": "Chemical Engineering",
-        "maintenance": 1
+        "requiredTech": "Blockchain Accounting"
     },
     {
 		"name": "Databank",
@@ -246,8 +261,7 @@
         "culture": 1,
         "cost": 125,
         "uniques": [
-            "[All] Units adjacent to this city heal [+15] HP per turn when healing <hidden from users>",
-            "Comment [All units adjacent to our factories heal [+15] HP when healing]",
+            "[All] Units adjacent to this city heal [+15] HP per turn when healing",
             "[+5] HP when healing <in [Friendly Land] tiles>",
             "Cost increases by [30] per owned city",
             "Consumes [1] [Power]",
@@ -260,6 +274,126 @@
     },
 
     {
+        "name": "Plume Converter",
+        "production": 1,
+        "science": 2,
+        "uniques": [
+            "Must have an owned [Mantle plume] within [3] tiles",
+            "[+2 Production, +4 Science, +1 Gold] from [Mantle plume] tiles [in this city]",
+            "Provides [2] [Power] <in this city>",
+            "Costs [3] [Parts] <(modified by game speed)>",
+            "Provides [1] [Weight]"
+        ],
+        "requiredTech": "Geophysics",
+        "maintenance": 1
+    },
+    {
+        "name": "Combustion Cylinder 1",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Costs [3] [Parts] <(modified by game speed)>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>"
+        ],
+        "requiredTech": "Geophysics",
+        "maintenance": 1,
+        "civilopediaText": [
+            {
+                "text": "This structure can expand to up to six levels, generating electricity by reacting oxygen with local volatile elements."
+            }
+        ]
+    },
+    {
+        "name": "Combustion Cylinder 2",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Automatically built in all cities where it is buildable",
+            "Will not be displayed in Civilopedia"
+        ],
+        "requiredTech": "Geophysics",
+        "requiredBuilding": "Combustion Cylinder 1",
+        "cost": 1
+    },
+    {
+        "name": "Combustion Cylinder 3",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Automatically built in all cities where it is buildable",
+            "Will not be displayed in Civilopedia"
+        ],
+        "requiredTech": "Geophysics",
+        "requiredBuilding": "Combustion Cylinder 2",
+        "cost": 1
+    },
+    {
+        "name": "Combustion Cylinder 4",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Automatically built in all cities where it is buildable",
+            "Will not be displayed in Civilopedia"
+        ],
+        "requiredTech": "Geophysics",
+        "requiredBuilding": "Combustion Cylinder 3",
+        "cost": 1
+    },
+    {
+        "name": "Combustion Cylinder 5",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Automatically built in all cities where it is buildable",
+            "Will not be displayed in Civilopedia"
+        ],
+        "requiredTech": "Geophysics",
+        "requiredBuilding": "Combustion Cylinder 4",
+        "cost": 1
+    },
+    {
+        "name": "Combustion Cylinder 6",
+        "production": 1,
+        "uniques": [
+            "Consumes [1] [Oxygen]",
+            "Provides [1] [Power] <in this city>",
+            "Only available <with [Oxygen]>",
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Automatically built in all cities where it is buildable",
+            "Will not be displayed in Civilopedia"
+        ],
+        "requiredTech": "Geophysics",
+        "requiredBuilding": "Combustion Cylinder 5",
+        "cost": 1
+    },
+    {
+        "name": "Atmosphere Scrubber",
+        "food": 1,
+        "uniqueTo": "Human",
+        "requiredTech": "Geophysics",
+        "uniques": [
+            "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
+            "Limited to [0] per Civilization <for [non-[Human]] Civilizations>",
+            "Costs [3] [Parts] <(modified by game speed)>",
+            "Consumes [1] [Power]"
+        ],
+        "maintenance": 1
+    },
+    {
         "name": "Parts Recycler",
         "hurryCostModifier": 25,
         "food": 2,
@@ -268,10 +402,43 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
-        "requiredBuilding": "Chemical Refinery",
+        "requiredBuilding": "Waste Reprocessor",
+        "maintenance": 1
+    },
+    {
+        "name": "Decarbonizer",
+        "uniqueTo": "Human",
+        "replaces": "Parts Recycler",
+        "hurryCostModifier": 25,
+        "food": 2,
+        "uniques": [
+            "[-50]% Food consumption by specialists [in this city]",
+            "Comment [[-50]% [Oxygen] consumption by specialists in this factory]",
+            "Provides [1] [Oxygen] <in cities with at least [2] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [4] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [6] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [8] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [10] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [12] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [14] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [16] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [18] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [20] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [22] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [24] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [26] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [28] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in cities with at least [30] [Specialists]> <hidden from users>",
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]",
+            "Consumes [1] [Parts]",
+			"Costs [3] [Parts] <(modified by game speed)>"
+        ],
+        "requiredTech": "Synthetic Compounds",
+        "requiredBuilding": "Waste Reprocessor",
         "maintenance": 1
     },
     {
@@ -280,10 +447,10 @@
         "culture": 3,
         "specialistSlots": {"Compiler": 1},
         "uniques": [
-            "Destroyed when the city is captured <hidden from users>", "Comment [Destroyed when the factory is captured]",
+            "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [3] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Distributed Processor",
         "requiredTech": "Precision Machining",
@@ -301,7 +468,7 @@
             "Only available <if [Distributed Processor] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Precision Machining"
     },
@@ -309,14 +476,16 @@
     {
         "name": "Polymer Synthesizer",
         "hurryCostModifier": 25,
-        "happiness": 2,
+        "happiness": 3,
         "uniques": [
             "[+1 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
             "Consumes [1] [Power]",
+            "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [3] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
+        "requiredBuilding": "Parallel Processor",
         "maintenance": 1
     },
     {
@@ -324,27 +493,28 @@
         "uniqueTo": "UAPEC",
         "replaces": "Polymer Synthesizer",
         "hurryCostModifier": 25,
-        "happiness": 2,
+        "happiness": 3,
         "uniques": [
             "[+1 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
-            "Provides 1 extra copy of each improved luxury resource near this City <hidden from users>",
-            "Comment [Provides 1 extra copy of each improved optimizing resource near this Factory]",
+            "Provides 1 extra copy of each improved luxury resource near this City",
             "Consumes [1] [Power]",
+            "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [3] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
+        "requiredBuilding": "Parallel Processor",
         "maintenance": 1
     },
     {
         "name": "Hardware Simulation Lab",
         "hurryCostModifier": 25,
         "percentStatBonus": {"science": 33},
-        "specialistSlots": {"Tester": 1},
+        "specialistSlots": {"Tester": 2},
         "uniques": [
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [3] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Automated Lab",
         "requiredTech": "Iterative Design",
@@ -362,7 +532,7 @@
             "[+25]% Great Person generation [in this city]",
             "Cost increases by [30] per owned city",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Iterative Design"
 	},
@@ -378,23 +548,9 @@
             "Damage to garrison from nuclear attacks [-25]% [in this city]",
             "Must be on [Mountain Tunnel]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [4] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Deep Extraction"
-    },
-    {
-        "name": "Regenerator",
-        "hurryCostModifier": 25,
-        "food": 1,
-        "uniques": [
-            "Consumes [1] [Power]",
-            "[+1 Food] from [Heat sink] tiles [in this city]",
-            "Provides [1] [Weight]",
-            "Consumes [1] [Parts]",
-			"Costs [2] [Parts] <(modified by game speed)>"
-        ],
-        "maintenance": 2,
-        "requiredTech": "Crystallography"
     },
     {
         "name": "Advanced Tactical Simulator",
@@ -404,7 +560,7 @@
             "Consumes [1] [Power]",
             "New [Military] units start with [20] XP [in this city]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [4] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Neural Networks",
         "requiredBuilding": "Tactical Simulator"
@@ -420,7 +576,7 @@
             "Cost increases by [30] per owned city",
             "All newly-trained [{Military} {non-[Space Station]} {non-[Missile]}] units [in this city] receive the [Continuous Update] promotion",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Neural Networks"
     },
@@ -429,12 +585,12 @@
         "name": "Bunker",
         "hurryCostModifier": 25,
         "production": 1,
-        "cityHealth": 10,
+        "cityHealth": 25,
         "uniques": [
             "Population loss from nuclear attacks [-25]% [in this city]",
             "Damage to garrison from nuclear attacks [-25]% [in this city]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredTech": "Planetary Engineering"
@@ -485,18 +641,18 @@
         "requiredTech": "Distributed Assembly"
     },
     {
-        "name": "Tokamak",
-        "isNationalWonder": true,
-        "production": 1,
-        "culture": 1,
+        "name": "Regenerator",
+        "hurryCostModifier": 25,
+        "food": 2,
         "uniques": [
-            "Provides [1] [Power] <in [All] cities>",
-            "Provides [1] [Power] <in cities connected to the capital>",
+            "Consumes [1] [Power]",
+            "[25]% Food is carried over after population increases [in this city]",
             "Provides [1] [Weight]",
-            "Only available <in [Capital] cities>",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Consumes [1] [Parts]",
+			"Costs [4] [Parts] <(modified by game speed)>"
         ],
-        "requiredTech": "High-Temp Superconductors"
+        "maintenance": 2,
+        "requiredTech": "Crystallography"
     },
 
     {
@@ -509,10 +665,11 @@
             "Provides [2] [Power] <in [non-[Puppeted]] cities>",
             "Comment [Reduces impact of earthquakes]",
             "Provides [1] [Weight]",
-            "Costs [1] [Parts] <(modified by game speed)>"
+            "Costs [25] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Mantle Mining"
     },
+
     {
         "name": "Nuclear Plant",
         "hurryCostModifier": 25,
@@ -521,11 +678,39 @@
             "Consumes [1] [Actinides]",
             "Provides [5] [Power] <in this city>",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Only available <in cities without a [Cyclotron]>"
         ],
         "requiredTech": "Atomic Synthesis",
         "maintenance": 3
     },
+    {
+        "name": "Cyclotron",
+        "hurryCostModifier": 25,
+        "production": 1,
+        "uniques": [
+            "Provides [1] [Actinides]",
+            "Consumes [2] [Power]",
+            "Consumes [1] [Parts]",
+            "Provides [1] [Weight]",
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Only available <in cities without a [Nuclear Plant]>"
+        ],
+        "requiredTech": "Atomic Synthesis",
+        "maintenance": 3
+    },
+
+    {
+        "name": "Tube Alloys Project",
+        "isNationalWonder": true,
+        "uniques": [
+            "Enables nuclear weapon",
+            "Triggers a global alert upon completion",
+            "Costs [50] [Parts] <(modified by game speed)>"
+        ],
+        "requiredTech": "Atomic Synthesis"
+    },
+
     {
         "name": "Launchpad",
         "hurryCostModifier": 25,
@@ -533,81 +718,13 @@
         "percentStatBonus": { "production": 5 },
         "uniques": [
             "Consumes [1] [Power]",
-            "Costs [2] [Parts] <(modified by game speed)>",
+            "Costs [5] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "[+15]% Production when constructing [Air] units [in this city]",
             "Comment [Enables construction of [Space] units in this city]"
         ],
         "requiredTech": "Spaceflight",
         "maintenance": 3
-    },
-    {
-        "name": "Encrypted Channel",
-        "hurryCostModifier": 25,
-        "uniques": [
-            "Only available <when espionage is enabled>",
-            "[-25]% enemy spy effectiveness [in this city]",
-            "Costs [3] [Parts] <(modified by game speed)>",
-            "Provides [1] [Weight]",
-            "Consumes [1] [Power]"
-        ],
-        "requiredTech": "Fuzzy Logic",
-        "maintenance": 3
-    },
-    
-    {
-        "name": "IoNet",
-        "isWonder": true,
-        "culture": 3,
-        "gold": 1,
-        "uniques": [
-            "Triggers voting for the Diplomatic Victory",
-            "Only available <when [Diplomatic] Victory is enabled>",
-            "Hidden until [4] social policy branches have been completed",
-            "Triggers a global alert upon build start",
-            "Triggers a global alert upon completion",
-            "Costs [3] [Parts] <(modified by game speed)>",
-            "Consumes [1] [Power]",
-            "Provides [1] [Weight]"
-        ],
-        "requiredTech": "Cybernetics",
-        "greatPersonPoints": {"Memory Unit": 2, "Programming Unit": 2}
-    },
-
-    {
-        "name": "Gas Harvester",
-        "hurryCostModifier": 25,
-        "production": 1,
-        "uniques": [
-            "Provides [1] [Helium-3]",
-            "Costs [3] [Parts] <(modified by game speed)>",
-            "Consumes [1] [Power]",
-            "Provides [1] [Weight]",
-            "Limited to [5] per Civilization"
-        ],
-        "requiredTech": "Jovian Extraction",
-        "requiredBuilding": "Launchpad",
-        "maintenance": 3
-    },
-
-    // consider moving this one later
-    {
-        "name": "Project Thor",
-        "isNationalWonder": true,
-        "culture": 1,
-        "science": 1,
-        "uniques": [
-            "Consumes [1] [Power]",
-            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [20] [Rods]>",
-            "Comment [Enables construction of [Space Station] units]",
-            "[+15]% Production when constructing [Space] units [in this city]",
-            "Provides [2] [Weight]",
-            "Triggers a global alert upon completion",
-            "Costs [2] [Parts] <(modified by game speed)>",
-            "Gain a free [Launchpad] [in this city]"
-        ],
-        "requiredTech": "High Orbit",
-        "civilopediaText": [{ "text": "This project enables the construction and maintenance of deadly orbital installations, capable of firing devasting shots to virtually any location on Io." }]
     },
 
     {
@@ -619,31 +736,189 @@
         "uniques": [
             "Consumes [2] [Power]",
             "Provides [2] [Weight]",
-            "Costs [10] [Parts]",
+            "Costs [100] [Parts] <(modified by game speed)>",
             "[+10]% Production when constructing [Space] units [in all cities]",
             "Gain a free [Launchpad] [in all cities]",
             "Only available <after discovering [Metamaterials]>"
         ],
         "greatPersonPoints": {"Construction Unit": 1},
-        "requiredTech": "High Orbit",
+        "requiredTech": "Spaceflight",
         "quote": "This towering structure allows for cheap and rapid deployment of satellites, giving a notable advantage to the company that constructs it.",
 		"civilopediaText": [{ "text": "This towering structure allows for cheap and rapid deployment of satellites, giving a notable advantage to the company that constructs it." }]
     },
 
     {
+        "name": "Encrypted Channel",
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Only available <when espionage is enabled>",
+            "[-25]% enemy spy effectiveness [in this city]",
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Provides [1] [Weight]",
+            "Consumes [1] [Power]"
+        ],
+        "requiredTech": "Fuzzy Logic",
+        "maintenance": 3
+    },
+    {
+        "name": "Tensor Processor",
+        "hurryCostModifier": 25,
+        "culture": 4,
+        "specialistSlots": {"Compiler": 2},
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]",
+            "Costs [5] [Parts] <(modified by game speed)>"
+        ],
+        "requiredBuilding": "Deep Learning Processor",
+        "requiredTech": "Fuzzy Logic",
+        "maintenance": 3
+    },
+
+    {
+        "name": "Project Thor",
+        "isNationalWonder": true,
+        "culture": 1,
+        "science": 1,
+        "uniques": [
+            "Consumes [1] [Power]",
+            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [10] [Rods]>",
+            "Comment [Enables construction of [Space Station] units]",
+            "[+15]% Production when constructing [Space] units [in this city]",
+            "Provides [2] [Weight]",
+            "Triggers a global alert upon completion",
+            "Costs [100] [Parts] <(modified by game speed)>",
+            "Gain a free [Launchpad] [in this city]"
+        ],
+        "requiredTech": "High Orbit",
+        "civilopediaText": [{ "text": "This project enables the construction and maintenance of deadly orbital installations, capable of firing devasting shots to virtually any location on Io." }]
+    },
+
+    {
+        "name": "Decision Support System",
+        "hurryCostModifier": 25,
+        "happiness": 4,
+        "uniques": [
+            "Consumes [2] [Power]",
+            "Provides [1] [Weight]",
+            "Costs [5] [Parts] <(modified by game speed)>"
+        ],
+        "requiredTech": "Cybernetics",
+        "requiredBuilding": "Polymer Synthesizer",
+        "maintenance": 3
+    },
+    {
+        "name": "IoNet",
+        "isWonder": true,
+        "culture": 3,
+        "gold": 1,
+        "uniques": [
+            "Triggers voting for the Diplomatic Victory",
+            "Only available <when [Diplomatic] Victory is enabled>",
+            "Unavailable <when number of [Completed Policy branches] is less than [3]>",
+            "Triggers a global alert upon build start",
+            "Triggers a global alert upon completion",
+            "Costs [100] [Parts] <(modified by game speed)>",
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]"
+        ],
+        "requiredTech": "Cybernetics",
+        "greatPersonPoints": {"Memory Unit": 2, "Programming Unit": 2}
+    },
+
+    {
+        "name": "Tokamak",
+        "isNationalWonder": true,
+        "production": 1,
+        "culture": 1,
+        "uniques": [
+            "Provides [1] [Power] <in [All] cities>",
+            "Provides [1] [Power] <in cities connected to the capital>",
+            "Provides [1] [Weight]",
+            "Only available <in [Capital] cities>",
+            "Costs [5] [Parts] <(modified by game speed)>"
+        ],
+        "requiredTech": "High-Temp Superconductors"
+    },
+
+    {
+        "name": "Synchotron",
+        "hurryCostModifier": 25,
+        "science": 2,
+        "specialistSlots": {"Tester": 1},
+        "uniques": [
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]",
+            "[+1 Science] per [2] population [in this city]",
+            "Costs [5] [Parts] <(modified by game speed)>"
+        ],
+        "requiredBuilding": "Hardware Simulation Lab",
+        "requiredTech": "High-Temp Superconductors",
+        "maintenance": 3
+    },
+    {
+        "name": "Gas Harvester",
+        "hurryCostModifier": 25,
+        "production": 1,
+        "uniques": [
+            "Provides [1] [Helium-3]",
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]",
+            "Limited to [5] per Civilization"
+        ],
+        "requiredTech": "Jovian Extraction",
+        "requiredBuilding": "Launchpad",
+        "maintenance": 3
+    },
+    {
         "name": "Quantum-Safe Protocol",
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]",
-            "Costs [3] [Parts] <(modified by game speed)>",
+            "Costs [5] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "Consumes [1] [Power]"
         ],
-        "maintenance": 1,
+        "maintenance": 3,
         "requiredBuilding": "Encrypted Channel",
         "requiredTech": "Quantum Computing"
     },
 
+    {
+        "name": "Tectonic Harness",
+        "isWonder": true,
+        "culture": 1,
+        "production": 3,
+        "science": 1,
+        "gold": 1,
+        "uniques": [
+            "[+1 Production, +1 Gold] [in all cities]",
+            "Provides [1] [Power] <in [All] cities>",
+            "Costs [100] [Parts] <(modified by game speed)>",
+            "Comment [Enables you to harness earthquakes for your company's benefit]"
+        ],
+        "greatPersonPoints": {"Construction Unit": 2},
+        "requiredTech": "Core Mining",
+        "quote": "With this remarkable structure, we can channel the energy released by earthquakes into productive capacity, protecting our factories and advancing our company's interest.",
+        "civilopediaText": [{"text": "With this remarkable structure, we can channel the energy released by earthquakes into productive capacity, protecting our factories and advancing our company's interest."}]
+    },
+
+    {
+        "name": "General Replicator",
+        "food": 1,
+        "uniques": [
+            "Costs [10] [Parts] <(modified by game speed)>",
+            "Consumes [2] [Parts]",
+            "Consumes [2] [Power]",
+            "[-50]% Food consumption by specialists [in this city]",
+            "[+1 Food] from [improved] tiles [in this city]",
+            "Provides [1] [Weight]"
+        ],
+        "maintenance": 4,
+        "requiredTech": "Molecular Machines"
+    },
 
     {
         "name": "Field-Repair Nanosystem",
@@ -656,7 +931,7 @@
             "May heal outside of friendly territory",
             "[-33]% Gold cost of upgrading",
             "Provides [1] [Weight]",
-            "Costs [10] [Parts]"
+            "Costs [100] [Parts] <(modified by game speed)>"
         ],
         "greatPersonPoints": {"Construction Unit": 1, "Research Unit": 1},
         "requiredTech": "Molecular Machines",

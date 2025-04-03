@@ -8,10 +8,13 @@
         "Cannot build [Mobile Constructor] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
 
+        "Notified of new Barbarian encampments",
+
         // Events
-        "Triggers a [Light Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is between [20] and [100]>",
-        "Triggers a [Medium Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is between [101] and [500]>",
-        "Triggers a [Heavy Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is more than [500]>",
+        "Triggers a [Light Earthquake] event <upon turn end> <every [40] turns> <with [80]% chance> <when number of [Weight] is between [20] and [100]>",
+        "Triggers a [Medium Earthquake] event <upon turn end> <every [35] turns> <with [85]% chance> <when number of [Weight] is between [101] and [500]>",
+        "Triggers a [Heavy Earthquake] event <upon turn end> <every [30] turns> <with [90]% chance> <when number of [Weight] is between [501] and [2500]>",
+        "Triggers a [Massive Earthquake] event <upon turn end> <every [25] turns> <with [95]% chance> <when number of [Weight] is more than [2500]>",
 
         "Triggers a [Seek Out Parts] event <upon turn end> <every [20] turns> <when number of [Parts] is less than [-20]>",
 
@@ -50,7 +53,6 @@
         "[Barbarian] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>",
 
         // oxygen mechanic
-        "Provides [5] [Oxygen] <for [Human] Civilizations>", // Baseline
         "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [1] [Population]>",
         "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [2] [Population]>",
         "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [3] [Population]>",
@@ -94,7 +96,20 @@
 
         "[-50]% growth [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is equal to [1]>",
         "Nullifies Growth [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is equal to [0]>",
-        "Nullifies [Food] [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is less than [0]>"
+        "Nullifies [Food] [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is less than [0]>",
+
+        // post-singularity stuff
+        "[+1 Culture, +1 Production, +1 Gold, +1 Food] [in all cities] <for every [Tech Level]>",
+        "[+1 Happiness] <for every [Tech Level]>",
+        "[+5]% Strength <for every [Tech Level]>",
+        "[+5]% Strength for cities <for every [Tech Level]>",
+        "[+25]% Science cost of researching new Technologies <for every [Tech Cost]> <for [Major] Civilizations>",
+        "[+100]% Science cost of researching new Technologies <for every [Tech Cost]> <for [City-State] Civilizations>",
+        "Instantly gain [1] [Tech Cost] <for every [Tech Level]> <upon discovering [Singularity] technology>",
+
+        // buying advanced units
+        "May buy [Great Person] units for [1000] [Culture] [in all cities] at an increasing price ([500]) <when number of [Completed Policy branches] is more than [5]>"
+        // check again after adding more policies
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",

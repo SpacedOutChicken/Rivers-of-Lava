@@ -20,7 +20,6 @@
 	{
 		"name": "Silicate",
 		"type": "Land",
-		"production": 1,
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [97,171,58],
@@ -36,10 +35,10 @@
 			"A Region is formed with at least [30]% [Silicate] tiles, with priority [7]",
 			"A Region can not contain more [Basalt] tiles than [Silicate] tiles",
 			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations <in [Rubble] Regions>",
-			"Considered [Production] when determining start locations <in [Hill] Regions>",
-			"Considered [Production] when determining start locations <in [Silicate] Regions>",
-			"Considered [Production] when determining start locations <in [Hybrid] Regions>",
+			"Considered [Food] when determining start locations <in [Rubble] Regions>",
+			"Considered [Food] when determining start locations <in [Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Silicate] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [
 			{
@@ -50,7 +49,7 @@
 	{
 		"name": "Basalt",
 		"type": "Land",
-		"production": 2,
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [168,185,102],
 		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
@@ -68,11 +67,11 @@
 			"A Region is formed with at least [30]% [Basalt] tiles, with priority [6]",
 			"A Region can not contain more [Silicate] tiles than [Basalt] tiles",
 			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations <in [Forsterite] Regions>",
-			"Considered [Production] when determining start locations <in [Sulfur] Regions>",
-			"Considered [Production] when determining start locations <in [Hill] Regions>",
-			"Considered [Production] when determining start locations <in [Basalt] Regions>",
-			"Considered [Production] when determining start locations <in [Hybrid] Regions>",
+			"Considered [Food] when determining start locations <in [Forsterite] Regions>",
+			"Considered [Food] when determining start locations <in [Sulfur] Regions>",
+			"Considered [Food] when determining start locations <in [Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Basalt] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [
 			{
@@ -83,7 +82,7 @@
 	{
 		"name": "Forsterite",
 		"type": "Land",
-		"food": 2,
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [189,204,191],
 		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
@@ -105,7 +104,6 @@
 	{
 		"name": "Sulfur",
 		"type": "Land",
-		"production": 1,
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [ 230, 230, 113],
@@ -117,6 +115,7 @@
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Sulfur] tiles, with priority [4]",
 			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [
 			{
@@ -150,7 +149,7 @@
 	{
 		"name": "Hydrated rock",
 		"type": "Land",
-		"production": 2,
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [76, 76, 76],
 		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
@@ -160,7 +159,7 @@
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations",
+			"Considered [Food] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [
 			{
@@ -195,7 +194,6 @@
 		"name": "Crust",
 		"type": "Land",
 		"movementCost": 1,
-		"production": 1,
 		"food": 1,
 		"RGB": [50,50,50],
 		"uniques": [
@@ -218,12 +216,11 @@
 		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock"],
 		"uniques": [
 			"Fresh water",
-			"Doesn't generate naturally",
-			"Units ending their turn on this terrain take [1] damage"
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{
-				"text": "These deep artificial pits are dangerous to nearby units but valuable sources of power and raw material."
+				"text": "These deep artificial pits are valuable sources of power and raw material, and they can even be used to power weaponized platforms to defend your factories."
 			}
 		]
 	},
@@ -264,7 +261,7 @@
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
-			"Provides a one-time Production bonus to the closest city when cut down",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Rubble] tiles, with priority [3]",
@@ -291,7 +288,7 @@
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
-			"Provides a one-time Production bonus to the closest city when cut down",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"[-1] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Pyroclasts] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Pyroclasts] tiles and [Rubble] tiles, with priority [2]",
@@ -314,7 +311,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock","Rubble","Pyroclasts","Hill","Vent","Crust","Borehole"],
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock","Rubble","Pyroclasts","Hill","Vent","Crust","Borehole","Fissure"],
 		"defenceBonus": -0.15,
 		"civilopediaText": [
 			{
@@ -325,7 +322,7 @@
 	{
 		"name": "Vent",
 		"type": "TerrainFeature",
-		"production": 2,
+		"production": 1,
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
@@ -334,11 +331,55 @@
 			"Fresh water",
 			"Rare feature",
 			"Always Fertility [4] for Map Generation",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations"
 		],
 		"civilopediaText": [
 			{
 				"text": "These naturally occurring hotspots are valuable sources of energy."
+			}
+		]
+	},
+	{
+		"name": "Fissure",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Silicate","Basalt","Sulfur","Forsterite","Hydrated rock","Hill"],
+		"uniques": [
+			"Fresh water",
+			"Rare feature",
+			"Rough terrain",
+			"[-2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Doesn't generate naturally <in tiles without [Hill]>",
+			"Has an elevation of [1] for visibility calculations"
+		],
+		"civilopediaText": [
+			{
+				"text": "Fractures beneath the surface channel magma into these non-explosive local eruptions."
+			}
+		]
+	},
+	{
+		"name": "Mantle plume",
+		"type": "TerrainFeature",
+		"science": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.2,
+		"occursOn": ["Lava"],
+		"uniques": [
+			"Fresh water",
+			"Rare feature",
+			"[-4] to Fertility for Map Generation"
+		],
+		"civilopediaText": [
+			{
+				"text": "Currents of magma underneath the surface bubble up in these areas, making terraforming impossible but providing valuable energy as well as scientific data about Io's geology."
 			}
 		]
 	},
@@ -598,8 +639,7 @@
 		"culture": 4,
 		"happiness": 2,
 		"occursOn": ["Sulfur"],
-		"uniques": ["Must be adjacent to [0] [Hydrated rock] tiles",
-			"Must not be on [1] largest landmasses"],
+		"uniques": ["Must be adjacent to [0] [Hydrated rock] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -607,6 +647,29 @@
 		"civilopediaText": [
 			{
 				"text": "Said to be the greatest of the fire giants, the Norse guardian of the realm of fire serves as the inspiration for this peak's name."
+			}
+		]
+	},
+	{
+		"name": "Euboea",
+		"type": "NaturalWonder",
+		"food": 4,
+		"gold": 2,
+		"happiness": 2,
+		"occursOn": ["Mountain", "Basalt", "Silicate", "Forsterite", "Hydrated rock"],
+		"uniques": [
+			"Must be adjacent to [0] [Lava] tiles",
+			"Must be adjacent to [4] to [6] [Elevated] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Neighboring tiles will convert to [Rubble] <in tiles without [Mountain]>"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{
+				"text": "Named after a humble naiad, this towering peak is surrounded by a huge debris apron."
 			}
 		]
 	}

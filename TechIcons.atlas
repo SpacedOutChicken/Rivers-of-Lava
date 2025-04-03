@@ -6,315 +6,322 @@ filter: MipMapLinearLinear, Linear
 repeat: none
 TechIcons/Additive Manufacturing
   rotate: false
-  xy: 4, 328
+  xy: 4, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Alloys
   rotate: false
-  xy: 4, 220
+  xy: 190, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Atomic Synthesis
   rotate: false
-  xy: 112, 328
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Basic Munitions
   rotate: false
-  xy: 4, 112
+  xy: 298, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Basic Survival
   rotate: false
-  xy: 112, 220
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Blockchain Accounting
   rotate: false
-  xy: 220, 328
+  xy: 406, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Breakthrough Propulsion
   rotate: false
-  xy: 4, 4
+  xy: 514, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Chemical Engineering
+TechIcons/Circle
   rotate: false
-  xy: 112, 112
-  size: 100, 100
-  orig: 100, 100
+  xy: 4, 328
+  size: 178, 178
+  orig: 178, 178
   offset: 0, 0
   index: -1
 TechIcons/Core Mining
   rotate: false
-  xy: 220, 220
+  xy: 622, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Crystallography
   rotate: false
-  xy: 328, 328
+  xy: 730, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cybernetics
   rotate: false
-  xy: 112, 4
+  xy: 838, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Decision Theory
   rotate: false
-  xy: 220, 112
+  xy: 946, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Deep Extraction
   rotate: false
-  xy: 328, 220
+  xy: 1054, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Distributed Assembly
   rotate: false
-  xy: 436, 328
+  xy: 1162, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Dynamic Programming
   rotate: false
-  xy: 220, 4
+  xy: 1270, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fuzzy Logic
   rotate: false
-  xy: 328, 112
+  xy: 1378, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Geophysics
+  rotate: false
+  xy: 1486, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Heat Shields
   rotate: false
-  xy: 436, 220
+  xy: 1594, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/High Orbit
   rotate: false
-  xy: 544, 328
+  xy: 1702, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/High-Temp Superconductors
   rotate: false
-  xy: 328, 4
+  xy: 1810, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Infrastructure
   rotate: false
-  xy: 436, 112
+  xy: 1918, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Interplanetary Transit
   rotate: false
-  xy: 544, 220
+  xy: 112, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Iterative Design
   rotate: false
-  xy: 652, 328
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Jovian Extraction
   rotate: false
-  xy: 436, 4
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Logistics
   rotate: false
-  xy: 544, 112
+  xy: 220, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Long-Distance Targeting
   rotate: false
-  xy: 652, 220
+  xy: 220, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Low-Atmosphere Flight
   rotate: false
-  xy: 760, 328
+  xy: 328, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mantle Mining
   rotate: false
-  xy: 544, 4
+  xy: 220, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metamaterials
   rotate: false
-  xy: 652, 112
+  xy: 328, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Molecular Machines
   rotate: false
-  xy: 760, 220
+  xy: 436, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Neural Networks
   rotate: false
-  xy: 868, 328
+  xy: 328, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Ore Mining
   rotate: false
-  xy: 652, 4
+  xy: 436, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Planetary Engineering
   rotate: false
-  xy: 760, 112
+  xy: 544, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Post-Scarcity
   rotate: false
-  xy: 868, 220
+  xy: 436, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Precision Machining
   rotate: false
-  xy: 976, 328
+  xy: 544, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Projectiles
   rotate: false
-  xy: 760, 4
+  xy: 652, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Prototyping
   rotate: false
-  xy: 868, 112
+  xy: 544, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Quantum Computing
   rotate: false
-  xy: 976, 220
+  xy: 652, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Raw Materials
   rotate: false
-  xy: 1084, 328
+  xy: 760, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Recycling
   rotate: false
-  xy: 868, 4
+  xy: 652, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Reinforcements from Home
   rotate: false
-  xy: 976, 112
+  xy: 760, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Singularity
   rotate: false
-  xy: 1084, 220
+  xy: 868, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Smelting
   rotate: false
-  xy: 1192, 328
+  xy: 760, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Spaceflight
   rotate: false
-  xy: 976, 4
+  xy: 868, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Surface Breaking
   rotate: false
-  xy: 1084, 112
+  xy: 976, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Synthetic Compounds
   rotate: false
-  xy: 1192, 220
+  xy: 868, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

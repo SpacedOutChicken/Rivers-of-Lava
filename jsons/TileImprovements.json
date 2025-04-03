@@ -9,29 +9,51 @@
 			"Provides [1] [Power]",
 			"[+1 Production] from [Fresh water] tiles",
 			"[+1 Gold] <after discovering [Heat Shields]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Unbuildable <in [resource] tiles>",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"[-1 Production, -1 Food] <in [resource] tiles>",
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
-		"shortcutKey": "H"
+		"shortcutKey": "H",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Heat sink",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Passive heat exchangers that convert excess heat from the ground into useful power."
+			}
+		]
 	},
 	{
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"techRequired": "Ore Mining",
 		"production": 1,
-		"gold": 1,
 		"turnsToBuild": 7,
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"[+1 Production] <after discovering [Planetary Engineering]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
 			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>"
 		],
-		"shortcutKey": "M"
+		"shortcutKey": "M",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Deep tunnels dug to retrieve resources hidden underground."
+			}
+		]
 	},
 	{
 		"name": "Quarry",
@@ -41,13 +63,24 @@
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"[+1 Production] <after discovering [Planetary Engineering]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
 			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>",
-			"Provides [1] [Oxygen] <for [Human] Civilizations> <in [Oxides] tiles>"
+			"Cannot be built on [Lava] tiles"
 		],
-		"shortcutKey": "Q"
+		"shortcutKey": "Q",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Quarry",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Simple open pits for harvesting stone."
+			}
+		]
 	},
 	{
 		"name": "Flow tap",
@@ -60,13 +93,25 @@
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"[+1 Gold] <after discovering [Heat Shields]>",
 			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Power]",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Must be next to [River]"
+			"Must be next to [River]",
+			"Unbuildable <in [resource] tiles>"
 		],
-		"shortcutKey": "L"
+		"shortcutKey": "L",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Flow tap",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Heat-resistant pipes and turbines for obtaining power and material from lava flows."
+			}
+		]
 	},
 	{
 		"name": "Crust platform",
@@ -76,28 +121,77 @@
 			"Can only be built to improve a resource",
 			"Turn this tile into a [Crust] tile",
 			"Pillaging this improvement yields approximately [+10 Gold]",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Provides [1] [Parts]"
 		],
-		"shortcutKey": "P"
+		"shortcutKey": "P",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Crust platform",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These platforms drill deep into the magma to extract precious elements."
+			}
+		]
 	},
 	{
 		"name": "Magma extractor",
 		"turnsToBuild": 8,
 		"techRequired": "Raw Materials",
-		"production": 4,
+		"production": 3,
 		"terrainsCanBeBuiltOn": ["Vent"],
 		"uniques": [
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [2] [Power]",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]"
 		],
-		"shortcutKey": "M"
+		"shortcutKey": "M",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Magma extractor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Active vents can be especially useful sources of energy and malleable matter."
+			}
+		]
+	},
+	{
+		"name": "Fissure cap",
+		"turnsToBuild": 8,
+		"techRequired": "Raw Materials",
+		"production": 3,
+		"terrainsCanBeBuiltOn": ["Fissure"],
+		"uniques": [
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
+			"Provides [2] [Power]",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]"
+		],
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Fissure cap",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Simple but sturdy caps on lava channels to harvest geothermal power."
+			}
+		]
 	},
 	{
 		"name": "Core extractor",
@@ -105,10 +199,10 @@
 		"techRequired": "Deep Extraction",
 		"terrainsCanBeBuiltOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Borehole"],
 		"uniques": [
-			"[+1 Food] <after discovering [Molecular Machines]>",
-			"Provides [3] [Power]",
+			"Provides [2] [Power]",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
+			"Costs [2] [Parts] <(modified by game speed)>",
 			"Turn this tile into a [Borehole] tile",
 			"[+2 Gold, +2 Production, +1 Food] <in tiles not adjacent to [Borehole] tiles>",
 			"[+1 Gold, +1 Production, +1 Food] <in [Borehole] tiles> <in tiles not adjacent to [Borehole] tiles>",
@@ -116,9 +210,22 @@
 			"Unavailable <in [resource] tiles>",
 			"Unavailable <in tiles adjacent to [Borehole] tiles>",
 			"Unavailable <in tiles adjacent to [City center] tiles>",
+			"Unbuildable <in tiles adjacent to [River] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
-		"shortcutKey": "C"
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Core extractor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These installations can channel the energy they draw into firepower, making them useful defensive measures as well as power sources."
+			}
+		]
 	},
 	// civ unique improvements
 	{
@@ -131,35 +238,62 @@
 			"Provides [2] [Power]",
 			"Provides [1] [Parts]",
 			"Provides [1] [Weight]",
+			"Costs [2] [Parts] <(modified by game speed)>",
 			"Turn this tile into a [Crust] tile",
 			"[+2 Gold, +2 Production, +2 Food] <in tiles not adjacent to [Cauldron facility] tiles>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Unavailable <in [resource] tiles>",
 			"Unavailable <in tiles adjacent to [Cauldron facility] tiles>",
 			"Unavailable <in tiles adjacent to [City center] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
-		"shortcutKey": "A"
+		"shortcutKey": "A",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Cauldron facility",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Vision Bank's unique facilities enable them to make highly efficient use of areas with artificially cooled lava flows."
+			}
+		]
 	},
 	{
 		"name": "Air harvester",
 		"uniqueTo": "Human",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"gold": 1,
 		"turnsToBuild": 6,
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [1] [Power]",
-			"Provides [1] [Oxygen] <for [Human] Civilizations>",
+			"Provides [1] [Oxygen]",
 			"[+1 Production] from [Fresh water] tiles",
 			"[+1 Gold] <after discovering [Heat Shields]>",
-			"[+1 Food] <after discovering [Molecular Machines]>",
-			"[+1 Food, +1 Production, +1 Gold] <for [Human] Civilizations>",
 			"Provides [1] [Weight]",
-			"Unbuildable <in [resource] tiles>",
+			"Improves [Bonus] resource in this tile",
+			"Unbuildable <in [Strategic resource] tiles>",
+			"Unbuildable <in [Luxury resource] tiles>",
 			"Unavailable <in tiles adjacent to [Air harvester] tiles>",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Cannot be built on [Lava] tiles",
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
-		"shortcutKey": "A"
+		"shortcutKey": "A",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Air harvester",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These installations pressurize the thin air around Io and harvest oxygen from the ground and atmosphere, hopefully providing enough for any humans who want to live here."
+			}
+		]
 	},
 	// defense improvements
 	{
@@ -175,7 +309,19 @@
 			"Provides [1] [Weight]",
 			"Unpillagable"
 		],
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Trench",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Simple defensive measures dug into the ground."
+			}
+		]
 	},
 	{
 		"name": "Fort",
@@ -186,9 +332,21 @@
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [75]%",
 			"Provides [1] [Weight]",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Fort",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Durable structures, suitable for giving your units a highly defensible position."
+			}
+		]
 	},
 	// roads and rails
 	{
@@ -201,9 +359,14 @@
 			"Costs [1] [Gold] per turn",
 			"Unavailable <in [Not buildable] tiles>",
 			"Provides [1] [Weight]",
-			"Costs [1] [Parts] <(modified by game speed)>"
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
-		"shortcutKey": "R"
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{"text":"More than just paths cut through the dirt, these channels allow for transmission of power and data between factories as well as improving unit movement."},
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Precision Machining", "link":"Technology/Precision Machining"}
+        ]
 	},
 	{
 		"name": "Railroad",
@@ -215,9 +378,14 @@
 			"Costs [2] [Gold] per turn",
 			"Unavailable <in [Not buildable] tiles>",
 			"Provides [1] [Weight]",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		],
-		"shortcutKey": "R"
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{"text":"These more advanced channels allow for rapid movement of material across Io."},
+            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
+            {"text":"Provides a +25% [Production] bonus to cities connected to the founding factory by Railroads"}
+        ]
 	},
 	// Terraforming
 	{
@@ -229,14 +397,15 @@
 			"Can be built outside your borders",
 			"Turn this tile into a [Mountain Tunnel] tile",
 			"[+1 Production] <in [Mountain] tiles>",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Instantly gain [1] [Parts]"
 		],
 		"shortcutKey": "T"
 	},
 	{
 		"name": "Create Crust",
 		"terrainsCanBeBuiltOn": ["Lava"],
-		"techRequired": "Chemical Engineering",
+		"techRequired": "Geophysics",
 		"turnsToBuild": 2,
 		"uniques": [
 			"Can be built outside your borders",
@@ -252,14 +421,24 @@
 		"turnsToBuild": 4,
 		"techRequired": "Ore Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly gain [1] [Parts]"],
-		"shortcutKey": "X"
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest factory once finished."
+			}
+		]
 	},
 	{
 		"name": "Remove Pyroclasts",
 		"turnsToBuild": 4,
 		"techRequired": "Surface Breaking",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor", "Instantly gain [1] [Parts]"],
-		"shortcutKey": "X"
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest factory once finished."
+			}
+		]
 	},
 	{
 		"name": "Remove Fallout",
@@ -301,12 +480,24 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Provides [1] [Parts]",
 			"Will not be replaced by automated units",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile",
+			"Unbuildable <for [City-State] Civilizations> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Machine shop",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "An advanced assembly plant, suitable for creating any kind of unit or building."
+			}
 		]
 	},
 	{
@@ -317,11 +508,23 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Will not be replaced by automated units",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile",
+			"Unbuildable <for [City-State] Civilizations> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Cloud drive",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Racks of climate-controlled memory banks, ideal for helping you track and allocate your resources."
+			}
 		]
 	},
 	{
@@ -332,11 +535,23 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Will not be replaced by automated units",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile",
+			"Unbuildable <for [City-State] Civilizations> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Field lab",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "New variations of hardware are endlessly tested in these labs."
+			}
 		]
 	},
 	{
@@ -347,11 +562,23 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+10 Science, +10 Gold]",
-			"[+1 Food] <after discovering [Molecular Machines]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Will not be replaced by automated units",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile",
+			"Unbuildable <for [City-State] Civilizations> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Server",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Vast clusters of computing power, constantly optimizing your code."
+			}
 		]
 	},
 	{
@@ -362,12 +589,25 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Gain control over [all] tiles in a [1]-tile radius",
+        	"Gain control over [All] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Will not be replaced by automated units",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile",
+			"Unbuildable <for [City-State] Civilizations> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Citadel",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A formidable complex of military installations, instilling fear in would-be attackers."
+			}
 		]
 	},
 	// Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
@@ -383,12 +623,36 @@
 	{
 		"name": "Supply drop",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Supply drop",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A care package sent by the organizations seeking to colonize Io, filled with helpful resources for whoever gets to them first."
+			}
+		]
 	},
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable"]
+		"uniques": ["Unpillagable", "Unbuildable"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The burned-out remains of a destroyed autonomous factory."
+			}
+		]
 	},
 	{
 		"name": "City center",
@@ -401,7 +665,19 @@
 			"Excluded from map editor",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Improves [all] resource in this tile"
+			"Improves [any] resource in this tile"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The basic unit of our organization: a self-replicating establishment capable of creating military units or new copies of itself and doing independent research."
+			}
 		]
 	},
 	{
@@ -414,6 +690,13 @@
 			"Gives a defensive bonus of [25]% <on [Deity] difficulty> <hidden from users>"
 		],
 		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
 			{"text": "Malfunctioning robots often set up their own rogue factories in dark corners, churning out hostile drones."},
 			{"text": "Rogue robots", "link":"Nation/Barbarians"}
 		]

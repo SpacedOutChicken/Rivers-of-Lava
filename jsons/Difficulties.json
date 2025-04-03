@@ -1,8 +1,8 @@
 [
     {
 		"name": "Tourist",
-		"baseHappiness": 20,
-		"extraHappinessPerLuxury": 1,
+		"baseHappiness": 25,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 0.8,
 		"unitCostModifier": 0.5,
 		"unitSupplyBase": 10,
@@ -31,8 +31,8 @@
 	},
     {
 		"name": "Settler",
-		"baseHappiness": 15,
-		"extraHappinessPerLuxury": 1,
+		"baseHappiness": 20,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 0.9,
 		"unitCostModifier": 0.5,
 		"unitSupplyBase": 10,
@@ -61,8 +61,8 @@
 	},
 	{
 		"name": "Chieftain",
-		"baseHappiness": 12,
-		"extraHappinessPerLuxury": 1,
+		"baseHappiness": 15,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 0.95,
 		"unitCostModifier": 0.67,
 		"unitSupplyBase": 7,
@@ -92,7 +92,7 @@
 	{
 		"name": "Warlord",
 		"baseHappiness": 12,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 0.85,
 		"unitSupplyBase": 7,
@@ -121,8 +121,8 @@
 	},
 	{
 		"name": "Prince",
-		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"baseHappiness": 12,
+		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,

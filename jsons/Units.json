@@ -5,14 +5,26 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
-			"Founds a new city <by consuming this unit> <in tiles without [Not buildable]> <hidden from users>",
-			"Comment [Founds a new factory by consuming this unit]",
-			"Excess Food converted to Production when under construction <hidden from users>",
-			"Comment [Excess Supplies converted to Production when under construction]",
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
 		],
 		"hurryCostModifier": 20
+	},
+	{
+		"name": "Colonizer",
+		"unitType": "Civilian",
+		"uniqueTo": "The Bayesian Commune",
+		"replaces": "Mobile Constructor",
+		"movement": 3,
+		"cost": 90,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population",
+			"Costs [5] [Parts] <(modified by game speed)>"
+		]
 	},
 	{
 		"name": "Labor Drone",
@@ -58,7 +70,7 @@
 			"Automation is a primary action",
 			"Can pass through impassable tiles",
 			"Ignores terrain cost",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
 		],
 		"cost": 140
 	},
@@ -77,7 +89,7 @@
 			"Automation is a primary action",
 			"Can pass through impassable tiles",
 			"Ignores terrain cost",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
 		],
 		"cost": 140
 	},
@@ -105,6 +117,22 @@
 			{
 				"text": "Lightly armed and not very dangerous, this simple drone is the first military unit we're able to build before rediscovering more advanced technologies."
 			}
+		]
+	},
+	{
+		"name": "Scouting Rover",
+		"unitType": "Scouting",
+		"movement": 2,
+		"strength": 3,
+		"cost": 15,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Iterative Design",
+		"upgradesTo": "Infiltration Rover",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Ignores terrain cost",
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"Withdraws before melee combat <with [50]% chance>"
 		]
 	},
 	{
@@ -155,7 +183,7 @@
 		"upgradesTo": "Railgun",
 		"attackSound": "artillery",
 		"uniques": [
-			"Costs [2] [Parts] <(modified by game speed)>",
+			"Costs [3] [Parts] <(modified by game speed)>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack"
 		]
@@ -172,7 +200,7 @@
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
 			"Consumes [1] [Iron]",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -191,7 +219,7 @@
 		"obsoleteTech": "Long-Distance Targeting",
 		"attackSound": "shot",
 		"uniques": [
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -202,9 +230,11 @@
 		"cost": 70,
 		"hurryCostModifier": 20,
 		"requiredTech": "Synthetic Compounds",
+		"obsoleteTech": "Crystallography",
+		"upgradesTo": "Predator Drone",
 		"attackSound": "shot",
 		"uniques": [
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -221,7 +251,7 @@
 			"Unable to capture cities",
 			"Consumes [1] [Aluminum]",
 			"May Paradrop up to [5] tiles from inside friendly territory",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
 		]
 	},
 	{
@@ -238,7 +268,43 @@
 		"attackSound": "shot",
 		"uniques": [
 			"Consumes [1] [Aluminum]",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [3] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Stinger Rotorcraft",
+		"unitType": "Ranged Hover",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 10,
+		"interceptRange": 2,
+		"range": 2,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"requiredTech": "Low-Atmosphere Flight",
+		"attackSound": "machinegun",
+		"uniques": [
+			"Can move after attacking",
+			"Consumes [1] [Aluminum]",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Costs [3] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Infiltration Rover",
+		"unitType": "Scouting",
+		"movement": 3,
+		"strength": 10,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iterative Design",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Costs [3] [Parts] <(modified by game speed)>",
+			"Withdraws before melee combat <with [50]% chance>",
+			"May enter foreign tiles without open borders",
+			"Invisible to non-adjacent units",
+			"Can see invisible [non-[Air]] units"
 		]
 	},
 	{
@@ -251,6 +317,8 @@
 		"hurryCostModifier": 20,
 		"cost": 60,
 		"requiredTech": "Long-Distance Targeting",
+		"obsoleteTech": "High Orbit",
+		"upgradesTo": "Two-Stage Missile",
 		"attackSound": "missile",
 		"uniques": [
 			"Costs [3] [Parts] <(modified by game speed)>"
@@ -263,12 +331,13 @@
 		"strength": 30,
 		"rangedStrength": 40,
 		"range": 3,
+		"interceptRange": 3,
 		"hurryCostModifier": 20,
 		"cost": 60,
 		"requiredTech": "Spaceflight",
 		"attackSound": "missile",
 		"uniques": [
-			"Costs [3] [Parts] <(modified by game speed)>",
+			"Costs [4] [Parts] <(modified by game speed)>",
 			"Must set up to ranged attack",
 			"[+200]% Strength <vs cities> <when attacking>"
 		],
@@ -286,9 +355,46 @@
 		"cost": 60,
 		"attackSound": "machinegun",
 		"requiredTech": "Long-Distance Targeting",
+		"obsoleteTech": "Cybernetics",
+		"upgradesTo": "Minigun Drone",
 		"uniques": [
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [4] [Parts] <(modified by game speed)>"
 		]
+	},
+	{
+		"name": "Predator Drone",
+		"unitType": "Melee Drone",
+		"movement": 2,
+		"strength": 30,
+		"hurryCostModifier": 20,
+		"cost": 80,
+		"attackSound": "shot",
+		"requiredTech": "Crystallography",
+		"obsoleteTech": "Mantle Mining",
+		"upgradesTo": "Superpredator Drone",
+		"uniques": [
+			"Costs [4] [Parts] <(modified by game speed)>",
+			"Heals [20] damage if it kills a unit"
+		]	
+	},
+	{
+		"name": "Plasma Cutter Drone",
+		"uniqueTo": "Vision Bank",
+		"replaces": "Predator Drone",
+		"unitType": "Melee Drone",
+		"movement": 2,
+		"strength": 30,
+		"hurryCostModifier": 20,
+		"cost": 80,
+		"attackSound": "shot",
+		"requiredTech": "Crystallography",
+		"obsoleteTech": "Mantle Mining",
+		"upgradesTo": "Superpredator Drone",
+		"promotions": ["[Plasma Cutter Drone] ability", "Anti-Materiel"],
+		"uniques": [
+			"Costs [4] [Parts] <(modified by game speed)>",
+			"Heals [20] damage if it kills a unit"
+		]	
 	},
 	{
 		"name": "Railgun",
@@ -306,7 +412,7 @@
 			"Must set up to ranged attack",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Iron]",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
 		]
 	},
 
@@ -332,6 +438,59 @@
 		]
 	},
 	{
+		"name": "Two-Stage Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 15,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"requiredTech": "High Orbit",
+		"attackSound": "missile",
+		"uniques": [
+			"Costs [5] [Parts] <(modified by game speed)>",
+			"Damage taken from interception reduced by [25]%"
+		]
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 15,
+		"cost": 600,
+		"requiredTech": "High Orbit",
+		"attackSound": "nuke",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Only available <if [Tube Alloys Project] is constructed>",
+			"Consumes [1] [Actinides]",
+			"Consumes [1] [Parts]",
+			"Costs [15] [Parts] <(modified by game speed)>",
+			"Damage taken from interception reduced by [25]%"
+		]
+	},
+	{
+		"name": "Minigun Drone",
+		"unitType": "Ranged Drone",
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 40,
+		"range": 2,
+		"interceptRange": 2,
+		"hurryCostModifier": 20,
+		"cost": 100,
+		"attackSound": "machinegun",
+		"requiredTech": "Cybernetics",
+		"obsoleteTech": "Interplanetary Transit",
+		"upgradesTo": "Autocannon Drone",
+		"uniques": [
+			"Costs [5] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
 		"name": "Flare Sat",
 		"unitType": "Satellite",
 		"movement": 1,
@@ -348,6 +507,23 @@
 			"[+150]% Strength <vs [Missile] units>",
 			"Consumes [1] [Helium-3]",
 			"Costs [5] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Autocannon Drone",
+		"unitType": "Ranged Drone",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 2,
+		"interceptRange": 2,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"attackSound": "machinegun",
+		"requiredTech": "Interplanetary Transit",
+		"uniques": [
+			"Costs [10] [Parts] <(modified by game speed)>",
+			"[1] additional attacks per turn"
 		]
 	},
 
@@ -367,7 +543,7 @@
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly gain [1] [Rods] <every [10] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
+			"Instantly gain [1] [Rods] <every [10] turns> <upon ending a turn in a [Terrain] tile> <when below [5] [Rods]>",
 			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
@@ -376,7 +552,7 @@
 			"Cannot be carried by [All] units",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Destroys tile improvements when attacking",
-			"Costs [10] [Parts] <(modified by game speed)>",
+			"Costs [100] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]"
 		]
 	},
@@ -397,7 +573,7 @@
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
 			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly gain [1] [Rods] <every [8] turns> <upon ending a turn in a [Terrain] tile> <when below [10] [Rods]>",
+			"Instantly gain [1] [Rods] <every [8] turns> <upon ending a turn in a [Terrain] tile> <when below [5] [Rods]>",
 			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
@@ -406,18 +582,33 @@
 			"Cannot be carried by [All] units",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Destroys tile improvements when attacking",
-			"Costs [10] [Parts] <(modified by game speed)>",
-			"Consumes [1] [Helium-3]"
+			"Costs [100] [Parts] <(modified by game speed)>",
+			"Consumes [1] [Helium-3]",
+			"Consumes [1] [Parts]"
 		]
+	},
+	{
+		"name": "Superpredator Drone",
+		"unitType": "Melee Drone",
+		"movement": 3,
+		"strength": 50,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"attackSound": "shot",
+		"requiredTech": "Mantle Mining",
+		"uniques": [
+			"Costs [10] [Parts] <(modified by game speed)>",
+			"Heals [25] damage if it kills a unit"
+		]	
 	},
 	
 	{
 		"name": "Programming Unit",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can generate a large amount of culture <hidden from users>",
-			"Comment [Can generate a large amount of code]",
+			"Can generate a large amount of culture",
 			"Can instantly construct a [Server] improvement <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <for [City-State] Civilizations> <by consuming this unit> <hidden from users>",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -430,6 +621,7 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Field lab] improvement <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <for [City-State] Civilizations> <by consuming this unit> <hidden from users>",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -440,9 +632,8 @@
 		"name": "Memory Unit",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <hidden from users>",
-			"May enter foreign tiles without open borders",
-			"Comment [Can undertake a trade mission with LLC, giving a large sum of data and [30] Influence]",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Empire enters a [8]-turn Golden Age <for [City-State] Civilizations> <by consuming this unit> <hidden from users>",
 			"Can instantly construct a [Cloud drive] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
@@ -456,9 +647,9 @@
 		"replaces": "Memory Unit",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Empire enters a [8]-turn Golden Age <for [City-State] Civilizations> <by consuming this unit> <hidden from users>",
 			"May enter foreign tiles without open borders",
-			"Comment [Can undertake a trade mission with LLC, giving a large sum of data and [60] Influence]",
 			"Can instantly construct a [Cloud drive] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
@@ -472,6 +663,7 @@
 		"uniques": [
 			"Can speed up construction of a building",
 			"Can instantly construct a [Machine shop] improvement <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <for [City-State] Civilizations> <by consuming this unit> <hidden from users>",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -482,8 +674,7 @@
 		"name": "Tactical Unit",
 		"unitType": "Civilian",
 		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit> <hidden from users>",
-			"Comment [Company enters a [8]-turn High Efficiency Period by consuming this unit]",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
@@ -499,8 +690,7 @@
 		"replaces": "Tactical Unit",
 		"unitType": "Civilian",
 		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit> <hidden from users>",
-			"Comment [Company enters a [8]-turn High Efficiency Period by consuming this unit]",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",

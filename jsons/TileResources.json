@@ -1,15 +1,44 @@
 [	
-	// bonus
+	// special oxygen
 	{
-		"name": "Calcium",
+		"name": "Oxygen",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Silicate","Sulfur","Forsterite"],
 		"food": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Silicate}] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [15] tiles <in [{Featureless} {Forsterite}] tiles>",
-					"Generated on every [19] tiles <in [{Featureless} {Sulfur}] tiles>"],
+		"uniques": [
+			"Generated on every [20] tiles <in [{Featureless} {Silicate}] tiles> <in tiles without [Fresh Water]>",
+			"Generated on every [15] tiles <in [{Featureless} {Forsterite}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Sulfur}] tiles>",
+			"City-level resource",
+			"Cannot be traded"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Oxygen",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Gaseous oxygen is scarce on Io, but oxides bonded to rock can be a reliable source of this vital ingredient for combustion reactions."
+			}
+		]
+	},
+	// bonus
+	{
+		"name": "Calcium",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sulfur", "Forsterite"],
+		"food": 1,
+		"improvement": "Quarry",
+		"improvementStats": { "production": 1 },
+		"uniques": [
+			"Generated on every [15] tiles <in [{Featureless} {Forsterite}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Sulfur}] tiles>"
+		],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Calcium",
@@ -51,37 +80,13 @@
 		]
 	},
 	{
-		"name": "Oxides",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Sulfur", "Forsterite"],
-		"food": 1,
-		"improvement": "Quarry",
-		"improvementStats": { "production": 1 },
-		"uniques": [
-			"Generated on every [15] tiles <in [{Featureless} {Forsterite}] tiles>",
-			"Generated on every [19] tiles <in [{Featureless} {Sulfur}] tiles>"
-		],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Oxides",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Cheap and abundant rocks that make up decent building material."
-			}
-		]
-	},
-	{
 		"name": "Alkali",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"food": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
 			"Generated on every [20] tiles <in [Lava] tiles>"
 		],
@@ -105,7 +110,7 @@
 		"food": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
 			"Generated on every [20] tiles <in [Lava] tiles>"
 		],
@@ -275,7 +280,7 @@
 		"production": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 1, "production": 1},
 		"uniques": [
 			"Generated on every [50] tiles <in [Lava] tiles>",
 			"Generated near City States with weight [20]"],
@@ -299,7 +304,7 @@
 		"production": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 1, "production": 1},
 		"uniques": [
 			"Generated on every [40] tiles <in [Lava] tiles>",
 			"Generated near City States with weight [30]"],
@@ -339,14 +344,93 @@
 			}
 		]
 	},
+	{
+		"name": "Phosphorus",
+		"resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Sulfur","Basalt","Silicate","Pyroclasts","Rubble"],
+        "production": 1,
+        "improvement": "Quarry",
+        "improvementStats": {"gold": 1},
+        "uniques": [
+            "Generated with weight [10] <in [Pyroclasts] Regions>",
+            "Generated with weight [40] <in [Sulfur] Regions>",
+            "Generated with weight [20] <in [Basalt] Regions>",
+            "Generated with weight [10] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]"
+        ],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Phosphorus",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This element is essential to all known forms of life, and is also a fine detergent for machines like us."
+			}
+		]
+	},
+	{
+		"name": "Manganese",
+		"resourceType": "Luxury",
+		"revealedBy": "Ore Mining",
+		"terrainsCanBeFoundOn": ["Sulfur","Forsterite","Hydrated rock","Pyroclasts","Rubble","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": [
+			"Generated with weight [10] <in [Pyroclasts] Regions>",
+			"Generated with weight [10] <in [Sulfur] Regions>",
+			"Generated with weight [5] <in [Hill] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Rubble] tiles> <in tiles without [Hill]>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Manganese",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Once oxidized, this substance is useful in making glass, ceramics, and batteries."
+			}
+		]
+	},
+	{
+		"name": "Halides",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lava", "Crust"],
+		"revealedBy": "Deep Extraction",
+		"production": 1,
+		"improvement": "Crust platform",
+		"improvementStats": {"gold": 1, "production": 1},
+		"uniques": [
+			"Generated on every [45] tiles <in [Lava] tiles>",
+			"Generated near City States with weight [25]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Halides",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Very useful for making discharge lamps and photographic films."
+			}
+		]
+	},
 	//city-state
 	{
 		"name": "Diamonds",
 		"happiness": 1,
 		"resourceType": "Luxury",
 		"uniques": [
-			"Can only be created by Mercantile City-States <hidden from users>",
-			"Comment [Can only be created by Optimization LLCs]"
+			"Can only be created by Mercantile City-States"
 		],
 		"civilopediaText": [
 			{
@@ -359,12 +443,24 @@
 		"happiness": 1,
 		"resourceType": "Luxury",
 		"uniques": [
-			"Can only be created by Mercantile City-States <hidden from users>",
-			"Comment [Can only be created by Optimization LLCs]"
+			"Can only be created by Mercantile City-States"
 		],
 		"civilopediaText": [
 			{
 				"text": "This versatile stuff can be used for just about anything, and since there aren't any humans around, we don't have to worry about making it non-toxic."
+			}
+		]
+	},
+	{
+		"name": "Cloud Storage",
+		"happiness": 1,
+		"resourceType": "Luxury",
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		],
+		"civilopediaText": [
+			{
+				"text": "When we haven't got enough space for our own data, it helps to have some place offsite to back it up."
 			}
 		]
 	},
@@ -578,21 +674,40 @@
 			}
 		]
 	},
-
-	// oxygen for humans
+	// singularity related
 	{
-		"name": "Oxygen",
+		"name": "Tech Level",
+		"resourceType": "Strategic",
+		"revealedBy": "Singularity",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Tech Cost",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Stockpiled",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	// completing policies to buy advanced units
+	{
+		"name": "Completed Policies",
 		"resourceType": "Bonus",
 		"uniques": [
 			"Doesn't generate naturally",
-			"Excluded from map editor",
 			"Cannot be traded",
-			"City-level resource"
-		],
-		"civilopediaText": [
-			{
-				"text": "A vital gas for humans, hard to find on Io."
-			}
+			"Excluded from map editor",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia"
 		]
 	}
 ]

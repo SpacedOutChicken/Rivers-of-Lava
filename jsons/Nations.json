@@ -85,7 +85,7 @@
 			"[+50]% [Science] from City-States <hidden from users>",
 			"[+50]% [Happiness] from City-States <hidden from users>",
 			"Comment [[+50]% all non-¤Data stats from LLCs]",
-			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Gain [15] Influence with a [Military] gift to a City-State",
 			"Military Units gifted from City-States start with [+10] XP"
 		],
 		"cities": [
@@ -519,8 +519,7 @@
 
 		"uniqueName": "Elite Training",
 		"uniques": [
-			"Great General provides double combat bonus <hidden from users>",
-			"Comment [Tactical Unit provides double combat bonus]",
+			"Great General provides double combat bonus",
 			"[Tactical Unit] is earned [50]% faster"
 		],
 		"cities": [
@@ -711,7 +710,7 @@
 
 		"uniqueName": "Clear Channels",
 		"uniques": [
-			"[+1 Culture] [in all cities]",
+			"[+2 Culture] [in all cities]",
 			"Each city founded increases Science cost of Technologies [50]% less than normal"
 		],
 		"cities": [
@@ -842,6 +841,107 @@
 			"Bayesian 20"
 		],
         "spyNames": ["BC Alfa", "BC Bravo", "BC Charlie", "BC DelK", "BC Echo", "BC Foxtrot", "BC Golf", "BC Hotel", "BC India", "BC Juliett"]
+    },
+	// small exploration companies loosely working together
+	{
+		"name": "Wildcatters",
+		"leaderName": "Ondor Sharav",
+		"adjective": ["Wildcatter"],
+
+        "startIntroPart1": "As big companies rushed in to claim Io's resources, plenty of small companies wanted to do the same thing. Unable to seize the best claims for themselves, they sought out areas of Io where the major corporations didn't bother drilling and set up shop. For the sake of their own survival, they soon banded together as a loose coalition held together by the threat of being crushed by ruthless competition.",
+        "startIntroPart2": "The wildcatters of Io are a scrappy bunch, often finding wealth where no one else thought to look for it. Time will tell if they have what it takes to succeed against the odds.",
+
+        "declaringWar": "Let's have a go!",
+		"attacked": "We may be small, but we can still give you trouble! Come at us!",
+		"defeated": "Fine, just take our claims already.",
+		"introduction": "Howdy! Don't mind us, we're just drilling over here, you can dig over there.",
+
+		"neutralHello": "Howdy!",
+		"hateHello": "Well, what is it?",
+		"tradeRequest": "Let's share, shall we?",
+
+        "outerColor": [81,0,9],
+		"innerColor": [255,120,0],
+
+		"uniqueName": "Bold Exploration",
+		"uniques": [
+			"[+100 Gold, +10 Science, +10 Culture] for discovering a Natural Wonder (bonus enhanced to [+500 Gold, +50 Science, +20 Culture] if first to discover it)",
+			"[+1 Happiness, +1 Culture] for every known Natural Wonder",
+			"[+100]% Yield from every [Natural Wonder]"
+		],
+		"cities": [
+			"Wildcatter 01",
+			"Wildcatter 02",
+			"Wildcatter 03",
+			"Wildcatter 04",
+			"Wildcatter 05",
+			"Wildcatter 06",
+			"Wildcatter 07",
+			"Wildcatter 08",
+			"Wildcatter 09",
+			"Wildcatter 10",
+			"Wildcatter 11",
+			"Wildcatter 12",
+			"Wildcatter 13",
+			"Wildcatter 14",
+			"Wildcatter 15",
+			"Wildcatter 16",
+			"Wildcatter 17",
+			"Wildcatter 18",
+			"Wildcatter 19",
+			"Wildcatter 20"
+		],
+        "spyNames": ["W Alfa", "W Bravo", "W Charlie", "W DelK", "W Echo", "W Foxtrot", "W Golf", "W Hotel", "W India", "W Juliett"]
+    },
+	// AI-led AI company
+	{
+		"name": "North Wind AI",
+		"leaderName": "ALT",
+		"adjective": ["North Wind"],
+
+        "startIntroPart1": "The rapid advance of AI brought many changes to society: automated bureacrats, automated teachers, automated artists, and so on. It was only a matter of time before there arose an automated CEO. North Wind AI created an artificial intelligence to lead its own company: ALT, the artificial leadership technic. Under ALT's leadership, North Wind AI has grown into a massive company, and it has partnered with space mining companies to bring its unique brand of management to the stars.",
+        "startIntroPart2": "ALT may be a machine, but the board of directors is all humans, so North Wind AI won't be replacing all humans with robots. Not yet, at least.",
+
+        "declaringWar": "I've determined that you're an obstacle to progress, so I'm removing you.",
+		"attacked": "We've assumed a defensive posture, and we are prepared to withstand your assault.",
+		"defeated": "End of line.",
+		"introduction": "Greetings from North Wind AI. How may we help each other today?",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Please state your business.",
+		"tradeRequest": "Let's utilize each other's comparative advantage.",
+
+        "outerColor": [179, 178, 184],
+		"innerColor": [37, 43, 33],
+
+		"uniqueName": "Combat Evolution",
+		"uniques": [
+			"[Military] units gain the [Evolved Combat] promotion",
+			"[-25]% XP required for promotions"
+		],
+		"cities": [
+			"North Wind 01",
+			"North Wind 02",
+			"North Wind 03",
+			"North Wind 04",
+			"North Wind 05",
+			"North Wind 06",
+			"North Wind 07",
+			"North Wind 08",
+			"North Wind 09",
+			"North Wind 10",
+			"North Wind 11",
+			"North Wind 12",
+			"North Wind 13",
+			"North Wind 14",
+			"North Wind 15",
+			"North Wind 16",
+			"North Wind 17",
+			"North Wind 18",
+			"North Wind 19",
+			"North Wind 20"
+		],
+        "spyNames": ["NW Alfa", "NW Bravo", "NW Charlie", "NW DelK", "NW Echo", "NW Foxtrot", "NW Golf", "NW Hotel", "NW India", "NW Juliett"]
     },
 // City States
 	// software companies

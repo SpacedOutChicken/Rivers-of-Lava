@@ -5,7 +5,7 @@
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
-		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],
+		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite", "Scouting"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -30,7 +30,7 @@
 			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately"
 		],
-		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite"],
+		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite", "Scouting"],
 		"column": 0,
 		"row": 2
 	},
@@ -259,6 +259,14 @@
 		]
 	},
 
+	// unit abilities
+	{
+		"name": "[Plasma Cutter Drone] ability",
+		"uniques": [
+			"[+25]% Strength <when attacking>"
+		]
+	},
+
 	// special promotions
 	{
 		"name": "Continuous Update",
@@ -283,6 +291,20 @@
 		]
 	},
 
+	// granted by policy
+	{
+		"name": "Sampling",
+		"uniques": [
+			"Instantly gain [1] [Science] <upon ending a turn in a [{Foreign} {non-[Enemy]}] tile> <when above [99] HP>"
+		]
+	},
+	{
+		"name": "Profiteering",
+		"uniques": [
+			"Instantly gain [1] [Gold] <upon ending a turn in a [Enemy] tile>"
+		]
+	},
+
 	// national promotions
 	{
 		"name": "Self-Driven",
@@ -297,6 +319,36 @@
 			"Uncapturable",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status>",
 			"[+15]% maintenance costs"
+		]
+	},
+	{
+		"name": "Evolved Combat",
+		"uniques": [
+			"[This Unit] gains the [Evolved Combat I] promotion <upon defeating a [Military] unit>"
+		]
+	},
+	{
+		"name": "Evolved Combat I",
+		"prerequisites": ["Evolved Combat"],
+		"uniques": [
+			"[This Unit] gains the [Evolved Combat II] promotion <upon defeating a [Military] unit>",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Science]"
+		]
+	},
+	{
+		"name": "Evolved Combat II",
+		"prerequisites": ["Evolved Combat I"],
+		"uniques": [
+			"[This Unit] gains the [Evolved Combat III] promotion <upon defeating a [Military] unit>",
+			"Heals [15] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "Evolved Combat III",
+		"prerequisites": ["Evolved Combat II"],
+		"uniques": [
+			"Uncapturable",
+			"May capture killed [Military] units <with [25]% chance>"
 		]
 	},
 

@@ -9,6 +9,17 @@
         ]
     },
     {
+        "name": "Scouting",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
+			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
+            "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
         "name": "Melee Drone",
         "movementType": "Land",
         "uniques": [

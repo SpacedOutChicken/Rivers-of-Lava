@@ -165,7 +165,7 @@
                         "uniques": ["Enables Defensive Pacts"]
                   },
                   {
-                        "name": "Chemical Engineering",
+                        "name": "Geophysics",
                         "row": 6,
                         "quote": "",
                         "prerequisites": ["Blockchain Accounting", "Recycling"]
@@ -202,13 +202,13 @@
                         "name": "Synthetic Compounds",
                         "row": 5,
                         "quote": "",
-                        "prerequisites": ["Alloys", "Logistics", "Chemical Engineering", "Decision Theory"]
+                        "prerequisites": ["Alloys", "Logistics", "Geophysics", "Decision Theory"]
                   },
                   {
                         "name": "Iterative Design",
                         "row": 7,
                         "quote": "",
-                        "prerequisites": ["Chemical Engineering", "Decision Theory"],
+                        "prerequisites": ["Geophysics", "Decision Theory"],
                         "uniques": ["Enables conversion of city production to [Science]", "Enables Research agreements"]
                   }
             ]
@@ -392,7 +392,7 @@
                         "row": 5,
                         "quote": "",
                         "prerequisites": ["Interplanetary Transit", "Core Mining", "Molecular Machines"],
-                        "uniques": ["Can be continually researched"]
+                        "uniques": ["Can be continually researched", "Instantly gain [1] [Tech Level] <for [Major] Civilizations> <hidden from users>"]
                   }
             ]
       }
