@@ -1,1 +1,18 @@
-{"isBaseRuleset":true,"constants":{"maxXPfromBarbarians":60,"minimalCityDistance":4,"minimalCityDistanceOnDifferentContinents":4,"cityWorkRange":4,"maxSpyRank":5},"unitset":"FantasyHex","tileset":"FantasyHex","modUrl":"https://github.com/SpacedOutChicken/Rivers-of-Lava","defaultBranch":"main","author":"SpacedOutChicken","lastUpdated":"2025-03-18T02:52:55Z","modSize":4319,"topics":["unciv-mod","unciv-mod-rulesets"],"uniques":["Disable religion","Can trade civilization introductions for [100] Gold","Allow City States to spawn with additional units","Suppress warning [*contains a conditional on a unit movement unique*]"]}
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Disable religion",
+        "Can trade civilization introductions for [100] Gold",
+        "Allow City States to spawn with additional units",
+        "Suppress warning [*contains a conditional on a unit movement unique*]"
+    ],
+    "constants":{
+        "maxXPfromBarbarians":60,
+        "minimalCityDistance":4,
+        "minimalCityDistanceOnDifferentContinents":4,
+        "cityWorkRange":4,
+        "maxSpyRank":5
+    },
+    "tileset": "FantasyHex",
+    "unitset": "FantasyHex"
+}
