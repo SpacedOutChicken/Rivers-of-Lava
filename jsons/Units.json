@@ -69,7 +69,8 @@
 			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action",
 			"Can pass through impassable tiles",
-			"Ignores terrain cost",
+			"Double movement in [Rough terrain]",
+			"Double movement in [Lava]",
 			"Costs [5] [Parts] <(modified by game speed)>"
 		],
 		"cost": 140
@@ -196,6 +197,8 @@
 		"cost": 60,
 		"hurryCostModifier": 20,
 		"requiredTech": "Alloys",
+		"upgradesTo": "All-Terrain Crawler",
+		"obsoleteTech": "Distributed Assembly",
 		"uniques": [
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
@@ -250,7 +253,7 @@
 			"Can move after attacking",
 			"Unable to capture cities",
 			"Consumes [1] [Aluminum]",
-			"May Paradrop up to [5] tiles from inside friendly territory",
+			"May Paradrop to [Terrain] tiles up to [5] tiles away",
 			"Costs [3] [Parts] <(modified by game speed)>"
 		]
 	},
@@ -286,7 +289,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"Consumes [1] [Aluminum]",
-			"May Paradrop up to [5] tiles from inside friendly territory",
+			"May Paradrop to [Terrain] tiles up to [5] tiles away",
 			"Costs [3] [Parts] <(modified by game speed)>"
 		]
 	},
@@ -304,7 +307,8 @@
 			"Withdraws before melee combat <with [50]% chance>",
 			"May enter foreign tiles without open borders",
 			"Invisible to non-adjacent units",
-			"Can see invisible [non-[Air]] units"
+			"Can see invisible [non-[Air]] units",
+			"Ignores terrain cost"
 		]
 	},
 	{
@@ -362,6 +366,42 @@
 		]
 	},
 	{
+		"name": "All-Terrain Crawler",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 25,
+		"hurryCostModifier": 20,
+		"cost": 70,
+		"attackSound": "tankshot",
+		"requiredTech": "Distributed Assembly",
+		"obsoleteTech": "Planetary Engineering",
+		"upgradesTo": "Heavy Crawler",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Costs [5] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Breacher",
+		"uniqueTo": "Kosprom",
+		"replaces": "All-Terrain Crawler",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 25,
+		"hurryCostModifier": 20,
+		"cost": 70,
+		"attackSound": "tankshot",
+		"requiredTech": "Distributed Assembly",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Costs [5] [Parts] <(modified by game speed)>",
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Can only attack [City] units",
+			"[+50]% Strength <when defending>"
+		],
+		"promotions": ["[Breacher] ability"]
+	},
+	{
 		"name": "Predator Drone",
 		"unitType": "Melee Drone",
 		"movement": 2,
@@ -395,6 +435,22 @@
 			"Costs [4] [Parts] <(modified by game speed)>",
 			"Heals [20] damage if it kills a unit"
 		]	
+	},
+	{
+		"name": "Heavy Crawler",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 40,
+		"hurryCostModifier": 20,
+		"cost": 60,
+		"requiredTech": "Planetary Engineering",
+		"obsoleteTech": "Core Mining",
+		"upgradesTo": "Assault Mech",
+		"attackSound": "tankshot",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Costs [5] [Parts] <(modified by game speed)>"
+		]
 	},
 	{
 		"name": "Railgun",
@@ -540,10 +596,9 @@
 		"requiredTech": "Breakthrough Propulsion",
 		"attackSound": "nuke",
 		"uniques": [
-			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
-			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
+			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon entering combat>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly gain [1] [Rods] <every [10] turns> <upon ending a turn in a [Terrain] tile> <when below [5] [Rods]>",
+			"Instantly gain [1] [Rods] <every [10] turns> <upon turn end> <when below [5] [Rods]>",
 			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
@@ -553,7 +608,8 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Destroys tile improvements when attacking",
 			"Costs [100] [Parts] <(modified by game speed)>",
-			"Consumes [1] [Helium-3]"
+			"Consumes [1] [Helium-3]",
+			"Consumes [1] [Parts]"
 		]
 	},
 	{
@@ -570,10 +626,9 @@
 		"requiredTech": "Breakthrough Propulsion",
 		"attackSound": "nuke",
 		"uniques": [
-			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon losing at least [1] HP in a single attack>",
-			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon damaging a [All] unit>",
+			"[This Unit] gains the [Reloading] status for [2] turn(s) <upon entering combat>",
 			"[Target Unit] is destroyed <upon damaging a [All] unit>",
-			"Instantly gain [1] [Rods] <every [8] turns> <upon ending a turn in a [Terrain] tile> <when below [5] [Rods]>",
+			"Instantly gain [1] [Rods] <every [8] turns> <upon turn end> <when below [5] [Rods]>",
 			"Instantly gain [-1] [Rods] <upon gaining the [Reloading] status>",
 			"Cannot attack <when below [1] [Rods]>",
 			"Limited to [1] per Civilization",
@@ -599,6 +654,20 @@
 		"uniques": [
 			"Costs [10] [Parts] <(modified by game speed)>",
 			"Heals [25] damage if it kills a unit"
+		]	
+	},
+	{
+		"name": "Assault Mech",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 60,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"attackSound": "tankshot",
+		"requiredTech": "Mantle Mining",
+		"uniques": [
+			"Costs [10] [Parts] <(modified by game speed)>",
+			"Consumes [1] [Iron]"
 		]	
 	},
 	

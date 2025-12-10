@@ -1,12 +1,12 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
-        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Cannot build [Mobile Constructor] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "Cannot build [Mobile Constructor] units <when below [-10] [Happiness]>",
+        "Rebel units may spawn <when below [-20] [Happiness]>",
 
         "Notified of new Barbarian encampments",
 
@@ -41,16 +41,13 @@
         "Instantly gain [10] [Parts] <for [Human player] Civilizations> <on [Warlord] difficulty> <(modified by game speed)>",
         "Instantly gain [40] [Parts] <for [Human player] Civilizations> <on [Sandbox] difficulty> <(modified by game speed)>",
 
-        "[{non-[Space Station]} {non-[Nuclear Weapon]} {non-[Barbarian]}] units gain the [Recycle I] promotion",
+        "Earn [25]% of killed [All] unit's [Strength] as [Parts] <for [{non-[Space Station]} {non-[Nuclear Weapon]} {non-[Missile]} {non-[Barbarian]}] units>",
+		"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately <for [non-[Barbarians]] Civilizations>",
 
         // difficulty tweak
         "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Tourist] difficulty>",
         "Discover [Reinforcements from Home] <for [AI player] Civilizations> <on [Deity] difficulty>",
         "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Sandbox] difficulty>",
-
-        "[Barbarian] units gain the [Rogue Bonus] promotion <on [Deity] difficulty>",
-        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Sandbox] difficulty>",
-        "[Barbarian] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>",
 
         // oxygen mechanic
         "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [1] [Population]>",
@@ -99,13 +96,10 @@
         "Nullifies [Food] [in all cities] <for [Human] Civilizations> <when number of [Oxygen] is less than [0]>",
 
         // post-singularity stuff
-        "[+1 Culture, +1 Production, +1 Gold, +1 Food] [in all cities] <for every [Tech Level]>",
-        "[+1 Happiness] <for every [Tech Level]>",
+        "[+2 Culture, +2 Production, +2 Gold, +2 Food, +1 Happiness] [in all cities] <for every [Tech Level]>",
         "[+5]% Strength <for every [Tech Level]>",
         "[+5]% Strength for cities <for every [Tech Level]>",
-        "[+25]% Science cost of researching new Technologies <for every [Tech Cost]> <for [Major] Civilizations>",
-        "[+100]% Science cost of researching new Technologies <for every [Tech Cost]> <for [City-State] Civilizations>",
-        "Instantly gain [1] [Tech Cost] <for every [Tech Level]> <upon discovering [Singularity] technology>",
+        "[+5]% Science cost of researching new Technologies <for every [[Tech Level]^2]>",
 
         // buying advanced units
         "May buy [Great Person] units for [1000] [Culture] [in all cities] at an increasing price ([500]) <when number of [Completed Policy branches] is more than [5]>"
@@ -126,6 +120,12 @@
         // something something unit supply
     ],
     "unitUniques": [
-        "Eliminates combat penalty for attacking across a coast"
+        "Eliminates combat penalty for attacking across a coast <hidden from users>",
+        "Cannot embark",
+        "Can only heal by pillaging <in [Lava] tiles>",
+        "Can only heal by pillaging <in [Mountain] tiles>",
+        "May Paradrop to [{Friendly} {Landing}] tiles up to [40] tiles away <in [{Friendly} {Landing}] tiles> <hidden from users>",
+        "Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>",
+		"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile> <for [non-[Barbarian]] units>"
     ]
 }

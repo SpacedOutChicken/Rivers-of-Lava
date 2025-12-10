@@ -66,7 +66,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>",
 			"Destroyed when the city is captured",
             "Consumes [1] [Power]",
@@ -121,7 +121,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
         "specialistSlots": {"Tester": 1},
-        "happiness": 1,
+        "happiness": 2,
 		"uniques": [
             "[+1 Science] per [2] population [in this city]",
             "[+15]% [Production] [in this city] <during We Love The King Day>",
@@ -155,7 +155,8 @@
         "uniques": [
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Provides [1] [Parts]"
+            "Provides [1] [Parts]",
+            "Costs [2] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Additive Manufacturing"
     },
@@ -274,20 +275,6 @@
     },
 
     {
-        "name": "Plume Converter",
-        "production": 1,
-        "science": 2,
-        "uniques": [
-            "Must have an owned [Mantle plume] within [3] tiles",
-            "[+2 Production, +4 Science, +1 Gold] from [Mantle plume] tiles [in this city]",
-            "Provides [2] [Power] <in this city>",
-            "Costs [3] [Parts] <(modified by game speed)>",
-            "Provides [1] [Weight]"
-        ],
-        "requiredTech": "Geophysics",
-        "maintenance": 1
-    },
-    {
         "name": "Combustion Cylinder 1",
         "production": 1,
         "uniques": [
@@ -295,7 +282,8 @@
             "Provides [1] [Power] <in this city>",
             "Only available <with [Oxygen]>",
             "Costs [3] [Parts] <(modified by game speed)>",
-            "Limited to [0] per Civilization <for [Human] Civilizations>"
+            "Limited to [0] per Civilization <for [Human] Civilizations>",
+            "Provides [1] [Weight]"
         ],
         "requiredTech": "Geophysics",
         "maintenance": 1,
@@ -389,7 +377,8 @@
             "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
             "Limited to [0] per Civilization <for [non-[Human]] Civilizations>",
             "Costs [3] [Parts] <(modified by game speed)>",
-            "Consumes [1] [Power]"
+            "Consumes [1] [Power]",
+            "Provides [1] [Weight]"
         ],
         "maintenance": 1
     },
@@ -449,6 +438,24 @@
         "uniques": [
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
+            "Provides [1] [Weight]",
+            "Costs [3] [Parts] <(modified by game speed)>"
+        ],
+        "requiredBuilding": "Distributed Processor",
+        "requiredTech": "Precision Machining",
+        "maintenance": 1
+    },
+    {
+        "name": "Reinforced Data Center",
+        "uniqueTo": "North Wind AI",
+        "replaces": "Deep Learning Processor",
+        "hurryCostModifier": 25,
+        "culture": 3,
+        "cityStrength": 2,
+        "cityHealth": 10,
+        "specialistSlots": {"Compiler": 1},
+        "uniques": [
+            "Destroyed when the city is captured",
             "Provides [1] [Weight]",
             "Costs [3] [Parts] <(modified by game speed)>"
         ],
@@ -604,7 +611,8 @@
         "uniques": [
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Provides [1] [Parts]"
+            "Provides [1] [Parts]",
+            "Costs [3] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredBuilding": "3D Printer",
@@ -721,7 +729,8 @@
             "Costs [5] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "[+15]% Production when constructing [Air] units [in this city]",
-            "Comment [Enables construction of [Space] units in this city]"
+            "Comment [Enables construction of [Space] units in this factory]",
+            "Comment [Enables units to [Paradrop] between factories with a [Launchpad] up to [40] tiles away]"
         ],
         "requiredTech": "Spaceflight",
         "maintenance": 3
@@ -792,7 +801,7 @@
             "Gain a free [Launchpad] [in this city]"
         ],
         "requiredTech": "High Orbit",
-        "civilopediaText": [{ "text": "This project enables the construction and maintenance of deadly orbital installations, capable of firing devasting shots to virtually any location on Io." }]
+        "civilopediaText": [{ "text": "This project enables the construction and maintenance of deadly orbital installations, capable of firing devasting shots to virtually any location on Io.", "link":"Unit/Orbital Bombardment Platform" }]
     },
 
     {
@@ -928,7 +937,6 @@
         "production": 5,
         "uniques": [
             "All healing effects doubled",
-            "May heal outside of friendly territory",
             "[-33]% Gold cost of upgrading",
             "Provides [1] [Weight]",
             "Costs [100] [Parts] <(modified by game speed)>"

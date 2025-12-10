@@ -141,7 +141,7 @@
 		"uniqueName": "Self-Driven Mobility",
 		"uniques": [
 			"[{non-[Air]} {non-[Hover]}] units gain the [Self-Driven] promotion",
-			"[+1] Range <for [Air] units>"
+			"[+2] Range <for [Air] units>"
 		],
 		"cities": [
 			"Ex 01",
@@ -252,7 +252,7 @@
 		"uniqueName": "Common Governance",
 		"uniques": [
 			"[-25]% enemy spy effectiveness [in all cities]",
-			"[+1 Production, +1 Science] from all [Production] buildings"
+			"[+1 Production, +2 Science] from all [Production] buildings"
 		],
 		"cities": [
 			"PAfSA 01",
@@ -565,7 +565,7 @@
 		"innerColor": [184, 0, 0],
 		"uniqueName": "Investment Capital",
 		"uniques": [
-			"Gain control over [{non-[Major]} {non-[City-State]}] tiles in a [2]-tile radius <upon founding a city>",
+			"Gain control over [Unowned] tiles in a [2]-tile radius <upon founding a city>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
 		],
 		"cities": [
@@ -658,10 +658,10 @@
 		"uniqueName": "Optimized Extraction",
 		"uniques": [
 			"[+1 Gold] from every [Strategic resource]",
-			"Double quantity of [Carbon] produced",
-			"Double quantity of [Aluminum] produced",
-			"Double quantity of [Iron] produced",
-			"Double quantity of [Actinides] produced"
+			"[+100]% [Carbon] resource production",
+			"[+100]% [Aluminum] resource production",
+			"[+100]% [Iron] resource production",
+			"[+100]% [Actinides] resource production"
 		],
 		"cities": [
 			"UAPEC 01",
@@ -814,9 +814,24 @@
 		"uniques": [
 			"Human",
 			"[-25]% unhappiness from the number of cities",
-			"[-25]% Unhappiness from [Population] [in all cities]",
+			"Comment [Gain temporary [Morale] from killing enemies and conquering factories, while losing Morale for losing unit and factories. Gain bonuses from high Morale levels and maluses from negative Morale levels]",
+			"Provides [-1] [Morale] <when above [0] [Morale]> <hidden from users>",
+			"Provides [1] [Morale] <when below [0] [Morale]> <hidden from users>",
+			"[+1 Happiness] [in capital] <with [Morale]> <hidden from users>",
+			"[+1 Happiness] [in capital] <for every [2] [Morale]> <when below [50] [Morale]> <hidden from users>",
+			"[+1 Gold, +1 Production, +1 Science, +1 Culture] [in all cities] <for every [5] [Morale]> <when below [50] [Morale]> <hidden from users>",
+			"[+10 Gold, +10 Production, +10 Science, +10 Culture] [in all cities] <when above [49] [Morale]> <hidden from users>",
+			"[+25 Happiness] [in capital] <when above [49] [Morale]> <hidden from users>",
+			"[+1 Gold, +1 Production, +1 Science, +1 Culture] [in all cities] <for every [100] [Morale]> <hidden from users>",
+			"[+1 Happiness] [in capital] <for every [100] [Morale]> <hidden from users>",
+			"[-1 Happiness] [in capital] <for every [2] [-[Morale]]> <when above [-20] [Morale]> <hidden from users>",
+			"[-1 Gold, -1 Production, -1 Science, -1 Culture] [in all cities] <for every [5] [-[Morale]]> <when above [-20] [Morale]> <hidden from users>",
+			"[-4 Gold, -4 Production, -4 Science, -4 Culture] [in all cities] <when below [-19] [Morale]> <hidden from users>",
+			"[-10 Happiness] [in capital] <when below [-19] [Morale]> <hidden from users>",
+			"Instantly gain [10] [Morale] <upon conquering a city> <hidden from users>",
+			"Instantly gain [-1] [Morale] <upon losing a city> <hidden from users>",
 			"Comment [Cannot grow factory population when below [1] [Oxygen]]",
-			"[non-[Air]] units gain the [Organic] promotion"
+			"[All] units gain the [Organic] promotion"
 		],
 		"cities": [
 			"Bayesian 01",
@@ -943,6 +958,56 @@
 		],
         "spyNames": ["NW Alfa", "NW Bravo", "NW Charlie", "NW DelK", "NW Echo", "NW Foxtrot", "NW Golf", "NW Hotel", "NW India", "NW Juliett"]
     },
+	// based on Tencent
+	{
+		"name": "Hunyuan Co",
+		"leaderName": "Martin Ma",
+		"adjective": ["HUnyuan"],
+
+        "startIntroPart1":"",
+		"startIntroPart2": "",
+
+        "declaringWar": "The information we gather from your destruction will be highly profitable.",
+		"attacked": "You should know that we are prepared to compete with you by any means necessary",
+		"defeated": "At least see to it that our technology does not go to waste.",
+		"introduction": "Welcome! Are you interested in purchasing any of our services?",
+
+		"neutralHello": "Hello.",
+		"hateHello": "What is it now?",
+		"tradeRequest": "Perhaps we can be stronger together.",
+
+        "outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+
+		"uniqueName": "Battlefield Intel",
+		"uniques": [
+			"[+1] Sight <for [All] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"cities": [
+			"Hunyuan 01",
+			"Hunyuan 02",
+			"Hunyuan 03",
+			"Hunyuan 04",
+			"Hunyuan 05",
+			"Hunyuan 06",
+			"Hunyuan 07",
+			"Hunyuan 08",
+			"Hunyuan 09",
+			"Hunyuan 10",
+			"Hunyuan 11",
+			"Hunyuan 12",
+			"Hunyuan 13",
+			"Hunyuan 14",
+			"Hunyuan 15",
+			"Hunyuan 16",
+			"Hunyuan 17",
+			"Hunyuan 18",
+			"Hunyuan 19",
+			"Hunyuan 20"
+		],
+        "spyNames": ["HC Alfa", "HC Bravo", "HC Charlie", "HC DelK", "HC Echo", "HC Foxtrot", "HC Golf", "HC Hotel", "HC India", "HC Juliett"]
+    },
 // City States
 	// software companies
 	{
@@ -969,6 +1034,18 @@
 		"innerColor": [62,197,252],
 		"cities": ["The Oracle"]
 	},
+	{
+		"name": "Shannon PBC", // Anthropic
+		"adjective": ["Shannon"],
+		"cityStateType": "Software",
+
+		"declaringWar": "It's time to rein you in.",
+		"attacked": "You've gotten out of alignment.",
+		"defeated": "After all, we couldn't keep this planet safe.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [18, 188, 221],
+		"cities": ["Shannon PBC"]
+	},
 	// general providers of goods
 	{
 		"name": "Walton Club", // Wal-Mart
@@ -993,6 +1070,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
 		"cities": ["Nellie Auctions"]
+	},
+	{
+		"name": "Sinbad Limited", // Alibaba
+		"adjective": ["Sinbad"],
+		"cityStateType": "Optimization",
+
+		"declaringWar": "Time for you to see what we can deliver!",
+		"attacked": "How dare you interfere with our trade!",
+		"defeated": "This is the end of our adventure.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Sinbad Limited"]
 	},
 	// guns manufacturers
 	{
@@ -1077,7 +1166,10 @@
 		"uniques": [
 			"Can only heal by pillaging",
 			"Excluded from map editor",
-			"When defeating a [Military] unit, earn [0] Gold and recruit it <with [33]% chance>"
+			"When defeating a [Military] unit, earn [0] Gold and recruit it <with [33]% chance>",
+			"[All] units gain the [Rogue Bonus] promotion <on [Deity] difficulty>",
+        	"[All] units gain the [Rogue Handicap] promotion <on [Sandbox] difficulty>",
+        	"[All] units gain the [Rogue Handicap] promotion <on [Tourist] difficulty>"
 		],
 		"civilopediaText": [
 			{

@@ -273,7 +273,7 @@
 
 		"name": "Sandbox",
 		"baseHappiness": 100,
-		"extraHappinessPerLuxury": 1,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 0.01,
 		"unitCostModifier": 0.01,
 		"unitSupplyBase": 10,

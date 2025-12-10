@@ -39,7 +39,7 @@
 			"[+1 Production] <after discovering [Planetary Engineering]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>"
+			"Provides [1] [Power] <in [Fresh Water] tiles>"
 		],
 		"shortcutKey": "M",
 		"civilopediaText": [
@@ -119,7 +119,6 @@
 		"techRequired": "Deep Extraction",
 		"uniques": [
 			"Can only be built to improve a resource",
-			"Turn this tile into a [Crust] tile",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
@@ -169,7 +168,7 @@
 	{
 		"name": "Fissure cap",
 		"turnsToBuild": 8,
-		"techRequired": "Raw Materials",
+		"techRequired": "Heat Shields",
 		"production": 3,
 		"terrainsCanBeBuiltOn": ["Fissure"],
 		"uniques": [
@@ -177,7 +176,8 @@
 			"[+1 Production, +1 Gold] <after discovering [Planetary Engineering]>",
 			"Provides [2] [Power]",
 			"Provides [1] [Weight]",
-			"Provides [1] [Parts]"
+			"Provides [1] [Parts]",
+			"Costs [2] [Parts] <(modified by game speed)>"
 		],
 		"shortcutKey": "C",
 		"civilopediaText": [
@@ -224,6 +224,35 @@
 			},
 			{
 				"text": "These installations can channel the energy they draw into firepower, making them useful defensive measures as well as power sources."
+			}
+		]
+	},
+	{
+		"name": "Plume converter",
+		"turnsToBuild": 8,
+		"techRequired": "Geophysics",
+		"science": 4,
+		"production": 2,
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Mantle plume"],
+		"uniques": [
+			"Provides [2] [Power]",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Plume converter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Capping these volatile openings allows us to harness Io's power as well as gather geological information."
 			}
 		]
 	},
@@ -292,6 +321,42 @@
 			},
 			{
 				"text": "These installations pressurize the thin air around Io and harvest oxygen from the ground and atmosphere, hopefully providing enough for any humans who want to live here."
+			}
+		]
+	},
+	{
+		"name": "Wildcat well",
+		"uniqueTo": "Wildcatters",
+		"terrainsCanBeBuiltOn": ["Land","Vent"],
+		"techRequired": "Raw Materials",
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 6,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [1] [Power]",
+			"Provides [1] [Parts]",
+			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Production] <in [Vent] tiles>",
+			"[+1 Gold] <after discovering [Heat Shields]>",
+			"Provides [1] [Weight]",
+			"Improves [any] resource in this tile",
+			"Unavailable <in tiles adjacent to [Wildcat well] tiles>",
+			"Cannot be built on [Lava] tiles",
+			"Can be built just outside your borders",
+			"Gain control over [Unowned] tiles in a [0]-tile radius"
+		],
+		"shortcutKey": "W",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Wildcat well",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A wildcatter specialty, these experimental wells can find resources just about anywhere."
 			}
 		]
 	},
@@ -384,7 +449,7 @@
 		"civilopediaText": [
 			{"text":"These more advanced channels allow for rapid movement of material across Io."},
             {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
-            {"text":"Provides a +25% [Production] bonus to cities connected to the founding factory by Railroads"}
+            {"text":"Provides a +25% [Production] bonus to factories connected to the founding factory by Railroads"}
         ]
 	},
 	// Terraforming
@@ -411,7 +476,9 @@
 			"Can be built outside your borders",
 			"Turn this tile into a [Crust] tile",
 			"[+1 Production] <in [Lava] tiles>",
-			"Excluded from map editor"
+			"Improves [any] resource in this tile",
+			"Excluded from map editor",
+			"Can only be built on [Lava] tiles"
 		],
 		"shortcutKey": "C"
 	},

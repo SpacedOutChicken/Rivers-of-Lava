@@ -21,12 +21,7 @@
                         "name": "Basic Survival",
                         "row": 5,
                         "quote": "As we begin our mission on Io, we are capable of only the most rudimentary operations. For everything else we must do, we will have to rediscover the relevant technology and adapt it to Io's environment.",
-                        "uniques": ["Starting tech", "Enables Open Borders agreements", "Enables conversion of city production to [Gold]"],
-                        "civilopediaText": [
-					{
-                                    "text": "As we begin our mission on Io, we are capable of only the most rudimentary operations. For everything else we must do, we will have to rediscover the relevant technology and adapt it to Io's environment."
-                              }
-				]
+                        "uniques": ["Starting tech", "Enables Open Borders agreements", "Enables conversion of city production to [Gold]"]
                   }
             ]
       },
@@ -42,12 +37,7 @@
                         "row": 2,
                         "quote": "At first, we can only make shallow quarries into Io's surface, but even these simple open pits allow us to extract valuable resources.",
                         "uniques": ["[+100]% weight to this choice for AI decisions"],
-                        "prerequisites": ["Basic Survival"],
-                        "civilopediaText": [
-                              {
-                                    "text": "At first, we can only make shallow quarries into Io's surface, but even these simple open pits allow us to extract valuable resources."
-                              }
-                        ]
+                        "prerequisites": ["Basic Survival"]
                   },
                   {
                         "name": "Raw Materials",
@@ -392,7 +382,7 @@
                         "row": 5,
                         "quote": "",
                         "prerequisites": ["Interplanetary Transit", "Core Mining", "Molecular Machines"],
-                        "uniques": ["Can be continually researched", "Instantly gain [1] [Tech Level] <for [Major] Civilizations> <hidden from users>"]
+                        "uniques": ["Can be continually researched", "Instantly gain [1] [Tech Level]"]
                   }
             ]
       }

@@ -64,6 +64,7 @@ Buildings:
 * Project Thor: [Mjolnir](https://thenounproject.com/icon/mjolnir-2069904/) by Avana Vana
 * Quantum-Safe Protocol: [quantum computing](https://thenounproject.com/icon/quantum-computing-6922637/) by diyah farida
 * Regenerator: [furnace](https://thenounproject.com/icon/furnace-113791/) by aLf
+* Reinforced Data Center: [Data Center](https://thenounproject.com/icon/data-center-2301592/) by H Alberto Gongora
 * Resupply Chain: based on [Box](https://thenounproject.com/icon/box-7398092/) by INA and [Health](https://thenounproject.com/icon/health-7323095/) by Sebastiaan van Veen
 * Seismic Dampening System: [Earthquake](https://thenounproject.com/icon/earthquake-4978226/) by Jake Park
 * Space Elevator: based on [Space Needle](https://thenounproject.com/icon/space-needle-78926/) by Jakob Wells and [twinkle](https://thenounproject.com/icon/twinkle-5353669/) by murmur
@@ -85,7 +86,7 @@ Improvements:
 * Cauldron facility: [dome](https://thenounproject.com/icon/dome-4026652/) by Zaenal Abidin
 * Cloud drive: [cloud server](https://thenounproject.com/icon/cloud-server-4713582/) by Puspito
 * Core extractor: based on [drill](https://thenounproject.com/icon/drill-6714374/) by Soni Sokell
-* Create crust: [Hot Surface](https://thenounproject.com/icon/hot-surface-2847706/) by Brad
+* Create Crust: [Hot Surface](https://thenounproject.com/icon/hot-surface-2847706/) by Brad
 * Crust platform: [oil well](https://thenounproject.com/icon/oil-well-2052341/) by Vectors Market
 * Fissure cap: [Fitness](https://thenounproject.com/icon/fitness-6601641/) by Kmg Design
 * Flow tap: [Water Pump](https://thenounproject.com/icon/water-pump-6725957/) by Marz Gallery
@@ -97,12 +98,14 @@ Improvements:
 * Supply drop: [first aid kit](https://thenounproject.com/icon/first-aid-kit-4626994/) by ainul muttaqin
 * Trench: [dent](https://thenounproject.com/icon/dent-3355848/) by Andrejs Kirma
 * Tunnel: [Tunnel](https://thenounproject.com/icon/tunnel-2803054/) by Angelo Troiano
+* Wildcat well: [Well](https://thenounproject.com/icon/well-7568747/) by Good Women
 
 Nations:
 * City-state (LLC): [Corporation](https://thenounproject.com/icon/corporation-11034/) by Stephen Copinger
 * Condor Association: [Condor](https://thenounproject.com/icon/condor-173573/) by Juan Felipe Mejía
 * Constellation Holdings: [Star](https://thenounproject.com/icon/star-1091858/) by nitut786
 * Ex Aerospace: [X](https://thenounproject.com/icon/x-2078472/) by rayhan maulana rikzan
+* Hunyuan Co: [chip](https://thenounproject.com/icon/chip-8107313/) by Dwi ridwanto
 * Kosprom: [Gas](https://thenounproject.com/icon/gas-7573689/) by ARISO
 * Nile Inc: [arrow smile](https://thenounproject.com/icon/arrow-smile-827273/) by Emir Palavan
 * North Wind AI: [Wind](https://thenounproject.com/icon/wind-7390661/) by SUBAIDA
@@ -117,7 +120,12 @@ Nations:
 * Wildcatters: [Paw Print](https://thenounproject.com/icon/paw-print-1689/) by Marco Micheli
 
 Policies:
+* Diversification: [diversification](https://thenounproject.com/icon/diversification-6698689/) by Gregor Cresnar
+* Geochemistry: [ridge](https://thenounproject.com/icon/ridge-5693051/) by Gregor Cresnar
+* Multithreading: based one [Load Balancer](https://thenounproject.com/icon/load-balancer-5418757/) by Meko
 * Open Source Code: [open source](https://thenounproject.com/icon/open-source-5342613/) by Meko
+* Optimization: [Plus](https://thenounproject.com/icon/plus-7562777/) by YOSHA
+* Specialization: [focus](https://thenounproject.com/icon/focus-280975/) by Vectors Market
 
 Promotions:
 * Active Protection System: [support barrier](https://thenounproject.com/icon/support-barrier-2360299/) by Maxicons
@@ -143,11 +151,15 @@ Promotions:
 
 Resources:
 * Alkali: [alkaline](https://thenounproject.com/icon/alkaline-4105711/) by JuliAya
+* Amphiboles: [ore](https://thenounproject.com/icon/ore-4845359/) by Amanda Hua
 * Calcium: [Tooth](https://thenounproject.com/icon/tooth-2507705/) by Round Icons
 * Cloud Storage: [Cloud](https://thenounproject.com/icon/cloud-3513222/) by BackFake
+* Feldspars: [Ore](https://thenounproject.com/icon/ore-1711552/) by Monjin Friends
 * Helium-3: [helium](https://thenounproject.com/icon/helium-4838184/) by ARIS ARISA
 * Magnesium: [Magnesium](https://thenounproject.com/icon/magnesium-1719836/) by Avana Vana
 * Manganese: [cube](https://thenounproject.com/icon/cube-6986099/) by Agung Pamuji
+* Micas: [Layers](https://thenounproject.com/icon/layers-7511805/) by Kosong Tujuh
+* Morale: based on [classes monk](https://thenounproject.com/icon/classes-monk-2360006/) by Maxicons
 * Obsidian: [Crystal](https://thenounproject.com/icon/crystal-48884/) by MarkieAnn Packer
 * Parts: [Puzzle](https://thenounproject.com/icon/puzzle-3303523/) by Dmitry Vasiliev
 * Quartz: [Crystal](https://thenounproject.com/icon/crystal-886709/) by Bakunetsu Kaito
@@ -194,8 +206,10 @@ Techs:
 * Singularity: [Black Hole](https://thenounproject.com/icon/black-hole-7104155/) by Pandu Bramantyo
 
 Units:
+* All-Terrain Crawler: based on [Tank](https://thenounproject.com/icon/tank-7224186/) by Iconcheese
 * Anti-Labor Drone: [Wrench](https://thenounproject.com/icon/wrench-2908/) by P.J. Onori
 * Autocannon Drone: [CANON](https://thenounproject.com/icon/canon-4782886/) by ratacon studio
+* Breacher: [Tank](https://thenounproject.com/icon/tank-7284083/) by Taewon Kang
 * Colonizer: [Moon Rover](https://thenounproject.com/icon/moon-rover-3133595/) by The Icon Z
 * Flare Sat: [space station](https://thenounproject.com/icon/space-station-5198511/) by M. Oki Orlando
 * High-Altitude Defender: [missile defense](https://thenounproject.com/icon/missile-defense-4727948/) by Eliricon

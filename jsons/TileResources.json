@@ -27,17 +27,109 @@
 			}
 		]
 	},
-	// bonus
+	// tried removing all bonus resources and everything disappeared. whoops!
+	{
+		"name": "Feldspars",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Basalt","Silicate","Sulfur"],
+		"food": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [15] tiles <in [{Featureless} {Basalt}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Silicate}] tiles>",
+			"Generated on every [20] tiles <in [{Featureless} {Sulfur}] tiles>"
+		]
+	},
+	{
+		"name": "Olivine",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Basalt","Silicate","Sulfur"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1},
+		"uniques": [
+			"Generated on every [13] tiles <in [Hill] tiles>",
+			"Generated on every [10] tiles <in [Hill] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Pyroxenes",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Rubble","Pyroclasts"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [8] tiles <in [{Hydrated rock} {Rubble}] tiles>",
+			"Generated on every [12] tiles <in [{Hydrated rock} {Pyroclasts}] tiles>",
+			"Generated on every [25] tiles <in [{Sulfur} {Rubble}] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [{Sulfur} {Pyroclasts}] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [{Basalt} {Rubble}] tiles> <in [Hill] Regions>",
+			"Generated on every [25] tiles <in [{Basalt} {Pyroclasts}] tiles> <in [Hill] Regions>",
+			"Generated on every [28] tiles <in [Rubble] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Amphiboles",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Pyroclasts"],
+		"food": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"food": 1},
+		"uniques": [
+			"Generated on every [14] tiles <in [Pyroclasts] tiles>",
+			"Generated on every [16] tiles <in [Pyroclasts] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Micas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sulfur","Basalt","Hydrated rock","Forsterite","Silicate","Lava","Crust"],
+		"food": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [27] tiles <in [Fresh Water] tiles> <in tiles without [Hill]>",
+			"Generated on every [20] tiles <in [Fresh Water] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+			"Generated on every [50] tiles <in [Lava] tiles>"
+		]
+	},
+	{
+		"name": "Quartz",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lava","Crust"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"gold": 1},
+		"uniques": [
+			"Generated on every [40] tiles <in [Lava] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Quartz",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Piezoelectric crystals that make excellent oscillators, often found when lava cools on the surface."
+			}
+		]
+	},
+	// luxury resources
 	{
 		"name": "Calcium",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Sulfur", "Forsterite"],
 		"food": 1,
 		"improvement": "Quarry",
 		"improvementStats": { "production": 1 },
 		"uniques": [
-			"Generated on every [15] tiles <in [{Featureless} {Forsterite}] tiles>",
-			"Generated on every [19] tiles <in [{Featureless} {Sulfur}] tiles>"
+			"Generated near City States with weight [20]",
+			"Generated with weight [30] <in [Forsterite] Regions> <in tiles without [Hill]>",
+			"Generated with weight [45] <in [Basalt] Regions> <in tiles without [Hill]>"
 		],
 		"civilopediaText": [
 			{
@@ -54,18 +146,17 @@
 	},
 	{
 		"name": "Sodium",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Rubble","Forsterite"],
-		"revealedBy": "Ore Mining",
 		"food": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [8] tiles <in [{Forsterite} {Rubble}] tiles>",
-					"Generated on every [12] tiles <in [{Featureless} {Forsterite}] tiles>",
-					"Generated on every [25] tiles <in [{Basalt} {Rubble}] tiles> <in tiles without [Hill]>",
-					"Generated on every [25] tiles <in [{Silicate} {Rubble}] tiles> <in tiles without [Hill]>",
-					"Generated on every [16] tiles <in [{Featureless} {Forsterite}] tiles> <in [Hill] Regions>",
-					"Generated on every [28] tiles <in [Rubble] tiles> <in [Hill] Regions>"],
+		"uniques": [
+			"Generated with weight [25] <in [Forsterite] Regions> <in tiles without [Hill]>",
+			"Generated with weight [15] <in [Rubble] Regions> <in tiles without [Hill]>",
+			"Generated with weight [30] <in [Hybrid] Regions> <in tiles without [Hill]>",
+			"Generated near City States with weight [10]"
+		],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Sodium",
@@ -81,14 +172,15 @@
 	},
 	{
 		"name": "Alkali",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"food": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
 		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
-			"Generated on every [20] tiles <in [Lava] tiles>"
+			"Generated on every [20] tiles <in [Lava] tiles>",
+			"Generated near City States with weight [30]"
 		],
 		"civilopediaText": [
 			{
@@ -105,14 +197,15 @@
 	},
 	{
 		"name": "Potassium",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"food": 1,
 		"revealedBy": "Deep Extraction",
 		"improvement": "Crust platform",
 		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
-			"Generated on every [20] tiles <in [Lava] tiles>"
+			"Generated on every [20] tiles <in [Lava] tiles>",
+			"Generated near City States with weight [20]"
 		],
 		"civilopediaText": [
 			{
@@ -127,7 +220,6 @@
 			}
 		]
 	},
-	//luxury
 	{
 		"name": "Rare Earths",
 		"resourceType": "Luxury",
@@ -191,7 +283,6 @@
 	{
 		"name": "Silicon",
 		"resourceType": "Luxury",
-		"revealedBy": "Ore Mining",
 		"terrainsCanBeFoundOn": ["Hill","Rubble","Pyroclasts","Silicate","Forsterite"],
 		"production": 1,
 		"improvement": "Mine",
@@ -204,7 +295,7 @@
 					"Generated with weight [20] <in [Silicate] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"],
-					"civilopediaText": [
+		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Silicon",
 				"imageSize": 64
@@ -322,29 +413,6 @@
 		]
 	},
 	{
-		"name": "Quartz",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Lava", "Crust"],
-		"production": 1,
-		"improvement": "Quarry",
-		"improvementStats": {"gold": 1},
-		"uniques": [
-			"Generated on every [40] tiles <in [Lava] tiles>",
-			"Generated near City States with weight [30]"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Quartz",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Piezoelectric crystals that make excellent oscillators, often found when lava cools on the surface."
-			}
-		]
-	},
-	{
 		"name": "Phosphorus",
 		"resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Sulfur","Basalt","Silicate","Pyroclasts","Rubble"],
@@ -374,7 +442,6 @@
 	{
 		"name": "Manganese",
 		"resourceType": "Luxury",
-		"revealedBy": "Ore Mining",
 		"terrainsCanBeFoundOn": ["Sulfur","Forsterite","Hydrated rock","Pyroclasts","Rubble","Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -495,6 +562,39 @@
 		]
 	},
 	{
+		"name": "Carbon",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Silicate","Basalt","Hill","Pyroclasts","Rubble"],
+		"food": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"food": 2},
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Pyroclasts] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Rubble] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Pyroclasts] tiles>",
+					"Minor deposits generated with weight [10] <in [Rubble] tiles>",
+					"Minor deposits generated with weight [20] <in [{Silicate} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Basalt} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Sulfur} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Forsterite} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Hydrated rock} {Hill}] tiles>",
+					"Guaranteed with Strategic Balance resource option"],
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Carbon",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Perhaps the most 'friendly' of all elements, this stuff can be made into circuits, lubricants, abrasives, and even some of the hardest materials ever manufactured."
+			}
+		]
+	},
+	{
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Ore Mining",
@@ -531,39 +631,6 @@
 		]
 	},
 	{
-		"name": "Carbon",
-		"resourceType": "Strategic",
-		"revealedBy": "Ore Mining",
-		"terrainsCanBeFoundOn": ["Silicate","Basalt","Hill","Pyroclasts","Rubble"],
-		"food": 2,
-		"improvement": "Mine",
-		"improvementStats": {"food": 2},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Pyroclasts] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Rubble] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Pyroclasts] tiles>",
-					"Minor deposits generated with weight [10] <in [Rubble] tiles>",
-					"Minor deposits generated with weight [20] <in [{Silicate} {Hill}] tiles>",
-					"Minor deposits generated with weight [20] <in [{Basalt} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Sulfur} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Forsterite} {Hill}] tiles>",
-					"Minor deposits generated with weight [30] <in [{Hydrated rock} {Hill}] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Carbon",
-				"imageSize": 64
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Perhaps the most 'friendly' of all elements, this stuff can be made into circuits, lubricants, abrasives, and even some of the hardest materials ever manufactured."
-			}
-		]
-	},
-	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Ore Mining",
@@ -571,7 +638,8 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [15] <in [{Featureless} {Forsterite}] tiles>",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [15] <in [{Featureless} {Forsterite}] tiles>",
 					"Generated with weight [15] <in [{Featureless} {Hydrated rock}] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Pyroclasts] tiles>",
@@ -600,11 +668,13 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 2},
 		"uniques": [
-					"Generated with weight [70] <in [Pyroclasts] tiles> <in tiles without [Hill]>",
-					"Generated with weight [70] <in [Rubble] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Rubble] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Forsterite}] tiles>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Hydrated rock}] tiles>"],
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [70] <in [Pyroclasts] tiles> <in tiles without [Hill]>",
+			"Generated with weight [70] <in [Rubble] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [Rubble] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Forsterite}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Hydrated rock}] tiles>"
+		],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"civilopediaText": [
@@ -674,6 +744,18 @@
 			}
 		]
 	},
+	// human related
+	{
+		"name": "Morale",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Not shown on world screen <for [non-[Human]] Civilizations>",
+			"Cannot be traded"
+		]
+	},
 	// singularity related
 	{
 		"name": "Tech Level",
@@ -684,30 +766,6 @@
 			"Cannot be traded",
 			"Stockpiled",
 			"Excluded from map editor"
-		]
-	},
-	{
-		"name": "Tech Cost",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Excluded from map editor",
-			"Stockpiled",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	// completing policies to buy advanced units
-	{
-		"name": "Completed Policies",
-		"resourceType": "Bonus",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Excluded from map editor",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
 		]
 	}
 ]

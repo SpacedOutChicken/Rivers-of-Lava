@@ -14,25 +14,15 @@
 
 	// parts
 	{
-		"name": "Recycle I",
+		"name": "Recycle",
 		"uniques": [
 			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
 			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately",
-			"Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>"
+			"Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>",
+			"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile>"
 		],
 		"column": 0,
 		"row": 1
-	},
-	{
-		"name": "Recycle II",
-		"prerequisites": ["Recycle I"],
-		"uniques": [
-			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
-			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately"
-		],
-		"unitTypes": ["Melee Drone", "Ranged Drone", "Melee Hover", "Ranged Hover", "Armored", "Siege", "Aircraft", "Satellite", "Scouting"],
-		"column": 0,
-		"row": 2
 	},
 
 	// missile promotions
@@ -122,7 +112,6 @@
 		"name": "Lava Skipper",
 		"prerequisites": ["Open Range", "Off-Roading"],
 		"uniques": [
-			"Eliminates combat penalty for attacking across a coast <hidden from users>",
 			"Eliminates combat penalty for attacking over a river <hidden from users>",
 			"Comment [Eliminates combat penalty for attacking across lava]",
 			"Ignores terrain cost"
@@ -145,8 +134,7 @@
 		"name": "Regeneration",
 		"prerequisites": ["Field Repairs", "Lava Skipper"],
 		"uniques": [
-			"Unit will heal every turn, even if it performs an action",
-			"May heal outside of friendly territory"
+			"Unit will heal every turn, even if it performs an action"
 		],
 		"unitTypes": ["Melee Drone", "Ranged Drone"],
 		"column": 7,
@@ -266,6 +254,12 @@
 			"[+25]% Strength <when attacking>"
 		]
 	},
+	{
+		"name": "[Breacher] ability",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles <vs cities> <in tiles adjacent to [City center] tiles>"
+		]
+	},
 
 	// special promotions
 	{
@@ -279,7 +273,7 @@
 		"name": "Heat Training",
 		"uniques": [
 			"[+10]% Strength <when fighting in [Lava] tiles>",
-			"[+10]% Strength <when fighting in [Fresh water] tiles>"
+			"[+10]% Strength <when fighting in [Fresh Water] tiles>"
 		]
 	},
 	{
@@ -318,7 +312,9 @@
 		"uniques": [
 			"Uncapturable",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status>",
-			"[+15]% maintenance costs"
+			"[+15]% maintenance costs",
+			"Instantly gain [3] [Morale] <upon defeating a [Military] unit>",
+			"Instantly gain [-1] [Morale] <upon being defeated>"
 		]
 	},
 	{
@@ -358,14 +354,14 @@
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
 			"No movement cost to pillage",
-			"Will not be displayed in Civilopedia"
+			"May capture killed [All] units <with [25]% chance>",
+			"[+25]% Health from pillaging tiles"
 		]
 	},
 	{
 		"name": "Rogue Handicap",
 		"uniques": [
-			"Unable to pillage tiles",
-			"Will not be displayed in Civilopedia"
+			"Unable to pillage tiles"
 		]
 	},
 

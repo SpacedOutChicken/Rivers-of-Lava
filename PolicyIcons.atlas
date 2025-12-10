@@ -25,30 +25,37 @@ PolicyBranchIcons/Distribution
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyBranchIcons/Domination
+PolicyBranchIcons/Dominion
   rotate: false
-  xy: 410, 4
+  xy: 468, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Exploration
   rotate: false
-  xy: 526, 62
+  xy: 526, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Foundation
   rotate: false
-  xy: 584, 62
+  xy: 584, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Militarism
   rotate: false
-  xy: 758, 62
+  xy: 816, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Research
+  rotate: false
+  xy: 1106, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -144,177 +151,212 @@ PolicyIcons/Development
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Entrenchment
+PolicyIcons/Diversification
   rotate: false
-  xy: 468, 62
+  xy: 410, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Ergonomics
+PolicyIcons/Entrenchment
   rotate: false
   xy: 468, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Ergonomics
+  rotate: false
+  xy: 526, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Field Research
   rotate: false
-  xy: 526, 4
+  xy: 584, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Hardened Circuits
-  rotate: false
-  xy: 584, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Home Defense
+PolicyIcons/Geochemistry
   rotate: false
   xy: 642, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Interdependence
+PolicyIcons/Hardened Circuits
   rotate: false
   xy: 642, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Investment
+PolicyIcons/Home Defense
   rotate: false
   xy: 700, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Land Development
+PolicyIcons/Interdependence
   rotate: false
   xy: 700, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Mutual Benefit
+PolicyIcons/Investment
+  rotate: false
+  xy: 758, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Land Development
   rotate: false
   xy: 758, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Non-Aggression Axiom
-  rotate: false
-  xy: 816, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Open Source Code
+PolicyIcons/Multithreading
   rotate: false
   xy: 816, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Peer Review
+PolicyIcons/Mutual Benefit
   rotate: false
   xy: 874, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Post-Scarcity
+PolicyIcons/Non-Aggression Axiom
   rotate: false
   xy: 874, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Productivity
+PolicyIcons/Open Source Code
   rotate: false
   xy: 932, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Reciprocity
+PolicyIcons/Optimization
   rotate: false
   xy: 932, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Reinforcement
+PolicyIcons/Peer Review
   rotate: false
   xy: 990, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Retrofitting
+PolicyIcons/Post-Scarcity
   rotate: false
   xy: 990, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Salt the Earth
+PolicyIcons/Productivity
   rotate: false
   xy: 1048, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Self-Sufficiency
+PolicyIcons/Reciprocity
   rotate: false
   xy: 1048, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Subjugation
+PolicyIcons/Reinforcement
   rotate: false
   xy: 1106, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Supply Lines
-  rotate: false
-  xy: 1106, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Swarm Management
+PolicyIcons/Retrofitting
   rotate: false
   xy: 1164, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Tactical Leadership
+PolicyIcons/Salt the Earth
   rotate: false
   xy: 1164, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Trailblazing
+PolicyIcons/Self-Sufficiency
   rotate: false
   xy: 1222, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Wartime Production
+PolicyIcons/Specialization
   rotate: false
   xy: 1222, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Subjugation
+  rotate: false
+  xy: 1280, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Supply Lines
+  rotate: false
+  xy: 1280, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Swarm Management
+  rotate: false
+  xy: 1338, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Tactical Leadership
+  rotate: false
+  xy: 1338, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Trailblazing
+  rotate: false
+  xy: 1396, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Wartime Production
+  rotate: false
+  xy: 1396, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

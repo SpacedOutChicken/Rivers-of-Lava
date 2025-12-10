@@ -85,7 +85,7 @@
                 "name": "Decentralization",
                 "uniques": [
                     "[+1 Production] [in all cities]",
-					"[+1 Production, +1 Science] [in all cities connected to capital]"
+					"[+1 Production, +2 Science] [in all cities connected to capital]"
                 ],
                 "row": 1,
                 "column": 1
@@ -122,7 +122,7 @@
                 "name": "Ergonomics",
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
-                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                    "[-10]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
                 "requires": ["Land Development"],
                 "row": 2,
@@ -155,7 +155,8 @@
 			{
 				"name": "Field Research",
 				"uniques": [
-					"[{non-[Air]} {Military}] units gain the [Sampling] promotion"
+					"[{non-[Air]} {Military}] units gain the [Sampling] promotion",
+                    "Instantly gain [20] [Science] <(modified by game speed)> <upon discovering a Natural Wonder>"
 				],
 				"row": 1,
 				"column": 1
@@ -206,6 +207,7 @@
 		"era": "Exploring era",
 		"uniques": [
 			"[+33]% Production when constructing [Tactical Simulator] buildings [in all cities]",
+            "[+33]% Production when constructing [Advanced Tactical Simulator] buildings [in all cities]",
 			"[-33]% maintenance costs <for [All] units>"
 		],
 		"policies": [
@@ -217,7 +219,7 @@
 			},
 			{
 				"name": "Combat Expertise",
-				"uniques":["[50]% XP gained from combat <for [Military] units>"],
+				"uniques":["[+50]% XP gained from combat <for [Military] units>"],
 				"row": 1,
 				"column": 3
 			},
@@ -231,8 +233,8 @@
 				"name": "Retrofitting",
 				"uniques": [
 					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Happiness] from every [Turrets]",
-					"[+1 Happiness] from every [Barriers]"
+					"[+1 Happiness, +1 Culture] from every [Tactical Simulator]",
+					"[+1 Happiness, +1 Culture] from every [Advanced Tactical Simulator]"
 				],
 				"requires": ["Reinforcement","Combat Expertise"],
 				"row": 2,
@@ -258,7 +260,9 @@
         "era": "Exploring era",
         "uniques": [
 			"City-State territory always counts as friendly territory",
-			"City-State Influence recovers at twice the normal rate"
+			"City-State Influence recovers at twice the normal rate",
+            "[+1 Culture] <for every [2] [Remaining [City-State] Civilizations]>",
+            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 		],
         "policies": [
             {
@@ -273,7 +277,8 @@
             {
                 "name": "Reciprocity",
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
+                    "[+100]% Gold from Great Merchant trade missions"
                 ],
                 "row": 1,
                 "column": 4
@@ -328,7 +333,8 @@
         },*/
         "uniques": [
             "When declaring friendship, both parties gain a [10]% boost to great person generation",
-            "Only available <before adopting [Domination]>"
+            "[+1 Culture] <for every [Remaining [Open Borders] Civilizations]>",
+            "Only available <before adopting [Dominion]>"
         ],
         "policies": [
             {
@@ -369,8 +375,8 @@
             {
                 "name": "Non-Aggression Axiom",
                 "uniques": [
-                    "[-10]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>",
-                    "[+10]% Production when constructing [Military] units [in all cities] <when at war>"
+                    "[-15]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>",
+                    "[+15]% Production when constructing [Military] units [in all cities] <when at war>"
                 ],
                 "requires": ["Mutual Benefit"],
                 "row": 2,
@@ -386,7 +392,7 @@
         ]
     },
     {
-        "name": "Domination",
+        "name": "Dominion",
         "era": "Exploiting era",
         /*"priorities": {
             "Neutral": 50,
@@ -403,7 +409,6 @@
             {
                 "name": "Salt the Earth",
                 "uniques": [
-                    "[+100]% Yield from pillaging tiles",
                     "[+50]% Health from pillaging tiles",
                     "No movement cost to pillage",
                     "Cities are razed [3] times as fast"
@@ -414,7 +419,7 @@
             {
                 "name": "Subjugation",
                 "uniques": [
-                    "[+3 Happiness] from every [Assimilation Protocol]",
+                    "[+3 Happiness, +1 Culture] from every [Assimilation Protocol]",
                     "[+100]% Production when constructing [Assimilation Protocol] buildings [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]"
                 ],
@@ -424,8 +429,9 @@
             {
                 "name": "Corporate Raiders",
                 "uniques": [
+                    "[+100]% Yield from pillaging tiles",
                     "[{non-[Air]} {Military}] units gain the [Profiteering] promotion",
-                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
                 ],
                 "row": 1,
                 "column": 5
@@ -452,10 +458,69 @@
                 "column": 5
             },
             {
-                "name": "Domination Complete",
+                "name": "Dominion Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]",
                     "Empire enters golden age <upon conquering a city>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Research",
+        "era": "Exploiting era",
+        "uniques": [
+            "[+15]% [Science] <while the empire is happy>"
+        ],
+        "policies": [
+            {
+                "name": "Multithreading",
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Optimization",
+                "uniques": [
+                    "[+1 Happiness, +1 Culture] from every [Automated Lab]",
+                    "[+1 Happiness, +1 Culture] from every [Hardware Simulation Lab]",
+                    "[+1 Happiness, +1 Culture] from every [Synchotron]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Geochemistry",
+                "uniques": [
+                    "[+1 Science] from every [{improved} {resource}]"
+                ],
+                "requires": ["Multithreading"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Diversification",
+                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "requires": ["Optimization"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Specialization",
+                "uniques": [
+                    "[+17]% [Science] from every [Hardware Simulation Lab]",
+                    "[+25]% Great Person generation [in all cities]"
+                ],
+                "requires": ["Geochemistry"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Research Complete",
+                "uniques": [
+                    "Free Technology"
                 ]
             }
         ]
