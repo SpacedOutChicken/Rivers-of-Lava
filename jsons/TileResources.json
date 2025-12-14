@@ -39,6 +39,18 @@
 			"Generated on every [15] tiles <in [{Featureless} {Basalt}] tiles>",
 			"Generated on every [19] tiles <in [{Featureless} {Silicate}] tiles>",
 			"Generated on every [20] tiles <in [{Featureless} {Sulfur}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Feldspars",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Flaky material that can be used in making glass and ceramics."
+			}
 		]
 	},
 	{
@@ -51,6 +63,18 @@
 		"uniques": [
 			"Generated on every [13] tiles <in [Hill] tiles>",
 			"Generated on every [10] tiles <in [Hill] tiles> <in [Hill] Regions>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Olivine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A common silicate used to cast aluminum and form steel."
+			}
 		]
 	},
 	{
@@ -68,6 +92,18 @@
 			"Generated on every [16] tiles <in [{Basalt} {Rubble}] tiles> <in [Hill] Regions>",
 			"Generated on every [25] tiles <in [{Basalt} {Pyroclasts}] tiles> <in [Hill] Regions>",
 			"Generated on every [28] tiles <in [Rubble] tiles> <in [Hill] Regions>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Pyroxenes",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These crystals frequently form as phenocrysts in volcanic glass."
+			}
 		]
 	},
 	{
@@ -80,6 +116,18 @@
 		"uniques": [
 			"Generated on every [14] tiles <in [Pyroclasts] tiles>",
 			"Generated on every [16] tiles <in [Pyroclasts] tiles> <in [Hill] Regions>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Amphiboles",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "You can find these crystals in both monoclinic and orthorhombic formations."
+			}
 		]
 	},
 	{
@@ -93,6 +141,18 @@
 			"Generated on every [27] tiles <in [Fresh Water] tiles> <in tiles without [Hill]>",
 			"Generated on every [20] tiles <in [Fresh Water] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
 			"Generated on every [50] tiles <in [Lava] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Micas",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The fragile, elastic plates from this mineral have applications in paints and fillers."
+			}
 		]
 	},
 	{
