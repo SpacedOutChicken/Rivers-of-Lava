@@ -1105,70 +1105,70 @@ UnitPromotionIcons/Rogue Bonus
   index: -1
 UnitPromotionIcons/Rogue Handicap
   rotate: false
-  xy: 178, 4
+  xy: 1090, 101
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sampling
   rotate: false
-  xy: 1090, 101
+  xy: 1172, 182
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scavenge Parts
   rotate: false
-  xy: 1172, 182
+  xy: 1230, 182
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scorched Earth
   rotate: false
-  xy: 1230, 182
+  xy: 236, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Self-Driven
   rotate: false
-  xy: 236, 24
+  xy: 294, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stealth
   rotate: false
-  xy: 294, 24
+  xy: 352, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strike Reserve
   rotate: false
-  xy: 352, 24
+  xy: 410, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Suppressive Fire
   rotate: false
-  xy: 410, 24
+  xy: 468, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Target Lock
   rotate: false
-  xy: 468, 24
+  xy: 526, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Targeting LIDAR
   rotate: false
-  xy: 526, 24
+  xy: 584, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
