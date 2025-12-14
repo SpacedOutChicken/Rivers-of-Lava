@@ -814,6 +814,14 @@
 			"Excluded from map editor",
 			"Not shown on world screen <for [non-[Human]] Civilizations>",
 			"Cannot be traded"
+		],
+		"civilopediaText": [
+			{
+				"text": "When humans fight, they need more than just efficiency to get through. They need the thrill of victory."
+			},
+			{
+				"text": "The Bayesian Commune gains Morale for every robot that they destroy.", "link":"Nation/The Bayesian Commune"
+			}
 		]
 	},
 	// singularity related
@@ -826,6 +834,11 @@
 			"Cannot be traded",
 			"Stockpiled",
 			"Excluded from map editor"
+		],
+		"civilopediaText": [
+			{
+				"text": "There's no end to how far our tech can advance."
+			}
 		]
 	}
 ]
