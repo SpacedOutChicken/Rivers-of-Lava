@@ -365,7 +365,7 @@
 		"innerColor": [255,0,0],
 		"uniqueName": "High-Value Acquisitions",
         "uniques": [
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[+1 Gold] from each Trade Route"
 		],
 		"cities": [

@@ -175,7 +175,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"food": 1,
-		"revealedBy": "Deep Extraction",
+		"revealedBy": "Geophysics",
 		"improvement": "Crust platform",
 		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
@@ -200,7 +200,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"food": 1,
-		"revealedBy": "Deep Extraction",
+		"revealedBy": "Geophysics",
 		"improvement": "Crust platform",
 		"improvementStats": {"production": 1, "food": 1},
 		"uniques": [
@@ -369,7 +369,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"production": 1,
-		"revealedBy": "Deep Extraction",
+		"revealedBy": "Geophysics",
 		"improvement": "Crust platform",
 		"improvementStats": {"gold": 1, "production": 1},
 		"uniques": [
@@ -393,7 +393,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
 		"production": 1,
-		"revealedBy": "Deep Extraction",
+		"revealedBy": "Geophysics",
 		"improvement": "Crust platform",
 		"improvementStats": {"gold": 1, "production": 1},
 		"uniques": [
@@ -471,7 +471,7 @@
 		"name": "Halides",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Lava", "Crust"],
-		"revealedBy": "Deep Extraction",
+		"revealedBy": "Geophysics",
 		"production": 1,
 		"improvement": "Crust platform",
 		"improvementStats": {"gold": 1, "production": 1},
