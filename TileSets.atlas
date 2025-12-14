@@ -676,18 +676,18 @@ TileSets/FantasyHex/Tiles/Zamama
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/All-Terrain Crawler
+TileSets/FantasyHex/Units/Aircraft-attack-1
   rotate: false
-  xy: 112, 55
-  size: 32, 28
-  orig: 32, 28
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Anti-Labor Drone
+TileSets/FantasyHex/Units/Aircraft-attack-3
   rotate: false
-  xy: 44, 4
-  size: 32, 28
-  orig: 32, 28
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armored-attack-1
@@ -746,6 +746,20 @@ TileSets/FantasyHex/Units/Melee Hover-attack-3
   orig: 30, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Missile-attack-1
+  rotate: false
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Missile-attack-3
+  rotate: false
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Ranged Drone-attack-1
   rotate: false
   xy: 1180, 161
@@ -768,6 +782,20 @@ TileSets/FantasyHex/Units/Ranged Hover-attack-1
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Hover-attack-3
+  rotate: false
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Satellite-attack-1
+  rotate: false
+  xy: 1180, 161
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Satellite-attack-3
   rotate: false
   xy: 1180, 161
   size: 30, 30
@@ -802,6 +830,13 @@ TileSets/FantasyHex/Units/Siege-attack-3
   orig: 30, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Aircraft-attack-2
+  rotate: false
+  xy: 1180, 123
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Armored-attack-2
   rotate: false
   xy: 1180, 123
@@ -830,6 +865,13 @@ TileSets/FantasyHex/Units/Melee Hover-attack-2
   orig: 30, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Missile-attack-2
+  rotate: false
+  xy: 1180, 123
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Ranged Drone-attack-2
   rotate: false
   xy: 1180, 123
@@ -838,6 +880,13 @@ TileSets/FantasyHex/Units/Ranged Drone-attack-2
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Hover-attack-2
+  rotate: false
+  xy: 1180, 123
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Satellite-attack-2
   rotate: false
   xy: 1180, 123
   size: 30, 30
@@ -856,6 +905,20 @@ TileSets/FantasyHex/Units/Siege-attack-2
   xy: 1180, 123
   size: 30, 30
   orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/All-Terrain Crawler
+  rotate: false
+  xy: 112, 55
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anti-Labor Drone
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Assault Mech
