@@ -266,6 +266,7 @@ Techs:
 * Molecular Machines: [Nano bot icon](https://game-icons.net/1x1/delapouite/nano-bot.html) by Delapouite
 
 Units:
+* Assault Mech: [Missile mech icon](https://game-icons.net/1x1/lorc/missile-mech.html) by Lorc
 * Basic Drone: [Vintage robot icon](https://game-icons.net/1x1/lorc/vintage-robot.html) by Lorc
 * Boring Machine: [Drill icon](https://game-icons.net/1x1/lorc/drill.html) by Lorc
 * Light Crawler: [Tank tread icon](https://game-icons.net/1x1/skoll/tank-tread.html) by Skoll

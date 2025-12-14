@@ -398,6 +398,8 @@
 		"cost": 70,
 		"attackSound": "tankshot",
 		"requiredTech": "Distributed Assembly",
+		"obsoleteTech": "Planetary Engineering",
+		"upgradesTo": "Heavy Crawler",
 		"uniques": [
 			"Consumes [1] [Iron]",
 			"Costs [5] [Parts] <(modified by game speed)>",
