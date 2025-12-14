@@ -17,6 +17,7 @@
         ],
         "civilopediaText": [{ "text": "Our first factory comes equipped with powerful facilities sent directly from Earth, providing our other factories with power, building material, and critical data." }]
     },
+    /*
     {
         "name": "Power Plant",
         "production": 1,
@@ -29,19 +30,19 @@
         ],
         "cost": 1
     },
+    */
     {
         "name": "Life Support System",
         "uniqueTo": "Human",
-        "replaces": "Power Plant",
         "cost": 1,
         "food": 1,
         "uniques": [
             "Automatically built in all cities where it is buildable",
             "Unsellable",
-            "Never destroyed when the city is captured",
+            "Destroyed when the city is captured",
             "Provides [1] [Weight]",
-            "Provides [2] [Power] <in this city>",
-            "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>"
+            "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
+            "Limited to [0] per Civilization <for [non-[Human]] Civilizations>"
         ]
     },
 
@@ -87,7 +88,8 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Costs [2] [Parts] <(modified by game speed)>"
-        ]
+        ],
+        "requiredTech": "Basic Survival"
 	},
     {
         "name": "Chemical Refinery",

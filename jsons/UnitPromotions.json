@@ -273,7 +273,8 @@
 		"name": "Heat Training",
 		"uniques": [
 			"[+10]% Strength <when fighting in [Lava] tiles>",
-			"[+10]% Strength <when fighting in [Fresh Water] tiles>"
+			"[+10]% Strength <when fighting in [Fresh Water] tiles>",
+			"Double movement in [Lava]"
 		]
 	},
 	{

@@ -3,6 +3,7 @@
 		"name": "Mobile Constructor",
 		"unitType": "Civilian",
 		"movement": 2,
+		"requiredTech": "Basic Survival",
 		"cost": 100,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
@@ -18,6 +19,7 @@
 		"uniqueTo": "The Bayesian Commune",
 		"replaces": "Mobile Constructor",
 		"movement": 3,
+		"requiredTech": "Basic Survival",
 		"cost": 90,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
@@ -30,6 +32,7 @@
 		"name": "Labor Drone",
 		"unitType": "Civilian",
 		"upgradesTo": "Terraformer",
+		"requiredTech": "Basic Survival",
 		"obsoleteTech": "Deep Extraction",
 		"movement": 2,
 		"hurryCostModifier": 20,
@@ -45,6 +48,7 @@
 		"name": "Anti-Labor Drone",
 		"unitType": "Melee Drone",
 		"uniqueTo": "Barbarians",
+		"requiredTech": "Basic Survival",
 		"obsoleteTech": "Basic Munitions",
 		"upgradesTo": "SR Drone Mk I",
 		"movement": 2,
@@ -97,6 +101,7 @@
 	{
 		"name": "Basic Drone",
 		"unitType": "Melee Drone",
+		"requiredTech": "Basic Survival",
 		"obsoleteTech": "Basic Munitions",
 		"upgradesTo": "SR Drone Mk I",
 		"movement": 2,
@@ -127,6 +132,7 @@
 		"strength": 3,
 		"cost": 15,
 		"hurryCostModifier": 20,
+		"requiredTech": "Basic Survival",
 		"obsoleteTech": "Iterative Design",
 		"upgradesTo": "Infiltration Rover",
 		"attackSound": "nonmetalhit",

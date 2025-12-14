@@ -243,7 +243,7 @@
 		"declaringWar": "We've tried all other avenues, but yet you persist in this madness. Hopefully your end is swift.",
 		"attacked": "The only thing necessary to allow evil to triumph is for us to do nothing. We will not allow you to go unchecked.",
 		"defeated": "Very well, then. Go ahead and claim this little moon for yourself, but know that the wider Solar System will never belong to the likes of you.",
-		"introduction": "A thousand welcomes to our country's establishment. We are PAfSA, and we are here to further humanity's quest for knowledge and advancement.",
+		"introduction": "A thousand welcomes to our agency's establishment. We are PAfSA, and we are here to further humanity's quest for knowledge and advancement.",
 		"neutralHello": "Oh, welcome!",
 		"hateHello": "Oh, it is you.",
 		"tradeRequest": "We request that you consider this offer between our two organizations. We believe it will do us both good.",
@@ -252,7 +252,7 @@
 		"uniqueName": "Common Governance",
 		"uniques": [
 			"[-25]% enemy spy effectiveness [in all cities]",
-			"[+1 Production, +2 Science] from all [Production] buildings"
+			"[+1 Production, +1 Science] from all [Production] buildings"
 		],
 		"cities": [
 			"PAfSA 01",

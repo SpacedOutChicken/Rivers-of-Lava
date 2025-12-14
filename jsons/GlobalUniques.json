@@ -127,5 +127,8 @@
         "May Paradrop to [{Friendly} {Landing}] tiles up to [40] tiles away <in [{Friendly} {Landing}] tiles> <hidden from users>",
         "Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>",
 		"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile> <for [non-[Barbarian]] units>"
+    ],
+    "civilopediaText": [
+        {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
 }
