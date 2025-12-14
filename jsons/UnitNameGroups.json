@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Station",
+        "unitNames": ["Salyut","DOS","Kosmos","Skylab","Mir","Tiangong","OPS","Genesis","ISS","Haven","LIFE","StarMax","Axiom","Gateway","Orbital Reef","BAS","Starlab","Mitsui","MOL","Freedom","Columbus","Galaxy","Sundancer","Almaz","OPSEK","B330","CLD"]
+    },
+    {
+        "name": "Hammer",
+        "unitNames": ["DS9","Babylon","Red Star","Clavius","Death Star","Deep Wheel Orcadia","Downbelow","Armstrong","Elysium","Oberon","SLAMS","Citadel","Halo"]
+    }
+]

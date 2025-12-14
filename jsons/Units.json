@@ -615,7 +615,8 @@
 			"Destroys tile improvements when attacking",
 			"Costs [100] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]",
-			"Consumes [1] [Parts]"
+			"Consumes [1] [Parts]",
+			"[This Unit] gets a name from the [Station] group"
 		]
 	},
 	{
@@ -645,7 +646,8 @@
 			"Destroys tile improvements when attacking",
 			"Costs [100] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]",
-			"Consumes [1] [Parts]"
+			"Consumes [1] [Parts]",
+			"[This Unit] gets a name from the [Hammer] group"
 		]
 	},
 	{
