@@ -527,6 +527,7 @@
 		"attackSound": "nuke",
 		"uniques": [
 			"Nuclear weapon of Strength [1]",
+			"Blast radius [2]",
 			"Only available <if [Tube Alloys Project] is constructed>",
 			"Consumes [1] [Actinides]",
 			"Consumes [1] [Parts]",

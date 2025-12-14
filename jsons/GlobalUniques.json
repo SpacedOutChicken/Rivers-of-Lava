@@ -129,6 +129,6 @@
 		"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile> <for [non-[Barbarian]] units>"
     ],
     "civilopediaText": [
-        {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+        {"text": "Global uniques are ruleset-wide modifiers that apply to all companies."}
     ]
 }
