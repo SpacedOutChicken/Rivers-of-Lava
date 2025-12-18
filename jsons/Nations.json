@@ -123,7 +123,7 @@
 	// based on SpaceX
 	{
 		"name": "Ex Aerospace",
-		"leaderName": "Nikolai Muskegon",
+		"leaderName": "Nikola Muskegon",
 		"adjective": ["Ex"],
 	
 		"startIntroPart1": "With branches in space exploration, human-machine interface technology, clean energy production, autonomous robotics, tunnel construction, and even social media, Ex has long sought to do it all. It was an early major player in the colonization of planets beyond Earth, establishing human settlements on Mars and sending drones out across the Solar System.",
@@ -144,28 +144,28 @@
 			"[+2] Range <for [Air] units>"
 		],
 		"cities": [
-			"Ex 01",
-			"Ex 02",
-			"Ex 03",
-			"Ex 04",
-			"Ex 05",
-			"Ex 06",
-			"Ex 07",
-			"Ex 08",
-			"Ex 09",
-			"Ex 10",
-			"Ex 11",
-			"Ex 12",
-			"Ex 13",
-			"Ex 14",
-			"Ex 15",
-			"Ex 16",
-			"Ex 17",
-			"Ex 18",
-			"Ex 19",
-			"Ex 20"
+			"Wardenclyffe Base",
+			"Station S",
+			"Station 3",
+			"Station X",
+			"Station Y",
+			"Æ A 12",
+			"Superloop",
+			"Megafactory",
+			"Skylink",
+			"Translunar Institute of Technology and Science",
+			"Falcon Base",
+			"Foster's Church",
+			"Zip Station",
+			"Dragon Base",
+			"Solar Town",
+			"Depot of Geological Engineering",
+			"Boring Tunnel",
+			"Neural Connect",
+			"Teleforce Tower",
+			"xAurora"
 		],
-		"spyNames": ["EA Alfa", "EA Bravo", "EA Charlie", "EA Delta", "EA Echo", "EA Foxtrot", "EA Golf", "EA Hotel", "EA India", "EA Juliett"],
+		"spyNames": ["Cher Ami", "Winkie", "Kenley Lass", "Mary", "GI Joe", "Mocker", "Paddy", "Commando", "President Wilson", "White Vision"], // pigeons in honor of Tesla
 		"civilopediaText": [
 			{
 				"text": "With branches in space exploration, human-machine interface technology, clean energy production, autonomous robotics, tunnel construction, and even social media, Ex has long sought to do it all. It was an early major player in the colonization of planets beyond Earth, establishing human settlements on Mars and sending drones out across the Solar System."

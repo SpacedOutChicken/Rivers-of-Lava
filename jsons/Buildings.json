@@ -297,7 +297,6 @@
     },
     {
         "name": "Combustion Cylinder 2",
-        "production": 1,
         "uniques": [
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
@@ -312,7 +311,6 @@
     },
     {
         "name": "Combustion Cylinder 3",
-        "production": 1,
         "uniques": [
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
@@ -327,7 +325,6 @@
     },
     {
         "name": "Combustion Cylinder 4",
-        "production": 1,
         "uniques": [
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
@@ -342,7 +339,6 @@
     },
     {
         "name": "Combustion Cylinder 5",
-        "production": 1,
         "uniques": [
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
@@ -357,7 +353,6 @@
     },
     {
         "name": "Combustion Cylinder 6",
-        "production": 1,
         "uniques": [
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
@@ -794,7 +789,7 @@
         "science": 1,
         "uniques": [
             "Consumes [1] [Power]",
-            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [10] [Rods]>",
+            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [10] [Rods]> <when number of [[Space Station] Units] is more than [0]",
             "Comment [Enables construction of [Space Station] units]",
             "[+15]% Production when constructing [Space] units [in this city]",
             "Provides [2] [Weight]",
