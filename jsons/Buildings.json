@@ -789,7 +789,7 @@
         "science": 1,
         "uniques": [
             "Consumes [1] [Power]",
-            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [10] [Rods]> <when number of [[Space Station] Units] is more than [0]",
+            "Instantly provides [1] [Rods] <every [5] turns> <upon turn end> <when below [10] [Rods]> <when number of [[Space Station] Units] is more than [0]>",
             "Comment [Enables construction of [Space Station] units]",
             "[+15]% Production when constructing [Space] units [in this city]",
             "Provides [2] [Weight]",
