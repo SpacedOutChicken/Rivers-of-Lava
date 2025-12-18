@@ -462,7 +462,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Mountain Tunnel] tile",
-			"[+1 Production] <in [Mountain] tiles>",
+			"[+2 Production] <in [Mountain] tiles>",
 			"Excluded from map editor",
 			"Instantly gain [1] [Parts]"
 		],
@@ -476,8 +476,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Crust] tile",
-			"[+1 Production] <in [Lava] tiles>",
-			"Improves [any] resource in this tile",
+			"[+1 Food] <in [Lava] tiles>",
 			"Excluded from map editor",
 			"Can only be built on [Lava] tiles"
 		],
