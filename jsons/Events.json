@@ -157,5 +157,14 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Free Advanced Unit",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": ["Instantly gain [1] [Off-Switch]", "Free Great Person"]
+            }
+        ]
     }
 ]

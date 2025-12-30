@@ -47,7 +47,6 @@
         // difficulty tweak
         "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Tourist] difficulty>",
         "Discover [Reinforcements from Home] <for [AI player] Civilizations> <on [Deity] difficulty>",
-        "Discover [Reinforcements from Home] <for [Human player] Civilizations> <on [Sandbox] difficulty>",
 
         // oxygen mechanic
         "Provides [-1] [Oxygen] <for [Human] Civilizations> <in cities with at least [1] [Population]>",
@@ -102,8 +101,12 @@
         "[+5]% Science cost of researching new Technologies <for every [[Tech Level]^2]>",
 
         // buying advanced units
-        "May buy [Great Person] units for [1000] [Culture] [in all cities] at an increasing price ([500]) <when number of [Completed Policy branches] is more than [5]>"
+        "May buy [Great Person] units for [1000] [Culture] [in all cities] at an increasing price ([500]) <when number of [Completed Policy branches] is more than [5]>",
         // check again after adding more policies
+
+        // faster border expansion
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "[-25]% Gold cost of acquiring tiles [in all cities]"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
@@ -124,7 +127,7 @@
         "Cannot embark",
         "Can only heal by pillaging <in [Lava] tiles>",
         "Can only heal by pillaging <in [Mountain] tiles>",
-        "May Paradrop to [{Friendly} {Landing}] tiles up to [40] tiles away <in [{Friendly} {Landing}] tiles> <hidden from users>",
+        "May Paradrop to [Terrain] tiles up to [40] tiles away <in [City center] tiles> <in cities with a [Launchpad]> <hidden from users>",
         "Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>",
 		"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile> <for [non-[Barbarian]] units>"
     ],

@@ -11,7 +11,19 @@
 			"Requires at least [2] population",
 			"Costs [5] [Parts] <(modified by game speed)>"
 		],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mobile Constructor",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This unit contains everything necessary to found an autonomous factory."
+			}
+		]
 	},
 	{
 		"name": "Colonizer",
@@ -26,6 +38,18 @@
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
 			"Costs [5] [Parts] <(modified by game speed)>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The humans of the Bayesian Commune make it a point to settle the planet faster than the machines can."
+			}
 		]
 	},
 	{
@@ -42,7 +66,19 @@
 			"Automation is a primary action",
 			"Costs [2] [Parts] <(modified by game speed)>"
 		],
-		"cost": 70
+		"cost": 70,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Labor Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This unit is capable of reshaping terrain and establishing facilities vital to our factories' functioning, but it is incapable of self-defense."
+			}
+		]
 	},
 	{
 		"name": "Anti-Labor Drone",
@@ -54,12 +90,20 @@
 		"movement": 2,
 		"strength": 5,
 		"hurryCostModifier": 20,
-		"uniques": [
-			"No movement cost to pillage",
-			"Can build [Land] improvements on tiles",
-			"Can build [Lava] improvements on tiles"
-		],
-		"cost": 25
+		"promotions": ["[Anti-Labor Drone] ability"],
+		"cost": 25,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Anti-Labor Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "When labor drones go wrong, they can quickly dismantle your terrain improvements."
+			}
+		]
 	},
 	{
 		"name": "Terraformer",
@@ -77,7 +121,19 @@
 			"Double movement in [Lava]",
 			"Costs [5] [Parts] <(modified by game speed)>"
 		],
-		"cost": 140
+		"cost": 140,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Terraformer",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These more advanced labor units are especially adept at navigating difficult terrain and quickly building vital improvements."
+			}
+		]
 	},
 	{
 		"name": "Boring Machine",
@@ -96,7 +152,19 @@
 			"Ignores terrain cost",
 			"Costs [5] [Parts] <(modified by game speed)>"
 		],
-		"cost": 140
+		"cost": 140,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Boring Machine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Ex Aerospace's specialized labor units are the best on the moon at remaking Io's surface."
+			}
+		]
 	},
 	{
 		"name": "Basic Drone",
@@ -140,6 +208,53 @@
 			"Ignores terrain cost",
 			"Costs [2] [Parts] <(modified by game speed)>",
 			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Scouting Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "These rovers aren't much for defending themselves or your factories, but they're good for exploring."
+			}
+		]
+	},
+	{
+		"name": "Wildcat Rover",
+		"uniqueTo": "Wildcatters",
+		"replaces": "Scouting Rover",
+		"unitType": "Scouting",
+		"movement": 2,
+		"strength": 3,
+		"cost": 15,
+		"hurryCostModifier": 20,
+		"requiredTech": "Basic Survival",
+		"obsoleteTech": "Iterative Design",
+		"upgradesTo": "Infiltration Rover",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Ignores terrain cost",
+			"Costs [2] [Parts] <(modified by game speed)>",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Can see invisible [non-[Air]] units",
+			"Invisible to non-adjacent units",
+			"May enter foreign tiles without open borders",
+			"Can see over obstacles"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Wildcat Rover",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Wildcatter rovers are uniquely good at sneaking around and scouting out new terrain to find new claims."
+			}
 		]
 	},
 	{
@@ -158,6 +273,18 @@
 		"attackSound": "shot",
 		"uniques": [
 			"Costs [2] [Parts] <(modified by game speed)>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pistol Drone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Our first few advances in weaponry allow our drones to strike at a distance."
+			}
 		]
 	},
 	{
@@ -173,6 +300,18 @@
 		"attackSound": "metalhit",
 		"uniques": [
 			"Costs [2] [Parts] <(modified by game speed)>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/SR Drone Mk I",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A more robust drone than our initial offerings, well suited for defending our territory."
+			}
 		]
 	},
 	{
@@ -314,7 +453,8 @@
 			"May enter foreign tiles without open borders",
 			"Invisible to non-adjacent units",
 			"Can see invisible [non-[Air]] units",
-			"Ignores terrain cost"
+			"Ignores terrain cost",
+			"Can see over obstacles"
 		]
 	},
 	{
@@ -392,7 +532,7 @@
 		"uniqueTo": "Kosprom",
 		"replaces": "All-Terrain Crawler",
 		"unitType": "Armored",
-		"movement": 2,
+		"movement": 3,
 		"strength": 25,
 		"hurryCostModifier": 20,
 		"cost": 70,
@@ -597,8 +737,8 @@
 		"name": "Orbital Bombardment Platform",
 		"unitType": "Space Station",
 		"movement": 2,
-		"strength": 100,
-		"rangedStrength": 100,
+		"strength": 150,
+		"rangedStrength": 150,
 		"range": 50,
 		"hurryCostModifier": 20,
 		"cost": 1000,
@@ -619,7 +759,8 @@
 			"Costs [100] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]",
 			"Consumes [1] [Parts]",
-			"[This Unit] gets a name from the [Station] group"
+			"[This Unit] gets a name from the [Station] group",
+			"Destroys [non-[Capital]] cities instead of capturing"
 		]
 	},
 	{
@@ -628,8 +769,8 @@
 		"replaces": "Orbital Bombardment Platform",
 		"unitType": "Space Station",
 		"movement": 2,
-		"strength": 120,
-		"rangedStrength": 120,
+		"strength": 180,
+		"rangedStrength": 180,
 		"range": 50,
 		"hurryCostModifier": 20,
 		"cost": 1000,
@@ -650,7 +791,8 @@
 			"Costs [100] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Helium-3]",
 			"Consumes [1] [Parts]",
-			"[This Unit] gets a name from the [Hammer] group"
+			"[This Unit] gets a name from the [Hammer] group",
+			"Destroys [non-[Capital]] cities instead of capturing"
 		]
 	},
 	{
@@ -675,11 +817,53 @@
 		"hurryCostModifier": 20,
 		"cost": 200,
 		"attackSound": "tankshot",
-		"requiredTech": "Mantle Mining",
+		"requiredTech": "Geomagnetic Power",
 		"uniques": [
 			"Costs [10] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Iron]"
 		]	
+	},
+
+	{
+		"name": "Tectonic Surge",
+		"unitType": "Quake",
+		"movement": 2,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 50,
+		"cost": 1000,
+		"attackSound": "nuke",
+		"requiredTech": "Tectonic Weapons",
+		"uniques": [
+			"Costs [100] [Parts] <(modified by game speed)>",
+			"Consumes [1] [Antimatter]",
+			"Consumes [1] [Parts]",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [3]",
+			"Only available <if [Tube Alloys Project] is constructed>",
+			"Only available <if [Seismic Dampening System] is constructed>",
+			"Cannot be carried by [All] units"
+		]
+	},
+
+	{
+		"name": "Alcubierre Drive",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1000,
+		"requiredTech": "Superluminal Motion",
+		"uniques": [
+			"Consumes [1] [Antimatter]",
+			"Spaceship part <hidden from users>",
+			"Core miner part",
+			"Cannot be purchased",
+			"Only available <if [Hades Project] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Core Miner] in the Capital",
+			"Limited to [1] per Civilization",
+			"Only available <when [Scientific] Victory is enabled>",
+			"Costs [100] [Parts] <(modified by game speed)>"
+		]
 	},
 	
 	{

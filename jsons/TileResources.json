@@ -135,7 +135,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Sulfur","Basalt","Hydrated rock","Forsterite","Silicate","Lava","Crust"],
 		"food": 1,
-		"improvement": "Quarry",
+		"improvedBy": ["Quarry", "Lava quarry"],
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated on every [27] tiles <in [Fresh Water] tiles> <in tiles without [Hill]>",
@@ -160,7 +160,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Lava","Crust"],
 		"production": 1,
-		"improvement": "Quarry",
+		"improvement": "Lava quarry",
 		"improvementStats": {"gold": 1},
 		"uniques": [
 			"Generated on every [40] tiles <in [Lava] tiles>"
@@ -283,7 +283,6 @@
 	{
 		"name": "Rare Earths",
 		"resourceType": "Luxury",
-		"revealedBy": "Ore Mining",
 		"terrainsCanBeFoundOn": ["Basalt","Sulfur","Hill","Rubble","Pyroclasts"],
 		"production": 1,
 		"improvement": "Mine",
@@ -311,7 +310,6 @@
 	{
 		"name": "Platinides",
 		"resourceType": "Luxury",
-		"revealedBy": "Ore Mining",
 		"terrainsCanBeFoundOn": ["Hill","Rubble","Pyroclasts","Forsterite","Silicate"],
 		"production": 1,
 		"improvement": "Mine",
@@ -371,7 +369,6 @@
 	{
 		"name": "Xenoliths",
 		"resourceType": "Luxury",
-		"revealedBy": "Ore Mining",
 		"terrainsCanBeFoundOn": ["Pyroclasts","Rubble","Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -788,6 +785,23 @@
 		]
 	},
 
+	// most advanced of all
+
+	{
+		"name": "Antimatter",
+		"resourceType": "Strategic",
+		"revealedBy": "Exotic Physics",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		],
+		"civilopediaText": [
+			{
+				"text": "When these particles react with normal matter, they release pure energy, making them excellent sources of fuel as well as ammunition for weapons of mass destruction."
+			}
+		]
+	},
+
 	// earthquake related
 	{
 		"name": "Weight",
@@ -820,7 +834,7 @@
 				"text": "When humans fight, they need more than just efficiency to get through. They need the thrill of victory."
 			},
 			{
-				"text": "The Bayesian Commune gains Morale for every robot that they destroy.", "link":"Nation/The Bayesian Commune"
+				"text": "The Bayesian Commune gains Morale for every robot that they destroy and every factory that they conquer.", "link":"Nation/The Bayesian Commune"
 			}
 		]
 	},
@@ -839,6 +853,17 @@
 			{
 				"text": "There's no end to how far our tech can advance."
 			}
+		]
+	},
+	// off switch for VATA Group unique
+	{
+		"name": "Off-Switch",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Stockpiled"
 		]
 	}
 ]

@@ -1,15 +1,18 @@
 [
     {
-        "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
-        "milestones": ["Destroy all players"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "name": "Scientific",
+        "victoryScreenHeader": "Build the Hades Project and all core miner parts\nto win!",
+        "milestones": ["Build [Hades Project]", "Add all [core miner parts] in capital"],
+        "requiredSpaceshipParts": [
+            "Alcubierre Drive"
+        ],
+        "victoryString": "You have achieved victory through mastery of science!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     },
     {
-        "name": "Time",
-        "victoryScreenHeader": "Make progress\nto win!",
-        "milestones": ["Have highest score after max turns"],
+        "name": "Domination",
+        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     },
@@ -18,6 +21,13 @@
         "victoryScreenHeader": "Establish IoNet and be voted\nworld leader to win!",
         "milestones": ["Anyone should build [IoNet]", "Win diplomatic vote"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy!",
+        "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
+    },
+        {
+        "name": "Time",
+        "victoryScreenHeader": "Make progress\nto win!",
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     }
 ]

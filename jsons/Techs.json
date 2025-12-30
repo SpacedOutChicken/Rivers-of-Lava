@@ -352,28 +352,94 @@
             "techs": [
                   {
                         "name": "Interplanetary Transit",
-                        "row": 3,
+                        "row": 1,
                         "quote": "",
                         "prerequisites": ["Jovian Extraction", "Breakthrough Propulsion"]
                   },
                   {
-                        "name": "Core Mining",
-                        "row": 5,
+                        "name": "Geomagnetic Power",
+                        "row": 3,
                         "quote": "",
                         "prerequisites": ["Breakthrough Propulsion", "Mantle Mining"]
                   },
                   {
                         "name": "Molecular Machines",
-                        "row": 7,
+                        "row": 5,
                         "quote": "",
                         "prerequisites": ["Breakthrough Propulsion", "Quantum Computing"]
+                  },
+                  {
+                        "name": "Neuromorphic Engineering",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Quantum Computing"]
                   }
             ]
       },
       {
             "columnNumber": 11,
-            "era": "Excelling era",
+            "era": "Exciting era",
             "techCost": 3100,
+            "buildingCost": 500,
+            "wonderCost": 1250,
+            "techs": [
+                  {
+                        "name": "Exotic Physics",
+                        "row": 2,
+                        "quote": "",
+                        "prerequisites": ["Interplanetary Transit", "Molecular Machines"]
+                  },
+                  {
+                        "name": "Core Mining",
+                        "row": 4,
+                        "quote": "",
+                        "prerequisites": ["Geomagnetic Power", "Molecular Machines"]
+                  },
+                  {
+                        "name": "Quantum Supremacy",
+                        "row": 7,
+                        "quote": "",
+                        "prerequisites": ["Molecular Machines", "Neuromorphic Engineering"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 12,
+            "era": "Exciting era",
+            "techCost": 4100,
+            "buildingCost": 500,
+            "wonderCost": 1250,
+            "techs": [
+                  {
+                        "name": "Superluminal Motion",
+                        "row": 1,
+                        "quote": "",
+                        "prerequisites": ["Exotic Physics", "Quantum Supremacy"]
+                  },
+                  {
+                        "name": "Tectonic Weapons",
+                        "row": 3,
+                        "quote": "",
+                        "prerequisites": ["Exotic Physics", "Core Mining"]
+                  },
+                  {
+                        "name": "Hypercomputing",
+                        "row": 6,
+                        "quote": "",
+                        "prerequisites": ["Exotic Physics", "Quantum Supremacy"]
+                  },
+                  {
+                        "name": "Programmable Matter",
+                        "row": 8,
+                        "quote": "",
+                        "prerequisites": ["Core Mining", "Quantum Supremacy"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 13,
+            "era": "Excelling era",
+            "techCost": 5100,
             "buildingCost": 500,
             "wonderCost": 1250,
             "techs": [
@@ -381,7 +447,7 @@
                         "name": "Singularity",
                         "row": 5,
                         "quote": "",
-                        "prerequisites": ["Interplanetary Transit", "Core Mining", "Molecular Machines"],
+                        "prerequisites": ["Superluminal Motion", "Tectonic Weapons", "Hypercomputing", "Programmable Matter"],
                         "uniques": ["Can be continually researched", "Instantly gain [1] [Tech Level]"]
                   }
             ]

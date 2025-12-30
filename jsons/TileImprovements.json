@@ -7,7 +7,7 @@
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [1] [Power]",
-			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Production] from [Fresh Water] tiles",
 			"[+1 Gold] <after discovering [Heat Shields]>",
 			"Provides [1] [Weight]",
 			"Unbuildable <in [resource] tiles>",
@@ -65,8 +65,10 @@
 			"[+1 Production] <after discovering [Planetary Engineering]>",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",
-			"Provides [1] [Power] <in tiles adjacent to [Fresh water] tiles>",
-			"Cannot be built on [Lava] tiles"
+			"Provides [1] [Power] <in [Fresh Water] tiles>",
+			"Provides [1] [Oxygen] <in [Oxygen] tiles> <in cities with a [Advanced Pressurizer]> <hidden from users>",
+			"Cannot be built on [Lava] tiles",
+			"Cannot be built on [Crust] tiles"
 		],
 		"shortcutKey": "Q",
 		"civilopediaText": [
@@ -79,6 +81,34 @@
 			},
 			{
 				"text": "Simple open pits for harvesting stone."
+			}
+		]
+	},
+	{
+		"name": "Lava quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Geophysics",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Cannot be built on [{non-[Crust]} {Land}] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"[+1 Production] <after discovering [Planetary Engineering]>",
+			"Provides [1] [Weight]",
+			"Provides [1] [Parts]",
+			"Provides [1] [Power]",
+			"Turn this tile into a [Crust] tile"
+		],
+		"shortcutKey": "Q",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Lava quarry",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "When cooling lava creates useful crystals on the surface, these specialized quarries can harvest the newly available resources."
 			}
 		]
 	},
@@ -123,7 +153,7 @@
 			"Provides [1] [Weight]",
 			"Provides [1] [Power]",
 			"Provides [1] [Parts]",
-			"Cannot be built on [Lava] tiles"
+			"Turn this tile into a [Crust] tile"
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
@@ -301,7 +331,8 @@
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [1] [Power]",
 			"Provides [1] [Oxygen]",
-			"[+1 Production] from [Fresh water] tiles",
+			"Provides [1] [Oxygen] <in this city> <in cities with a [Advanced Pressurizer]> <hidden from users>",
+			"[+1 Production] from [Fresh Water] tiles",
 			"[+1 Gold] <after discovering [Heat Shields]>",
 			"Provides [1] [Weight]",
 			"Improves [Bonus] resource in this tile",
@@ -337,7 +368,7 @@
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [1] [Power]",
 			"Provides [1] [Parts]",
-			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Production] from [Fresh Water] tiles",
 			"[+1 Production] <in [Vent] tiles>",
 			"[+1 Gold] <after discovering [Heat Shields]>",
 			"Provides [1] [Weight]",
@@ -728,7 +759,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Culture]",
 			"Excluded from map editor",
 			"Provides [1] [Weight]",
 			"Provides [1] [Parts]",

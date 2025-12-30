@@ -7,7 +7,8 @@
             "[+7 Culture] <during the [Exploiting era]>",
             "[+10 Culture] <during the [Exterminating era]>",
             "[+12 Culture] <during the [Experiencing era]>",
-            "[+15 Culture] <during the [Excelling era]>"
+            "[+15 Culture] <during the [Exciting era]>",
+            "[+17 Culture] <during the [Excelling era]>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <during the [Exploring era]>",
@@ -15,8 +16,9 @@
             "[+14 Culture] <during the [Exploiting era]>",
             "[+20 Culture] <during the [Exterminating era]>",
             "[+24 Culture] <during the [Experiencing era]>",
-            "[+30 Culture] <during the [Excelling era]>",
-            "[-10]% Culture cost of adopting new Policies"
+            "[+30 Culture] <during the [Exciting era]>",
+            "[+34 Culture] <during the [Excelling era]>",
+            "[-5]% Culture cost of adopting new Policies"
         ],
         "color": [139, 96, 255]
     },
@@ -25,19 +27,19 @@
         "friendBonusUniques": [
             "[+2 Food] [in capital] <before the [Exploiting era]>",
             "[+1 Food] [in all cities] <before the [Exploiting era]>",
-            "[+3 Food] [in capital] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+2 Food] [in all cities] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+4 Food] [in capital] <starting from the [Excelling era]>",
-            "[+3 Food] [in all cities] <starting from the [Excelling era]>"
+            "[+3 Food] [in capital] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+2 Food] [in all cities] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+4 Food] [in capital] <starting from the [Exciting era]>",
+            "[+3 Food] [in all cities] <starting from the [Exciting era]>"
         ],
         "allyBonusUniques": [
             "[+3 Food] [in capital] <before the [Exploiting era]>",
             "[+2 Food] [in all cities] <before the [Exploiting era]>",
-            "[+4 Food] [in capital] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+3 Food] [in all cities] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+5 Food] [in capital] <starting from the [Excelling era]>",
-            "[+4 Food] [in all cities] <starting from the [Excelling era]>",
-            "[+10]% growth [in all cities]"
+            "[+4 Food] [in capital] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+3 Food] [in all cities] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+5 Food] [in capital] <starting from the [Exciting era]>",
+            "[+4 Food] [in all cities] <starting from the [Exciting era]>",
+            "[+5]% growth [in all cities]"
         ],
         "color": [56, 255, 112]
     },
@@ -45,13 +47,13 @@
         "name": "Optimization",
         "friendBonusUniques": [
             "[+2 Happiness] <before the [Exploiting era]>",
-            "[+3 Happiness] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+4 Happiness] <starting from the [Excelling era]>"
+            "[+3 Happiness] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+4 Happiness] <starting from the [Exciting era]>"
         ],
         "allyBonusUniques": [
             "[+3 Happiness] <before the [Exploiting era]>",
-            "[+5 Happiness] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+7 Happiness] <starting from the [Excelling era]>",
+            "[+5 Happiness] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+7 Happiness] <starting from the [Exciting era]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -72,18 +74,18 @@
         "friendBonusUniques": [
             "[+2 Production] [in capital] <before the [Exploiting era]>",
             "[+1 Production] [in all cities] <before the [Exploiting era]>",
-            "[+3 Production] [in capital] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+2 Production] [in all cities] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+4 Production] [in capital] <starting from the [Excelling era]>",
-            "[+3 Production] [in all cities] <starting from the [Excelling era]>"
+            "[+3 Production] [in capital] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+2 Production] [in all cities] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+4 Production] [in capital] <starting from the [Exciting era]>",
+            "[+3 Production] [in all cities] <starting from the [Exciting era]>"
         ],
         "allyBonusUniques": [
             "[+4 Production] [in capital] <before the [Exploiting era]>",
             "[+2 Production] [in all cities] <before the [Exploiting era]>",
-            "[+6 Production] [in capital] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+4 Production] [in all cities] <starting from the [Exploiting era]> <before the [Excelling era]>",
-            "[+8 Production] [in capital] <starting from the [Excelling era]>",
-            "[+6 Production] [in all cities] <starting from the [Excelling era]>",
+            "[+6 Production] [in capital] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+4 Production] [in all cities] <starting from the [Exploiting era]> <before the [Exciting era]>",
+            "[+8 Production] [in capital] <starting from the [Exciting era]>",
+            "[+6 Production] [in all cities] <starting from the [Exciting era]>",
             "[+5]% Production when constructing [All] buildings [in all cities]"
         ],
         "color": [220, 100, 15]

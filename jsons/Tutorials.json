@@ -10,9 +10,9 @@
             {},
             {"text": "Victory Types","header":4},
             {"text": "There are four ways of winning a Rivers of Lava game: Diplomatic, Domination, Scientific, and Time."},
-            {"text": "«#ffff00»Diplomatic:«» build the ---- and win the diplomatic vote."},
+            {"text": "«#ffff00»Diplomatic:«» build the IoNet and win the diplomatic vote."},
             {"text": "«#ff0000»Domination:«» capture or destroy all of your opponents' factories."},
-            {"text": "«#0000ff»Scientific:«» build the ----, then complete all the --- parts and assemble them at your founding factory."},
+            {"text": "«#0000ff»Scientific:«» build the Hades Project, then complete all the core miner parts and assemble them at your founding factory."},
             {"text": "«#00ff00»Time:«» achieve the highest score by a fixed number of turns by expanding your company."}
         ]
     }

@@ -17,20 +17,6 @@
         ],
         "civilopediaText": [{ "text": "Our first factory comes equipped with powerful facilities sent directly from Earth, providing our other factories with power, building material, and critical data." }]
     },
-    /*
-    {
-        "name": "Power Plant",
-        "production": 1,
-        "uniques": [
-            "Provides [2] [Power] <in this city>",
-            "Provides [1] [Weight]",
-            "Automatically built in all cities where it is buildable",
-            "Unsellable",
-            "Never destroyed when the city is captured"
-        ],
-        "cost": 1
-    },
-    */
     {
         "name": "Life Support System",
         "uniqueTo": "Human",
@@ -42,6 +28,7 @@
             "Destroyed when the city is captured",
             "Provides [1] [Weight]",
             "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
+            "Provides [1] [Oxygen] <in this city> <in cities with a [Advanced Pressurizer]> <hidden from users>",
             "Limited to [0] per Civilization <for [non-[Human]] Civilizations>"
         ]
     },
@@ -219,7 +206,7 @@
         "maintenance": 1,
         "food": 2,
         "uniques": [
-            "[40]% Food is carried over after population increases [in this city]",
+            "[25]% Food is carried over after population increases [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
@@ -227,6 +214,49 @@
         ],
         "requiredTech": "Recycling",
         "requiredBuilding": "Chemical Refinery"
+    },
+    {
+        "name": "Backup Processing Unit",
+        "hurryCostModifier": 25,
+        "production": 3,
+        "science": 3,
+        "gold": 3,
+        "food": 2,
+        "culture": 1,
+        "cityStrength": 2,
+        "uniques": [
+            "Provides [1] [Weight]",
+            "Provides [1] [Parts]",
+            "Consumes [3] [Power]",
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Only available <in cities without a [Combustion Plant]>"
+        ],
+        "requiredTech": "Recycling",
+        "civilopediaText": [
+            {
+                "text": "When power is abundant, we can create backup copies of our central processor, increasing our factories' capabilities in all areas."
+            }
+        ]
+    },
+    {
+        "name": "Combustion Plant",
+        "production": 1,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "Provides [5] [Power] <in this city>",
+            "Provides [1] [Weight]",
+            "Costs [5] [Parts] <(modified by game speed)>",
+            "Consumes [10] [Parts]",
+            "Only available <in cities without a [Backup Processing Unit]>",
+            "Only available <when number of [[Parts] Per Turn] is more than [20]>"
+        ],
+        "requiredTech": "Recycling",
+        "civilopediaText": [
+            {
+                "text": "In areas where power is difficult to generate, we can burn excess building material to generate the electricity that our facilities need."
+            }
+        ]
     },
     {
         "name": "Inventory Recorder",
@@ -268,7 +298,8 @@
             "[+5] HP when healing <in [Friendly Land] tiles>",
             "Cost increases by [30] per owned city",
             "Consumes [1] [Power]",
-            "Costs [3] [Parts] <(modified by game speed)>",
+            "Costs [100] [Parts] <(modified by game speed)>",
+            "Instantly gain [-100] [Parts] <(modified by game speed)>",
             "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
             "Only available <if [Chemical Refinery] is constructed in all [non-[Puppeted]] cities>"
@@ -372,10 +403,12 @@
         "requiredTech": "Geophysics",
         "uniques": [
             "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
+            "Provides [1] [Oxygen] <in this city> <in cities with a [Advanced Pressurizer]> <hidden from users>",
             "Limited to [0] per Civilization <for [non-[Human]] Civilizations>",
             "Costs [3] [Parts] <(modified by game speed)>",
             "Consumes [1] [Power]",
-            "Provides [1] [Weight]"
+            "Provides [1] [Weight]",
+            "[+100]% weight to this choice for AI decisions"
         ],
         "maintenance": 1
     },
@@ -388,7 +421,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Waste Reprocessor",
@@ -403,25 +436,26 @@
         "uniques": [
             "[-50]% Food consumption by specialists [in this city]",
             "Comment [[-50]% [Oxygen] consumption by specialists in this factory]",
-            "Provides [1] [Oxygen] <in cities with at least [2] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [4] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [6] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [8] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [10] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [12] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [14] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [16] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [18] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [20] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [22] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [24] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [26] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [28] [Specialists]> <hidden from users>",
-            "Provides [1] [Oxygen] <in cities with at least [30] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [2] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [4] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [6] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [8] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [10] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [12] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [14] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [16] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [18] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [20] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [22] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [24] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [26] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [28] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with at least [30] [Specialists]> <hidden from users>",
+            "Provides [1] [Oxygen] <in this city> <in cities with a [Advanced Pressurizer]> <hidden from users>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [3] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Waste Reprocessor",
@@ -436,7 +470,7 @@
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Distributed Processor",
         "requiredTech": "Precision Machining",
@@ -472,7 +506,9 @@
             "Only available <if [Distributed Processor] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Consumes [1] [Power]",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Precision Machining"
     },
@@ -536,7 +572,9 @@
             "[+25]% Great Person generation [in this city]",
             "Cost increases by [30] per owned city",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Consumes [1] [Power]",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Iterative Design"
 	},
@@ -580,7 +618,9 @@
             "Cost increases by [30] per owned city",
             "All newly-trained [{Military} {non-[Space Station]} {non-[Missile]}] units [in this city] receive the [Continuous Update] promotion",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Consumes [1] [Power]",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Neural Networks"
     },
@@ -641,7 +681,10 @@
         "uniques": [
             "Only available <if [3D Printer] is constructed in all [non-[Puppeted]] cities>",
             "Provides [1] [Weight]",
-            "Provides [2] [Parts]"
+            "Provides [2] [Parts]",
+            "Consumes [1] [Power]",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Distributed Assembly"
     },
@@ -670,7 +713,8 @@
             "Provides [2] [Power] <in [non-[Puppeted]] cities>",
             "Comment [Reduces impact of earthquakes]",
             "Provides [1] [Weight]",
-            "Costs [25] [Parts] <(modified by game speed)>"
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Mantle Mining"
     },
@@ -711,7 +755,8 @@
         "uniques": [
             "Enables nuclear weapon",
             "Triggers a global alert upon completion",
-            "Costs [50] [Parts] <(modified by game speed)>"
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Atomic Synthesis"
     },
@@ -725,9 +770,10 @@
             "Consumes [1] [Power]",
             "Costs [5] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
+            "Can carry [2] extra [Air] units <in this city>",
             "[+15]% Production when constructing [Air] units [in this city]",
             "Comment [Enables construction of [Space] units in this factory]",
-            "Comment [Enables units to [Paradrop] between factories with a [Launchpad] up to [40] tiles away]"
+            "Comment [Enables units to [Paradrop] from factory centers up to [40] tiles away]"
         ],
         "requiredTech": "Spaceflight",
         "maintenance": 3
@@ -743,6 +789,7 @@
             "Consumes [2] [Power]",
             "Provides [2] [Weight]",
             "Costs [100] [Parts] <(modified by game speed)>",
+            "Instantly gain [-100] [Parts] <(modified by game speed)>",
             "[+10]% Production when constructing [Space] units [in all cities]",
             "Gain a free [Launchpad] [in all cities]",
             "Only available <after discovering [Metamaterials]>"
@@ -795,6 +842,7 @@
             "Provides [2] [Weight]",
             "Triggers a global alert upon completion",
             "Costs [100] [Parts] <(modified by game speed)>",
+            "Instantly gain [-100] [Parts] <(modified by game speed)>",
             "Gain a free [Launchpad] [in this city]"
         ],
         "requiredTech": "High Orbit",
@@ -826,6 +874,7 @@
             "Triggers a global alert upon build start",
             "Triggers a global alert upon completion",
             "Costs [100] [Parts] <(modified by game speed)>",
+            "Instantly gain [-100] [Parts] <(modified by game speed)>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]"
         ],
@@ -843,13 +892,14 @@
             "Provides [1] [Power] <in cities connected to the capital>",
             "Provides [1] [Weight]",
             "Only available <in [Capital] cities>",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "High-Temp Superconductors"
     },
 
     {
-        "name": "Synchotron",
+        "name": "Pilot Plant",
         "hurryCostModifier": 25,
         "science": 2,
         "specialistSlots": {"Tester": 1},
@@ -888,6 +938,7 @@
             "Consumes [1] [Power]"
         ],
         "maintenance": 3,
+        "hurryCostModifier": 25,
         "requiredBuilding": "Encrypted Channel",
         "requiredTech": "Quantum Computing"
     },
@@ -903,12 +954,29 @@
             "[+1 Production, +1 Gold] [in all cities]",
             "Provides [1] [Power] <in [All] cities>",
             "Costs [100] [Parts] <(modified by game speed)>",
-            "Comment [Enables you to harness earthquakes for your company's benefit]"
+            "Instantly gain [-100] [Parts] <(modified by game speed)>",
+            "Damage to garrison from nuclear attacks [-25]% [in all cities]",
+            "Population loss from nuclear attacks [-25]% [in all cities]",
+            "Comment [Enables you to harness earthquakes for your company's benefit]",
+            "[+10]% Production when constructing [Core miner part] units [in this city]"
         ],
         "greatPersonPoints": {"Construction Unit": 2},
         "requiredTech": "Core Mining",
         "quote": "With this remarkable structure, we can channel the energy released by earthquakes into productive capacity, protecting our factories and advancing our company's interest.",
         "civilopediaText": [{"text": "With this remarkable structure, we can channel the energy released by earthquakes into productive capacity, protecting our factories and advancing our company's interest."}]
+    },
+    {
+        "name": "Hades Project",
+        "isNationalWonder": true,
+        "uniques": [
+            "Enables construction of Spaceship parts <hidden from users>",
+            "Comment [Enables construction of core miner parts]",
+            "Only available <when [Scientific] Victory is enabled>",
+            "Triggers a global alert upon completion",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>"
+        ],
+        "requiredTech": "Core Mining"
     },
 
     {
@@ -918,11 +986,29 @@
             "Costs [10] [Parts] <(modified by game speed)>",
             "Consumes [2] [Parts]",
             "Consumes [2] [Power]",
-            "[-50]% Food consumption by specialists [in this city]",
-            "[+1 Food] from [improved] tiles [in this city]",
+            "[25]% Food is carried over after population increases [in this city]",
             "Provides [1] [Weight]"
         ],
         "maintenance": 4,
+        "hurryCostModifier": 25,
+        "requiredTech": "Molecular Machines"
+    },
+    {
+        "name": "Advanced Pressurizer",
+        "uniqueTo": "Human",
+        "replaces": "General Replicator",
+        "food": 1,
+        "uniques": [
+            "Costs [10] [Parts] <(modified by game speed)>",
+            "Consumes [2] [Parts]",
+            "Consumes [2] [Power]",
+            "Provides [1] [Oxygen]",
+            "[25]% Food is carried over after population increases [in this city]",
+            "Comment [Every [Oxygen] source in this factory provides 1 extra [Oxygen]]",
+            "Provides [1] [Weight]"
+        ],
+        "maintenance": 4,
+        "hurryCostModifier": 25,
         "requiredTech": "Molecular Machines"
     },
 
@@ -936,11 +1022,55 @@
             "All healing effects doubled",
             "[-33]% Gold cost of upgrading",
             "Provides [1] [Weight]",
-            "Costs [100] [Parts] <(modified by game speed)>"
+            "Consumes [1] [Power]",
+            "Costs [100] [Parts] <(modified by game speed)>",
+            "Instantly gain [-100] [Parts] <(modified by game speed)>"
         ],
         "greatPersonPoints": {"Construction Unit": 1, "Research Unit": 1},
         "requiredTech": "Molecular Machines",
         "quote": "By equipping our units with versatile systems based on universal assemblers, we can enable them to rapidly repair and upgrade themselves using only the supplies available to them in the field.",
         "civilopediaText": [{ "text": "By equipping our units with versatile systems based on universal assemblers, we can enable them to rapidly repair and upgrade themselves using only the supplies available to them in the field." }]
+    },
+
+    {
+        "name": "Magnetic Tap",
+        "science": 1,
+        "production": 1,
+        "uniques": [
+            "Provides [5] [Power] <in this city>",
+            "Provides [1] [Weight]",
+            "Costs [10] [Parts] <(modified by game speed)>"
+        ],
+        "hurryCostModifier": 25,
+        "maintenance": 3,
+        "requiredTech": "Geomagnetic Power"
+    },
+
+    {
+        "name": "Synchrotron",
+        "science": 4,
+        "percentStatBonus": {"science": 50},
+        "specialistSlots": {"Tester": 1},
+        "uniques": [
+            "Costs [10] [Parts] <(modified by game speed)>",
+            "Consumes [2] [Power]",
+            "Provides [1] [Weight]"
+        ],
+        "requiredBuilding": "Pilot Plant",
+        "maintenance": 4,
+        "requiredTech": "Exotic Physics"
+    },
+
+    {
+        "name": "Antimatter Reactor",
+        "science": 1,
+        "uniques": [
+            "Provides [1] [Antimatter]",
+            "Costs [10] [Parts] <(modified by game speed)>",
+            "Consumes [2] [Power]",
+            "Provides [1] [Weight]"
+        ],
+        "maintenance": 4,
+        "requiredTech": "Exotic Physics"
     }
 ]

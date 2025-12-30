@@ -12,19 +12,6 @@
         "column": 0
     },
 
-	// parts
-	{
-		"name": "Recycle",
-		"uniques": [
-			"Earn [25]% of killed [All] unit's [Strength] as [Parts]",
-			"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately",
-			"Instantly gain [-1] [Parts] <upon being promoted> <if [Field-Repair Nanosystem] is not constructed>",
-			"Instantly gain [10] [Parts] <(modified by game speed)> <upon entering a [Barbarian encampment] tile>"
-		],
-		"column": 0,
-		"row": 1
-	},
-
 	// missile promotions
 	{
 		"name": "Target Lock",
@@ -248,6 +235,15 @@
 	},
 
 	// unit abilities
+	{
+		"name": "[Anti-Labor Drone] ability",
+		"uniques": [
+			"No movement cost to pillage",
+			"Can build [Land] improvements on tiles",
+			"Can build [Lava] improvements on tiles",
+			"[+25]% Health from pillaging tiles"
+		]
+	},
 	{
 		"name": "[Plasma Cutter Drone] ability",
 		"uniques": [

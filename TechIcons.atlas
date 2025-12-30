@@ -109,219 +109,275 @@ TechIcons/Dynamic Programming
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Fuzzy Logic
+TechIcons/Exotic Physics
   rotate: false
   xy: 1378, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Geophysics
+TechIcons/Fuzzy Logic
   rotate: false
   xy: 1486, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Heat Shields
+TechIcons/Geomagnetic Power
   rotate: false
   xy: 1594, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/High Orbit
+TechIcons/Geophysics
   rotate: false
   xy: 1702, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/High-Temp Superconductors
+TechIcons/Heat Shields
   rotate: false
   xy: 1810, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Infrastructure
+TechIcons/High Orbit
   rotate: false
   xy: 1918, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Interplanetary Transit
+TechIcons/High-Temp Superconductors
   rotate: false
   xy: 112, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Iterative Design
+TechIcons/Hypercomputing
   rotate: false
   xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Jovian Extraction
+TechIcons/Infrastructure
   rotate: false
   xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Logistics
+TechIcons/Interplanetary Transit
   rotate: false
   xy: 220, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Long-Distance Targeting
+TechIcons/Iterative Design
   rotate: false
   xy: 220, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Low-Atmosphere Flight
+TechIcons/Jovian Extraction
   rotate: false
   xy: 328, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mantle Mining
+TechIcons/Logistics
   rotate: false
   xy: 220, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Metamaterials
+TechIcons/Long-Distance Targeting
   rotate: false
   xy: 328, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Molecular Machines
+TechIcons/Low-Atmosphere Flight
   rotate: false
   xy: 436, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Neural Networks
+TechIcons/Mantle Mining
   rotate: false
   xy: 328, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Ore Mining
+TechIcons/Metamaterials
   rotate: false
   xy: 436, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Planetary Engineering
+TechIcons/Molecular Machines
   rotate: false
   xy: 544, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Post-Scarcity
+TechIcons/Neural Networks
   rotate: false
   xy: 436, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Precision Machining
+TechIcons/Neuromorphic Engineering
   rotate: false
   xy: 544, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Projectiles
+TechIcons/Ore Mining
   rotate: false
   xy: 652, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Prototyping
+TechIcons/Planetary Engineering
   rotate: false
   xy: 544, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Quantum Computing
+TechIcons/Post-Scarcity
   rotate: false
   xy: 652, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Raw Materials
+TechIcons/Precision Machining
   rotate: false
   xy: 760, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Recycling
+TechIcons/Programmable Matter
   rotate: false
   xy: 652, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Reinforcements from Home
+TechIcons/Projectiles
   rotate: false
   xy: 760, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Singularity
+TechIcons/Prototyping
   rotate: false
   xy: 868, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Smelting
+TechIcons/Quantum Computing
   rotate: false
   xy: 760, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Spaceflight
+TechIcons/Quantum Supremacy
   rotate: false
   xy: 868, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Surface Breaking
+TechIcons/Raw Materials
   rotate: false
   xy: 976, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Synthetic Compounds
+TechIcons/Recycling
   rotate: false
   xy: 868, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Reinforcements from Home
+  rotate: false
+  xy: 976, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Singularity
+  rotate: false
+  xy: 1084, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Smelting
+  rotate: false
+  xy: 976, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Spaceflight
+  rotate: false
+  xy: 1084, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Superluminal Motion
+  rotate: false
+  xy: 1192, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Surface Breaking
+  rotate: false
+  xy: 1084, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Synthetic Compounds
+  rotate: false
+  xy: 1192, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tectonic Weapons
+  rotate: false
+  xy: 1300, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

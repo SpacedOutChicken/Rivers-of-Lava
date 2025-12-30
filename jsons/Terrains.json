@@ -9,7 +9,7 @@
 		"uniques": [
 			"Fresh water",
 			"Considered [Undesirable] when determining start locations",
-			"Comment [Non-Hover units ending their turn on this terrain take [1] damage]"
+			"Comment [Non-Hover units ending their turn on this terrain take [2] damage]"
 		],
 		"civilopediaText": [
 			{
@@ -21,6 +21,7 @@
 		"name": "Silicate",
 		"type": "Land",
 		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [97,171,58],
 		"uniques": [
@@ -40,8 +41,7 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Silicate] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
@@ -53,6 +53,7 @@
 		"name": "Basalt",
 		"type": "Land",
 		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [168,185,102],
 		"uniques": [
@@ -76,8 +77,7 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Basalt] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
@@ -89,6 +89,7 @@
 		"name": "Forsterite",
 		"type": "Land",
 		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [189,204,191],
 		"uniques": [
@@ -101,8 +102,7 @@
 			"A Region is formed with at least [30]% [Forsterite] tiles and [Hydrated rock] tiles, with priority [1]",
 			"Considered [Food] when determining start locations <in [Forsterite] Regions>",
 			"Considered [Desirable] when determining start locations <in [Forsterite] Regions>",
-			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
@@ -113,7 +113,7 @@
 	{
 		"name": "Sulfur",
 		"type": "Land",
-		"food": 1,
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [ 230, 230, 113],
 		"uniques": [
@@ -126,8 +126,7 @@
 			"A Region is formed with at least [25]% [Sulfur] tiles, with priority [4]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
-			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
@@ -161,7 +160,7 @@
 	{
 		"name": "Hydrated rock",
 		"type": "Land",
-		"food": 1,
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [76, 76, 76],
 		"uniques": [
@@ -173,8 +172,7 @@
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
-			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
@@ -197,8 +195,7 @@
 			"Only [All Road] improvements may be built on this tile",
 			"[+10] Strength for cities built on this terrain",
 			"Has an elevation of [4] for visibility calculations",
-			"Doesn't generate naturally",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{
@@ -211,11 +208,11 @@
 		"type": "Land",
 		"movementCost": 1,
 		"food": 1,
+		"production": 1,
 		"RGB": [50,50,50],
 		"uniques": [
 			"Doesn't generate naturally",
-			"Fresh water",
-			"Landing <in cities with a [Launchpad]> <hidden from users>"
+			"Fresh water"
 		],
 		"civilopediaText": [
 			{
@@ -246,7 +243,8 @@
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
-		"production": 1,
+		"production": 2,
+		"overrideStats": true,
 		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
@@ -271,7 +269,6 @@
 		"name": "Rubble",
 		"type": "TerrainFeature",
 		"movementCost": 2,
-		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock","Hill"],
@@ -297,7 +294,6 @@
 		"name": "Pyroclasts",
 		"type": "TerrainFeature",
 		"movementCost": 2,
-		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Forsterite","Basalt","Silicate","Sulfur","Hydrated rock"],
@@ -360,7 +356,8 @@
 	{
 		"name": "Fissure",
 		"type": "TerrainFeature",
-		"production": 1,
+		"production": 2,
+		"overrideStats": true,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
@@ -545,7 +542,7 @@
 		"uniques": [
 			"Fresh water",
 			"Neighboring tiles will convert to [Lava]",
-			"Grants [Heat Training] ([10% strength bonus in lava and hot spot tiles]) to adjacent [{Military} {Land}] units for the rest of the game"
+			"Grants [Heat Training] ([10% strength bonus in hot spot tiles and double movement in lava]) to adjacent [{Military} {Land}] units for the rest of the game"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -691,18 +688,4 @@
 			}
 		]
 	}
-
-	// dummy terrain,
-	/*{
-		"name": "Dummy",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [0,0,0],
-		"uniques": [
-			"Excluded from map editor",
-			"Doesn't generate naturally",
-			"Landing",
-			"Will not be displayed in Civilopedia"
-		]
-	}*/
 ]

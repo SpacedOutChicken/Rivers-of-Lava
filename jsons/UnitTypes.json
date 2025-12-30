@@ -3,7 +3,7 @@
         "name": "Civilian",
         "movementType": "Land",
         "uniques": [
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]"
         ]
@@ -12,7 +12,7 @@
         "name": "Scouting",
         "movementType": "Land",
         "uniques": [
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>",
@@ -24,7 +24,7 @@
         "movementType": "Land",
         "uniques": [
             "Drone",
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -35,7 +35,7 @@
         "movementType": "Land",
         "uniques": [
             "Drone",
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -80,7 +80,7 @@
             "Heavy",
             "No defensive terrain bonus",
             "Never appears as a Barbarian unit",
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -94,7 +94,7 @@
             "Ranged attacks may be performed over obstacles",
             "No defensive terrain bonus",
             "Never appears as a Barbarian unit",
-            "[This Unit] takes [1] damage <upon ending a turn in a [Lava] tile>",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Lava] tile>",
             "May travel on Water tiles without embarking <after discovering [Heat Shields]> <hidden from users>",
 			"Comment [Cannot enter lava tiles before discovering [Heat Shields]]",
             "Cannot intercept [Space] units <for units without [ASAT]> <hidden from users>"
@@ -142,5 +142,14 @@
 			"Self-destructs when attacking",
             "Cannot intercept [Air] units"
 		]
+    },
+    {
+        "name": "Quake",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking",
+            "Cannot be intercepted",
+            "Cannot intercept [Air] units"
+        ]
     }
 ]

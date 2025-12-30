@@ -2,13 +2,6 @@
 	{
         "name": "Foundation",
         "era": "Exploring era",
-        /*"priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 10
-        },*/
         "uniques": [
             "[+3 Culture] [in capital]",
             "Receive a tech boost when scientific buildings/wonders are built in capital"
@@ -17,7 +10,8 @@
             {
                 "name": "Productivity",
                 "uniques": [
-                    "[+10]% Production when constructing [All] buildings [in all cities]",
+                    "[+10]% Production when constructing [All] wonders [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -45,7 +39,7 @@
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]",
-					"[-50]% Gold cost of acquiring tiles [in all cities]"
+					"[-25]% Gold cost of acquiring tiles [in all cities]"
                 ],
                 "requires": ["Development"],
                 "row": 2,
@@ -72,13 +66,6 @@
 	{
         "name": "Distribution",
         "era": "Exploring era",
-       /* "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 20,
-            "Domination": 20,
-            "Scientific": 20
-        },*/
         "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
             {
@@ -140,13 +127,6 @@
 	{
 		"name": "Exploration",
 		"era": "Exploring era",
-		/*"priorities": {
-			"Neutral": 30,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
-        	},*/
 		"uniques": [
 			"[+33]% Strength <vs [Barbarian] units>",
             "Earn [50]% of killed [Barbarian] unit's [Strength] as [Culture]"
@@ -261,7 +241,7 @@
         "uniques": [
 			"City-State territory always counts as friendly territory",
 			"City-State Influence recovers at twice the normal rate",
-            "[+1 Culture] <for every [2] [Remaining [City-State] Civilizations]>",
+            "[+1 Culture] <for every [2] [Remaining [{Known} {City-State}] Civilizations]>",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 		],
         "policies": [
@@ -324,13 +304,6 @@
     {
         "name": "Cooperation",
         "era": "Exploiting era",
-        /*"priorities": {
-            "Neutral": 50,
-            "Cultural": 50,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
-        },*/
         "uniques": [
             "When declaring friendship, both parties gain a [10]% boost to great person generation",
             "[+1 Culture] <for every [Remaining [Open Borders] Civilizations]>",
@@ -394,13 +367,6 @@
     {
         "name": "Dominion",
         "era": "Exploiting era",
-        /*"priorities": {
-            "Neutral": 50,
-            "Cultural": 50,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
-        },*/
         "uniques": [
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Cooperation]>"
@@ -470,7 +436,8 @@
         "name": "Research",
         "era": "Exploiting era",
         "uniques": [
-            "[+15]% [Science] <while the empire is happy>"
+            "[+15]% [Science] <while the empire is happy>",
+            "Only available <before adopting [Programming]>"
         ],
         "policies": [
             {
@@ -482,11 +449,12 @@
                 "column": 2
             },
             {
-                "name": "Optimization",
+                "name": "Code Optimization",
                 "uniques": [
                     "[+1 Happiness, +1 Culture] from every [Automated Lab]",
                     "[+1 Happiness, +1 Culture] from every [Hardware Simulation Lab]",
-                    "[+1 Happiness, +1 Culture] from every [Synchotron]"
+                    "[+1 Happiness, +1 Culture] from every [Pilot Plant]",
+                    "[+1 Happiness, +1 Culture] from every [Synchrotron]"
                 ],
                 "row": 1,
                 "column": 4
@@ -503,7 +471,7 @@
             {
                 "name": "Diversification",
                 "uniques": ["[+1 Gold] from all [Science] buildings"],
-                "requires": ["Optimization"],
+                "requires": ["Code Optimization"],
                 "row": 2,
                 "column": 4
             },
@@ -520,7 +488,70 @@
             {
                 "name": "Research Complete",
                 "uniques": [
-                    "Free Technology"
+                    "Free Technology",
+                    "Production to [Science] conversion in cities changed by [+25]%"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Programming",
+        "era": "Exploiting era",
+        "uniques": [
+            "[+15]% Production when constructing [Culture] buildings [in all cities]",
+            "Only available <before adopting [Research]>"
+        ],
+        "policies": [
+            {
+                "name": "Agile Development",
+                "uniques": [
+                    "[+1 Happiness, +1 Science] from every [Distributed Processor]",
+                    "[+1 Happiness, +1 Science] from every [Deep Learning Processor]",
+                    "[+1 Happiness, +1 Science] from every [Tensor Processor]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Genetic Programming",
+                "uniques": ["[100]% of excess happiness converted to [Culture]"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Self-Description",
+                "uniques": ["[+10]% [Gold] from every [Deep Learning Processor]"],
+                "requires": ["Agile Development"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Virtual Machines",
+                "uniques": [
+                    "[+25]% [Culture] from every [Wonder]",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Agile Development"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Polymorphic Code",
+                "uniques": [
+                    "Free Social Policy",
+                    "[+1 Culture] from every [Distributed Processor]",
+                    "[+1 Culture] from every [Deep Learning Processor]",
+                    "[+1 Culture] from every [Tensor Processor]"
+                ],
+                "requires": ["Genetic Programming", "Virtual Machines"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Programming Complete",
+                "uniques": [
+                    "[-10]% Culture cost of adopting new Policies",
+                    "Production to [Culture] conversion in cities changed by [+25]%"
                 ]
             }
         ]
