@@ -89,5 +89,16 @@
             "[+5]% Production when constructing [All] buildings [in all cities]"
         ],
         "color": [220, 100, 15]
+    },
+    {
+        "name": "Intel",
+        "friendBonusUniques": [
+            "[+15]% spy effectiveness [in all cities]"
+        ],
+        "allyBonusUniques": [
+            "[-15]% enemy spy effectiveness [in all cities]",
+            "[+25]% spy effectiveness [in all cities]"
+        ],
+        "color": [200, 255, 255]
     }
 ]

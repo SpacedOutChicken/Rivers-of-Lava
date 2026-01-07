@@ -22,7 +22,8 @@
           "Resupply": 3,
           "Optimization": 3,
           "Munitions": 9,
-          "Assembly": 3
+          "Assembly": 3,
+          "Intel": 3
       }
   },
   {
@@ -47,7 +48,8 @@
     "description": "Advanced Units can be pivotal in determining a company's success! You will be rewarded for acquiring a new [greatPerson].",
       "weightForCityStateType": {
           "Software": 3,
-          "Assembly": 1.5
+          "Assembly": 1.5,
+          "Intel": 1.5
       }
   },
   {
@@ -57,7 +59,8 @@
       "weightForCityStateType": {
           "Hostile": 2,
           "Friendly": 0.2,
-          "Munitions": 2
+          "Munitions": 2,
+          "Intel": 1.5
       }
   },
   {
@@ -66,7 +69,8 @@
     "influence": 35,
       "weightForCityStateType": {
           "Resupply": 3,
-          "Optimization": 2
+          "Optimization": 2,
+          "Intel": 2
       }
   },
   {
@@ -87,7 +91,8 @@
           "Resupply": 3,
           "Optimization": 3.5,
           "Munitions": 2,
-          "Assembly": 3
+          "Assembly": 3,
+          "Intel": 3
       }
   },
   {
@@ -100,7 +105,8 @@
           "Resupply": 3,
           "Optimization": 3,
           "Munitions": 2,
-          "Assembly": 3
+          "Assembly": 3,
+          "Intel": 3
       }
   },
   {
@@ -114,7 +120,8 @@
           "Resupply": 0.5,
           "Optimization": 0.5,
           "Munitions": 0.5,
-          "Assembly": 0.5
+          "Assembly": 0.5,
+          "Intel": 0.5
       }
   },
   {
@@ -155,7 +162,8 @@
           "Resupply": 2,
           "Optimization": 1.5,
           "Munitions": 1.5,
-          "Assembly": 2
+          "Assembly": 2,
+          "Intel": 1.5
       }
   }
   /*

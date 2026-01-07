@@ -562,7 +562,7 @@
 		"upgradesTo": "Superpredator Drone",
 		"uniques": [
 			"Costs [4] [Parts] <(modified by game speed)>",
-			"Heals [20] damage if it kills a unit"
+			"Heals [15] damage if it kills a unit"
 		]	
 	},
 	{
@@ -581,7 +581,7 @@
 		"promotions": ["[Plasma Cutter Drone] ability", "Anti-Materiel"],
 		"uniques": [
 			"Costs [4] [Parts] <(modified by game speed)>",
-			"Heals [20] damage if it kills a unit"
+			"Heals [15] damage if it kills a unit"
 		]	
 	},
 	{
@@ -592,7 +592,7 @@
 		"hurryCostModifier": 20,
 		"cost": 60,
 		"requiredTech": "Planetary Engineering",
-		"obsoleteTech": "Core Mining",
+		"obsoleteTech": "Geomagnetic Power",
 		"upgradesTo": "Assault Mech",
 		"attackSound": "tankshot",
 		"uniques": [
@@ -673,7 +673,7 @@
 			"Only available <if [Tube Alloys Project] is constructed>",
 			"Consumes [1] [Actinides]",
 			"Consumes [1] [Parts]",
-			"Costs [15] [Parts] <(modified by game speed)>",
+			"Costs [50] [Parts] <(modified by game speed)>",
 			"Damage taken from interception reduced by [25]%"
 		]
 	},
@@ -726,6 +726,8 @@
 		"cost": 200,
 		"attackSound": "machinegun",
 		"requiredTech": "Interplanetary Transit",
+		"upgradesTo": "Heavy Turret Drone",
+		"obsoleteTech": "Superluminal Motion",
 		"uniques": [
 			"Costs [10] [Parts] <(modified by game speed)>",
 			"[1] additional attacks per turn"
@@ -804,9 +806,11 @@
 		"cost": 200,
 		"attackSound": "shot",
 		"requiredTech": "Mantle Mining",
+		"upgradesTo": "Hunter-Killer Drone",
+		"obsoleteTech": "Core Mining",
 		"uniques": [
 			"Costs [10] [Parts] <(modified by game speed)>",
-			"Heals [25] damage if it kills a unit"
+			"Heals [20] damage if it kills a unit"
 		]	
 	},
 	{
@@ -822,6 +826,39 @@
 			"Costs [10] [Parts] <(modified by game speed)>",
 			"Consumes [1] [Iron]"
 		]	
+	},
+
+	{
+		"name": "Hunter-Killer Drone",
+		"unitType": "Melee Drone",
+		"movement": 3,
+		"strength": 60,
+		"hurryCostModifier": 20,
+		"cost": 300,
+		"attackSound": "shot",
+		"requiredTech": "Core Mining",
+		"uniques": [
+			"Costs [12] [Parts] <(modified by game speed)>",
+			"Heals [25] damage if it kills a unit"
+		]	
+	},
+	{
+		"name": "Heavy Turret Drone",
+		"unitType": "Ranged Drone",
+		"movement": 3,
+		"strength": 60,
+		"rangedStrength": 65,
+		"range": 2,
+		"interceptRange": 2,
+		"hurryCostModifier": 20,
+		"cost": 200,
+		"attackSound": "machinegun",
+		"requiredTech": "Superluminal Motion",
+		"uniques": [
+			"Costs [12] [Parts] <(modified by game speed)>",
+			"[1] additional attacks per turn"
+		],
+		"promotions": ["Interceptor", "ASAT"]
 	},
 
 	{
@@ -854,6 +891,61 @@
 		"requiredTech": "Superluminal Motion",
 		"uniques": [
 			"Consumes [1] [Antimatter]",
+			"Spaceship part <hidden from users>",
+			"Core miner part",
+			"Cannot be purchased",
+			"Only available <if [Hades Project] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Core Miner] in the Capital",
+			"Limited to [1] per Civilization",
+			"Only available <when [Scientific] Victory is enabled>",
+			"Costs [100] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Laser Drill",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1000,
+		"requiredTech": "Tectonic Weapons",
+		"uniques": [
+			"Spaceship part <hidden from users>",
+			"Core miner part",
+			"Cannot be purchased",
+			"Only available <if [Hades Project] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Core Miner] in the Capital",
+			"Limited to [1] per Civilization",
+			"Only available <when [Scientific] Victory is enabled>",
+			"Costs [100] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Autonomous Control Unit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1000,
+		"requiredTech": "Hypercomputing",
+		"uniques": [
+			"Spaceship part <hidden from users>",
+			"Core miner part",
+			"Cannot be purchased",
+			"Only available <if [Hades Project] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Core Miner] in the Capital",
+			"Limited to [1] per Civilization",
+			"Only available <when [Scientific] Victory is enabled>",
+			"Costs [100] [Parts] <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Thermal Sheathing",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1000,
+		"requiredTech": "Programmable Matter",
+		"uniques": [
+			"Consumes [1] [Aluminum]",
 			"Spaceship part <hidden from users>",
 			"Core miner part",
 			"Cannot be purchased",

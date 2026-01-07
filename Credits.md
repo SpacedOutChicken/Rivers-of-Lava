@@ -78,6 +78,7 @@ Buildings:
 * Tensor Processor: [Tensor](https://thenounproject.com/icon/tensor-7742233/) by Rab
 * Tokamak: [torus](https://thenounproject.com/icon/torus-5738177/) by Flowicon
 * Tube Alloys Project: [tubes](https://thenounproject.com/icon/tubes-5089785/) by Alex Burte
+* Utility Fog Generator: [nano technology](https://thenounproject.com/icon/nano-technology-7001878/) by Blackonion
 * Waste Reprocessor: [cycle](https://thenounproject.com/icon/cycle-797394/) by ProSymbols
 
 City-states:
@@ -230,7 +231,9 @@ Units:
 * Breacher: [Tank](https://thenounproject.com/icon/tank-7284083/) by Taewon Kang
 * Colonizer: [Moon Rover](https://thenounproject.com/icon/moon-rover-3133595/) by The Icon Z
 * Flare Sat: [space station](https://thenounproject.com/icon/space-station-5198511/) by M. Oki Orlando
+* Heavy Turret Drone: [turret chain gun](https://thenounproject.com/icon/turret-chain-gun-6197727/) by Juicy Fish
 * High-Altitude Defender: [missile defense](https://thenounproject.com/icon/missile-defense-4727948/) by Eliricon
+* Hunter-Killer Drone: [Bazooka](https://thenounproject.com/icon/bazooka-4069128/) by iconixar
 * Infiltration Rover: [Mars Rover](https://thenounproject.com/icon/mars-rover-3907771/) by Minh Do
 * Light Flyer: [Drone](https://thenounproject.com/icon/drone-377514/) by afrolabs
 * LR Drone Mk II: [Flamer](https://thenounproject.com/icon/flamer-119326/) by Robert Bjurshagen
@@ -254,6 +257,7 @@ Other:
 * WLTK 1 and 2: [Graph](https://thenounproject.com/icon/graph-17644/) by Erin Standley
 * Espionage: [spy](https://thenounproject.com/icon/spy-7051214/) by Muhammad Nur Auliady Pamungkas
 * Specialist/Worked icon: based on [Android](https://thenounproject.com/icon/android-6409178/) by Paonkz
+* Add in Capital: [drilling](https://thenounproject.com/icon/drilling-6714190/) by Yudhi Restu Pebriyanto
 
 ## From Flaticon:
 
@@ -288,6 +292,7 @@ Techs:
 
 Units:
 * Assault Mech: [Missile mech icon](https://game-icons.net/1x1/lorc/missile-mech.html) by Lorc
+* Autonomous Control Unit: [CPU icon](https://game-icons.net/1x1/delapouite/cpu.html) by Delapouite
 * Basic Drone: [Vintage robot icon](https://game-icons.net/1x1/lorc/vintage-robot.html) by Lorc
 * Boring Machine: [Drill icon](https://game-icons.net/1x1/lorc/drill.html) by Lorc
 * Hammer of Dawn: [Defense satellite icon](https://game-icons.net/1x1/delapouite/defense-satellite.html) by Delapouite
@@ -297,6 +302,7 @@ Units:
 * Research Unit: [Microscope icon](https://game-icons.net/1x1/lord-berandas/microscope.html) by Lord Berandas
 * SR Drone Mk I: [P90 icon](https://game-icons.net/1x1/skoll/p90.html) by Skoll
 * Tactical Unit: [Targeted icon](https://game-icons.net/1x1/sbed/targeted.html) by sbed
+* Thermal Sheathing: [Shieldcomb icon](https://game-icons.net/1x1/lorc/shieldcomb.html) by Lorc
 
 # Other art
 

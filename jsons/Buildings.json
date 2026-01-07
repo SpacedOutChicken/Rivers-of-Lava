@@ -59,7 +59,7 @@
 			"Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Infrastructure"
     },
@@ -74,7 +74,7 @@
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Basic Survival"
 	},
@@ -86,7 +86,7 @@
             "[+1 Food] from [{improved} {Bonus resource}] tiles [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-			"Costs [2] [Parts] <(modified by game speed)>"
+			"Costs [5] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Raw Materials"
     },
@@ -99,7 +99,7 @@
             "[+1 Science] per [2] population [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Prototyping"
 	},
@@ -116,7 +116,7 @@
             "[+15]% [Production] [in this city] <during We Love The King Day>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Prototyping"
 	},
@@ -131,7 +131,7 @@
             "[+10]% Strength for cities <in this city> <when attacking>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ]
     },
     {
@@ -145,7 +145,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Provides [1] [Parts]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Additive Manufacturing"
     },
@@ -157,7 +157,7 @@
         "uniques": [
             "Destroyed when the city is captured",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Smelting"
     },
@@ -172,7 +172,7 @@
             "Destroyed when the city is captured",
             "[+25]% Strength for cities <in this city> <when defending>",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Smelting"
     },
@@ -183,7 +183,7 @@
         "hurryCostModifier": 25,
         "requiredTech": "Dynamic Programming",
         "uniques": [
-            "Costs [3] [Parts] <(modified by game speed)>",
+            "Costs [5] [Parts] <(modified by game speed)>",
             "Consumes [1] [Power]"
         ]
     },
@@ -195,7 +195,7 @@
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [5] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Decision Theory",
         "maintenance": 1
@@ -210,7 +210,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [6] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Recycling",
         "requiredBuilding": "Chemical Refinery"
@@ -228,7 +228,7 @@
             "Provides [1] [Weight]",
             "Provides [1] [Parts]",
             "Consumes [3] [Power]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [6] [Parts] <(modified by game speed)>",
             "Only available <in cities without a [Combustion Plant]>"
         ],
         "requiredTech": "Recycling",
@@ -246,7 +246,7 @@
         "uniques": [
             "Provides [5] [Power] <in this city>",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [6] [Parts] <(modified by game speed)>",
             "Consumes [10] [Parts]",
             "Only available <in cities without a [Backup Processing Unit]>",
             "Only available <when number of [[Parts] Per Turn] is more than [20]>"
@@ -268,7 +268,7 @@
             "[+1 Gold] from [{improved} {resource}] tiles [in this city]",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [6] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Blockchain Accounting"
     },
@@ -281,7 +281,7 @@
         "uniques": [
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [2] [Parts] <(modified by game speed)>"
+            "Costs [6] [Parts] <(modified by game speed)>"
         ],
 		"requiredTech": "Logistics"
 	},
@@ -298,9 +298,9 @@
             "[+5] HP when healing <in [Friendly Land] tiles>",
             "Cost increases by [30] per owned city",
             "Consumes [1] [Power]",
-            "Costs [100] [Parts] <(modified by game speed)>",
-            "Instantly gain [-100] [Parts] <(modified by game speed)>",
-            "Consumes [1] [Parts]",
+            "Costs [50] [Parts] <(modified by game speed)>",
+            "Instantly gain [-50] [Parts] <(modified by game speed)>",
+            "Consumes [2] [Parts]",
             "Provides [1] [Weight]",
             "Only available <if [Chemical Refinery] is constructed in all [non-[Puppeted]] cities>"
         ],
@@ -314,7 +314,7 @@
             "Consumes [1] [Oxygen]",
             "Provides [1] [Power] <in this city>",
             "Only available <with [Oxygen]>",
-            "Costs [3] [Parts] <(modified by game speed)>",
+            "Costs [6] [Parts] <(modified by game speed)>",
             "Limited to [0] per Civilization <for [Human] Civilizations>",
             "Provides [1] [Weight]"
         ],
@@ -405,7 +405,7 @@
             "Provides [3] [Oxygen] <in this city> <for [Human] Civilizations>",
             "Provides [1] [Oxygen] <in this city> <in cities with a [Advanced Pressurizer]> <hidden from users>",
             "Limited to [0] per Civilization <for [non-[Human]] Civilizations>",
-            "Costs [3] [Parts] <(modified by game speed)>",
+            "Costs [6] [Parts] <(modified by game speed)>",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "[+100]% weight to this choice for AI decisions"
@@ -421,7 +421,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [5] [Parts] <(modified by game speed)>"
+			"Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Waste Reprocessor",
@@ -455,7 +455,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [5] [Parts] <(modified by game speed)>"
+			"Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Waste Reprocessor",
@@ -470,7 +470,7 @@
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Distributed Processor",
         "requiredTech": "Precision Machining",
@@ -488,7 +488,7 @@
         "uniques": [
             "Destroyed when the city is captured",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Distributed Processor",
         "requiredTech": "Precision Machining",
@@ -522,7 +522,7 @@
             "Consumes [1] [Power]",
             "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Parallel Processor",
@@ -540,7 +540,7 @@
             "Consumes [1] [Power]",
             "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Synthetic Compounds",
         "requiredBuilding": "Parallel Processor",
@@ -554,7 +554,7 @@
         "uniques": [
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Automated Lab",
         "requiredTech": "Iterative Design",
@@ -590,7 +590,7 @@
             "Damage to garrison from nuclear attacks [-25]% [in this city]",
             "Must be on [Mountain Tunnel]",
             "Provides [1] [Weight]",
-            "Costs [4] [Parts] <(modified by game speed)>"
+            "Costs [7] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Deep Extraction"
     },
@@ -602,7 +602,7 @@
             "Consumes [1] [Power]",
             "New [Military] units start with [20] XP [in this city]",
             "Provides [1] [Weight]",
-            "Costs [4] [Parts] <(modified by game speed)>"
+            "Costs [8] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Neural Networks",
         "requiredBuilding": "Tactical Simulator"
@@ -616,7 +616,7 @@
         "uniques": [
             "Only available <if [Tactical Simulator] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
-            "All newly-trained [{Military} {non-[Space Station]} {non-[Missile]}] units [in this city] receive the [Continuous Update] promotion",
+            "All newly-trained [{Military} {non-[Space Station]} {non-[Self-destructs when attacking]}] units [in this city] receive the [Continuous Update] promotion",
             "Provides [1] [Weight]",
             "Consumes [1] [Power]",
             "Costs [50] [Parts] <(modified by game speed)>",
@@ -634,7 +634,7 @@
             "Population loss from nuclear attacks [-25]% [in this city]",
             "Damage to garrison from nuclear attacks [-25]% [in this city]",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [8] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredTech": "Planetary Engineering"
@@ -649,7 +649,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "Provides [1] [Parts]",
-            "Costs [3] [Parts] <(modified by game speed)>"
+            "Costs [8] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredBuilding": "3D Printer",
@@ -666,7 +666,8 @@
             "Consumes [1] [Power]",
             "[+1] Unit Supply",
             "Provides [1] [Weight]",
-            "Provides [1] [Parts]"
+            "Provides [1] [Parts]",
+            "Costs [8] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredTech": "Distributed Assembly"
@@ -697,7 +698,7 @@
             "[25]% Food is carried over after population increases [in this city]",
             "Provides [1] [Weight]",
             "Consumes [1] [Parts]",
-			"Costs [4] [Parts] <(modified by game speed)>"
+			"Costs [8] [Parts] <(modified by game speed)>"
         ],
         "maintenance": 2,
         "requiredTech": "Crystallography"
@@ -727,7 +728,7 @@
             "Consumes [1] [Actinides]",
             "Provides [5] [Power] <in this city>",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [9] [Parts] <(modified by game speed)>",
             "Only available <in cities without a [Cyclotron]>"
         ],
         "requiredTech": "Atomic Synthesis",
@@ -742,7 +743,7 @@
             "Consumes [2] [Power]",
             "Consumes [1] [Parts]",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [9] [Parts] <(modified by game speed)>",
             "Only available <in cities without a [Nuclear Plant]>"
         ],
         "requiredTech": "Atomic Synthesis",
@@ -768,7 +769,7 @@
         "percentStatBonus": { "production": 5 },
         "uniques": [
             "Consumes [1] [Power]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [9] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "Can carry [2] extra [Air] units <in this city>",
             "[+15]% Production when constructing [Air] units [in this city]",
@@ -806,7 +807,7 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [9] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "Consumes [1] [Power]"
         ],
@@ -822,7 +823,7 @@
             "Destroyed when the city is captured",
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [9] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Deep Learning Processor",
         "requiredTech": "Fuzzy Logic",
@@ -856,7 +857,7 @@
         "uniques": [
             "Consumes [2] [Power]",
             "Provides [1] [Weight]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [9] [Parts] <(modified by game speed)>"
         ],
         "requiredTech": "Cybernetics",
         "requiredBuilding": "Polymer Synthesizer",
@@ -870,7 +871,7 @@
         "uniques": [
             "Triggers voting for the Diplomatic Victory",
             "Only available <when [Diplomatic] Victory is enabled>",
-            "Unavailable <when number of [Completed Policy branches] is less than [3]>",
+            "Unavailable <when number of [Completed Policy branches] is less than [4]>",
             "Triggers a global alert upon build start",
             "Triggers a global alert upon completion",
             "Costs [100] [Parts] <(modified by game speed)>",
@@ -907,7 +908,7 @@
             "Consumes [1] [Power]",
             "Provides [1] [Weight]",
             "[+1 Science] per [2] population [in this city]",
-            "Costs [5] [Parts] <(modified by game speed)>"
+            "Costs [10] [Parts] <(modified by game speed)>"
         ],
         "requiredBuilding": "Hardware Simulation Lab",
         "requiredTech": "High-Temp Superconductors",
@@ -919,10 +920,9 @@
         "production": 1,
         "uniques": [
             "Provides [1] [Helium-3]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [10] [Parts] <(modified by game speed)>",
             "Consumes [1] [Power]",
-            "Provides [1] [Weight]",
-            "Limited to [5] per Civilization"
+            "Provides [1] [Weight]"
         ],
         "requiredTech": "Jovian Extraction",
         "requiredBuilding": "Launchpad",
@@ -933,7 +933,7 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]",
-            "Costs [5] [Parts] <(modified by game speed)>",
+            "Costs [10] [Parts] <(modified by game speed)>",
             "Provides [1] [Weight]",
             "Consumes [1] [Power]"
         ],
@@ -1072,5 +1072,20 @@
         ],
         "maintenance": 4,
         "requiredTech": "Exotic Physics"
+    },
+
+    {
+        "name": "Utility Fog Generator",
+        "science": 1,
+        "uniques": [
+            "All newly-trained [{non-[Space Station]} {non-[Self-destructs when attacking]}] units [in this city] receive the [Utility Fog] promotion",
+            "Costs [10] [Parts] <(modified by game speed)>",
+            "New [Military] units start with [10] XP [in this city]",
+            "Consumes [2] [Power]",
+            "Provides [1] [Weight]"
+        ],
+        "maintenance": 4,
+        "requiredTech": "Programmable Matter"
     }
+
 ]

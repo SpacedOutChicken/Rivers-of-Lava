@@ -262,13 +262,12 @@
 		"name": "Continuous Update",
 		"uniques": [
 			"[+50]% XP gained from combat",
-			"[This Unit] gains [1] XP <upon ending a turn in a [Terrain] tile>"
+			"[This Unit] gains [1] XP <upon turn end>"
 		]
 	},
 	{
 		"name": "Heat Training",
 		"uniques": [
-			"[+10]% Strength <when fighting in [Lava] tiles>",
 			"[+10]% Strength <when fighting in [Fresh Water] tiles>",
 			"Double movement in [Lava]"
 		]
@@ -279,6 +278,13 @@
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status>",
 			"Uncapturable",
 			"[+15]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Utility Fog",
+		"uniques": [
+			"[+5] HP when healing",
+			"[+25]% XP gained from combat"
 		]
 	},
 

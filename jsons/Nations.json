@@ -475,12 +475,12 @@
 
         "declaringWar": "Resistance is futile! If you will not surrender immediately, then prepare for war!",
 		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy - see that you do so as well.",
+		"defeated": "We governed this moon with diligence and mercy - see that you do so as well.",
 		"introduction": "How are you?",
 
 		"neutralHello": "How are you doing?",
 		"hateHello": "What do you want now?",
-		"tradeRequest": "The people offer this fair trade.",
+		"tradeRequest": "Our company offers this fair trade.",
 
         "outerColor": [255,184,33],
         "innerColor": [3,115,86],
@@ -490,32 +490,45 @@
 			"Starts with [Surface Breaking]",
 			"[+1 Production] from every [Mine]",
 			"[+1 Production] from every [Quarry]",
-			"[+1 Production, +1 Gold, +1 Science] from every [Mountain]",
-			"[+1 Production, +1 Gold, +1 Science] from every [Mountain Tunnel]"
+			"[+1 Production, +1 Food, +1 Gold, +1 Science] from every [Mountain]",
+			"[+1 Production, +1 Food, +1 Gold, +1 Science] from every [Mountain Tunnel]"
 		],
+		// Andes peaks for factory names
 		"cities": [
-			"Condor 01",
-			"Condor 02",
-			"Condor 03",
-			"Condor 04",
-			"Condor 05",
-			"Condor 06",
-			"Condor 07",
-			"Condor 08",
-			"Condor 09",
-			"Condor 10",
-			"Condor 11",
-			"Condor 12",
-			"Condor 13",
-			"Condor 14",
-			"Condor 15",
-			"Condor 16",
-			"Condor 17",
-			"Condor 18",
-			"Condor 19",
-			"Condor 20"
+			"El Nido del Cóndor",
+			"Estación Aconcagua",
+			"Estación Huascarán",
+			"Estación Bonete",
+			"Estación Llullaillaco",
+			"Estación Mercedario",
+			"Estación Cazadero",
+			"Estación Incahuasi",
+			"Estación Yerupajá",
+			"Estación Tupungato",
+			"Estación Sajama",
+			"Estación Illimani",
+			"Estación Antofalla",
+			"Estación Ancohuma",
+			"Estación Coropuna",
+			"Estación Huandoy",
+			"Estación Ausangate",
+			"Estación Cachi",
+			"Estación Huantsán",
+			"Estación Illampu",
+			"Estación Chopicalqui",
+			"Estación Parinacota",
+			"Estación Reclus",
+			"Estación Solimana",
+			"Estación Ampato",
+			"Estación Chinchey",
+			"Estación Pomerape",
+			"Estación Majadita",
+			"Estación Palcaraju",
+			"Estación Salcantay",
+			"Estación Chimborazo"
 		],
-		"spyNames": ["CA Alfa", "CA Bravo", "CA Charlie", "CA Delta", "CA Echo", "CA Foxtrot", "CA Golf", "CA Hotel", "CA India", "CA Juliett"]
+		// mountain passes for spy names
+		"spyNames": ["Visviri", "Jama", "Sico", "Socompa", "Uspallata", "Libertadores", "Pehuenche", "Pichachén", "Mamuil Malal", "Hua Hum"]
     },
 	// based on STTEP International
 	{
@@ -835,7 +848,7 @@
 		"uniques": [
 			"Human",
 			"[-25]% unhappiness from the number of cities",
-			"Comment [Gain temporary [Morale] from killing enemies and conquering factories, while losing Morale for losing unit and factories. Gain bonuses from high Morale levels and maluses from negative Morale levels]",
+			"Comment [Gain temporary [Morale] from killing enemies and conquering factories, while losing Morale from losing units and factories. Gain bonuses from high Morale levels and maluses from negative Morale levels]",
 			"Provides [-1] [Morale] <when above [0] [Morale]> <hidden from users>",
 			"Provides [1] [Morale] <when below [0] [Morale]> <hidden from users>",
 			"[+1 Happiness] [in capital] <with [Morale]> <hidden from users>",
@@ -1185,6 +1198,43 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Arasta"]
+	},
+	// spyware companies
+	{
+		"name": "X-Ray Group", // Gamma Group
+		"adjective": ["X-Ray"],
+		"cityStateType": "Intel",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Don't try us. We can see right through you.",
+		"defeated": "It looks like our estimates were off.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [217, 158, 78],
+		"cities": ["X-Ray Group"]
+	},
+	{
+		"name": "Red Coat", // Blue Coat
+		"adjective": ["Red Coat"],
+		"cityStateType": "Intel",
+
+		"declaringWar": "Enough talking. En garde!",
+		"attacked": "You have no right to take our secrets!",
+		"defeated": "You've taken us down, but our code will haunt your systems forever!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [121, 226, 0],
+		"cities": ["Red Coat"]
+	},
+	{
+		"name": "Da Vinci S.p.A", // Leonardo S.p.A
+		"adjective": ["Da Vinci"],
+		"cityStateType": "Intel",
+
+		"declaringWar": "We look forward to analyzing your remains.",
+		"attacked": "Don't you realize how much intel we have on you?",
+		"defeated": "I suppose this concludes our negotiations.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Da Vinci S.p.A"]
 	},
 	// rogue robots
 	{

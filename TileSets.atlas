@@ -6,1197 +6,1239 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Borders/ConcaveConvexInner
   rotate: false
-  xy: 4, 193
+  xy: 4, 197
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConcaveConvexOuter
   rotate: false
-  xy: 4, 142
+  xy: 4, 146
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConcaveInner
   rotate: false
-  xy: 112, 193
+  xy: 112, 197
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConcaveOuter
   rotate: false
-  xy: 4, 91
+  xy: 4, 95
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConvexConcaveInner
   rotate: false
-  xy: 112, 142
+  xy: 112, 146
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConvexConcaveOuter
   rotate: false
-  xy: 220, 193
+  xy: 220, 197
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConvexInner
   rotate: false
-  xy: 4, 40
+  xy: 4, 44
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Borders/ConvexOuter
   rotate: false
-  xy: 112, 91
+  xy: 112, 95
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-Bottom
   rotate: false
-  xy: 608, 208
+  xy: 648, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-BottomLeft
   rotate: false
-  xy: 648, 208
+  xy: 688, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-BottomRight
   rotate: false
-  xy: 688, 208
+  xy: 728, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-Top
   rotate: false
-  xy: 728, 208
+  xy: 768, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-TopLeft
   rotate: false
-  xy: 768, 208
+  xy: 808, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Edges/Beach-Water-Land-TopRight
   rotate: false
-  xy: 808, 208
+  xy: 848, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Actinides
   rotate: false
-  xy: 220, 157
+  xy: 220, 161
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Air harvester
   rotate: false
-  xy: 328, 204
+  xy: 328, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Alkali
   rotate: false
-  xy: 4, 4
+  xy: 112, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Aluminum
   rotate: false
-  xy: 220, 121
+  xy: 260, 161
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Amirani
   rotate: false
-  xy: 260, 154
+  xy: 368, 209
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Amphiboles
   rotate: false
-  xy: 368, 208
+  xy: 44, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbarian encampment
   rotate: false
-  xy: 448, 204
+  xy: 488, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Basalt
   rotate: false
-  xy: 488, 208
+  xy: 528, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Boosaule
   rotate: false
-  xy: 848, 204
+  xy: 888, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Borehole
   rotate: false
-  xy: 888, 208
+  xy: 928, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Calcium
   rotate: false
-  xy: 1008, 208
+  xy: 1048, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Carbon
   rotate: false
-  xy: 1048, 208
+  xy: 1088, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cauldron facility
   rotate: false
-  xy: 1088, 200
+  xy: 1128, 204
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citadel
   rotate: false
-  xy: 1128, 204
+  xy: 1168, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center
   rotate: false
-  xy: 1168, 201
+  xy: 1208, 205
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Human
   rotate: false
-  xy: 1208, 199
+  xy: 1248, 203
   size: 32, 37
   orig: 32, 37
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City ruins
   rotate: false
-  xy: 1248, 208
+  xy: 1288, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cloud drive
   rotate: false
-  xy: 1288, 204
+  xy: 1328, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Core extractor
   rotate: false
-  xy: 1448, 200
+  xy: 1488, 204
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crust
   rotate: false
-  xy: 1488, 208
+  xy: 1528, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crust platform
   rotate: false
-  xy: 1528, 208
+  xy: 1568, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dazhbog
   rotate: false
-  xy: 1568, 208
+  xy: 1608, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Euboea
   rotate: false
-  xy: 1688, 204
+  xy: 1728, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Feldspars
   rotate: false
-  xy: 1728, 208
+  xy: 1768, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Field lab
   rotate: false
-  xy: 1768, 200
+  xy: 1808, 204
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fissure
   rotate: false
-  xy: 1808, 204
+  xy: 1848, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fissure cap
   rotate: false
-  xy: 1848, 204
+  xy: 1888, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Flow tap
   rotate: false
-  xy: 1888, 208
+  xy: 1928, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forsterite
   rotate: false
-  xy: 1928, 208
+  xy: 1968, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fort
   rotate: false
-  xy: 1968, 204
+  xy: 2008, 208
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Halides
   rotate: false
-  xy: 2008, 208
+  xy: 220, 89
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Heat sink
   rotate: false
-  xy: 220, 85
+  xy: 260, 89
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 124, 15
+  xy: 84, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hydrated rock
   rotate: false
-  xy: 164, 19
+  xy: 164, 23
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Iron
   rotate: false
-  xy: 1288, 168
+  xy: 1328, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lava
   rotate: false
-  xy: 1488, 172
+  xy: 1568, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lava quarry
   rotate: false
-  xy: 1528, 172
+  xy: 1608, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Loki
   rotate: false
-  xy: 1648, 170
+  xy: 1728, 170
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Machine shop
   rotate: false
-  xy: 1688, 162
+  xy: 1768, 170
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Magma extractor
   rotate: false
-  xy: 1728, 172
+  xy: 1808, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Magnesium
   rotate: false
-  xy: 1768, 164
+  xy: 1848, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Manganese
   rotate: false
-  xy: 1808, 168
+  xy: 1888, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mantle plume
   rotate: false
-  xy: 1848, 168
+  xy: 1928, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Masubi
   rotate: false
-  xy: 1888, 168
+  xy: 1968, 172
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Micas
   rotate: false
-  xy: 1968, 167
+  xy: 340, 171
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mine
   rotate: false
-  xy: 2008, 168
+  xy: 340, 131
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 380, 164
+  xy: 380, 93
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain Tunnel
   rotate: false
-  xy: 420, 160
+  xy: 420, 168
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain Tunnel+City center
   rotate: false
-  xy: 460, 160
+  xy: 420, 124
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain Tunnel+City ruins
   rotate: false
-  xy: 500, 164
+  xy: 460, 164
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
   rotate: false
-  xy: 580, 172
+  xy: 500, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Olivine
   rotate: false
-  xy: 620, 172
+  xy: 500, 136
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Oxygen
   rotate: false
-  xy: 660, 172
+  xy: 540, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pele
   rotate: false
-  xy: 700, 168
+  xy: 540, 136
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Phosphorus
   rotate: false
-  xy: 740, 172
+  xy: 580, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Platinides
   rotate: false
-  xy: 1968, 131
+  xy: 620, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plume converter
   rotate: false
-  xy: 1488, 136
+  xy: 660, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Potassium
   rotate: false
-  xy: 1528, 136
+  xy: 660, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Prometheus
   rotate: false
-  xy: 1648, 130
+  xy: 740, 172
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pyroclasts
   rotate: false
-  xy: 1688, 126
+  xy: 780, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pyroxenes
   rotate: false
-  xy: 1728, 100
+  xy: 820, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Quarry
   rotate: false
-  xy: 1768, 92
+  xy: 740, 136
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Quartz
   rotate: false
-  xy: 1128, 168
+  xy: 780, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ra
   rotate: false
-  xy: 1168, 165
+  xy: 820, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rare Earths
   rotate: false
-  xy: 1248, 136
+  xy: 1568, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-Bottom
   rotate: false
-  xy: 1328, 136
+  xy: 1648, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-BottomLeft
   rotate: false
-  xy: 1368, 136
+  xy: 1688, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/River-BottomRight
   rotate: false
-  xy: 1408, 136
+  xy: 1728, 134
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rubble
   rotate: false
-  xy: 1448, 124
+  xy: 1768, 130
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Server
   rotate: false
-  xy: 1008, 164
+  xy: 1848, 124
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silicate
   rotate: false
-  xy: 1048, 172
+  xy: 1888, 100
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silicon
   rotate: false
-  xy: 1088, 164
+  xy: 1928, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sodium
   rotate: false
-  xy: 1048, 136
+  xy: 1808, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sulfur
   rotate: false
-  xy: 1368, 100
+  xy: 1888, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Supply drop
   rotate: false
-  xy: 1448, 88
+  xy: 380, 57
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Surt
   rotate: false
-  xy: 820, 164
+  xy: 860, 168
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Titanium
   rotate: false
-  xy: 1848, 132
+  xy: 940, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trench
   rotate: false
-  xy: 1888, 132
+  xy: 940, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Vent
   rotate: false
-  xy: 1808, 128
+  xy: 980, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Volund
   rotate: false
-  xy: 1808, 90
+  xy: 980, 138
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wildcat well
   rotate: false
-  xy: 1888, 92
+  xy: 1020, 136
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Xenoliths
   rotate: false
-  xy: 1928, 100
+  xy: 1060, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Zamama
   rotate: false
-  xy: 1968, 87
+  xy: 1060, 132
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Aircraft-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Aircraft-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armored-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armored-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Civilian-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Civilian-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Drone-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Drone-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Hover-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Hover-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missile-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missile-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Drone-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Drone-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Hover-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Hover-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Satellite-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Satellite-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scouting-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scouting-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siege-attack-1
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siege-attack-3
   rotate: false
-  xy: 1928, 62
+  xy: 1100, 166
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Aircraft-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armored-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Civilian-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Drone-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Melee Hover-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missile-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Drone-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranged Hover-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Satellite-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scouting-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siege-attack-2
   rotate: false
-  xy: 1966, 49
+  xy: 1100, 128
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Alcubierre Drive
+  rotate: false
+  xy: 4, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/All-Terrain Crawler
   rotate: false
-  xy: 112, 55
+  xy: 220, 125
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Labor Drone
   rotate: false
-  xy: 44, 4
+  xy: 152, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Assault Mech
   rotate: false
-  xy: 152, 55
+  xy: 260, 125
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Autocannon Drone
   rotate: false
-  xy: 408, 208
+  xy: 408, 212
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Autonomous Control Unit
+  rotate: false
+  xy: 448, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Basic Drone
   rotate: false
-  xy: 528, 208
+  xy: 568, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Basic Drone-Human
   rotate: false
-  xy: 568, 208
+  xy: 608, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Boring Machine
   rotate: false
-  xy: 928, 208
+  xy: 968, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Breacher
   rotate: false
-  xy: 968, 208
+  xy: 1008, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Colonizer
   rotate: false
-  xy: 1328, 208
+  xy: 1368, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Command and Control Unit
   rotate: false
-  xy: 1368, 208
+  xy: 1408, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Construction Unit
   rotate: false
-  xy: 1408, 208
+  xy: 1448, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Civilian
   rotate: false
-  xy: 1608, 208
+  xy: 1648, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 1648, 208
+  xy: 1688, 212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Heavy Crawler
   rotate: false
-  xy: 300, 157
+  xy: 300, 161
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Heavy Turret Drone
+  rotate: false
+  xy: 300, 125
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/High-Altitude Defender
   rotate: false
-  xy: 84, 4
+  xy: 300, 89
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hunter-Killer Drone
+  rotate: false
+  xy: 124, 23
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infiltration Rover
   rotate: false
-  xy: 1248, 172
+  xy: 1288, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/LR Drone Mk I
   rotate: false
-  xy: 1328, 172
+  xy: 1368, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/LR Drone Mk II
   rotate: false
-  xy: 1368, 172
+  xy: 1408, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Labor Drone
   rotate: false
-  xy: 1408, 172
+  xy: 1448, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Labor Drone-Human
   rotate: false
-  xy: 1448, 164
+  xy: 1488, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Laser Drill
+  rotate: false
+  xy: 1528, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Light Crawler
   rotate: false
-  xy: 1568, 172
+  xy: 1648, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Light Rotorcraft
   rotate: false
-  xy: 1608, 172
+  xy: 1688, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Memory Unit
   rotate: false
-  xy: 1928, 172
+  xy: 2008, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Minigun Drone
   rotate: false
-  xy: 1728, 136
+  xy: 340, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mobile Constructor
   rotate: false
-  xy: 1768, 128
+  xy: 380, 173
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mobile Turret
   rotate: false
-  xy: 340, 168
+  xy: 380, 137
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Negotiations Unit
   rotate: false
-  xy: 540, 172
+  xy: 460, 128
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pistol Drone
   rotate: false
-  xy: 780, 172
+  xy: 580, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Plasma Cutter Drone
   rotate: false
-  xy: 1928, 136
+  xy: 620, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Predator Drone
   rotate: false
-  xy: 1568, 136
+  xy: 700, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Programming Unit
   rotate: false
-  xy: 1608, 136
+  xy: 700, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Railgun
   rotate: false
-  xy: 1208, 163
+  xy: 1528, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Research Unit
   rotate: false
-  xy: 1288, 132
+  xy: 1608, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/SR Drone Mk I
   rotate: false
-  xy: 888, 172
+  xy: 1808, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/SR Drone Mk II
   rotate: false
-  xy: 928, 172
+  xy: 1928, 140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scouting Rover
   rotate: false
-  xy: 968, 172
+  xy: 1888, 136
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Stinger Rotorcraft
   rotate: false
-  xy: 1328, 100
+  xy: 1848, 88
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Superpredator Drone
   rotate: false
-  xy: 1408, 100
+  xy: 340, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tactical Unit
   rotate: false
-  xy: 500, 128
+  xy: 860, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Terraformer
   rotate: false
-  xy: 300, 121
+  xy: 900, 172
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Thermal Sheathing
+  rotate: false
+  xy: 900, 136
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wildcat Rover
   rotate: false
-  xy: 1848, 96
+  xy: 1020, 176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0

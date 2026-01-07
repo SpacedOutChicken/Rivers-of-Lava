@@ -124,7 +124,7 @@
         "startingWorkerCount": 2,
         "startingWorkerUnit": "Terraformer",
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Superpredator Drone",
+        "startingMilitaryUnit": "Hunter-Killer Drone",
         "startingGold": 150,
         "startingCulture": 500,
         "settlerPopulation": 3,

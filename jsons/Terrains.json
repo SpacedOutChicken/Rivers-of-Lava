@@ -630,12 +630,9 @@
 		"occursOn": ["Silicate","Basalt"],
 		"uniques": [
 			"Fresh water",
-			"Must be adjacent to [0] [Lava] tiles",
-			"Must be adjacent to [0] [Hydrated rock] tiles",
 			"Must be adjacent to [0] [Sulfur] tiles",
 			"Must be adjacent to [0] [Mountain] tiles",
-			"Must be adjacent to [0] to [2] [Hill] tiles",
-			"Must not be on [1] largest landmasses"
+			"Must be adjacent to [0] to [2] [Hill] tiles"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,

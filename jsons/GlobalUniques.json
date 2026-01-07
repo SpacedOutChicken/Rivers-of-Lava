@@ -42,7 +42,7 @@
         "Instantly gain [10] [Parts] <for [Human player] Civilizations> <on [Warlord] difficulty> <(modified by game speed)>",
         "Instantly gain [40] [Parts] <for [Human player] Civilizations> <on [Sandbox] difficulty> <(modified by game speed)>",
 
-        "Earn [25]% of killed [All] unit's [Strength] as [Parts] <for [{non-[Space Station]} {non-[Nuclear Weapon]} {non-[Missile]} {non-[Barbarian]}] units>",
+        "Earn [25]% of killed [All] unit's [Strength] as [Parts] <for [{non-[Space Station]} {non-[Nuclear Weapon]} {non-[Self-destructs when attacking]} {non-[Barbarian]}] units>",
 		"Upon capturing a city, receive [2] times its [Production] production as [Parts] immediately <for [non-[Barbarians]] Civilizations>",
 
         // difficulty tweak

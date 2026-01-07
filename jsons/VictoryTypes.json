@@ -1,33 +1,36 @@
 [
     {
         "name": "Scientific",
-        "victoryScreenHeader": "Build the Hades Project and all core miner parts\nto win!",
+        "victoryScreenHeader": "Build the Hades Project and all core miner parts to win!",
         "milestones": ["Build [Hades Project]", "Add all [core miner parts] in capital"],
         "requiredSpaceshipParts": [
-            "Alcubierre Drive"
+            "Alcubierre Drive",
+            "Autonomous Control Unit",
+            "Thermal Sheathing",
+            "Laser Drill"
         ],
-        "victoryString": "You have achieved victory through mastery of science!",
+        "victoryString": "You have achieved victory through mastery of science! Your technical prowess has allowed you to tap into the lowest depths of Io's core and send its wealth back to Earth at faster-than-light speeds. Profits shall come into your company as never before!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     },
     {
         "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "victoryScreenHeader": "Destroy all enemies to win!",
         "milestones": ["Destroy all players"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "victoryString": "You have achieved victory through battle! With brute strength and careful strategy, you have destroyed all of your competitors, leaving all of Io's wealth to claim for your own. Your new monopoly on this moon will bring you tremendous riches!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     },
     {
         "name": "Diplomatic",
-        "victoryScreenHeader": "Establish IoNet and be voted\nworld leader to win!",
+        "victoryScreenHeader": "Establish IoNet and be voted world leader to win!",
         "milestones": ["Anyone should build [IoNet]", "Win diplomatic vote"],
-        "victoryString": "You have triumphed over your foes through the art of diplomacy!",
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Through negotiation and alliances, you have secured peace and prosperity for all companies on Io - with the lion's share of prosperity going to you, of course. Your statesmanship will stand as an example to all other companies for generations!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     },
-        {
+    {
         "name": "Time",
-        "victoryScreenHeader": "Make progress\nto win!",
+        "victoryScreenHeader": "Make progress to win!",
         "milestones": ["Have highest score after max turns"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "victoryString": "After years of toil and strife, you have staked out the largest claim on Io! Your power and wealth are the envy of all other companies. Enjoy your enormous profits, and prepare to reach out to other moons to extend your corporate empire!",
         "defeatString": "You have been defeated. Your competitors have overwhelmed you and seized the wealth of Io. But don't fret. There are other moons and planets out there, ready to be mined and developed. You may yet strike it rich!"
     }
 ]
