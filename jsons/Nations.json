@@ -1061,7 +1061,11 @@
 		"defeated": "I guess our data belongs to you now.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
-		"cities": ["Alphabeta"]
+		"cities": ["Alphabeta"],
+		"uniques": [
+			"[+1 Happiness, +2 Science] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]"
+		]
 	},
 	{
 		"name": "The Oracle", // Oracle, of course
@@ -1073,7 +1077,11 @@
 		"defeated": "So this is how it feels to be 'acquired'...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [62,197,252],
-		"cities": ["The Oracle"]
+		"cities": ["The Oracle"],
+		"uniques": [
+			"[+1 Happiness, +2 Science] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]"
+		]
 	},
 	{
 		"name": "Shannon PBC", // Anthropic
@@ -1085,7 +1093,11 @@
 		"defeated": "After all, we couldn't keep this planet safe.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [18, 188, 221],
-		"cities": ["Shannon PBC"]
+		"cities": ["Shannon PBC"],
+		"uniques": [
+			"[+1 Happiness, +2 Science] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]"
+		]
 	},
 	// general providers of goods
 	{
@@ -1098,7 +1110,11 @@
 		"defeated": "All we wanted was to deliver what people wanted.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
-		"cities": ["Walton Club"]
+		"cities": ["Walton Club"],
+		"uniques": [
+			"[+1 Happiness, +1 Production] [in all cities]",
+			"[+1] Happiness from each type of luxury resource"
+		]
 	},
 	{
 		"name": "Nellie Auctions", // Nellis Auctions
@@ -1110,7 +1126,11 @@
 		"defeated": "I suppose this makes you the 'highest bidder'.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"cities": ["Nellie Auctions"]
+		"cities": ["Nellie Auctions"],
+		"uniques": [
+			"[+1 Happiness, +1 Production] [in all cities]",
+			"[+1] Happiness from each type of luxury resource"
+		]
 	},
 	{
 		"name": "Sinbad Limited", // Alibaba
@@ -1122,7 +1142,11 @@
 		"defeated": "This is the end of our adventure.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,255],
-		"cities": ["Sinbad Limited"]
+		"cities": ["Sinbad Limited"],
+		"uniques": [
+			"[+1 Happiness, +1 Production] [in all cities]",
+			"[+1] Happiness from each type of luxury resource"
+		]
 	},
 	// guns manufacturers
 	{
@@ -1135,7 +1159,11 @@
 		"defeated": "How could we fall to the likes of you?!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [152,0,241],
-		"cities": ["Smith-Ruger"]
+		"cities": ["Smith-Ruger"],
+		"uniques": [
+			"[+5]% Strength <for [All] units>",
+			"[-25]% maintenance costs <for [All] units>"
+		]
 	},
 	{
 		"name": "Heritage Inc", // Heritage Manufacturing
@@ -1147,7 +1175,11 @@
 		"defeated": "We end not with a bang, but with a whimper.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
-		"cities": ["Heritage Inc"]
+		"cities": ["Heritage Inc"],
+		"uniques": [
+			"[+5]% Strength <for [All] units>",
+			"[-25]% maintenance costs <for [All] units>"
+		]
 	},
 	// mining companies
 	{
@@ -1160,7 +1192,11 @@
 		"defeated": "We've failed. Please be merciful to our drones.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,153],
-		"cities": ["Glenncore"]
+		"cities": ["Glenncore"],
+		"uniques": [
+			"[+2 Food] [in all cities]",
+			"[+10]% growth [in all cities]"
+		]
 	},
 	{
 		"name": "Nanchang Limited", // Jiangxi Copper
@@ -1172,7 +1208,11 @@
 		"defeated": "You have proven to be a cunning and competent adversary.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
-		"cities": ["Nanchang Limited"]
+		"cities": ["Nanchang Limited"],
+		"uniques": [
+			"[+2 Food] [in all cities]",
+			"[+10]% growth [in all cities]"
+		]
 	},
 	// electronics companies
 	{
@@ -1185,7 +1225,11 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
-		"cities": ["Invidia"]
+		"cities": ["Invidia"],
+		"uniques": [
+			"[+2 Production] [in all cities]",
+			"[+10]% [Production] [in all cities]"
+		]
 	},
 	{
 		"name": "Arasta", // Arista
@@ -1197,7 +1241,11 @@
 		"defeated": "The downtime lasts forever now.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
-		"cities": ["Arasta"]
+		"cities": ["Arasta"],
+		"uniques": [
+			"[+2 Production] [in all cities]",
+			"[+10]% [Production] [in all cities]"
+		]
 	},
 	// spyware companies
 	{
@@ -1210,7 +1258,10 @@
 		"defeated": "It looks like our estimates were off.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [217, 158, 78],
-		"cities": ["X-Ray Group"]
+		"cities": ["X-Ray Group"],
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in all cities]"
+		]
 	},
 	{
 		"name": "Red Coat", // Blue Coat
@@ -1222,7 +1273,10 @@
 		"defeated": "You've taken us down, but our code will haunt your systems forever!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [121, 226, 0],
-		"cities": ["Red Coat"]
+		"cities": ["Red Coat"],
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in all cities]"
+		]
 	},
 	{
 		"name": "Da Vinci S.p.A", // Leonardo S.p.A
@@ -1234,7 +1288,10 @@
 		"defeated": "I suppose this concludes our negotiations.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
-		"cities": ["Da Vinci S.p.A"]
+		"cities": ["Da Vinci S.p.A"],
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in all cities]"
+		]
 	},
 	// rogue robots
 	{

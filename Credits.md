@@ -83,6 +83,7 @@ Buildings:
 
 City-states:
 * Assembly: [Robotic arm](https://thenounproject.com/icon/robotic-arm-6436946/) by Danil Polshin
+* Intel: [Eye](https://thenounproject.com/icon/eye-8116580/) by Kawalan Icon
 * Optimization: [Arrow](https://thenounproject.com/icon/arrow-2683591/) by Muhajir ila Robbi
 * Resupply: [open box](https://thenounproject.com/icon/open-box-7412066/) by okta
 
